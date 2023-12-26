@@ -1,0 +1,756 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+		"http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="de">
+<title> Artikel - Dynamische Webseiten mit SSI Templates - Gedit</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Dynamische Webseiten mit SSI Templates">
+<meta name="keywords" content="gedit, SSI, Server Side Includes, dynamische Webseiten, Templates">
+<meta name="rating" content="general">
+<meta name="revisit-after" content="7 days">
+<meta name="expires" content="never">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+<meta name="date" content="2023-12-26">
+<meta name="author" content="Simon Gattner">
+<meta name="copyright" content="Simon Gattner">
+<meta name="publisher" content="Simon Gattner">
+<meta name="page-topic" content="Dienstleistung, Privat">
+<meta name="page-type" content="Artikel">
+<meta name="audience" content="Webworker, Webmaster, Webdeveloper, Admin, IT, Designer, Freelancer, Press, programmer, Coder, Scripter, Systemadmin, Gurus">
+<link rel="alternate" type="application/rss+xml" title="gedit.NET - RSS Feed" href="RSS">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="impressum" title="Impressum" href="Impressum">
+<link rel="contents" title="Inhaltsverzeichnis" href="SITEMAP">
+<link rel="search" title="Suche" href="SUCHE">
+<link rel="copyright" title="Urheberrecht" href="CC">
+<link rel="top" title="Startseite" href="index.html">
+<link rel="print" title="Druckvorschau" href="Artikel_Dynamische_Webseiten_mit_SSI_Templates_Druckvorschau">
+<link rel="subsection" title="Artikel" href="Artikel">
+<link rel="subsection" title="Services" href="Services">
+<link rel="subsection" title="Weblog" href="Weblog">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script src="js/default.js" type="text/javascript"></script>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/style.9.css" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/style.css" media="all">
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/7/style.css" media="all">
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/6/style.css" media="all">
+	<![endif]-->
+<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/print/style.9.css" media="print">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/print/ie/style.css" media="print">
+	<![endif]-->
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<a name="top"></a>
+	<div id="header-nav">
+		<h1><a href="index.html" title="Startseite">gedit.net/</a></h1>
+		<h2><a href="Artikel" title="Artikel">Artikel/</a></h2>
+				<h3><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates" title="Dynamische_Webseiten_mit_SSI_Templates">Dynamische_Webseiten_mit_SSI_Templates</a></h3>
+										</div>
+	<div id="header-search">
+		<div class="nav">
+			<h1>Suchen</h1>
+			<form action="SUCHE" method="post">
+			<ul>
+				<li><label for="Suchtext" accesskey="s"><input type="text" class="q" name="q" value="" maxlength="50" alt="Suchtext" id="Suchtext"></label></li>
+				<li><label for="Finden" accesskey="f"><input type="submit" name="finden" value="Finden" alt="Finden" id="Finden"></label></li>
+			</ul>
+			</form>
+		</div>
+	</div>
+	<div id="header-subnav">
+		<ul>
+						<li><a href="index.html" title="Home">Home</a></li>
+						<li>| <a href="Artikel" title="Artikel">Artikel</a></li>
+						<li>| <a href="Weblog" title="Weblog">Weblog</a></li>
+						<li>| <a href="SITEMAP" title="Sitemap">Sitemap</a></li>
+						<li>| <a href="Impressum" title="Impressum">Impressum</a></li>
+						<li>| <a href="Kontakt" title="Kontakt">Kontakt</a></li>
+						<!-- <li>| <a rel="nofollow" href="/Artikel_Dynamische_Webseiten_mit_SSI_Templates_Druckvorschau" title="Druckvorschau">Druckvorschau</a></li> -->
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+<!-- start content -->
+<div id="content">
+<!-- start content left -->
+	<div id="content-left">
+		<h1>Dynamische Webseiten mit SSI Templates</h1>		<ul class="decimal bold green">
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#Vorwort" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Vorwort">Vorwort</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#Begriffserlaeuterung" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Begriffserkl&auml;rung">Begriffserl&auml;uterung</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#Funktionsweise" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Funktionsweise">Funktionsweise</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#SSI_aktivieren_und_testen" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - SSI aktivieren und testen">SSI aktivieren und testen</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#Struktur" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Die Struktur auf das Dateisystem abbilden">Die Struktur auf das Dateisystem abbilden</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#statisch_zu_dynamisch" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Von der statischen zur dynamischen Webseite">Von der statischen zur dynamischen Webseite</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#Download_Templates" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Download Templates">Download Templates</a></li>
+<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#Links_und_Quellen" title="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Template - Links und Quellen">Links und Quellen</a></li>
+</ul>
+
+<h2><a name="Vorwort">Vorwort</a></h2>
+<p>
+Wenn Sie eine <span class="bold">Webseite planen</span>, deren Inhalt sich auf mehrere Unterseiten verteilt, kann es sehr <span class="bold">aufwendig</span> werden <span class="bold">konsistente Elemente</span>, wie Navigation, Footer oder Teaser zu erg&auml;nzen.
+Schon bereits bei einer Seite mit 10 Unterseiten kann der Aufwand enorm sein wiederkehrende Passagen im Quelltext zu <span class="bold">ver&auml;ndern</span>.
+</p>
+<p>
+Mit einem <span class="bold">Template System</span>, dass die verschiedenen Elemente flexibel einbindet, bekommen Sie ein Werkzeug in die Hand welches Ihnen viel Arbeit und <span class="bold">Zeit ersparen</span> kann.<br>
+Sie m&uuml;ssen nun nur einmal den Kopfbereich, die Navigation oder den Fu&szlig;bereich ihrer Webseite erstellen.<br>
+Mit solch einem System sind Sie auch f&uuml;r zuk&uuml;nftige Ver&auml;nderungen Ihrer Website bestens ger&uuml;stet.
+</p>
+<p>
+Es gibt verschiedene M&ouml;glichkeiten <span class="bold">Webseiten dynamisch</span> zu <span class="bold">erstellen</span>. Neben <acronym title="Server Site Includes">SSI</acronym> oder <acronym title="Hypertext Preprocessor">PHP</acronym> gibt es verschiedene Preprozessoren die es erlauben mit einem Template System zu Arbeiten.
+Vor dem Gebrauch von Frames m&ouml;chte ich abraten. Da sie dem Benutzer die Navigation erschweren und das Setzen von Bookmarks (Lesezeichen) unm&ouml;glich machen.
+</p>
+<p>
+In diesem Artikel m&ouml;chte ich Ihnen ein Beispiel vorstellen, mit dem Sie ein Template Systeme <span class="bold">via Server Side Includes</span> realisieren k&ouml;nnen.<br>
+Geeignet ist diese L&ouml;sung f&uuml;r Sie:
+</p>
+<ul class="decimal">
+<li>Wenn Sie bereits ein <acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheets">CSS</acronym> Template erstellt haben.
+<li>Wenn Sie Ihre Webseite dynamisch erstellen m&ouml;chten.
+<li>Wenn Sie kein <acronym title="Hypertext Preprocessor">PHP</acronym> nutzen k&ouml;nnen oder benutzen m&ouml;chten.
+<li>Wenn Ihr Webspace Anbieter SSI unterst&uuml;tzt.
+<li>Und wenn Sie schon Erfahrung mit dem statischen erstellen von Webseiten besitzen.
+</ul>
+<p class="italic">
+Ich gehe davon aus, dass die Webseite auf einer Apache <acronym title="Hyper Text Tranfer Protocol Domain">httpd</acronym> gehosted wird.
+</p>
+<h2><a name="Begriffserlaeuterung">Begriffserl&auml;uterung</a></h2>
+<dl>
+<dt>Statische Webseiten:</dt>
+<dd>Webseiten deren Inhalte unver&auml;ndert als Datei vom Webserver an den Besucher ausgeliefert werden.</dd>
+<dt>Dynamische Webseiten:</dt>
+<dd>Webseiten deren Inhalte im Moment der Auslieferung vom Webserver generiert werden.</dd>
+<dt>Konsistente Elemente:</dt>
+<dd>Elemente im Layout der Homepage die unver&auml;ndert auf jeder Unterseite wiederkehren. Beispiele sind die Navigation oder Kopfbereiche.</dd>
+<dt>Inkonsistente Elemente:</dt>
+<dd>Elemente im Layout einer Homepage die sich auf jeder Unterseite ver&auml;ndern. Ein Beispiel sind die Inhalte und Informationen die in den verschiedenen Kategorien oder Unterseiten angeboten werden.</dd>
+</dl>
+<h2><a name="Funktionsweise">Funktionsweise</a></h2>
+<p class="bold">
+Teilt man die verschiedenen Layout Elemente einer Webseite in konsistente und inkonsistente Elemente ein, k&ouml;nnte folgendes Raster entstehen:
+</p>
+
+<img class="inner" src="/img/gedit.net/content/Artikel_Dynamische_Webseite.gif" alt="//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates - Funktionsweise - Konsistente und inkonsistente Layout Elemente">
+
+<dl>
+<dt>Orange/Rot :</dt>
+<dd>Layout Elemente</dd>
+<dt>Orange :</dt>
+<dd>Konsistente Elemente</dd>
+<dt>Rot :</dt>
+<dd>Inkonsistente Elemente</dd>
+</dl>
+<p class="bold">
+Was im Bild mit Farben beschrieben ist, kann man auch auf den Quelltext anwenden:
+</p>
+<pre>
+<code>
+...
+
+&lt;div id=&quot;header&quot;&gt;
+	Konsistentes Element - Kopfbereich der Webseite
+&lt;/div&gt;
+
+&lt;div id=&quot;navigation&quot;&gt;
+	Konsistentes Element - Navigationsbereich der Webseite
+&lt;/div&gt;
+
+&lt;div id=&quot;content&quot;&gt;
+	Inkonsistentes Element - Austauschbare Informationen und Inhalte der Webseite
+&lt;/div&gt;
+
+...
+</code>
+</pre>
+<p>
+Der Vorteil f&uuml;r Sie ist, dass Sie nur einmal alle Elemente in Ihre <span class="tt">index.shtml</span> einbinden m&uuml;ssen und keine Unterseiten mehr n&ouml;tig sind in denen konsistente Elemente wiederholt werden m&uuml;ssen. Inkonsistente Elemente wie den Content lassen sich in der <span class="tt">index.shtml</span> via <span class="tt">QUERY_STRING</span> ver&auml;ndern.<br>
+Ruft einer Ihrer Besucher nun <span class="tt">index.shtml?Galerie</span> auf anstatt <span class="tt">index.shtml</span> wird der Inhalt der Startseite mit dem der Galerie ausgetauscht.
+</p>
+<p><a class="extern" href="http://en.wikipedia.org/wiki/Query_string" title="//gedit.NET - Wikipedia - Query String">&lt;http://en.wikipedia.org/wiki/Query_string&gt;</a>
+</p>
+
+<h2><a name="SSI_aktivieren_und_testen">SSI aktivieren und testen</a></h2>
+<p>
+Um in Erfahrung zu bringen ob Ihr Anbieter <acronym title="Server Side Includes">SSI</acronym> erlaubt und welche Umgebungsvariablen Ihnen zu Verf&uuml;gung stehen. Lohnt es sich ein Blick in Ihren Vertrag zu werfen und eine Datei zu erstellen, welche mit Hilfe von Server Side Includes die angesprochenen Umgebungsvariablen ausgibt.
+</p>
+<ul class="decimal">
+<li>Sie erstellen einen Ordner <span class="tt">Test</span> auf Ihrem Webspace.</li>
+<li>Sie erstellen eine <span class="tt">.htaccess</span> die Apache anweist die im Ordner liegenden Dateien mit SSI zu parsen.</li>
+<li>Sie erstellen im Ordner Test die Datei <span class="tt">printenv.shtml</span>.</li>
+<li>Sie rufen <span class="tt">printenv.shtml</span> im Browser auf.</li>
+</ul>
+
+<p class="bold">
+Im folgenden die Inhalte von .htaccess und printenv.shtml:
+</p>
+<pre>
+<span class="right">.htaccess</span>
+<code>
+# Wenn Sie Server Side Includes (mod_include), oder CGI
+# au&szlig;erhalb ScriptAliased directories, benutzen m&ouml;chten.
+
+# Sie k&ouml;nnen hier jede Dateiendung verwenden.
+# Auch .html um SSI zu &quot;verstecken&quot;.
+# Ich nutze hier die Dateiendung .shtml um 
+# SSI geparsete Dateien klar von HTML
+# Dateien zu unterscheiden.
+
+# Apache 1
+# AddType text/html .shtml
+# AddHandler server-parsed .shtml
+
+# Apache 2
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml
+
+# Wenn Sie Server Side Inlcudes ohne CGI nutzen m&ouml;chten.
+Options +IncludesNoExec
+
+# Wenn Sie Server Side Includes mit CGI nutzen m&ouml;chten.
+# Zum Beispiel um einen CGI/Perl basierten Formmailer
+# einzubinden
+# Options +Includes
+</code>
+</pre>
+<p>
+Auf das Nutzen von <acronym title="Server Side Includes">SSI</acronym> mit <acronym title="Common Gateway Interface">CGI</acronym> gehe ich hier nicht weiter ein. Sie finden aber in der <a class="extern" href="http://httpd.apache.org/docs/" title="//gedit.NET - Homepage - Apache httpd - Dokumentation">Apache Dokumentation</a> mehr Informationen zu diesem Thema.
+</p>
+<ul>
+<li><a class="extern" href="http://httpd.apache.org/docs/2.2/howto/ssi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation - Howto SSI">&lt;http://httpd.apache.org/docs/2.2/howto/ssi.html&gt;</a></li>
+<li><a class="extern" href="http://httpd.apache.org/docs/2.2/howto/cgi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation - Howto CGI">&lt;http://httpd.apache.org/docs/2.2/howto/cgi.html&gt;</a></li>
+</ul>
+
+<pre>
+<span class="right">Quelltext printenv.shtml</span>
+<code>
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
+		&quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;Dynamische Webseiten mit SSI Templates - Server Site Includes &amp;#8211; Umgebungsvariablen&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Server Site Includes&lt;/h1&gt;
+&lt;h2&gt;Umgebungsvariablen&lt;/h2&gt;
+&lt;hr&gt;
+&lt;pre&gt;&lt;!--#printenv --&gt;&lt;pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+<p>
+Nachdem Sie erfolgreich beide Dateien auf Ihrem Webspace angelegt haben. Rufen sie <span class="tt">printenv.shtml</span> im Browser auf mit <span class="tt">domain.tld/test/printenv.shtml</span> oder <span class="tt">domain.tld/test/printenv.shtml?foo</span>.
+</p>
+<p class="bold">
+Bei einem Aufruf von domain.tld/test/printenv.shtml?foo sieht die Bildschirmausgaben folgenderma&szlig;en aus:
+<p>
+<pre>
+<span class="right">Bildschirmausgabe printenv.shtml</span>
+<code>
+UNIQUE_ID=SQ2hDwoAAAIAADUeNUQAAADA
+HTTP_USER_AGENT=Opera/9.62 (Windows NT 5.1; U; en) Presto/2.1.1
+HTTP_HOST=www.gedit.net
+HTTP_ACCEPT=text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+HTTP_ACCEPT_LANGUAGE=de-DE,de;q=0.9,en;q=0.8
+HTTP_ACCEPT_CHARSET=iso-8859-1, utf-8, utf-16, *;q=0.1
+HTTP_ACCEPT_ENCODING=deflate, gzip, x-gzip, identity, *;q=0
+HTTP_CONNECTION=Keep-Alive, TE
+HTTP_TE=deflate, gzip, chunked, identity, trailers
+PATH=/lib64/rc/sbin:/lib64/rc/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+SERVER_SIGNATURE=&lt;address&gt;Apache/2.2.10 (Gentoo) DAV/2 mod_ssl/2.2.10 OpenSSL/0.9.8i SVN/1.5.4 PHP/5.2.6-pl7-gentoo&lt;/address&gt;
+SERVER_SOFTWARE=Apache/2.2.10 (Gentoo) DAV/2 mod_ssl/2.2.10 OpenSSL/0.9.8i SVN/1.5.4 PHP/5.2.6-pl7-gentoo
+SERVER_NAME=www.gedit.net
+SERVER_ADDR=80.95.39.132
+SERVER_PORT=80
+REMOTE_ADDR=217.52.192.127
+DOCUMENT_ROOT=/var/www/gedit.net/
+SERVER_ADMIN=adminEMAIL@NOSPAMgedit.net
+SCRIPT_FILENAME=/var/www/gedit.net/test/printenv.shtml
+REMOTE_PORT=62568
+GATEWAY_INTERFACE=CGI/1.1
+SERVER_PROTOCOL=HTTP/1.1
+REQUEST_METHOD=GET
+QUERY_STRING=foo
+REQUEST_URI=/test/
+SCRIPT_NAME=/test/printenv.shtml
+DATE_LOCAL=Sunday, 02-Nov-2008 13:46:07 CET
+DATE_GMT=Sunday, 02-Nov-2008 12:46:07 GMT
+LAST_MODIFIED=Sunday, 02-Nov-2008 13:46:04 CET
+DOCUMENT_URI=/test/printenv.shtml
+USER_NAME=&lt;unknown&gt;
+DOCUMENT_NAME=printenv.shtml
+</code>
+</pre>
+
+<h2><a name="Struktur">Die Struktur auf das Dateisystem abbilden</a></h2>
+<p class="bold">
+Das Sie m&ouml;glichst effektiv mit Ihrer Webseite arbeiten k&ouml;nnen, halte ich es f&uuml;r notwendig ein passendes Datei und Ordner System anzulegen. Ein Beispiel w&auml;re wie folgt:
+<p>
+<pre>
+<span class="right">Dateisystem</span>
+<code>
+/webroot
+	/includes
+		config.inc.shtml
+		content.startseite.inc.html
+		content.foo.inc.html
+		...
+	/css
+		style.css
+		...
+	/img
+		foo.png
+		bar.png
+		...
+.htaccess
+index.shtml
+...
+</code>
+</pre>
+<p>
+In der <span class="tt">.htaccess</span> im <span class="tt">webroot</span> werden die gleichen Direktive notiert wie im <a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#SSI_aktivieren_und_testen" title="//gedit.NET - Arktikel - Dynamische Webseiten mit SSI Templates - SSI aktivieren und testen"><acronym title="Server Side Includes">SSI</acronym> aktivieren und testen Abschnitt</a>.<br>
+Beachten Sie bitte das <span class="tt">.htaccess</span> Direktive sich auf alle Dateien und Unterordner die sich innerhalb des Ordners befinden, indem die <span class="tt">.htaccess</span> angelegt wurde, auswirken.
+<p>
+
+<h2><a name="statisch_zu_dynamisch">Von statischen zur dynamischen Webseite</a></h2>
+<p class="bold">
+Das <acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheet">CSS</acronym> Template welches uns als Arbeitsgrundlage dient und im moment noch statisch vom Webserver ausgeliefert wird.
+</p>
+<pre>
+<span class="right">Quelltext static.tpl.html</span>
+<code>
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
+		&quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt;
+	&lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./css/style.css&quot; media=&quot;all&quot;&gt;
+	&lt;title&gt;Statisches HTML/CSS Template &lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- start header - Kopfbereich --&gt;
+&lt;div id=&quot;header&quot;&gt;
+	&lt;h1&gt; Statisches HTML/CSS Template&lt;/h1&gt;
+	&lt;p&gt;Artikel: &lt;a href=&quot;http://www.gedit.net/Artikel;Dynamische_Webseiten_erstellen_mit_SSI_Templates&quot; title=&quot;//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates&quot;&gt;Dynamische Webseiten mit SSI Templates&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end header - Kopfbereich --&gt;
+&lt;div id=&quot;wrapper&quot;&gt;
+&lt;!-- start navigation - Navigation --&gt;
+&lt;div id=&quot;navigation&quot;&gt;
+	&lt;h3&gt;Navigation&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- end navigation - Navigation --&gt;
+&lt;!-- start content - Inhalte --&gt;
+&lt;div id=&quot;content&quot;&gt;
+	&lt;h2&gt;Content&lt;/h2&gt;
+	&lt;p&gt;
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque iaculis, nulla sit amet gravida accumsan, nulla dolor ullamcorper orci, non congue turpis metus laoreet est. Vestibulum lectus purus, bibendum nec, ultricies quis, adipiscing ac, turpis. Nulla facilisi. Mauris gravida tempus est. Vestibulum interdum lectus eget risus. Proin leo quam, luctus tempus, fringilla eget, imperdiet eget, nulla. Phasellus molestie. Nam magna. Etiam tincidunt rutrum est. Aliquam sit amet magna. Proin scelerisque dapibus purus. Nullam ultricies, odio vel consectetuer ultrices, mauris ligula consectetuer mi, quis mollis dolor orci quis justo. Quisque euismod tincidunt est. Duis nunc diam, malesuada nec, dignissim eu, elementum egestas, sapien. Nunc risus. Etiam tristique, eros nec elementum mollis, neque lectus porta orci, sed bibendum tortor ipsum non erat. Vivamus consequat tristique leo.
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end content - Inhalte --&gt;
+&lt;/div&gt;
+&lt;!-- start footer - Fussbereich --&gt;
+&lt;div id=&quot;footer&quot;&gt;
+	&lt;p&gt;&amp;copy; 2008 gedit.NET - Artikel - &lt;a href=&quot;http://www.gedit.net/Artikel;Dynamische_Webseiten_erstellen_mit_SSI_Templates&quot; title=&quot;//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates&quot;&gt;Dynamische Webseiten mit SSI Templates&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end footer - Fussbereich --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+<p>
+Siehe auch <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/static.tpl.html" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - static.tpl.html">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/static.tpl.html&gt;</a>
+</p>
+<p class="bold">
+Das <acronym title="Server Side Includes">SSI</acronym>/<acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheet">CSS</acronym> Template welches inkonsistente Elemente dynamisch via <acronym title="Server Side Includes">SSI</acronym> includes ausliefert.
+</p>
+<pre>
+<span class="right">Quelltext simple.tpl.shtml</span>
+<code>
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
+		&quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt;
+	&lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./css/style.css&quot; media=&quot;all&quot;&gt;
+	&lt;title&gt;Simple SSI/HTML/CSS Template&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- start header - Kopfbereich --&gt;
+&lt;div id=&quot;header&quot;&gt;
+	&lt;h1&gt; Simple SSI/HTML/CSS Template&lt;/h1&gt;
+	&lt;p&gt;Artikel: &lt;a href=&quot;http://www.gedit.net/Artikel;Dynamische_Webseiten_erstellen_mit_SSI_Templates&quot; title=&quot;//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates&quot;&gt;Dynamische Webseiten mit SSI Templates&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end header - Kopfbereich --&gt;
+&lt;div id=&quot;wrapper&quot;&gt;
+&lt;!-- start navigation - Navigation --&gt;
+&lt;div id=&quot;navigation&quot;&gt;
+	&lt;h3&gt;Navigation&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;?foo&quot; title=&quot;&quot;&gt;foo&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;?bar&quot; title=&quot;&quot;&gt;bar&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;?baz&quot; title=&quot;&quot;&gt;baz&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- end navigation - Navigation --&gt;
+&lt;!-- start content - Inhalte --&gt;
+&lt;div id=&quot;content&quot;&gt;
+	&lt;!--#if expr=&quot;$QUERY_STRING=foo&quot; --&gt;
+	&lt;!--#include virtual=&quot;./include/content.foo.inc.html&quot; --&gt;
+	&lt;!--#elif expr=&quot;$QUERY_STRING=bar&quot; --&gt;
+	&lt;!--#include virtual=&quot;./include/content.bar.inc.html&quot; --&gt;
+	&lt;!--#elif expr=&quot;$QUERY_STRING=baz&quot; --&gt;
+	&lt;!--#include virtual=&quot;./include/content.baz.inc.html&quot; --&gt;
+	&lt;!--#else --&gt;
+	&lt;!--#include virtual=&quot;./include/content.Startseite.inc.html&quot; --&gt;
+	&lt;!--#endif --&gt;
+&lt;/div&gt;
+&lt;!-- end content - Inhalte --&gt;
+&lt;/div&gt;
+&lt;!-- start footer - Fussbereich --&gt;
+&lt;div id=&quot;footer&quot;&gt;
+	&lt;p&gt;&amp;copy; 2008 gedit.NET - Artikel - &lt;a href=&quot;http://www.gedit.net/Artikel;Dynamische_Webseiten_erstellen_mit_SSI_Templates&quot; title=&quot;//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates&quot;&gt;Dynamische Webseiten mit SSI Templates&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end footer - Fussbereich --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+<p>
+Siehe auch <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/simple.tpl.shtml" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - simple.tpl.shtml">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/simple.tpl.shtml&gt;</a>
+</p>
+<p class="bold">
+Beispiel eines inkonsistenten Elements das via <acronym title="Server Side Includes">SSI</acronym> include im Template eingebunden wird.
+</p>
+<pre>
+<span class="right">Quelltext content.foo.inc.html</span>
+<code>
+	&lt;h2&gt;foo&lt;/h2&gt;
+	&lt;p&gt;
+		&lt;b&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/b&gt;Pellentesque iaculis, nulla sit amet gravida accumsan, nulla dolor ullamcorper orci, non congue turpis metus laoreet est. Vestibulum lectus purus, bibendum nec, ultricies quis, adipiscing ac, turpis. Nulla facilisi. Mauris gravida tempus est. Vestibulum interdum lectus eget risus. Proin leo quam, luctus tempus, fringilla eget, imperdiet eget, nulla. Phasellus molestie. Nam magna. Etiam tincidunt rutrum est. Aliquam sit amet magna. Proin scelerisque dapibus purus. Nullam ultricies, odio vel consectetuer ultrices, mauris ligula consectetuer mi, quis mollis dolor orci quis justo. Quisque euismod tincidunt est. Duis nunc diam, malesuada nec, dignissim eu, elementum egestas, sapien. Nunc risus. Etiam tristique, eros nec elementum mollis, neque lectus porta orci, sed bibendum tortor ipsum non erat. Vivamus consequat tristique leo.
+	&lt;/p&gt;
+	&lt;p&gt;
+		Proin vitae risus eu ligula laoreet sollicitudin. Suspendisse potenti. Praesent posuere cursus ligula. Etiam mi. Aenean cursus blandit mauris. Suspendisse lacinia volutpat enim. Etiam vulputate augue a arcu. Donec malesuada, nisi at cursus venenatis, eros nibh congue libero, tincidunt euismod risus ipsum ut arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra, odio et pretium pulvinar, sapien lectus eleifend urna, eget accumsan urna arcu in elit. Nam egestas lectus ut odio. Phasellus orci. Morbi porta risus non tellus. Donec cursus arcu. Nunc quis velit at nulla tincidunt ornare. Etiam nec mauris vitae dolor interdum accumsan. Nunc sit amet nisl. Vivamus cursus lorem ultricies elit. Morbi ultricies ullamcorper tellus. Etiam viverra feugiat dolor.
+	&lt;/p&gt;
+</code>
+</pre>
+<p>
+Siehe auch <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/include/content.foo.inc.html" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - content.foo.inc.html">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/include/content.foo.inc.html&gt;</a>
+</p>
+<p class="bold">
+Das <acronym title="Server Side Includes">SSI</acronym>/<acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheet">CSS</acronym> Template welches variable Inhalte bei konsistenten Elemente erm&ouml;glicht.
+</p>
+<pre>
+<span class="right">Quelltext advance.tpl.shtml</span>
+<code>
+&lt;!--#include virtual=&quot;./include/config.inc.shtml&quot; --&gt;
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
+		&quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;//gedit.NET - Artikel - Advance SSI/HTML/CSS Template - &lt;!--#echo var=&quot;TITLE&quot; --&gt;&quot;&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&lt;!--#echo var=&quot;KEYWORDS&quot; --&gt;&quot;&gt;
+	&lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./css/style.css&quot; media=&quot;all&quot;&gt;
+	&lt;title&gt;Advance SSI/HTML/CSS Template - &lt;!--#echo var=&quot;TITLE&quot; --&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- start header - Kopfbereich --&gt;
+&lt;div id=&quot;header&quot;&gt;
+	&lt;h1&gt; Advance SSI/HTML/CSS Template&lt;/h1&gt;
+	&lt;p&gt;&lt;i&gt;&lt;!--#echo var=&quot;TITLE&quot; --&gt;&lt;/i&gt;&lt;/p&gt;
+	&lt;p&gt;Artikel: &lt;a href=&quot;http://www.gedit.net/Artikel;Dynamische_Webseiten_erstellen_mit_SSI_Templates&quot; title=&quot;//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates&quot;&gt;Dynamische Webseiten mit SSI Templates&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end header - Kopfbereich --&gt;
+&lt;div id=&quot;wrapper&quot;&gt;
+&lt;!-- start navigation - Navigation --&gt;
+&lt;div id=&quot;navigation&quot;&gt;
+	&lt;h3&gt;Navigation&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;&lt;!--#echo var=&quot;SCRIPT_NAME&quot; --&gt;&quot; title=&quot;&quot;&gt;Startseite&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;?foo&quot; title=&quot;&quot;&gt;foo&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;?bar&quot; title=&quot;&quot;&gt;bar&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;?baz&quot; title=&quot;&quot;&gt;baz&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- end navigation - Navigation --&gt;
+&lt;!-- start content - Inhalte --&gt;
+&lt;div id=&quot;content&quot;&gt;
+	&lt;!--#include virtual=&quot;./include/content.$SITENAME.inc.html&quot; --&gt;
+&lt;/div&gt;
+&lt;!-- end content - Inhalte --&gt;
+&lt;/div&gt;
+&lt;!-- start footer - Fussbereich --&gt;
+&lt;div id=&quot;footer&quot;&gt;
+	&lt;p&gt;
+		&lt;!--#echo var=&quot;SITENAME&quot; --&gt;
+		- &lt;!--#echo var=&quot;TITLE&quot; --&gt;
+		- &amp;copy; 2008 gedit.NET
+		- Artikel - &lt;a href=&quot;http://www.gedit.net/Artikel;Dynamische_Webseiten_erstellen_mit_SSI_Templates&quot; title=&quot;//gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates&quot;&gt;Dynamische Webseiten mit SSI Templates&lt;/a&gt;
+		&lt;br&gt;
+		Zuletzt ge&amp;auml;ndert am &lt;!--#config timefmt=&quot;%d.%m.%Y  um %T&quot; --&gt;&lt;!--#flastmod file=&quot;advance.tpl.shtml&quot; --&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- end footer - Fussbereich --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+<p>
+Siehe auch <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/advance.tpl.shtml" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - advance.tpl.shtml">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/advance.tpl.shtml&gt;</a>
+</p>
+<p class="bold">
+Beispiel einer config.inc.shtml die in der advance.tpl.shtml included wird.
+</p>
+<pre>
+<span class="right">Quelltext config.inc.shtml</span>
+<code>
+&lt;!--#set var=&quot;KEYWORDS&quot; value=&quot;dynamische Webseiten, SSI includes, SSI Template, Server Side Includes&quot; --&gt;
+&lt;!--#if expr=&quot;$QUERY_STRING=foo&quot; --&gt;
+&lt;!--#set var=&quot;SITENAME&quot; value=&quot;foo&quot; --&gt;
+&lt;!--#set var=&quot;TITLE&quot; value=&quot;Ein Titel zum Thema foo.&quot; --&gt;
+&lt;!--#elif expr=&quot;$QUERY_STRING=bar&quot; --&gt;
+&lt;!--#set var=&quot;SITENAME&quot; value=&quot;bar&quot; --&gt;
+&lt;!--#set var=&quot;TITLE&quot; value=&quot;bar ist ebenfalls eine metasyntaktische Variable.&quot; --&gt;
+&lt;!--#elif expr=&quot;$QUERY_STRING=baz&quot; --&gt;
+&lt;!--#set var=&quot;SITENAME&quot; value=&quot;baz&quot; --&gt;
+&lt;!--#set var=&quot;TITLE&quot; value=&quot;Dieser Titel geh&amp;ouml;rt zu baz.&quot; --&gt;
+&lt;!--#set var=&quot;KEYWORDS&quot; value=&quot;baz, SSI Template, Server Side Includes&quot; --&gt;
+&lt;!--#else --&gt;
+&lt;!--#set var=&quot;SITENAME&quot; value=&quot;Startseite&quot; --&gt;
+&lt;!--#set var=&quot;TITLE&quot; value=&quot;Willkommen auf der Startseite&quot; --&gt;
+&lt;!--#endif --&gt;
+</code>
+</pre>
+
+<h2><a name="Download_Templates">Download Templates</a></h2>
+<p class="bold">
+Die Archive enthalten alle Dateien - wie oben beschrieben und in der Beispielseite verwendet.
+</p>
+<ul class="disc green">
+	<li> <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/Dynamische_Webseiten_mit_SSI_Templates.zip" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - Download">Dynamische_Webseiten_mit_SSI_Templates.zip</a> 8,6 KB</li>
+	<li><a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/Dynamische_Webseiten_mit_SSI_Templates.tar.gz" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - Download">Dynamische_Webseiten_mit_SSI_Templates.tar.gz</a> 3,5 KB</li>
+</ul>
+
+<h2><a name="Links_und_Quellen">Links und Quellen</a></h2>
+<ul>
+	<li>Beispielseite - <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/&gt;</a>
+	<ul>
+		<li>Beispiel <acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheet">CSS</acronym> Template - <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/static.tpl.html" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - static.tpl.html">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/static.tpl.html&gt;</a></li>
+		<li>Beispiel <acronym title="Server Side Include">SSI</acronym>/<acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheet">CSS</acronym> Template - <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/simple.tpl.shtml" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - simple.tpl.shtml">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/simple.tpl.shtml&gt;</a></li>
+		<li>Beispiel <acronym title="Server Side Include">SSI</acronym>/<acronym title="Hyper Text Markup Language">HTML</acronym>/<acronym title="Cascading Style Sheet">CSS</acronym> Template - <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/advance.tpl.shtml" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - advance.tpl.shtml">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/advance.tpl.shtml&gt;</a></li>
+		<li>Beispiel Content Include - <a href="/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/include/content.foo.inc.html" title="//gedit.NET - Archiv - Artikel - Dynamische Webseiten mit SSI Templates - content.foo.inc.html">&lt;/archiv/dev/artikel/Dynamische_Webseiten_mit_SSI_Templates/include/content.foo.inc.html&gt;</a></li>
+	</ul>
+	</li>
+	<li>Apache 1.3 Dokumentation - <a class="extern" href="http://httpd.apache.org/docs/1.3/" title="//gedit.NET - Homepage - Apache httpd - Apache 1.3 Dokumentation">&lt;http://httpd.apache.org/docs/1.3/&gt;</a>
+	<ul>
+		<li>Apache 1.3 .htaccess Howto - <a class="extern" href="http://httpd.apache.org/docs/1.3/howto/htaccess.html" title="//gedit.NET - Homepage - Apache httpd - Apache 1.3 Dokumentation - Howto .htaccess">&lt;http://httpd.apache.org/docs/1.3/howto/htaccess.html&gt;</a></li>
+		<li>Apache 1.3 <acronym title="Server Side Includes">SSI</acronym> Howto - <a class="extern" href="http://httpd.apache.org/docs/1.3/howto/ssi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 1.3 Dokumentation - Howto SSI">&lt;http://httpd.apache.org/docs/1.3/howto/ssi.html&gt;</a></li>
+		<li>Apache 1.3 <acronym title="Common Gateway Interface">CGI</acronym> Howto - <a class="extern" href="http://httpd.apache.org/docs/1.3/howto/cgi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation - Howto CGI">&lt;http://httpd.apache.org/docs/1.3/howto/cgi.html&gt;</a></li>
+	</ul>
+	</li>
+	<li>Apache 2.0 Dokumentation - <a class="extern" href="http://httpd.apache.org/docs/2.0/" title="//gedit.NET - Homepage - Apache httpd - Apache 2.0 Dokumentation">&lt;http://httpd.apache.org/docs/2.0/&gt;</a>
+	<ul>
+		<li>Apache 2.0 .htaccess Howto - <a class="extern" href="http://httpd.apache.org/docs/2.0/howto/htaccess.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.0 Dokumentation - Howto .htaccess">&lt;http://httpd.apache.org/docs/2.0/howto/htaccess.html&gt;</a></li>
+		<li>Apache 2.0 <acronym title="Server Side Includes">SSI</acronym> Howto - <a class="extern" href="http://httpd.apache.org/docs/2.0/howto/ssi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.0 Dokumentation - Howto SSI">&lt;http://httpd.apache.org/docs/2.0/howto/ssi.html&gt;</a></li>
+		<li>Apache 2.0 <acronym title="Common Gateway Interface">CGI</acronym> Howto - <a class="extern" href="http://httpd.apache.org/docs/2.0/howto/cgi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.0 Dokumentation - Howto CGI">&lt;http://httpd.apache.org/docs/2.0/howto/cgi.html&gt;</a></li>
+	</ul>
+	</li>
+	<li>Apache 2.2 Dokumentation - <a class="extern" href="http://httpd.apache.org/docs/2.2/" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation">&lt;http://httpd.apache.org/docs/2.2/&gt;</a>
+	<ul>
+		<li>Apache 2.2 .htaccess Howto - <a class="extern" href="http://httpd.apache.org/docs/2.2/howto/htaccess.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation - Howto .htaccess">&lt;http://httpd.apache.org/docs/2.2/howto/htaccess.html&gt;</a></li>
+		<li>Apache 2.2 <acronym title="Server Side Includes">SSI</acronym> Howto - <a class="extern" href="http://httpd.apache.org/docs/2.2/howto/ssi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation - Howto SSI">&lt;http://httpd.apache.org/docs/2.2/howto/ssi.html&gt;</a></li>
+		<li>Apache 2.2 <acronym title="Common Gateway Interface">CGI</acronym> Howto - <a class="extern" href="http://httpd.apache.org/docs/2.2/howto/cgi.html" title="//gedit.NET - Homepage - Apache httpd - Apache 2.2 Dokumentation - Howto CGI">&lt;http://httpd.apache.org/docs/2.2/howto/cgi.html&gt;</a></li>
+	</ul>
+	</li>
+	<li>Ausf&uuml;hrliches <acronym title="Server Side Includes">SSI</acronym> Howto von Martin Stehle - <a class="extern" href="http://home.snafu.de/pewtah/ssi/index.shtml" title="//gedit.NET - Homepage - snafu.de - SSI">&lt;http://home.snafu.de/pewtah/ssi/index.shtml&gt;</a></li>
+</ul>				
+<!-- start content left comment -->
+<h2><a name="Kommentare">Kommentare</a></h2>
+<blockquote>
+<!-- start content left comment Daniela -->
+<p>Heckuva good job. I sure apctrpiaee it.<br>
+</p>
+<p class="quote">
+<span class="green">Daniela</span>, Freitag, 08. August 2014, 21:33 </p>
+<div class="clear"></div>
+<!-- end content left comment Daniela -->
+</blockquote>
+<!-- end content left comment -->
+<!-- start content left comment write -->
+<div id="comments">
+<h2><a name="Kommentar_schreiben">Kommentar schreiben</a></h2>
+<form method="post" action="Artikel%3BDynamische_Webseiten_mit_SSI_Templates#Kommentare">
+<ul>
+<li class="bold"><label for="comment_text">Kommentar:</label></li>
+<li><textarea id="comment_text" name="comment_text" cols="63" rows="10"></textarea></li>
+<li class="bold"><label for="name">Name:</label></li>
+<li><input type="text" id="name" name="name" value="" size="30" maxlength="30"></li>
+<li class="bold"><label for="email_hp">Email oder Homepage:</label></li>
+<li><input type="text" id="email_hp" name="email_hp" value="" size="30" maxlength="100"></li>
+<li class="italic">(optional, Email Adresse wird nicht angezeigt)</li>
+<li><input name="comment_submit" type="submit" value="Abschicken"><input name="comment_preview" type="submit" value="Vorschau"></li>
+</ul>
+</form>
+</div>
+<!-- end content left comment write -->
+		<!-- start content left bookmarks and print -->
+		<div class="clear"></div>
+		<ul class="clbpnav">
+			<li><a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates#top" onclick="location.hash='top';" title="zum Seitenanfang von gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates">
+					<img src="/img/gedit.net/layout/goto-top.gif" alt="zum Seitenanfang von gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates">
+			</a></li>
+			<li> <a rel="nofollow" href="Artikel_Dynamische_Webseiten_mit_SSI_Templates_Druckvorschau" title="Druckvorschau gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates">
+					<img src="/img/gedit.net/layout/druckvorschau.gif" alt="Druckvorschau gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates">
+			</a></li>
+			<li> <a rel="nofollow" href="http://www.mister-wong.de/" onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)+'&amp;bm_tags=');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Mr. Wong">
+					<img src="/img/gedit.net/layout/bookmarks/wong.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Mr. Wong">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Webnews">
+					<img src="/img/gedit.net/layout/bookmarks/webnews.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Webnews">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.icio.de/" onclick="window.open('http://www.icio.de/add.php?url='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Icio">
+					<img src="/img/gedit.net/layout/bookmarks/icio.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Icio">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.folkd.com/" onclick="window.open('http://www.folkd.com/page/submit.html?step2_sent=1&amp;url='+encodeURIComponent(location.href)+'&amp;check=page&amp;add_title='+encodeURIComponent(document.title)+'&amp;add_description=&amp;add_tags_show=&amp;add_tags=&amp;add_state=public');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Folkd">
+					<img src="/img/gedit.net/layout/bookmarks/folkd.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Folkd">
+			</a></li>
+			<li><a rel="nofollow" href="http://yigg.de/" onclick="window.open('http://yigg.de/neu?exturl='+encodeURIComponent(location.href));return false" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Yigg">
+					<img src="/img/gedit.net/layout/bookmarks/yigg.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Yigg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.linkarena.com/" onclick="window.open('http://linkarena.com/bookmarks/addlink/?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;desc=&amp;tags=');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Linkarena">
+					<img src="/img/gedit.net/layout/bookmarks/linkarena.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Linkarena">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.simpy.com/" onclick="window.open('http://www.simpy.com/simpy/LinkAdd.do?title='+encodeURIComponent(document.title)+'&amp;tags=&amp;note=&amp;href='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Simpy">
+					<img src="/img/gedit.net/layout/bookmarks/simpy.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Simpy">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://del.icio.us/" onclick="window.open('http://del.icio.us/post?v=2&amp;url='+encodeURIComponent(location.href)+'&amp;notes=&amp;tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Del.ico.us">
+					<img src="/img/gedit.net/layout/bookmarks/del.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Del.ico.us">
+			</a></li>
+			<li><a rel="nofollow" href="http://reddit.com/" onclick="window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Reddit">
+					<img src="/img/gedit.net/layout/bookmarks/reddit.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Reddit">
+			</a></li>
+			<li><a rel="nofollow" href="http://digg.com/" onclick="window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;bodytext=&amp;tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Digg">
+					<img src="/img/gedit.net/layout/bookmarks/digg.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Digg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.stumbleupon.com/" onclick="window.open('http://www.stumbleupon.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit StumbleUpon">
+					<img src="/img/gedit.net/layout/bookmarks/stumbleupon.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit StumbleUpon">
+			</a></li>
+			<li><a rel="nofollow" href="http://slashdot.org/" onclick="window.open('http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Slashdot">
+					<img src="/img/gedit.net/layout/bookmarks/slashdot.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Slashdot">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.furl.net/" onclick="window.open('http://www.furl.net/storeIt.jsp?u='+encodeURIComponent(location.href)+'&amp;keywords=&amp;t='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Furl">
+					<img src="/img/gedit.net/layout/bookmarks/furl.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Furl">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.yahoo.com/" onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+encodeURIComponent(document.title)+'&amp;d=&amp;tag=&amp;u='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Yahoo">
+					<img src="/img/gedit.net/layout/bookmarks/yahoo.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Yahoo">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.spurl.net/" onclick="window.open('http://www.spurl.net/spurl.php?v=3&amp;tags=&amp;title='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(document.location.href));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Spurl">
+					<img src="/img/gedit.net/layout/bookmarks/spurl.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Spurl">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.google.com/" onclick="window.open('http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;bkmk='+encodeURIComponent(location.href)+'&amp;annotation=&amp;labels=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Google">
+					<img src="/img/gedit.net/layout/bookmarks/google.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Google">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.blinklist.com/" onclick="window.open('http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Description=&amp;Tag=&amp;Url='+encodeURIComponent(location.href)+'&amp;Title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Blinklist">
+					<img src="/img/gedit.net/layout/bookmarks/blinklist.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Blinklist">
+			</a></li>
+			<li><a rel="nofollow" href="http://blogmarks.net/" onclick="window.open('http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url='+encodeURIComponent(location.href)+'&amp;content=&amp;public-tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Blogmarks">
+					<img src="/img/gedit.net/layout/bookmarks/blogmarks.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Blogmarks">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.diigo.com/" onclick="window.open('http://www.diigo.com/post?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;tag=&amp;comments='); return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Diigo">
+					<img src="/img/gedit.net/layout/bookmarks/diigo.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Diigo">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.technorati.com/" onclick="window.open('http://technorati.com/faves?add='+encodeURIComponent(location.href)+'&amp;tag=');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Technorati">
+					<img src="/img/gedit.net/layout/bookmarks/technorati.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Technorati">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.newsvine.com/" onclick="window.open('http://www.newsvine.com/_wine/save?popoff=1&amp;u='+encodeURIComponent(location.href)+'&amp;tags=&amp;blurb='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Newsvine">
+					<img src="/img/gedit.net/layout/bookmarks/newsvine.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Newsvine">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.blinkbits.com/" onclick="window.open('http://www.blinkbits.com/bookmarklets/save.php?v=1&amp;title='+encodeURIComponent(document.title)+'&amp;source_url='+encodeURIComponent(location.href)+'&amp;source_image_url=&amp;rss_feed_url=&amp;rss_feed_url=&amp;rss2member=&amp;body=');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Blinkbits">
+					<img src="/img/gedit.net/layout/bookmarks/blinkbits.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Blinkbits">
+			</a></li>
+			<li><a rel="nofollow" href="http://ma.gnolia.com/" onclick="window.open('http://ma.gnolia.com/bookmarklet/add?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;description=&amp;tags=');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Ma.Gnolia">
+					<img src="/img/gedit.net/layout/bookmarks/ma.gnolia.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Ma.Gnolia">
+			</a></li>
+			<li><a rel="nofollow" href="http://smarking.com/" onclick="window.open('http://smarking.com/editbookmark/?url='+ location.href +'&amp;description=&amp;tags=');return false;" title="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Smarking">
+					<img src="/img/gedit.net/layout/bookmarks/smarking.gif" alt="Bookmark gedit.NET - Artikel - Dynamische Webseiten mit SSI Templates mit Smarking">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.vorratsdatenspeicherung.de/" title="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+					<img src="/img/gedit.net/layout/akvorrat.gif" alt="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+			</a></li>
+			<li><a rel="nofollow" href="http://my.opera.com/community/download.pl?ref=gedit&amp_p=opera_desktop" title="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online.">
+					<img src="/img/gedit.net/layout/opera.gif" alt="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online">
+			</a></li>
+		</ul>
+		<div class="clear"></div>
+<!-- end content left bookmarks and print -->
+	</div>
+<!-- end content left --><!-- content right is gone -->
+<!-- start footer -->
+	<div id="footer">
+		<p>
+			$req
+			17,5 KB - 0 Sec. -			<a href="Artikel_Dynamische_Webseiten_mit_SSI_Templates" title="Artikel;Dynamische_Webseiten_mit_SSI_Templates">gedit.net/Artikel;Dynamische_Webseiten_mit_SSI_Templates</a> -
+			Artikel - Dynamische Webseiten mit SSI Templates			- 26.12.2023, 00:47:20 CET
+			get $
+			<br>
+			<a class="hidden" href="/_nofollow" title="Please do not follow this Link">No follow</a>
+				This is <strong>not</strong> the website of
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">gedit</a>
+				the official text editor of the
+			<a class="extern" href="http://www.gnome.org">GNOME</a>
+				desktop environment.
+			<br>
+				Visit
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gedit.org/&gt;</a>
+				or
+			<a class="extern" href="http://www.gnome.org/projects/gedit/" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gnome.org/projects/gedit/&gt;</a>
+				if you search the gnome-editor.
+			<br>
+				This work is licensed under a
+			<a rel="license" href="CC" title="Creative Commons Atritbution-NonCommercial 3.0 License">Creative Commons Attribution-NonCommercial 3.0 License</a>.
+			<a class="extern" href="http://validator.w3.org/check?uri=http%3A%2F%2Fgedit.net%2FArtikel_Dynamische_Webseiten_mit_SSI_Templates" title="Valid HTML 4.1 Strict">Valid HTML 4.1 Strict</a>
+				//
+			<a class="extern" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgedit.net%2FArtikel_Dynamische_Webseiten_mit_SSI_Templates&amp_profile=css3" title="Valid CSS 3.0">Valid CSS 3.0</a>
+				//
+			<a class="extern" href="http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fgedit.net%2FRSS" title="Valid RSS Feed">Valid RSS</a>
+				//
+			<a class="extern" href="http://www.access-board.gov/508.htm" title="Section 508 Homepage:  Electronic and Information Technology">Valid Section 508</a>
+				//
+			<a class="extern" href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Level Double-A Conformance to Web Content Accessibility Guidelines 1.0">Valid Level Double-A Conformance to Web Content Accessibility Guidelines 1.0</a>.
+			<br>
+			$id
+						Dynamische Webseiten mit SSI Templates -			Gedit (<a href="index.html" title="gedit HTML&amp;CSS Tutorials"><strong><abbr title="Hypertext Markup Language">HTML</abbr>&amp;<abbr title="Cascading Style Sheet">CSS</abbr> Tutorials</strong></a>, <a href="index.html" title="gedit Webgestaltung"><strong>Webgestaltung</strong></a>, <a href="index.html" title="gedit Webentwicklung"><strong>Webentwicklung</strong></a>, <a href="index.html" title="gedit Webdesign"><strong>Webdesign</strong></a>, <a href="index.html" title="gedit Webdevelopment"><strong>Webdevelopment</strong></a>, <a href="index.html" title="gedit Webstandards"><strong>Webstandards</strong></a>, <a href="index.html" title="gedit Benutzerfreundlichkeit (Usability)"><strong>Benutzerfreundlichkeit (Usability)</strong></a>, <a href="index.html" title="gedit Barrierefreiheit (Accessebility)"><strong>Barrierefreiheit (Accessebility)</strong></a>, <a href="index.html" title="gedit Webfrontendentwicklung"><strong>Webfrontendentwicklung</strong></a>, <a href="index.html" title="gedit Webbackendentwicklung"><strong>Webbackendentwicklung</strong></a>, <a href="index.html" title="gedit Visuelle Medien"><strong>Visuelle Medien</strong></a>, <a href="index.html" title="gedit Interfacedesign"><strong>Interfacedesign</strong></a>, <a href="index.html" title="gedit Visuelle Kommunikation"><strong>Visuelle Kommunikation</strong></a>, <a href="index.html" title="gedit Grafikdesign"><strong>Grafikdesign</strong></a>, <a href="index.html" title="gedit Screendesign"><strong>Screendesign</strong></a>, <a href="index.html" title="gedit Typografie"><strong>Typografie</strong></a>) <a href="VERSION_v0.5" title="Version - v0.5">v0.5</a> &copy; 2005&ndash;2023 <a href="http://gattner.name/simon" title="Simon Gattner">Simon Gattner</a> - 12.08.2009, 13:57 CET exp $
+		</p>
+	</div>
+<!-- end footer -->
+</div>
+<!-- end content -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = document.title;
+piwik_idsite = 2;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+</body>
+</html>

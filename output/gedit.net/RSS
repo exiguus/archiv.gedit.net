@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="/RSS" rel="self" type="application/rss+xml" />
+<title><![CDATA[gedit.NET]]></title>
+<link>/</link>
+<description><![CDATA[gedit.NET - Really Simple Syndication - RSS 2.0 Feed]]></description>
+<language>de</language>
+<item>
+<title><![CDATA[Free HTML/CSS Templates viCard und Helvetica]]></title>
+<description><![CDATA[<p>
+Nachdem beim <a class="extern" href="http://www.smashingmagazine.com/2009/07/08/free-typographic-xhtmlcss-layouts-for-your-designs/" title="Smashing Magazine Typographic Layout Design Contest">Smashing Magazine Typographic Layout Design Contest</a> mein Beitrag <a href="Artikel_Free_HTML-CSS_Templates_viCard_und_Helvetica#vicard" title="Free HTML/CSS Template viCard - Virtuelle Visitenkarte"><strong><abbr title="Virtual Identity Card">viCard</abbr> (Virtuelle Visitenkarte)</strong></a>
+anscheinend ganz gut angekommen ist,
+habe ich mich von <a class="extern" href="http://paullinder.se/contrast/" title="Paul Linders Contrast Layout">Paul Linders Layout Contrast</a> inspirieren lassen und
+ein Template namens <a href="Artikel_Free_HTML-CSS_Templates_viCard_und_Helvetica#helvetica" title="Free HTML/CSS Template Helvetica"><strong>Helvetica</strong></a>, welches ebenfalls stark durch horizontale
+Linie gepr&auml;gt ist, entworfen.
+</p>]]></description>
+<link>/Artikel;Free_HTML-CSS_Templates_viCard_und_Helvetica</link>
+<guid isPermaLink="true">/Artikel;Free_HTML-CSS_Templates_viCard_und_Helvetica</guid>
+<pubDate>Sat, 11 Jul 2009 15:42:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[CSS Schriftgröße und Zeilenabstand]]></title>
+<description><![CDATA[<p>
+Das richtige <strong>Zusammenspiel</strong> von <strong>Schriftgr&ouml;&szlig;e</strong> und <strong>Zeilenabstand</strong> verbessert die Lesbarkeit und tr&auml;gt nicht zuletzt zu einem angenehmen und <strong>ausgewogenen Erscheinungsbild</strong> bei.
+</p>]]></description>
+<link>/Artikel;CSS_Schriftgroesze_und_Zeilenabstand</link>
+<guid isPermaLink="true">/Artikel;CSS_Schriftgroesze_und_Zeilenabstand</guid>
+<pubDate>Sat, 11 Apr 2009 22:47:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[HTML Farb- und Zeichenreferenzen]]></title>
+<description><![CDATA[<p>
+<a href="/dl/gedit.net/static/services/html_colors.html" title="//gedit.NET - Services - HTML HTML RGB-Farbraum"><strong><abbr title="Hyper Text Markup Language">HTML</abbr>-Farbreferenzen</strong></a> mit <abbr title="Red Green Blue">RGB</abbr>- und Hexadezimal-Wert, Namen und Aussehen.
+<a href="/dl/gedit.net/static/services/html_entities.html" title="//gedit.NET - Services - Benannte HTML-Zeichen"><strong><abbr title="Hyper Text Markup Language">HTML</abbr>-Zeichenreferenzen</strong></a> mit Hexadezimal- und Dezimalangabe, sowie <strong>named entities</strong>.
+</p>
+]]></description>
+<link>/Services</link>
+<guid isPermaLink="true">/Services</guid>
+<pubDate>Sat, 11 Apr 2009 16:35:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Variables CSS-Layout mit verschiedenen Spaltenfarben]]></title>
+<description><![CDATA[<p>
+Bei der Realisierung eines <strong>variablen</strong>,
+<strong>mehrspaltigen <abbr title="Cascading Style Sheets">CSS</abbr>-Layout</strong> mit verschieden Hintergrundfarben
+sto&szlig;en auch erfahrenere <abbr title="Cascading Style Sheets">CSS</abbr>-Anwender an ihre Grenzen.
+</p>
+<p>
+F&uuml;r den Betrachter soll der Eindruck entstehen, dass die verschiedenen Spalten unabh&auml;ngig vom Inhalt,
+<strong>durchg&auml;ngig</strong> mit <strong>verschiedenen Hintergrundfarben</strong> gef&uuml;llt sind.<br>
+Soll das <strong>Layout</strong> zudem einer <strong>Vergr&ouml;&szlig;erung</strong> der
+<strong>Schrift</strong> (zwecks Barrierefreiheit) <strong>standhalten</strong>,
+bleibt einem nichts anderes &uuml;ber als mit <em>em-Werten</em> zu arbeiten.
+</p>]]></description>
+<link>/Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben</link>
+<guid isPermaLink="true">/Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben</guid>
+<pubDate>Sun, 29 Mar 2009 21:25:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Elemente anzeigen und verbergen mit Javascript]]></title>
+<description><![CDATA[<p>
+M&ouml;chten Sie auf Ihrer Webseite <acronym title="Hyper Text Markup Language">HTML</acronym> <span class="bold">Elemente anzeigen</span> oder <span class="bold">verbergen</span> ohne die Seite neu zu laden,
+dann werden die in diesem Artikel beschriebenen <span class="bold">Javascript</span> Funktionen Ihnen eine M&ouml;glichkeit aufzeigen.
+</p>]]></description>
+<link>/Artikel;Elemente_anzeigen_und_verbergen_mit_Javascript</link>
+<guid isPermaLink="true">/Artikel;Elemente_anzeigen_und_verbergen_mit_Javascript</guid>
+<pubDate>Sat, 08 Nov 2008 13:13:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Dynamische Webseiten mit SSI Templates]]></title>
+<description><![CDATA[<p>
+Wenn Sie eine <span class="bold">Webseite planen</span>, deren Inhalt sich auf mehrere Unterseiten verteilt, kann es sehr <span class="bold">aufwendig</span> werden <span class="bold">konsistente Elemente</span>, wie Navigation, Footer oder Teaser zu erg&auml;nzen.<br>
+Mit einem <span class="bold">Template System</span>, dass die verschiedenen Elemente flexibel einbindet, bekommen Sie ein Werkzeug in die Hand welches Ihnen viel Arbeit und <span class="bold">Zeit ersparen</span> kann.
+</p>]]></description>
+<link>/Artikel;Dynamische_Webseiten_mit_SSI_Templates</link>
+<guid isPermaLink="true">/Artikel;Dynamische_Webseiten_mit_SSI_Templates</guid>
+<pubDate>Sun, 02 Nov 2008 23:25:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Advance CSS Server Side parsed mit PHP]]></title>
+<description><![CDATA[<p>
+Was soll <span class="italic">Advance CSS Server Side parsed mit PHP</span> bedeuten?
+Man <span class="bold">parsed <acronym title="Cascading Style Sheets">CSS</acronym></span> Dateien Server seitig <span class="bold">mit <acronym title="Hypertext Preprocessor">PHP</acronym></span>.
+Die <span class="bold">Vorteile</span> dabei liegen klar auf der Hand. Es ist nun zum Beispiel m&ouml;glich <span class="bold">Variablen einzuf&uuml;hren</span>. Variablen f&uuml;r Farben oder geziehlt <span class="bold">einzelne Browser anzusprechen</span>.
+</p>]]></description>
+<link>/Artikel;Advance_CSS_Server_Side_parsed_mit_PHP</link>
+<guid isPermaLink="true">/Artikel;Advance_CSS_Server_Side_parsed_mit_PHP</guid>
+<pubDate>Sun, 19 Oct 2008 12:27:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[phpSQLiteCMS HTML Sitemap Smarty Template mit Bl&auml;tter Funktion]]></title>
+<description><![CDATA[<p>
+Im Gegensatz zur <a href="Artikel_phpSQLiteCMS_HTML_Sitemap_Smarty_Template" title="//gedit.NET - Artikel - phpSQLiteCMS HTML Sitemap ohne Bl&auml;tter Funktion">phpSQLiteCMS HTML Sitemap ohne Bl&auml;tter Funktion</a> k&ouml;nnen die <span class="bold">Unterseiten unbegrenzt</span> sein, die Sitemap wird <span class="bold">gecached</span> und die Unterseiten die per Seite mit der <span class="bold">Bl&auml;tter Funktion</span> angezeigt werden lassen sich beliebig <span class="bold">einstellen</span>.
+</p>]]></description>
+<link>/Artikel;phpSQLiteCMS_HTML_Sitemap_Smarty_Template_mit_Blaetter_Funktion</link>
+<guid isPermaLink="true">/Artikel;phpSQLiteCMS_HTML_Sitemap_Smarty_Template_mit_Blaetter_Funktion</guid>
+<pubDate>Sun, 19 Oct 2008 09:41:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Print Style Sheet mit Druckvorschau]]></title>
+<description><![CDATA[<p>
+Manchmal ist es notwendig eine <span class="bold">Webseite</span> zu drucken. Untersuchungen haben ergeben, dass Anwender es bevorzugen lange <span class="bold">Texte</span> zu <span class="bold">drucken</span>, um sie anschlie&szlig;end zu lesen. Anstatt dies unter erschwerten Bedingungen am Bildschirm zu tun.<br>
+Gut ist es dann f&uuml;r so einen Fall vorbereitet zu sein. Verwendet man <acronym title="Cascading Style Sheets">CSS</acronym> kann man zum drucken einen extra Style Sheet erstellen und so seine <span class="bold">Inhalte druckgerecht aufbereiten</span>.
+</p>]]></description>
+<link>/Artikel;Print_Style_Sheet_mit_Druckvorschau</link>
+<guid isPermaLink="true">/Artikel;Print_Style_Sheet_mit_Druckvorschau</guid>
+<pubDate>Tue, 07 Oct 2008 09:18:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Weblog]]></title>
+<description><![CDATA[<p>
+Eine Liste interessanter und lesenswerter Webseiten zu Themen wie Web Design, Web Development, Web Standarts, Accessibility, Usability, Online Business, Online Marketing, <acronym title="Search Engine Optimization">SEO</acronym>, <acronym title="Hypertext Markup Language">HTML</acronym>, <acronym title="Cascading Style Sheets ">CSS</acronym>, <acronym title="Extensible Markup Language">XML</acronym>, <acronym title="Scalable Vector Graphics">SVG</acronym>, Javascript/<acronym title="Document Object Model">DOM</acronym>, Ajax, <acronym title="Server Side Includes">SSI</acronym>, <acronym title="Common Gateway Interface">CGI</acronym>/Perl und <acronym title="Hypertext Preprocessor">PHP</acronym>.
+</p>]]></description>
+<link>/Weblog</link>
+<guid isPermaLink="true">/Weblog</guid>
+<pubDate>Mon, 06 Oct 2008 14:53:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[phpSQLiteCMS HTML Sitemap Smarty Template]]></title>
+<description><![CDATA[<p>
+Im Gegensatz zur Standart <acronym title="Extensible Markup Language">XML</acronym> Sitemap von <a class="extern" href="http://phpsqlitecms.net/" title="phpSQLiteCMS - Homepage">phpSQLiteCMS</a> das ohne Style Sheet daher kommt und eher f&uuml;r Suchmaschinen wie Google oder Yahoo! gedacht ist, hier ein <span class="bold">Sitemap Template f&uuml;r <a class="extern" href="http://phpsqlitecms.net/" title="phpSQLiteCMS - Homepage">phpSQLiteCMS</a></span> das <span class="bold">problemlos</span> in die Webseite <span class="bold">integriert</span> werden kann um Besuchern die Navigation und <span class="bold">Orientierung</span> zu <span class="bold">erleichtert</span>.
+</p>]]></description>
+<link>/Artikel;phpSQLiteCMS_HTML_Sitemap_Smarty_Template</link>
+<guid isPermaLink="true">/Artikel;phpSQLiteCMS_HTML_Sitemap_Smarty_Template</guid>
+<pubDate>Sun, 05 Oct 2008 15:38:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[KVIrc exec Alias unter Windows]]></title>
+<description><![CDATA[<p>
+Wie schaffe ich es den KVIrc <span class="tt">exec</span> Befehl unter Windows zu benutzen? Die Antwort ist eigentlich ganz einfach.<br>
+Sie benutzen den in <span class="bold">KVIrc</span> integrierten <span class="bold"><span class="tt">--shell</span> Schalter</span> um die gew&uuml;nschte Shell, zum Beispiel <span class="bold">cmd.exe oder sh.exe</span> bei Cygwin, <span class="bold">anzusprechen</span>.
+</p>]]></description>
+<link>/Artikel;KVIrc_Windows_exec_alias</link>
+<guid isPermaLink="true">/Artikel;KVIrc_Windows_exec_alias</guid>
+<pubDate>Sun, 05 Oct 2008 15:32:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Mit Javascript externe Links in einem neuen Fenster &ouml;ffnen]]></title>
+<description><![CDATA[<p>
+Da <acronym title="Hyper Text Markup Language">HTML</acronym> 4.01 oder <acronym title="Extensible Hyper Text Markup Language">XHTML</acronym> 1.0 <span class="bold">Strict</span> im Element <span class="tt">A</span> das <span class="bold">Attribut</span> <span class="tt">target=&quot;&quot;</span> <span class="bold">nicht</span> gestattet, weichen wir auf eine Methode mit <span class="bold">Javascript</span> aus um <span class="bold">Links</span> in einem <span class="bold">neuen Fenster</span> zu &ouml;ffnen. Wir erstellen eine externe Datei <span class="tt">default.js</span> und binden diese dann im Dokumment ein um den gew&uuml;nschten Effekt zu erreichen.
+</p>]]></description>
+<link>/Artikel;Javascript_externe_Links_in_neuem_Fenster</link>
+<guid isPermaLink="true">/Artikel;Javascript_externe_Links_in_neuem_Fenster</guid>
+<pubDate>Sun, 05 Oct 2008 15:13:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Keinen Namen - keinen Titel]]></title>
+<description><![CDATA[<p>
+Dieses <span class="bold">Black Metal Album</span> hat keinen Namen und seine St&uuml;cke keinen Titel. Der K&uuml;nstler setzt sich in ihm kritisch mit der Black Metal Szene auseinander.<br>
+Das in der W&auml;ldliche Tonschmiede im Herbst/Winter 2005 aufgenommene und aus drei Liedst&uuml;cken bestehende Album steht auf gedit.NET zum freien <span class="bold">Download</span> bereit.
+</p>]]></description>
+<link>/Keinen_Namen_-_keinen_Titel</link>
+<guid isPermaLink="true">/Keinen_Namen_-_keinen_Titel</guid>
+<pubDate>Sun, 05 Oct 2008 01:41:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Who Am I, Remote User Informations]]></title>
+<description><![CDATA[<p>
+Welche <span class="bold">Informationen</span> &uuml;ber mich <span class="bold">gebe ich</span> eigentlich <span class="bold">preis</span> wenn ich eine Webseite besuche?<br>
+Who am I zeigt Ihnen eine Zusammenstellung der wichtigsten <span class="bold">Daten</span> die Sie <span class="bold">&uuml;bermitteln</span> wenn Sie eine <span class="bold">Webseite aufrufen</span>.<br>
+Zum Beispiel Ihre IP, Browserkennung oder Scriptsprachen die Sie aktiviert haben.
+</p>]]></description>
+<link>/Services;WhoAmI</link>
+<guid isPermaLink="true">/Services;WhoAmI</guid>
+<pubDate>Tue, 23 Sep 2008 18:22:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

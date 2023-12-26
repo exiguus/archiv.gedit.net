@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="http://gedit.net/Weblog;RSS" rel="self" type="application/rss+xml" />
+<title><![CDATA[gedit.NET Weblog]]></title>
+<link>http://gedit.net/</link>
+<description><![CDATA[gedit.NET - Weblog - Really Simple Syndication - RSS 2.0 Feed]]></description>
+<language>de</language>
+<item>
+<title><![CDATA[WHATWG HTML5 specification for web developers]]></title>
+<description><![CDATA[<p>
+Was unterscheidet die <strong>HTML5 Web Developer Edition</strong> von der herk&ouml;mmlichen HTML5 Spezifikation des W3C?<br>
+Die klare und reduzierte <em>Navigation</em> (man hat vorallem an die Bed&uuml;rfnisse der Entwickler bei der Auswahl der einzelnen Punkte des <em>Table of Contents</em> gedacht), <em>Offline Access</em>, eine <em>integrierte Suche</em>, <em>mobile Browser Support</em>, <em>integrierte technische Referenzen</em> und nicht zuletzt ein neues Erscheinungsbild.
+</p>
+<p>
+Wer auf der Suche nach einzelnen Elemente ist, sollte meiner Meinung nach, dennoch auf die <em>one file Variante</em> des W3C (<a href="http://dev.w3.org/html5/spec/Overview.html" title="W3C HTML5 Spezifikation" class="extern"><strong>W3C HTML5 Editor's Draft</strong></a>) in Kombination mit <kbd>strg+f</kbd> zurückgreifen.
+</p>]]></description>
+<link>http://developers.whatwg.org/</link>
+<guid isPermaLink="true">http://developers.whatwg.org/</guid>
+<pubDate>Sun, 03 Apr 2011 19:34:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Microsoft veröffentlich Internet Explorer auf Virtual PC VHDs]]></title>
+<description><![CDATA[<p>
+Microsoft hat f&uuml;r Web Entwickler und Designer <em>Internet Explorer</em> 6/7 und 8 auf <em>Windows XP</em>, sowie <em>Internet Explorer</em> 7 und 8 auf <em>Windows Vista</em> ver&ouml;ffentlich und bietet diese zum freien Download an.<br>
+Die <em>Internet Explorer-Versionen</em> und Betriebssysteme sind auf Virtuellen HDs für <em>Microsoft Virtuell PC</em> installiert.<br>
+Sie sollen, laut Microsoft, dazu dienen Websites mit &auml;lteren Versionen des IEs zu testen.
+</p>]]></description>
+<link>http://www.microsoft.com/downloads/en/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&displaylang=en</link>
+<guid isPermaLink="true">http://www.microsoft.com/downloads/en/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&displaylang=en</guid>
+<pubDate>Mon, 31 Jan 2011 22:09:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Offizieles HTML5-Logo des W3C]]></title>
+<description><![CDATA[<blockquote cite="http://www.w3.org/html/logo/">
+<p>
+	<img
+	 src="http://img.gedit.net/gedit.net/content/HTML5_Logo.png"
+	 alt="AN HTML5 LOGO
+		It stands strong and true, resilient and universal as the markup you write. It shines as bright and as bold as the forward-thinking, dedicated web developers you are. It's the standard's standard, a pennant for progress. And it certainly doesn't use tables for layout.
+		We present an HTML5 logo."
+	>
+</p>
+</blockquote>]]></description>
+<link>http://www.w3.org/html/logo/</link>
+<guid isPermaLink="true">http://www.w3.org/html/logo/</guid>
+<pubDate>Tue, 18 Jan 2011 20:13:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Artikel 5 Grundgesetz]]></title>
+<description><![CDATA[<p>
+<strong>Artikel 5 Grundgesetz <em>(1)</em></strong> Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.
+</p>]]></description>
+<link>http://www.google.de/search?q=Artikel+5+Grundgesetz+(1)+Jeder+hat+das+Recht,+seine+Meinung+in+Wort,+Schrift+und+Bild+frei+zu+%C3%A4u%C3%9Fern+und+zu+verbreiten+und+sich+aus+allgemein+zug%C3%A4nglichen+Quellen+ungehindert+zu+unterrichten.+Die+Pressefreiheit+und+die+Freiheit+der+Berichterstattung+durch+Rundfunk+und+Film+werden+gew%C3%A4hrleistet.+Eine+Zensur+findet+nicht+statt.</link>
+<guid isPermaLink="true">http://www.google.de/search?q=Artikel+5+Grundgesetz+(1)+Jeder+hat+das+Recht,+seine+Meinung+in+Wort,+Schrift+und+Bild+frei+zu+%C3%A4u%C3%9Fern+und+zu+verbreiten+und+sich+aus+allgemein+zug%C3%A4nglichen+Quellen+ungehindert+zu+unterrichten.+Die+Pressefreiheit+und+die+Freiheit+der+Berichterstattung+durch+Rundfunk+und+Film+werden+gew%C3%A4hrleistet.+Eine+Zensur+findet+nicht+statt.</guid>
+<pubDate>Tue, 07 Dec 2010 20:35:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[HTML Geo Tags]]></title>
+<description><![CDATA[<p>
+<strong>Geo-Metatags</strong> haben zum Beispiel Bedeutung bei <em>ortsbezogenen Suchabfragen</em>. Zwar erklärt <em>Google</em>, dass <a class="extern" href="http://googlewebmastercentral-de.blogspot.com/2009/09/einfluss-von-geo-meta-tags-auf-die.html" title="Google und Geo-Tags"><em>Geo-Tags</em> momentan nicht relevant</a> sein, aber was nicht ist kann ja noch werden.
+</p>
+<pre>
+<code>
+&lt;meta name=&quot;DC.Coverage&quot; content=&quot;Berlin, Germany; 52.523405, 13.4114&quot;&gt;
+&lt;meta name=&quot;geo.placename&quot; content=&quot;Berlin&quot;&gt;
+&lt;meta name=&quot;geo.region&quot; content=&quot;DE-BE&quot;&gt;
+&lt;meta name=&quot;geo.placename&quot; content=&quot;Berlin&quot;&gt;
+&lt;meta name=&quot;geo.position&quot; content=&quot;52.523405;13.4114&quot;&gt;
+&lt;meta name=&quot;ICBM&quot; content=&quot;52.523405, 13.4114&quot;&gt;
+</code>
+</pre>
+<p>
+Wer es sich einfach machen m&ouml;chte, kann einen <a class="extern" href="http://www.geo-tag.de/generator/de.html" title="HTML Geo Tag Generator">Geo-Tag-Generator</a> nutzen.
+</p>
+]]></description>
+<link>http://tools.ietf.org/html/draft-daviel-html-geo-tag-08</link>
+<guid isPermaLink="true">http://tools.ietf.org/html/draft-daviel-html-geo-tag-08</guid>
+<pubDate>Wed, 24 Nov 2010 12:51:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[W3C vereinheitlicht seine Validierungsdienste]]></title>
+<description><![CDATA[<p>
+Bisher bot das <a class="external" href="http://www.w3.org/" title="World Wide Web Consortium">W3C</a> verschiedene Dienst zur Pr&uuml;fung von Websites an. Der <a class="external" href="http://validator.w3.org/" title="W3C Markup Validator">Markup Validator</a> untersuchte den HTML-Code, der <a class="external" href="http://jigsaw.w3.org/css-validator/" title="W3C CSS Validator">CSS Validator</a> die Stylesheets. Ein Service f&uuml;r <a class="external" href="http://validator.w3.org/mobile/" title="W3C Mobile Validator">Mobilgeräte</a> und <a class="external" href="http://validator.w3.org/feed/" title="W3C RSS-Feed Validator">RSS-Feeds</a> runden das Angebot ab.<br>
+Diese vier Validierungsdienste fasst <strong>Unicorn</strong> nun zusammen.</p>]]></description>
+<link>http://validator.w3.org/unicorn/</link>
+<guid isPermaLink="true">http://validator.w3.org/unicorn/</guid>
+<pubDate>Wed, 28 Jul 2010 21:01:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Microsoft's TrueType core fonts for the web]]></title>
+<description><![CDATA[<p>
+Laut dieser <a class="extern" href="http://www.microsoft.com/typography/fontpack/eula.htm"><abbr title="END-USER LICENSE AGREEMENT">EULA</abbr></a> scheint es m&ouml;glich zu sein die Schriftarten in Dokumente einzubetten. Warum also nicht in ein <code>.html</code>-Dokument via <code>@font-face</code>?
+</p>]]></description>
+<link>http://corefonts.sourceforge.net/</link>
+<guid isPermaLink="true">http://corefonts.sourceforge.net/</guid>
+<pubDate>Wed, 14 Jul 2010 19:32:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Creative Commons und Public Domain Tools]]></title>
+<description><![CDATA[<p>
+Mit dem <em><abbr title="Creative Commons">CC</abbr></em> oder <em>Public Domain Tool</em> lässt komfortabel und unkompliziert die <strong>passende Lizenz</strong> für Bilder, Videos, Dokumente oder Multimediadaten <strong>wählen</strong>.
+</p>     ]]></description>
+<link>http://creativecommons.org/choose/</link>
+<guid isPermaLink="true">http://creativecommons.org/choose/</guid>
+<pubDate>Thu, 08 Jul 2010 22:37:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Jarlsberg: Web Application Exploits and Defenses]]></title>
+<description><![CDATA[<p>
+<em>Wie sp&uuml;rt man Sicherheitsl&uuml;cken auf? Wie lassen sich Sicherheitsl&uuml;cken ausnutzen? Wie vermeidet man Sicherheitsl&uuml;cken?</em><br>
+<strong>Jarlsberg</strong> ist eine <em>Web Application</em> die bewusst Sicherheitsl&uuml;cken vorh&auml;lt. Diese gilt es zu finden und auszunutzen.
+</p>
+]]></description>
+<link>http://jarlsberg.appspot.com/</link>
+<guid isPermaLink="true">http://jarlsberg.appspot.com/</guid>
+<pubDate>Sat, 29 May 2010 19:16:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[See the Bigger Picture Album]]></title>
+<description><![CDATA[<p><q cite="http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/"><a href="http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/" title="See the Bigger Picture Album by Michael Paukner on Flickr">
+<img src="http://img.gedit.net/gedit.net/content/Vitruvian-Man-Mona-Lisa.jpg" alt="Der vitruvianische Mensch und die Mona Lisa von Leonardo da Vinci"></a>
+</q></p>]]></description>
+<link>http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/</link>
+<guid isPermaLink="true">http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/</guid>
+<pubDate>Tue, 25 May 2010 11:09:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[CKAN - Comprehensive Knowledge Archive Network]]></title>
+<description><![CDATA[<p>
+Das <abbr title="Comprehensive Knowledge Archive Network">CKAN</abbr> vereinfacht das <em>Finden</em>, <em>verfügbar Machen</em> und <em>wieder Verwenden</em> von <a class="extern" href="http://opendefinition.org/" title="Open Definition provides criteria for openness in relation to data, content, and software services"><strong>Open Data</strong> und <strong>Open Content</strong></a> Paketen.
+</p>]]></description>
+<link>http://ckan.net/</link>
+<guid isPermaLink="true">http://ckan.net/</guid>
+<pubDate>Sun, 23 May 2010 12:09:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Browser-Support für HTML5 und CSS3]]></title>
+<description><![CDATA[<p>
+Was kann <em>Safari</em> schon Heute? Welche CSS3-Eigenschaft unterstützt <em>Opera</em>? Wie werden HTML5-Elemente mit <em>Firefox</em> dargestellt?<br>
+Eine Liste die nicht zuletzt unter dem <em>Kriterium</em> <strong>für Webentwickler</strong> von <a class="extern" href="http://a.deveria.com/about" title="About Alexis Deveria"><em>Alexis Deveria</em></a> zusammen gestellt wird und wurde.
+</p>]]></description>
+<link>http://a.deveria.com/caniuse/static.html</link>
+<guid isPermaLink="true">http://a.deveria.com/caniuse/static.html</guid>
+<pubDate>Sat, 22 May 2010 21:47:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[KommDesign Informationsarchitektur]]></title>
+<description><![CDATA[<p>
+Prof. Dr. Thomas Wirth hat <strong>KommDesign</strong> zwischen 1997 und 2004 in das Web gestellt. Ich kann dem Autor nur zustimmen wenn er meint: <q cite="http://www.kommdesign.de/index.htm"> Trotzdem bleibt die Website online, denn nahezu alles, was hier über Kommunikation, Psychologie und Webdesign geschrieben wird, stimmt immer noch.</q>
+</p>]]></description>
+<link>http://www.kommdesign.de/index.htm</link>
+<guid isPermaLink="true">http://www.kommdesign.de/index.htm</guid>
+<pubDate>Sat, 22 May 2010 13:40:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Interessante Ausschreibungen für Kreative]]></title>
+<description><![CDATA[<blockquote cite="http://www.trawlix.de/trawlix/">
+<p>
+Entscheidende Faktoren in der Werbung sind erstklassige Ideen und Konzepte.<br>
+Bis heute beschr&auml;nken sich Markenverantwortliche meist auf das Briefing einer bestehenden Agentur -oder den Pitch mehrerer Agenturen. Unter dem Strich steht Einfalt statt Vielfalt. Das passende Kreativkonzept wird oft nicht gefunden.<br>
+Hier setzt Trawlix an. Spannende Marken laden hochtalentierte Kreative zu interessanten Ausschreibungen ein. Die besten Ideen gewinnen!
+</p>
+</blockquote>]]></description>
+<link>http://www.trawlix.de/trawlix/</link>
+<guid isPermaLink="true">http://www.trawlix.de/trawlix/</guid>
+<pubDate>Sat, 22 May 2010 13:36:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Datenschutz bei Onlinenetzwerken]]></title>
+<description><![CDATA[<p>
+<em>Stiftung Warentest</em> hat die bekannten Social-Media-Netzwerke getestet. Das <strong>Urteil</strong> ist <strong>vernichtend</strong>. Laut <a class="extern" href="http://www.test.de/themen/computer-telefon/test/Soziale-Netzwerke-Datenschutz-oft-mangelhaft-1854798-1855785/" title="Stiftung Warentest: Datenschutz oft mangelhaft"><em>Stiftung Warentest</em></a>: weisen <em>Facebook</em> und Co. <q cite="http://www.test.de/themen/computer-telefon/test/Soziale-Netzwerke-Datenschutz-oft-mangelhaft-1854798-1855785/">erhebliche Mängel beim Datenschutz auf. Und sie machen es Hackern leicht, auf persönliche Daten ihrer Nutzer zuzugreifen.</q>
+</p>   ]]></description>
+<link>http://www.test.de/themen/computer-telefon/test/Soziale-Netzwerke-Datenschutz-oft-mangelhaft-1854798-1855976/</link>
+<guid isPermaLink="true">http://www.test.de/themen/computer-telefon/test/Soziale-Netzwerke-Datenschutz-oft-mangelhaft-1854798-1855976/</guid>
+<pubDate>Thu, 25 Mar 2010 20:40:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Skipfish - Web-Security-Scanner]]></title>
+<description><![CDATA[<p>
+<strong>Skipfish</strong> ist ein <em>Web-Security-Scanner</em> aus dem Hause <em>Google</em>. Folgende Eigenschaften machen ihn neben alt bekannten Tools wie <a class="extern" href="http://cirt.net/nikto2" title="Nikto Web-Security-Scanner"><strong>Nikto</strong></a> oder <a class="extern" href="http://www.nessus.org/nessus/" title="Nessus vulnerability scanner"><strong>Nessus</strong></a> interessant:
+</p>
+<ul class="disc">
+    <li>Sourcecode in C</li>
+    <li>erkennt vollautomatisch Anfälligkeiten f&uuml;r Cross-Site-Scripting-Attacken, SQL- und XML-Injection-Angriffe</li>
+    <li>Optimiertes HTTP-handling / 2000 Requests per second</li>
+    <li>Auto-learning</li>
+    <li>&Uuml;bersichtlicher Abschlussbericht in HTML</li>
+</ul>]]></description>
+<link>http://code.google.com/p/skipfish/</link>
+<guid isPermaLink="true">http://code.google.com/p/skipfish/</guid>
+<pubDate>Sun, 21 Mar 2010 19:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[@font-face Font Kits]]></title>
+<description><![CDATA[<p>Alle <strong>font kits</strong> bestehen aus</p>
+<ul class="disc">
+	<li>Der Original <strong>TrueType</strong> (<abbr title="TrueType Font">TTF</abbr>) und/oder <strong>OpenType</strong> (<abbr title="Web Open Font Format">WOFF</abbr>) <strong>Fonts</strong> (Firefox 3.5+ , Opera 10+, Safari 3.1+, Chrome 4.0.249.4+)</li>
+	<li><strong><abbr title="Embedded OpenType">EOT</abbr> Fonts</strong> (Internet Explorer 4+)</li>
+	<li>Einer HTML/CSS-<strong>Demo</strong></li>
+</ul>
+<p><em>Font Squirrel</em> listet zudem alle <strong>font kits</strong> sortiert nach Serif, Sans-Serif, Monospace, Calligraphic, Handdrawn etc. und mit Vorschaubild.</p>
+]]></description>
+<link>http://www.fontsquirrel.com/fontface</link>
+<guid isPermaLink="true">http://www.fontsquirrel.com/fontface</guid>
+<pubDate>Wed, 17 Mar 2010 22:29:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Adrian Roselli Browser Archive]]></title>
+<description><![CDATA[<p>
+<a class="extern" href="http://roselli.org/adrian" title="Adrian Rosellis Website">Adrian Rosellis</a> <strong>Browser Archive</strong> auf <a class="extern" href="http://www.evolt.org/" title="evolt.org Website"><em>evolt.org</em></a> enth&auml;lt neben fr&uuml;hen Versionen bekannter Webbrowser wie <em>Mozilla Firefox</em>, <em>Opera</em>, <em>Safari</em>, <em>Internet Explorer</em> oder <em>Lynx</em> auch kurioses wie <a class="extern" href="http://de.wikipedia.org/wiki/NCSA_Mosaic" title="NCSA Mosaic Webbrowser auf Wikipedia"><em>Mosaic</em></a> oder den ersten Webbrowser namens <a class="extern" href="http://de.wikipedia.org/wiki/WorldWideWeb" title="WorldWideWeb Browser auf Wikipedia"><em>WorldWideWeb</em></a> (sp&auml;ter <em>Nexus</em> um eine Verwechslung mit dem <abbr title="World Wide Web">WWW</abbr> zu vermeiden) von <a class="extern" href="http://de.wikipedia.org/wiki/Tim_Berners-Lee" title="Tim Berners-Lee auf Wikipedia">Tim Berners-Lee</a>.
+Der Installer oder die Source der Webbrowser kann heruntergeladen werden.
+</p>]]></description>
+<link>http://browsers.evolt.org/</link>
+<guid isPermaLink="true">http://browsers.evolt.org/</guid>
+<pubDate>Sat, 13 Mar 2010 16:02:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[The Social Media Landscape]]></title>
+<description><![CDATA[<p>
+<q cite="http://www.cmo.com/sites/default/files/CMO-SOCIAL%20LANDSCAPE-R5.pdf"><a href="http://img.gedit.net/gedit.net/content/The-Social-Landscape.png" title="Bild in voller Aufl&ouml;sung betrachten"><img src="http://img.gedit.net/gedit.net/content/The-Social-Landscape-teaser.png" title="A CMO's Guide To The Social Media Landscape" alt="Eine Tabelle beschreibt die Vor- und Nachteile von verschiedenen Social Media -Anbietern wie Twitter, Facebook, Digg, Youtube etc."></a></q>
+</p>]]></description>
+<link>http://www.cmo.com/social-media/cmos-guide-social-media-landscape</link>
+<guid isPermaLink="true">http://www.cmo.com/social-media/cmos-guide-social-media-landscape</guid>
+<pubDate>Fri, 12 Mar 2010 18:02:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Ten principles that contribute to a Googley user experience]]></title>
+<description><![CDATA[<blockquote cite="Simon Raess">
+<ul class="decimal">
+	<li>
+		<dl>
+			<dt>n&uuml;tzlich</dt>
+			<dd>fokussiere dich auf Menschen, deren Leben, deren Arbeit, deren Tr&auml;ume</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>einfach</dt>
+			<dd>Einfachheit ist machtvoll</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>schnell</dt>
+			<dd>jede Millisekunde z&auml;hlt</dd>
+		</dl>
+	<li>
+		<dl>
+			<dt>gewinnend</dt>
+			<dd>gewinne die Anf&auml;nger und ziehe Experte an</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>profitabel</dt>
+			<dd>plane f&uuml;r das heutige und das morgige Business</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>Universal</dt>
+			<dd>designe f&uuml;r die Welt (alles wird f&uuml;r 40 Sprachen entwickelt)</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>vertrauensw&uuml;rdig</dt>
+			<dd>zeige dich w&uuml;rdig f&uuml;r das Vertrauen der Menschen</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>sch&ouml;ne</dt>
+			<dd>erfreue das Auge ohne den Verstand zu st&ouml;ren</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>pers&ouml;nlich</dt>
+			<dd>f&uuml;ge einen menschlichen Touch dazu</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>innovativ</dt>
+			<dd>getraue dich neues zu erfinden</dd>
+		</dl>
+	</li>
+</ul>
+</blockquote>]]></description>
+<link>http://www.google.com/corporate/ux.html</link>
+<guid isPermaLink="true">http://www.google.com/corporate/ux.html</guid>
+<pubDate>Sun, 07 Feb 2010 18:29:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Dive Into HTML5: Video on the Web]]></title>
+<description><![CDATA[<p>
+<a class="extern italic" href="http://de.wikipedia.org/wiki/H.264" title="Wikipedia: H.264/MPEG-4 AVC">H.264</a> ist nicht zuletzt wegen dem Vorstoß von <a class="extern italic" href="http://www.pro-linux.de/NB3/news/1/15218/html5-video-und-h264.html" title="Pro-Linux: HTML5 Video und H.264">Google / Youtube</a> in aller Munde. Weshalb ich mich auf die Suche nach einem verwendbarem <abbr title="HyperText Markup Language">HTML5</abbr>-Beispiel gemacht habe. Dabei bin ich auf <a class="extern bold" href="http://diveintohtml5.org/video.html" title="Dive into HTML5: Video on the Web">Video on the Web</a>, ein Kapitel aus <a class="extern bold" href="http://diveintohtml5.org/video.html" title="Dive into HTML5 by Mark Pilgrim">Dive Into HTML5</a> von Mark Pilgrim gestoßen.<br>
+<strong>Video on the Web</strong> beschreibt <em>Kompressionsverfahren</em>, <em>Konvertierungssoftware</em> und Beispiele um Videos via HTML5 ohne Plugins abzuspielen. Es lohnt sich auch ein Blick in <a class="extern" href="http://diveintohtml5.org/video.html" title="Dive into HTML5 by Mark Pilgrim">andere Kapitel</a>.
+</p>]]></description>
+<link>http://diveintohtml5.org/video.html</link>
+<guid isPermaLink="true">http://diveintohtml5.org/video.html</guid>
+<pubDate>Wed, 27 Jan 2010 21:37:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Explaining UX Research to Clients]]></title>
+<description><![CDATA[<p>
+<em>David Sherwin</em> bringt in seinem englischsprachigen Artikel <q>Can You Say That in English? Explaining UX Research to Clients</q> auf den Punkt was die Recherche von <em>user experience</em> (UX) ausmacht, wie sie funktioniert und wie man sie mit hilfe von Beispielen dem Kunden vermitteln kann.
+</p>]]></description>
+<link>http://www.alistapart.com/articles/can-you-say-that-in-english-explaining-ux-research-to-clients/</link>
+<guid isPermaLink="true">http://www.alistapart.com/articles/can-you-say-that-in-english-explaining-ux-research-to-clients/</guid>
+<pubDate>Wed, 04 Nov 2009 16:18:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Richtlinien für barrierefreie Webinhalte (WCAG) 2.0]]></title>
+<description><![CDATA[<p>
+Am 29. Oktober ist die <em>autorisierte deutsche &Uuml;bersetzung</em> der <strong>Web Content Accessibility Guidelines (WCAG) 2.0</strong> ver&ouml;ffentlicht worden.<br>
+&Uuml;bersetzt von der <a class="extern" href="http://www.aktion-mensch.de/" title="Aktion Mensch"><em>Deutsche Behindertenhilfe Aktion Mensch e.V.</em></a> welcher auch <a class="extern" href="http://www.einfach-fuer-alle.de/" title="Einfach f&uuml;r Alle"><em>Einfach f&uuml;r Alle</em></a> mit den <strong>Barrierefreie Informationstechnik-Verordnung (BITV)</strong> publiziert.
+</p>]]></description>
+<link>http://www.w3.org/Translations/WCAG20-de/</link>
+<guid isPermaLink="true">http://www.w3.org/Translations/WCAG20-de/</guid>
+<pubDate>Wed, 04 Nov 2009 15:55:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Matthew James Taylor]]></title>
+<description><![CDATA[<p>
+Auf <em>Matthew James Tylor</em>s Website finden sich zahlreiche Artikel zum Thema <abbr title="Cascading Style Sheets">CSS</abbr> und Webdesign. 
+Vorallem aber möchte ich euch die verschiedenen Artikel zu <a class="extern" href="http://matthewjamestaylor.com/search/column" title="multi-column Layouts"><strong>multi-column Layouts</strong></a> ans Herz legen. Beitr&auml;ge wie <q cite="http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks">Equal Height Columns with Cross-Browser CSS and No Hacks</q> (and No Images) oder <q cite="http://matthewjamestaylor.com/blog/holy-grail-liquid-layout-no-quirks-mode">The Holy Grail Liquid-Layout, No Quirks Mode</q> halten was sie versprechen.
+</p>]]></description>
+<link>http://matthewjamestaylor.com/</link>
+<guid isPermaLink="true">http://matthewjamestaylor.com/</guid>
+<pubDate>Sun, 01 Nov 2009 14:14:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[10 Jahre lyrikline.org]]></title>
+<description><![CDATA[<p>
+<em>lyrikline.org</em> hat sich zur Aufgabe gemacht <strong>zeitgen&ouml;ssische Poesie</strong> im <em>World Wide Web</em> zug&auml;ngig zu machen, in <em>&Uuml;bersetzungen</em> und vom Autor oder der Autorin in <em>Originalsprache gesprochen</em>.<br>
+Das 1999 gestartete Projekt feiert heuer sein <strong>10 J&auml;hriges bestehen</strong> mit einer <a class="extern" href="http://lyrikline.org/index.php?id=203&amp;L=0" title="10 Jahre lyrikline.org Festwoche"><strong>Festwoche</strong></a> vom 26.-31. Oktober 2009.
+</p>
+]]></description>
+<link>http://lyrikline.org/</link>
+<guid isPermaLink="true">http://lyrikline.org/</guid>
+<pubDate>Mon, 26 Oct 2009 23:10:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[W3C Website in neuem Design]]></title>
+<description><![CDATA[<p>
+Seit dem 13. Oktober 2009 erscheint die Website des <abbr title="World Wide Web Consortium">W3C</abbr> in neuem Gewand.<br>
+Das neue Design wirkt leicht und minimalistisch; ein Blick in den Quelltext lohnt sich auf jeden Fall.
+</p> ]]></description>
+<link>http://www.w3.org/News/2009#entry-6521</link>
+<guid isPermaLink="true">http://www.w3.org/News/2009#entry-6521</guid>
+<pubDate>Fri, 23 Oct 2009 08:31:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Google und  Keywords Metatags]]></title>
+<description><![CDATA[<p>
+Es ist kein Geheimnis, dass <strong>Google</strong> nicht viel auf das <strong>Keywords Metatag</strong> gibt. Nicht zuletzt, weil es zu oft missbraucht wird und wurde.
+Seit dem gestrigen Montag <strong>bestätigt</strong> dies ein Artikel im <strong>Google Webmaster Blog</strong>.
+</p>
+]]></description>
+<link>http://googlewebmastercentral.blogspot.com/2009/09/google-does-not-use-keywords-meta-tag.html</link>
+<guid isPermaLink="true">http://googlewebmastercentral.blogspot.com/2009/09/google-does-not-use-keywords-meta-tag.html</guid>
+<pubDate>Tue, 22 Sep 2009 20:57:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[W3C Toolbox]]></title>
+<description><![CDATA[<p>
+Die <abbr title="World Wide Web Consortium">W3C</abbr> Toolbox h&auml;lt neben den bekannteren Werkzeugen wie <em><abbr title="Hyper Text Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheet">CSS</abbr> Validator</em>
+auch Funktionen wie <em>Spellcheck</em>, <em>Linkcheck</em>, <em>Plaintext</em>, <em>List of Web pages that link to it</em> oder <em>Data about caching</em> bereit.
+</p>
+<p>
+Mnot zeigt in seinem Artikel <a class="extern" href="http://www.mnot.net/blog/2005/10/23/rewrite_tools" title="Mnot on emulating W3C ,tools"><cite>Emulating W3C ,tools with mod_rewrite</cite></a> wie man diese Funktionen via <code>mod_rewrite</code> leicht in die eigene Website integrieren kann.
+</p>]]></description>
+<link>http://www.w3.org/,tools</link>
+<guid isPermaLink="true">http://www.w3.org/,tools</guid>
+<pubDate>Fri, 21 Aug 2009 14:06:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[E-Lerningplattform Digital Media for Artists der Kunstuniversität Linz]]></title>
+<description><![CDATA[<p>
+<em>Digital Media for Artists</em> ist die frei zug&auml;ngliche <strong>E-Learningplattform</strong> f&uuml;r die <strong>digitale Medienausbildung</strong> an der <em>Kunstuniversit&auml;t Linz</em>.<br>
+Die E-Learningplattform h&auml;lt unz&auml;hlige <strong>Tutorials</strong> und Module zu Themen wie <em>Adobe Photoshop</em>, <em>Adobe Illustrator</em>, <em>Flash</em>, <em>ActionScript</em>, <em>Typo3</em>, <em>Joomla</em> oder dem <em>planen und erstellen von Webauftritten</em> bereit.
+</p>]]></description>
+<link>http://www.dma.ufg.ac.at/app/link/Allgemein:Einleitung</link>
+<guid isPermaLink="true">http://www.dma.ufg.ac.at/app/link/Allgemein:Einleitung</guid>
+<pubDate>Sun, 16 Aug 2009 20:29:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Beispiel für kreative Webgestalltung]]></title>
+<description><![CDATA[<p>
+Auf <em>Behance Network</em> gibt es ein sch&ouml;nes <strong>Beispiel</strong> f&uuml;r <strong>kreative Webgestalltung</strong>.<br>
+Neben dem <a class="extern" href="http://www.behance.net/Gallery/Electrolux-ARTHOME/275405" title="Konzept Electrolux Website">Konzept</a> kann man auch gleich das <a class="extern" href="http://www.art-home-electrolux.com/" title="Electrolux Homepage">Ergebnis</a> bestaunen.
+</p>]]></description>
+<link>http://www.behance.net/Gallery/Electrolux-ARTHOME/275405</link>
+<guid isPermaLink="true">http://www.behance.net/Gallery/Electrolux-ARTHOME/275405</guid>
+<pubDate>Sun, 16 Aug 2009 20:25:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Dropdown low down]]></title>
+<description><![CDATA[<p>
+Im Vergleich bei <em>Tyssen Design</em>: <strong>Dropdown-Men&uuml;s</strong> in allen erdenklichen Varianten und Techniken.<br>
+<em>Dropdown low down</em> geht ausf&uuml;hrlich auf die Vor- und Nachteile der verschiedenen Techniken und Varianten ein.
+</p>]]></description>
+<link>http://www.tyssendesign.com.au/articles/css/dropdown-low-down/</link>
+<guid isPermaLink="true">http://www.tyssendesign.com.au/articles/css/dropdown-low-down/</guid>
+<pubDate>Sun, 16 Aug 2009 20:13:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Bitkom Umfrage]]></title>
+<description><![CDATA[<blockquote cite="http://www.bitkom.org/de/presse/8477_60582.aspx">
+<p>
+Fast die H&auml;lfte der PC-Nutzer klagt &uuml;ber zu kleine Schrift im Internet und anderen Anwendungen
+</p>
+</blockquote>]]></description>
+<link>http://www.bitkom.org/de/presse/8477_60582.aspx</link>
+<guid isPermaLink="true">http://www.bitkom.org/de/presse/8477_60582.aspx</guid>
+<pubDate>Mon, 03 Aug 2009 23:32:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[font-face embedding anhand der OpenType Schriftart Kaffeesatz]]></title>
+<description><![CDATA[<p>
+Der Beitrag von <a class="extern" href="http://codecandies.de/" title="Codercandies Blog">Codercandies</a> zeigt anhand der <a class="extern" href="http://de.wikipedia.org/wiki/OpenType" title="Wikipedia OpenType">OpenType</a> Schriftart <em>Kaffeesatz</em> was mit der neuen <abbr title="Cascading Style Sheet">CSS</abbr>3 Eigenschaft <code>@font-face</code> m&ouml;glich wird.<br>
+<a class="extern" href="http://yanone.de/typedesign/kaffeesatz/" title="Yanones Kaffeesatz">Yanones Kaffeesatz</a> eignet sich daf&uuml;r hervorragend, da die Schriftart unter einer <abbr title="Creativ Commons">CC</abbr>-Lizenz steht und Schriftschnitte wie <em>Thin</em>, <em>Light</em>, <em>Regular</em> und <em>Bold</em> bereit h&auml;lt. 
+</p>]]></description>
+<link>http://codecandies.de/2009/06/30/embedden-sie-jetzt/</link>
+<guid isPermaLink="true">http://codecandies.de/2009/06/30/embedden-sie-jetzt/</guid>
+<pubDate>Sun, 02 Aug 2009 11:03:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[CSS Schriftgrößenabgleich]]></title>
+<description><![CDATA[<p>
+Eine der neuen <abbr title="Cascading Style Sheet">CSS</abbr>3 Eigenschaften ist <code>font-size-adjust</code>.
+Mit <a class="extern" href="http://www.w3.org/TR/css3-fonts/#relative-sizing-the-font-size-adjust-pro" title="W3 CSS3 font-size-adjust property">font-size-adjust</a> wird ein einheitliches Schriftbild selbst bei den unterschiedlichsten Schriftfamilien im Font-Stack m&ouml;glich, da der adjust-Wert die Buchstabengr&ouml;&szlig;en der verschiedenen  Schriftfamilien so skaliert, dass sie einheitlich wirken.
+</p>
+<p>
+<a class="extern" href="http://www.peterkroener.de" title="Peter Kr&ouml;ner">Peter Kr&ouml;ner</a> hat zu diesem Thema einen interessanten Artikel mit vielen Beispielen verfasst.
+</p>
+]]></description>
+<link>http://www.peterkroener.de/schoenes-neues-css-font-size-adjust/</link>
+<guid isPermaLink="true">http://www.peterkroener.de/schoenes-neues-css-font-size-adjust/</guid>
+<pubDate>Sun, 02 Aug 2009 10:47:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Guidelines on alt texts in img elements]]></title>
+<description><![CDATA[<p>
+Der <strong>Alternativtext</strong> f&uuml;r <strong>Bilder</strong> und <strong>Grafiken</strong>, soll diese beschreiben oder deren Bedeutung ersetzen.<br>
+<a class="extern" href="http://www.cs.tut.fi/~jkorpela/personal.html" title="About Jukka Korpela">Jukka Korpelas</a> Artikel <em>Guidelines on <code>alt</code> texts in <code>img</code> elements</em> erkl&auml;rt warum das <code>alt</code>-Attribut f&uuml;r <code>img</code>-Elemente unverzichtbar ist und wie sich seine Interpretation im laufe der Zeit ver&auml;ndert hat.
+</p>]]></description>
+<link>http://www.cs.tut.fi/~jkorpela/html/alt.html</link>
+<guid isPermaLink="true">http://www.cs.tut.fi/~jkorpela/html/alt.html</guid>
+<pubDate>Mon, 20 Jul 2009 23:07:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Webfonts Demo und Testseiten]]></title>
+<description><![CDATA[<p>
+<a class="extern" href="http://www.princexml.com/" title="Prinz XML">Prince</a> listet zehn Beispiele zur Demonstration der neuen <abbr title="Cascading Style Sheet">CSS</abbr>3 <a class="extern" href="http://www.w3.org/TR/css3-fonts/#the-font-face-rule" title="CSS3 font-face-rule"><code>font-face</code></a> Regel auf.<br>
+Die <abbr title="Hyper Text Markup Language">HTML</abbr>-, <abbr title="Portable Document Format">PDF</abbr>- und <abbr title="Portable Network Graphics">PNG</abbr>-Beispielen zeigen eindrucksvoll was mit dem verlinken von Schriftfamilien m&ouml;glich wird.
+</p>
+]]></description>
+<link>http://www.princexml.com/howcome/2008/webfonts/</link>
+<guid isPermaLink="true">http://www.princexml.com/howcome/2008/webfonts/</guid>
+<pubDate>Sun, 19 Jul 2009 21:13:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Typographie für Webautoren]]></title>
+<description><![CDATA[<p>
+Eine hervorragende Einf&uuml;hrung und Ressource zu Typographie im Web bietet <a class="extern" href="http://webdesign.crissov.de/" title="Christoph P&auml;per on webdesign">Christoph P&auml;pers</a> Artikel <em>Typographie f&uuml;r Webautoren</em>.<br>
+Neben <em>Schweizern</em> und anderen <em>Franzosen</em> geht es um <em>Leerzeichen</em>, <em>Anf&uuml;hrungszeichen</em>, <em>Apostroph</em>, <em>Zahlen</em> und <em>Einheiten</em>, <em>Bindestriche</em> oder <em>Telefonnummern</em>.
+</p> ]]></description>
+<link>http://webdesign.crissov.de/Typographie</link>
+<guid isPermaLink="true">http://webdesign.crissov.de/Typographie</guid>
+<pubDate>Sun, 19 Jul 2009 20:41:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Law Podcasting - Anwalt-Audio-Blog]]></title>
+<description><![CDATA[<p>
+Der <a class="extern" href="http://www.law-podcasting.de/" title="Law Podcasting">Anwalt-Audio-Blog</a> &quot;archiviert&quot; aktuelle <strong>Rechtsprechung</strong> und <strong>Urteile</strong> im Audioformat.<br>
+In der Kategorie <em>Neuen Medien</em> finden sich Podcasts zu Themen wie <em>Creative Commons License</em>, <em>IP-Speicherung</em>, <em>Datenschutz</em> oder <em>Urheberrecht</em>.
+</p>]]></description>
+<link>http://www.law-podcasting.de/index.php?cat=Rechtd.NeuenMedien</link>
+<guid isPermaLink="true">http://www.law-podcasting.de/index.php?cat=Rechtd.NeuenMedien</guid>
+<pubDate>Wed, 15 Jul 2009 00:27:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Arial gleich Helvetica?]]></title>
+<description><![CDATA[<p>
+Nein, das sei vorweg genommen. Beide Schriften sehen sich aber sehr &auml;hnlich (Proportionen sind die Selben, viele Lettern haben den gleichen Schnitt oder unterscheiden sich kaum). <a class="extern" href="http://ms-studio.com/articlesarialsid.html" title="How to spot Arial by Mark Simonson">Unterschiede</a> kann man Beispielsweise am <em>t</em> der Schriften feststellen. Das <em>t</em> der <strong>Arial</strong> ist am obigen Ende geschnitten, dass der <strong>Helvetica</strong> nicht.
+</p>
+<p>
+Zur heutigen Verbreitung der <strong>Arial</strong> hat Microsofts Monopol beigetragen. Microsoft wollte mit der Einf&uuml;hrung von Windows 3.1 die Lizenzgeb&uuml;hren für die <strong>Helvetica</strong> nicht bezahlen und entschied sich aus diesem Grund f&uuml;r die <strong>Arial</strong>.
+</p>
+<p>
+Wer mehr zur Geschichte der beiden Schriften wissen m&ouml;chte, sollte den englischsprachigen Artikel <a class="extern" href="http://ms-studio.com/articles.html" title="The Scourge of Arial by Mark Simonson"><em>The Scourge of Arial</em></a> von Mark Simonson lesen.
+</p>]]></description>
+<link>http://ms-studio.com/articles.html</link>
+<guid isPermaLink="true">http://ms-studio.com/articles.html</guid>
+<pubDate>Sun, 12 Jul 2009 10:49:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Language support in Apache through negotiation]]></title>
+<description><![CDATA[<p>
+Mehrsprachige Webseiten mit Hilfe von <em>Apache <code>mod_negotiation</code></em>.<br>
+Mit diesem Thema besch&auml;ftigt sich <em>David Seager</em> in seinem Artikel auf <em>IBM Developerworks</em>.
+</p>
+<p>
+Neben der angesprochenen Realisierung mit <a class="extern" href="http://httpd.apache.org/docs/2.2/de/content-negotiation.html" title="Apache Docs Content Negotiation"><code>mod_negotiation</code></a> sowie <a class="extern" href="http://httpd.apache.org/docs/2.2/de/howto/ssi.html" title="Apache Docs Server Side Includes"><abbr title="Server Side Includes">SSI</abbr></a> beschreibt der Autor auch einen L&ouml;sungsansatz mit <abbr title="Personal Home Page Tools">PHP</abbr>.<br>
+Bei beiden Ans&auml;tzen wird mit Hilfe von <code>Accept-Language</code> die <code>Content-Language</code> zugewiesen.
+</p>]]></description>
+<link>http://www.ibm.com/developerworks/library/wa-apac.html</link>
+<guid isPermaLink="true">http://www.ibm.com/developerworks/library/wa-apac.html</guid>
+<pubDate>Fri, 03 Jul 2009 13:41:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[XHTML2 ist tot, es lebe HTML5]]></title>
+<description><![CDATA[<p>
+Laut <a class="extern" href="http://www.w3.org/News/" title="World Wide Web Consortium News">W3 Consortium</a> wird sich die <em><abbr title="Extensible HyperText Markup Language">XHTML</abbr>2 Working Group</em> am Ende des Jahres aufl&ouml;sen. Man werde sich verst&auml;rkt auf die Entwicklung von <abbr title="Hypertext Markup Language">HTML</abbr>5 konzentrieren.
+</p>]]></description>
+<link>http://www.w3.org/News/2009#item119</link>
+<guid isPermaLink="true">http://www.w3.org/News/2009#item119</guid>
+<pubDate>Fri, 03 Jul 2009 13:18:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Eine (Wieder)Einführung in Javascript]]></title>
+<description><![CDATA[<p>
+<a class="extern" href="http://simonwillison.net/" title="Simon Willisons Website">Simon Willison</a> englischsprachiger Artikel <em>A re-introduction to JavaScript</em> ist 2006 im <a class="extern" href="https://developer.mozilla.org/" title="Mozilla Developer Center">Mozilla Developer Center</a> erschienen. Er besticht neben seiner klaren und knackigen Formulierung, durch etliche Tricks und Kniffe die sich der Leser mitnehmen kann.
+</p>]]></description>
+<link>https://developer.mozilla.org/en/A_re-introduction_to_JavaScript</link>
+<guid isPermaLink="true">https://developer.mozilla.org/en/A_re-introduction_to_JavaScript</guid>
+<pubDate>Wed, 24 Jun 2009 14:38:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Webseiten auf Mobiltelefonen Windows Mobile testen]]></title>
+<description><![CDATA[<p>
+Wie sehen meine Webseiten auf dem Mobiltelefon aus?<br>
+Wer dass schon immer mal testen wollte &mdash; Microsoft bietet auf seiner Downloadseite den standalone <em>Windows Mobile Device Emulator</em> an.<br>
+Er emuliert <em>Pocket PCs</em> und <em>Smart Phones</em>, die
+mit hilfe von <a class="extern" href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=04d26402-3199-48a3-afa2-2dc0b40a73b6" title="Download Microsoft Virtual PC 2007">Virtual PC 2007</a> Netzwerkf&auml;hig werden.
+<p>
+Es empfiehlt sich, neben dem in <em>Windows Mobile</em> integrierten <abbr title="Internet Explorer">IE</abbr>, auch <a class="extern" href="http://www.opera.com/mobile/" title="Opera Mobile">Opera Mobile</a> beziehungsweise <a class="extern" href="http://www.opera.com/mobile/download/" title="Opera Mini f&uuml;r Pocket PCs">Opera Mobile f&uuml;r Pocket PCs</a> zu installieren.<br>
+<a class="extern" href="http://www.opera.com/mobile/" title="Opera Mobile">Opera Mobile</a> unterst&uuml;tzt zum Beispiel <code>@import handheld {}</code> (Was allerdings, in den Einstellungen, manuel aktiviert werden muss).
+</p>]]></description>
+<link>http://www.microsoft.com/downloads/details.aspx?FamilyId=C62D54A5-183A-4A1E-A7E2-CC500ED1F19A&amp;displaylang=en</link>
+<guid isPermaLink="true">http://www.microsoft.com/downloads/details.aspx?FamilyId=C62D54A5-183A-4A1E-A7E2-CC500ED1F19A&amp;displaylang=en</guid>
+<pubDate>Mon, 22 Jun 2009 14:29:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Professionelle Webentwicklung und Wartbarkeit]]></title>
+<description><![CDATA[<p>
+<a class="extern" href="" title="Jens Meiert Website">Jens Meiert</a> zum Thema <strong>Wartbarkeit</strong>.<br>
+&Uuml;ber <em>aufgebl&auml;hten Code</em>, <code>id</code> und <code>class</code> <em>Namensr&auml;ume</em>, den Einsatz von <em>Mediatypes</em> und <em>Scriptnamen</em>.
+</p>]]></description>
+<link>http://meiert.com/de/publications/speeches/20090527/</link>
+<guid isPermaLink="true">http://meiert.com/de/publications/speeches/20090527/</guid>
+<pubDate>Sat, 20 Jun 2009 22:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Conditional Comments that Work]]></title>
+<description><![CDATA[<p>
+Der ein oder andere von euch wird schonmal <em>Conditional Comments</em> benutzt haben. F&uuml;r die die diesen Begriff noch nie geh&ouml;rt haben, dass sind die <abbr title="Hyper Text Markup Language">HTML</abbr>-Kommentare die nur der <em>Internet Explorer</em> versteht.<br>
+Sie sehen meistens wie folgt aus: <code>&lt!--[if IE]&gt</code> und helfen Macken im <abbr title="Internet Explorer">IE</abbr> aus zu merzen, nur bestimmte Versionen des <abbr title="Internet Explorer">IE</abbr> anzusprechen oder eben, was auch im <a class="extern" href="http://www.cssplay.co.uk/menu/conditional.html" title="CSS Play Conditional Comments">verlinkte Artikel</a> angesprochen wird, den <abbr title="Internet Explorer">IE</abbr> au&szlig;en vor zu lassen. Hilfreich um z. B. <abbr title="Internet Explorer">IE</abbr> keinen Style Cheet anzubieten.
+</p>
+<p>
+<a class="extern" href="http://www.cssplay.co.uk/" title="CSS Play Website">CSS Play</a> schaft es, neben den gebr&auml;chlichen Gebrauchsmustern von <em>Conditionsal Comments</em>, auch die Negation richtig (<code>&lt;!--&gt;</code> ohne diesen weiteren leeren Kommentar zeigen zugelassene <abbr title="Internet Explorer">IE</abbr> Versionen teile des <em>Conditional Comments</em> an.) zu pr&auml;sentieren.
+</p>]]></description>
+<link>http://www.cssplay.co.uk/menu/conditional.html</link>
+<guid isPermaLink="true">http://www.cssplay.co.uk/menu/conditional.html</guid>
+<pubDate>Fri, 19 Jun 2009 02:19:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[SOME  NOTES  ON  BOOKS  AND  PRINTING]]></title>
+<description><![CDATA[<p>
+Die Erstausgabe von <span class="serif">CHARLES T. JACOBI</span>'s Buch <span class="serif">SOME  NOTES  ON  BOOKS  AND  PRINTING &mdash; A GUIDE FOR AUTHORS, PUBLISHERS &amp; OTHERS</span> erschien im Nov. 1892.
+</p>
+<p>
+<a class="extern" href="http://www.presscom.co.uk/" title="Presscom - Small Press Republication">Presscom</a> hat die dritte Auflage dieses Werks online liebevoll republiziert.
+</p>
+]]></description>
+<link>http://www.presscom.co.uk/printing/jacobi.html</link>
+<guid isPermaLink="true">http://www.presscom.co.uk/printing/jacobi.html</guid>
+<pubDate>Wed, 17 Jun 2009 12:59:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[On having layout / Über hasLayout]]></title>
+<description><![CDATA[<p>
+<code>hasLayout = true</code>?<br>
+Viele Darstellungsprobleme des Internet Explorers lassen sich vermeiden in dem man Elementen <em>Layout</em> gibt.<br>
+<q cite="http://onhavinglayout.fwpf-webdesign.de/">
+»Layout« ist ein propriet&auml;res Konzept des IE/Win, das bestimmt, wie Elemente ihren Inhalt zeichnen und begrenzen, wie sie mit anderen Elementen interagieren und in welcher Beziehung sie stehen und wie sie auf Anwendungs- oder Benutzeraktionen reagieren und sie &uuml;bertragen.
+</q><br>
+<a class="extern" href="http://corina-rudel.de/" title="Corina Rudel Innenarchitektur">Corina Rudel</a> hat den <a class="extern" href="http://www.satzansatz.de/cssd/onhavinglayout.html" title="On having layout">orginal Artikel</a>, der Aspekte dieser <abbr title="Internet Explorer">IE</abbr>/Win <del>Bugs</del> <ins>Eigenschaft</ins> beleuchtet, aus dem Englischen ins Deutsche &uuml;bersetzt.
+</p>]]></description>
+<link>http://onhavinglayout.fwpf-webdesign.de/</link>
+<guid isPermaLink="true">http://onhavinglayout.fwpf-webdesign.de/</guid>
+<pubDate>Tue, 16 Jun 2009 21:35:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Internet Explorer CSS Bugs]]></title>
+<description><![CDATA[<p>
+<a class="extern" href="http://www.positioniseverything.net/" title="Position Is Everything">Position Is Everything</a> listet bekannte Internet Explorer <abbr title="Cascading Style Cheet">CSS</abbr> Bugs ab Version 5. Die verschiedenen <abbr title="Internet Explorer">IE</abbr> Bugs werden umfangreich erkl&auml;rt, demonstriert und gel&ouml;st.
+</p>]]></description>
+<link>http://www.positioniseverything.net/explorer.html</link>
+<guid isPermaLink="true">http://www.positioniseverything.net/explorer.html</guid>
+<pubDate>Tue, 16 Jun 2009 21:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[IBM Drupal/OpenSource Web design, develop and deploy Howto]]></title>
+<description><![CDATA[<p>
+Das aus dem Hause <a class="extern" href="http://www.ibm.com/" title="IBM Website">IBM</a> stammende Howto, <q><a class="extern" href="http://www.ibm.com/developerworks/ibm/osource/index.html" title="IBM Drupal Howto">Using open source software to design, develop, and deploy a collaborative Web site</a></q>, vermittelt dem interessierten Leser alle n&ouml;tigen Kenntnisse, um eine Webprojekt mit Hilfe von Drupal und anderer Open Source Software auf die Beine zu stellen.<br>
+Das Howto setzt beim einrichten einer Entwicklungsumgebung (sowohl unter Linux als auch Windows) an und zieht sich &uuml;ber das Schreiben von eigenen Modulen bis hin zum hosten der fertigen Webseite.
+</p>
+
+]]></description>
+<link>http://www.ibm.com/developerworks/ibm/osource/implement.html</link>
+<guid isPermaLink="true">http://www.ibm.com/developerworks/ibm/osource/implement.html</guid>
+<pubDate>Fri, 12 Jun 2009 16:12:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[Top Ten Javavascript Snippets]]></title>
+<description><![CDATA[<p>
+<a class="extern" href="http://www.dustindiaz.com/" title="Dustin Diaz Website">Dustin Diaz</a> hat sich die Arbeit gemacht und die wohl 10 brauchbarsten Javascript Snippets aller Zeiten zusammengetragen.<br>
+Darunter finden sich Klassiker wie <code>toggle()</code>, <code>addEvent()</code> oder <code>getElementsByClass()</code>.
+</p>]]></description>
+<link>http://www.dustindiaz.com/top-ten-javascript/</link>
+<guid isPermaLink="true">http://www.dustindiaz.com/top-ten-javascript/</guid>
+<pubDate>Fri, 12 Jun 2009 16:05:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

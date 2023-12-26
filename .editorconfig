@@ -1,0 +1,6 @@
+# Top-most EditorConfig file
+root = true
+
+# Specify settings for Makefiles
+[Makefile]
+indent_style = tab

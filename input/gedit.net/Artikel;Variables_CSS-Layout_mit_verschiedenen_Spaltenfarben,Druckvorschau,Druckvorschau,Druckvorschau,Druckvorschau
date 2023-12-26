@@ -1,0 +1,477 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+		"http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="de">
+<title> Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Druckvorschau - Gedit</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Variables CSS-Layout mit verschiedenen Spaltenfarben - Druckvorschau">
+<meta name="keywords" content="gedit, variables CSS-Layout, CSS Spalten-Layout, CSS Layout, gefloatet, Spalten Layout, CSS Spaltenfarben, Variables Layout">
+<meta name="rating" content="general">
+<meta name="revisit-after" content="7 days">
+<meta name="expires" content="never">
+<meta name="distribution" content="global">
+<meta name="robots" content="noindex,follow">
+<meta name="date" content="2023-12-26">
+<meta name="author" content="Simon Gattner">
+<meta name="copyright" content="Simon Gattner">
+<meta name="publisher" content="Simon Gattner">
+<meta name="page-topic" content="Dienstleistung, Privat">
+<meta name="page-type" content="Artikel">
+<meta name="audience" content="Webworker, Webmaster, Webdeveloper, Admin, IT, Designer, Freelancer, Press, programmer, Coder, Scripter, Systemadmin, Gurus">
+<link rel="alternate" type="application/rss+xml" title="gedit.NET - RSS Feed" href="RSS">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="impressum" title="Impressum" href="Impressum">
+<link rel="contents" title="Inhaltsverzeichnis" href="SITEMAP">
+<link rel="search" title="Suche" href="SUCHE">
+<link rel="copyright" title="Urheberrecht" href="CC">
+<link rel="top" title="Startseite" href="index.html">
+<link rel="print" title="Druckvorschau" href="http://gedit.net/Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau">
+<link rel="subsection" title="Artikel" href="Artikel">
+<link rel="subsection" title="Services" href="Services">
+<link rel="subsection" title="Weblog" href="Weblog">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script src="js/default.js" type="text/javascript"></script>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/style.css.php?ctg=9&amp;gzip=true" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/ie/style.css.php?gzip=true" media="all">
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/ie/7/style.css.php?gzip=true" media="all">
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/ie/6/style.css.php?gzip=true" media="all">
+	<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/print/style.css.php?ctg=9&amp;gzip=true" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/print/ie/style.css.php?gzip=true" media="all">
+	<![endif]-->
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<a name="top"></a>
+	<div id="header-nav">
+		<h1><a href="index.html" title="Startseite">gedit.net/</a></h1>
+		<h2><a href="Artikel" title="Artikel">Artikel/</a></h2>
+				<h3><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben" title="Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben">Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben</a></h3>
+										</div>
+	<div id="header-search">
+		<div class="nav">
+			<h1>Suchen</h1>
+			<form action="SUCHE" method="post">
+			<ul>
+				<li><label for="Suchtext" accesskey="s"><input type="text" class="q" name="q" value="" maxlength="50" alt="Suchtext" id="Suchtext"></label></li>
+				<li><label for="Finden" accesskey="f"><input type="submit" name="finden" value="Finden" alt="Finden" id="Finden"></label></li>
+			</ul>
+			</form>
+		</div>
+	</div>
+	<div id="header-subnav">
+		<ul>
+						<li><a href="index.html" title="Home">Home</a></li>
+						<li>| <a href="Artikel" title="Artikel">Artikel</a></li>
+						<li>| <a href="Weblog" title="Weblog">Weblog</a></li>
+						<li>| <a href="SITEMAP" title="Sitemap">Sitemap</a></li>
+						<li>| <a href="Impressum" title="Impressum">Impressum</a></li>
+						<li>| <a href="Kontakt" title="Kontakt">Kontakt</a></li>
+						<!-- <li>| <a rel="nofollow" href="/Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau" title="Druckvorschau">Druckvorschau</a></li> -->
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+<!-- start content -->
+<div id="content">
+<!-- start content left -->
+	<div id="content-left">
+		<h1>Variables CSS-Layout mit verschiedenen Spaltenfarben</h1>		<ul class="decimal bold green">
+<li><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau#Vorwort" title="//gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Vorwort">Vorwort</a></li>
+<li><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau#Technik_mit_Hintergrundfarbe" title="//gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Technik mit Hintergrundfarbe">Technik mit Hintergrundfarbe</a></li>
+<li><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau#Technik_mit_Hintergrundgrafik" title="//gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Technik mit Hintergrundgrafik">Technik mit Hintergrundgrafik</a></li>
+<li><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau#Templates" title="//gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Templates">Templates</a></li>
+<li><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau#Links" title="//gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Links">Links</a></li>
+</ul>
+
+<h2><a name="Vorwort">Vorwort</a></h2>
+<p>
+	Bei der Realisierung eines <strong>variablen</strong>,
+	<strong>mehrspaltigen <abbr title="Cascading Style Sheets">CSS</abbr>-Layout</strong> mit verschieden Hintergrundfarben
+	sto&szlig;en auch erfahrenere <abbr title="Cascading Style Sheets">CSS</abbr>-Anwender an ihre Grenzen.
+</p>
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL.gif" alt="CSS Spalten-Layout">
+<p>
+	F&uuml;r den Betrachter soll der Eindruck entstehen, dass die verschiedenen Spalten unabh&auml;ngig vom Inhalt,
+	<strong>durchg&auml;ngig</strong> mit <strong>verschiedenen Hintergrundfarben</strong> gef&uuml;llt sind.<br>
+	Soll das <strong>Layout</strong> zudem einer <strong>Vergr&ouml;&szlig;erung</strong> der
+	<strong>Schrift</strong> (zwecks Barrierefreiheit) <strong>standhalten</strong>,
+	bleibt einem nichts anderes &uuml;ber als mit <em>em-Werten</em> zu arbeiten.
+</p>
+<div class="clear"></div>
+<p>
+	Es gibt unterschiedliche Techniken mehrspaltige <abbr title="Cascading Style Sheets">CSS</abbr>-Layouts
+	mit verschieden Hintergrundfarben zu realisieren.
+	Der Einfachheit halber hab ich hier zwei bekannte Techniken ausgew&auml;hlt und versuche sie anhand eines variablen, gefloateten,
+	<strong>zweispaltigen Layouts</strong> mit einer <strong>fixen Weite</strong> zu erkl&auml;ren.
+</p>
+<pre>
+	<span class="right"><abbr title="Cascading Style Sheets">CSS</abbr></span>
+	<code>
+#wrapper {
+	float: left;
+	width: 59.25em; /* 948px */
+	}
+#content-left {
+	float: left;
+	width: 19.25em; /* 308px */
+	}
+#content-right {
+	float: left;
+	width: 40em; /* 640px; */
+	}
+.clear {
+	clear: both;
+	}
+	</code>
+</pre>
+<pre>
+	<span class="right"><abbr title="Hyper Text Markup Language">HTML</abbr></span>
+	<code>
+&lt;div id=&quot;wrapper&quot;&gt;
+	&lt;div id=&quot;content-left&quot;&gt;
+	&lt;/div&gt;&lt;!-- end content-left --&gt;
+	&lt;div id=&quot;content-right&quot;&gt;
+	&lt;/div&gt;&lt;!-- end content-right --&gt;
+	&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;!-- end wrapper --&gt;
+	</code>
+</pre>
+<p>
+	Die Techniken lassen sich aber auch problemlos auf <strong>drei-</strong> oder <strong>vierspaltige Layouts</strong> &uuml;bertragen.
+</p>
+
+<h2><a name="Technik_mit_Hintergrundfarbe">Technik mit Hintergrundfarbe</a></h2>
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL_Problem.gif" alt="CSS Spalten Layout Problem">
+<p>
+	Geht man von einem <strong>zweispaltigen Layout</strong> aus und m&ouml;chte die <strong>Hintergrundfarbe beider Spalten</strong>
+	bis auf das Ende der H&ouml;chsten Spalte ziehen,
+	st&ouml;&szlig;t man auf das erste <strong>Problem</strong>.<br>
+	Die <strong>Spalte</strong> ist immer nur so <strong>hoch</strong> wie deren <strong>Inhalt</strong>.
+	<strong>Fixe H&ouml;hen</strong> sind auch <strong>keine Option</strong> da die Inhalte variieren k&ouml;nnen.
+</p>
+<div class="clear"></div>
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL_Wrapper.gif" alt="CSS Spalten Layout Wrapper">
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL.gif" alt="CSS Spalten Layout Wrapper Hintergrund">
+<p>
+	Um das Problem zu l&ouml;sen <strong>umschlie&szlig;t</strong> man die beiden <strong>Spalten</strong> mit einem <em>Wrapper</em>.
+	Ein <tt>div</tt> das auf die H&ouml;he, der h&ouml;heren, der beiden Spalten mitgezogen wird.
+	Vergibt man die Hintergrundfarben geschickt, entsteht der
+	<a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundfarbe">Eindruck wie gew&uuml;nscht</a>.
+</p>
+<div class="clear"></div>
+<pre>
+	<span class="right"><abbr title="Cascading Style Sheets">CSS</abbr> Technik mit Hintergrundfarbe</span>
+	<code>
+
+#wrapper {
+	float: left;
+	width: 59.25em; /* 948px */
+	background-color: rgb(153, 66, 58);
+	}
+#content-left {
+	float: left;
+	width: 19.25em; /* 308px */
+	background-color: transparent;
+	}
+#content-right {
+	float: left;
+	width: 40em; /* 640px; */
+	background-color: rgb(94, 107, 176);
+	}
+.clear {
+	clear: both;
+	}
+
+	</code>
+</pre>
+<p>
+	Gibt man die <strong>Weite</strong> des <em>Wrapper</em> und der beiden <strong>Spalten</strong> in <tt>em</tt> an,
+	wandern diese bei einer
+	<a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundfarbe"><strong>Vergr&ouml;&szlig;erung</strong></a>
+	der
+	<a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundfarbe"><strong>Schrift</strong></a>
+	problemlos mit.
+</p>
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL_WP.gif" alt="CSS Spalten Layout Wrapper Problem">
+<p>
+	Das <strong>Problem</strong> bei dieser Technik ist allerdings, dass man <strong>voraussagen</strong> muss <strong>welche</strong> der Beiden <strong>Spalten</strong> die <strong>h&ouml;here</strong> sein wird.
+	Sonst kann dem <em>Wrapper</em> die Hintergrundfarbe der niedrigeren Spalte nicht zugeordnet werden.
+	Anhand
+	<a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html#mehr" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundfarbe">dieses Beispiels</a>
+	l&auml;sst sich das Problem ganz gut nachvollziehen.<br>
+	Eine L&ouml;sung f&uuml;r dieses Problem gibt es in der folgenden <em>Technik mit Hintergrundgrafik</em>.
+</p>
+<div class="clear"></div>
+<p><a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundfarbe">&lt;http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html&gt;</a></p>
+
+<h2><a name="Technik_mit_Hintergrundgrafik">Technik mit Hintergrundgrafik</a></h2>
+<p>
+	Auch bei der Technik mit der Hintergrundgrafik werden beide Spalten von einem <em>Wrapper</em> umschlossen.<br>
+	Der einzige Unterschied ist, dass man die <strong>zweite Spalte mit</strong> einer <strong>Grafik</strong> simuliert.
+	Wobei die Grafik der Weite der zweiten Spalte entspricht.
+</p>
+<pre>
+	<span class="right"><abbr title="Cascading Style Sheets">CSS</abbr> Technik mit Hintergrundgrafik</span>
+	<code>
+#wrapper {
+	float: left;
+	width: 59.25em; /* 948px */
+	background: rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top;
+	}
+#content-left {
+	float: left;
+	width: 19.25em; /* 308px */
+	background-color: transparent;
+	}
+#content-right {
+	float: left;
+	width: 40em; /* 640px; */
+	background-color: transparent;
+	}
+.clear {
+	clear: both;
+	}
+	</code>
+</pre>
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL.gif" alt="linke Spalte mehr Inhalten / h&ouml;her">
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL_FS.gif" alt="rechte Spalte mit mehr Inhalten / h&ouml;her">
+<p>
+	<strong>Hintergrundfarbe und Hintergrundbild</strong> des <em>Wrapper</em> <strong>erzeugen</strong> beim Betrachter <strong>beide Spalten</strong>.<br>
+	Im Gegensatz zur Technik bei der nur Hintergrundfarben zum Einsatz kommt,
+	spielt es keine Rolle welche der beiden <strong>Spalten</strong> die H&ouml;here ist.<br>
+	Ob auf einer Seite zum <a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html#mehr" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundgrafik">Beispiel</a> die Navigation <strong>h&ouml;her</strong> ist, auf einer anderen der Inhalt, ist <strong>egal</strong>.
+</p>
+<div class="clear"></div>
+<img class="left" src="http://img.gedit.net/gedit.net/content/Artikel_VCSSLmvS-SL_FSP.gif" alt="Problem mit der Hintergrundgrafik">
+<p>
+	Das <strong>Problem</strong> bei dieser Technik entsteht durch die <strong>fixe Weite</strong> der <strong>Hintergrundgrafik</strong>.
+	Die Pixel wachsen, im Gegensatz zu den <em>em-Werten</em> der Spalten beim erh&ouml;hen der Schriftgr&ouml;&szlig;e nicht mit.<br>
+	Die <strong>L&ouml;sung</strong> ist aber recht Simpel. Soll das Layout einem <a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundgrafik">Vergr&ouml;&szlig;ern der Schrift</a> um 200% standhalten,
+	<strong>verdoppelt</strong> man die <strong>Weite</strong> der <strong>Grafik</strong> und bindet sie <strong>wie folgt</strong> ein:
+</p>
+<div class="clear"></div>
+<pre>
+	<span class="right"><abbr title="Cascading Style Sheets">CSS</abbr> Technik mit Hintergrundgrafik - variabel</span>
+	<code>
+#wrapper {
+	float: left;
+	width: 59.25em; /* 948px */
+	background: rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top;
+	}
+#content-left {
+	float: left;
+	width: 19.25em; /* 308px */
+	background-color: transparent;
+	}
+#content-right {
+	float: left;
+	width: 40em; /* 640px; */
+	background-color: transparent;
+	}
+.clear {
+	clear: both;
+	}
+	</code>
+</pre>
+<p><a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundgrafik">&lt;http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html&gt;</a></p>
+
+<h2><a name="Templates">Templates</a></h2>
+<ul>
+	<li><a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundfarbe">&lt;http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundfarbe.html&gt;</a></li>
+	<li><a href="http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html" title="//gedit.NET - Artikel - VCSSLmvS Technik Hintergrundgrafik">&lt;http://dl.gedit.net/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html&gt;</a></li>
+</ul>
+
+<h2><a name="Links">Links</a></h2>
+<ul>
+	<li><abbr title="World Wide Web Consortium">W3C</abbr> - <abbr title="Cascading Style Sheets">CSS</abbr> 2.1 - Colors and Backgrounds <a href="http://www.w3.org/TR/CSS21/colors.html" title="//gedit.NET - Artikel - W3C - CSS 2.1 - Colors and Background">&lt;http://www.w3.org/TR/CSS21/colors.html&gt;</a></li>
+	<li>A list apart - Faux Columns <a href="http://alistapart.com/articles/fauxcolumns/" title="//gedit.NET - Artikel - A list apart - Faux Columns">&lt;http://alistapart.com/articles/fauxcolumns/&gt;</a></li>
+	<li>A list apart - Fluid Grids <a href="http://www.alistapart.com/articles/fluidgrids" title="//gedit.NET - Artikel - A list apart - Fluid Grids">&lt;http://www.alistapart.com/articles/fluidgrids&gt;</a></li>
+	<li>A list apart - How to size text in CSS <a href="http://www.alistapart.com/articles/howtosizetextincss" title="//gedit.NET - Artikel - A list apart - How to size text in CSS">&lt;http://www.alistapart.com/articles/howtosizetextincss&gt;</a></li>
+</ul>				
+<!-- start content left comment -->
+<h2><a name="Kommentare">Kommentare</a></h2>
+<blockquote>
+<!-- start content left comment Thomas -->
+<p>Wirklich guter Artikel und ich hab es sogar mit einem 4 Spalten-Layout in dieser Technik hinbekommen.<br>
+</p>
+<p class="quote">
+<span class="green">Thomas</span>, Sonntag, 06. September 2009, 11:13 </p>
+<div class="clear"></div>
+<!-- end content left comment Thomas -->
+<!-- start content left comment Hermann -->
+<p>Ausgezeichneter Artikel! Kurz, deutlich, visuell sehr ansprechend und klar gestaltet. Die Essenz des Artikels &quot;springt&quot; einem sozusagen &quot;direkt in den Kopf&quot;. Vielen Dank...<br>
+</p>
+<p class="quote">
+<span class="green">Hermann</span>, Freitag, 29. Januar 2010, 18:02 </p>
+<div class="clear"></div>
+<!-- end content left comment Hermann -->
+</blockquote>
+<!-- end content left comment -->
+<!-- start content left comment write -->
+<div id="comments">
+<h2><a name="Kommentar_schreiben">Kommentar schreiben</a></h2>
+<form method="post" action="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben#Kommentare">
+<ul>
+<li class="bold"><label for="comment_text">Kommentar:</label></li>
+<li><textarea id="comment_text" name="comment_text" cols="63" rows="10"></textarea></li>
+<li class="bold"><label for="name">Name:</label></li>
+<li><input type="text" id="name" name="name" value="" size="30" maxlength="30"></li>
+<li class="bold"><label for="email_hp">Email oder Homepage:</label></li>
+<li><input type="text" id="email_hp" name="email_hp" value="" size="30" maxlength="100"></li>
+<li class="italic">(optional, Email Adresse wird nicht angezeigt)</li>
+<li><input name="comment_submit" type="submit" value="Abschicken"><input name="comment_preview" type="submit" value="Vorschau"></li>
+</ul>
+</form>
+</div>
+<!-- end content left comment write -->
+		<!-- start content left bookmarks and print -->
+		<div class="clear"></div>
+		<ul class="clbpnav">
+			<li><a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau#top" onclick="location.hash='top';" title="zum Seitenanfang von gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben">
+					<img src="http://img.gedit.net/gedit.net/layout/goto-top.gif" alt="zum Seitenanfang von gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben">
+			</a></li>
+			<li> <a rel="nofollow" href="http://gedit.net/Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau" title="Druckvorschau gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben">
+					<img src="http://img.gedit.net/gedit.net/layout/druckvorschau.gif" alt="Druckvorschau gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben">
+			</a></li>
+			<li> <a rel="nofollow" href="http://www.mister-wong.de/" onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)+'&amp;bm_tags=');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Mr. Wong">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/wong.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Mr. Wong">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Webnews">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/webnews.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Webnews">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.icio.de/" onclick="window.open('http://www.icio.de/add.php?url='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Icio">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/icio.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Icio">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.folkd.com/" onclick="window.open('http://www.folkd.com/page/submit.html?step2_sent=1&amp;url='+encodeURIComponent(location.href)+'&amp;check=page&amp;add_title='+encodeURIComponent(document.title)+'&amp;add_description=&amp;add_tags_show=&amp;add_tags=&amp;add_state=public');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Folkd">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/folkd.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Folkd">
+			</a></li>
+			<li><a rel="nofollow" href="http://yigg.de/" onclick="window.open('http://yigg.de/neu?exturl='+encodeURIComponent(location.href));return false" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Yigg">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/yigg.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Yigg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.linkarena.com/" onclick="window.open('http://linkarena.com/bookmarks/addlink/?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;desc=&amp;tags=');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Linkarena">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/linkarena.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Linkarena">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.simpy.com/" onclick="window.open('http://www.simpy.com/simpy/LinkAdd.do?title='+encodeURIComponent(document.title)+'&amp;tags=&amp;note=&amp;href='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Simpy">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/simpy.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Simpy">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://del.icio.us/" onclick="window.open('http://del.icio.us/post?v=2&amp;url='+encodeURIComponent(location.href)+'&amp;notes=&amp;tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Del.ico.us">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/del.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Del.ico.us">
+			</a></li>
+			<li><a rel="nofollow" href="http://reddit.com/" onclick="window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Reddit">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/reddit.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Reddit">
+			</a></li>
+			<li><a rel="nofollow" href="http://digg.com/" onclick="window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;bodytext=&amp;tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Digg">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/digg.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Digg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.stumbleupon.com/" onclick="window.open('http://www.stumbleupon.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit StumbleUpon">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/stumbleupon.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit StumbleUpon">
+			</a></li>
+			<li><a rel="nofollow" href="http://slashdot.org/" onclick="window.open('http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Slashdot">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/slashdot.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Slashdot">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.furl.net/" onclick="window.open('http://www.furl.net/storeIt.jsp?u='+encodeURIComponent(location.href)+'&amp;keywords=&amp;t='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Furl">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/furl.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Furl">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.yahoo.com/" onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+encodeURIComponent(document.title)+'&amp;d=&amp;tag=&amp;u='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Yahoo">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/yahoo.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Yahoo">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.spurl.net/" onclick="window.open('http://www.spurl.net/spurl.php?v=3&amp;tags=&amp;title='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(document.location.href));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Spurl">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/spurl.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Spurl">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.google.com/" onclick="window.open('http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;bkmk='+encodeURIComponent(location.href)+'&amp;annotation=&amp;labels=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Google">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/google.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Google">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.blinklist.com/" onclick="window.open('http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Description=&amp;Tag=&amp;Url='+encodeURIComponent(location.href)+'&amp;Title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Blinklist">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/blinklist.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Blinklist">
+			</a></li>
+			<li><a rel="nofollow" href="http://blogmarks.net/" onclick="window.open('http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url='+encodeURIComponent(location.href)+'&amp;content=&amp;public-tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Blogmarks">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/blogmarks.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Blogmarks">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.diigo.com/" onclick="window.open('http://www.diigo.com/post?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;tag=&amp;comments='); return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Diigo">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/diigo.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Diigo">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.technorati.com/" onclick="window.open('http://technorati.com/faves?add='+encodeURIComponent(location.href)+'&amp;tag=');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Technorati">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/technorati.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Technorati">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.newsvine.com/" onclick="window.open('http://www.newsvine.com/_wine/save?popoff=1&amp;u='+encodeURIComponent(location.href)+'&amp;tags=&amp;blurb='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Newsvine">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/newsvine.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Newsvine">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.blinkbits.com/" onclick="window.open('http://www.blinkbits.com/bookmarklets/save.php?v=1&amp;title='+encodeURIComponent(document.title)+'&amp;source_url='+encodeURIComponent(location.href)+'&amp;source_image_url=&amp;rss_feed_url=&amp;rss_feed_url=&amp;rss2member=&amp;body=');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Blinkbits">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/blinkbits.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Blinkbits">
+			</a></li>
+			<li><a rel="nofollow" href="http://ma.gnolia.com/" onclick="window.open('http://ma.gnolia.com/bookmarklet/add?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;description=&amp;tags=');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Ma.Gnolia">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/ma.gnolia.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Ma.Gnolia">
+			</a></li>
+			<li><a rel="nofollow" href="http://smarking.com/" onclick="window.open('http://smarking.com/editbookmark/?url='+ location.href +'&amp;description=&amp;tags=');return false;" title="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Smarking">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/smarking.gif" alt="Bookmark gedit.NET - Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben mit Smarking">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.vorratsdatenspeicherung.de/" title="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+					<img src="http://img.gedit.net/gedit.net/layout/akvorrat.gif" alt="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+			</a></li>
+			<li><a rel="nofollow" href="http://my.opera.com/community/download.pl?ref=gedit&amp;p=opera_desktop" title="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online.">
+					<img src="http://img.gedit.net/gedit.net/layout/opera.gif" alt="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online">
+			</a></li>
+		</ul>
+		<div class="clear"></div>
+<!-- end content left bookmarks and print -->
+	</div>
+<!-- end content left --><!-- content right is gone -->
+<!-- start footer -->
+	<div id="footer">
+		<p>
+			$req
+			17,5 KB - 0 Sec. -			<a href="Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben" title="Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben">gedit.net/Artikel;Variables_CSS-Layout_mit_verschiedenen_Spaltenfarben</a> -
+			Artikel - Variables CSS-Layout mit verschiedenen Spaltenfarben - Druckvorschau			- 26.12.2023, 01:23:43 CET
+			get $
+			<br>
+			<a class="hidden" href="http://gedit.net/_nofollow" title="Please do not follow this Link">No follow</a>
+				This is <strong>not</strong> the website of
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">gedit</a>
+				the official text editor of the
+			<a class="extern" href="http://www.gnome.org">GNOME</a>
+				desktop environment.
+			<br>
+				Visit
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gedit.org/&gt;</a>
+				or
+			<a class="extern" href="http://www.gnome.org/projects/gedit/" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gnome.org/projects/gedit/&gt;</a>
+				if you search the gnome-editor.
+			<br>
+				This work is licensed under a
+			<a rel="license" href="CC" title="Creative Commons Atritbution-NonCommercial 3.0 License">Creative Commons Attribution-NonCommercial 3.0 License</a>.
+			<a class="extern" href="http://validator.w3.org/check?uri=http%3A%2F%2Fgedit.net%2FArtikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben" title="Valid HTML 4.1 Strict">Valid HTML 4.1 Strict</a>
+				//
+			<a class="extern" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgedit.net%2FArtikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben&amp;profile=css3" title="Valid CSS 3.0">Valid CSS 3.0</a>
+				//
+			<a class="extern" href="http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fgedit.net%2FRSS" title="Valid RSS Feed">Valid RSS</a>
+				//
+			<a class="extern" href="http://www.access-board.gov/508.htm" title="Section 508 Homepage:  Electronic and Information Technology">Valid Section 508</a>
+				//
+			<a class="extern" href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Level Double-A Conformance to Web Content Accessibility Guidelines 1.0">Valid Level Double-A Conformance to Web Content Accessibility Guidelines 1.0</a>.
+			<br>
+			$id
+						Variables CSS-Layout mit verschiedenen Spaltenfarben -			Gedit (<a href="index.html" title="gedit HTML&amp;CSS Tutorials"><strong><abbr title="Hypertext Markup Language">HTML</abbr>&amp;<abbr title="Cascading Style Sheet">CSS</abbr> Tutorials</strong></a>, <a href="index.html" title="gedit Webgestaltung"><strong>Webgestaltung</strong></a>, <a href="index.html" title="gedit Webentwicklung"><strong>Webentwicklung</strong></a>, <a href="index.html" title="gedit Webdesign"><strong>Webdesign</strong></a>, <a href="index.html" title="gedit Webdevelopment"><strong>Webdevelopment</strong></a>, <a href="index.html" title="gedit Webstandards"><strong>Webstandards</strong></a>, <a href="index.html" title="gedit Benutzerfreundlichkeit (Usability)"><strong>Benutzerfreundlichkeit (Usability)</strong></a>, <a href="index.html" title="gedit Barrierefreiheit (Accessebility)"><strong>Barrierefreiheit (Accessebility)</strong></a>, <a href="index.html" title="gedit Webfrontendentwicklung"><strong>Webfrontendentwicklung</strong></a>, <a href="index.html" title="gedit Webbackendentwicklung"><strong>Webbackendentwicklung</strong></a>, <a href="index.html" title="gedit Visuelle Medien"><strong>Visuelle Medien</strong></a>, <a href="index.html" title="gedit Interfacedesign"><strong>Interfacedesign</strong></a>, <a href="index.html" title="gedit Visuelle Kommunikation"><strong>Visuelle Kommunikation</strong></a>, <a href="index.html" title="gedit Grafikdesign"><strong>Grafikdesign</strong></a>, <a href="index.html" title="gedit Screendesign"><strong>Screendesign</strong></a>, <a href="index.html" title="gedit Typografie"><strong>Typografie</strong></a>) <a href="VERSION%3Bv0.5" title="Version - v0.5">v0.5</a> &copy; 2005&ndash;2023 <a href="http://gattner.name/simon" title="Simon Gattner">Simon Gattner</a> - 12.08.2009, 14:00 CET exp $
+		</p>
+	</div>
+<!-- end footer -->
+</div>
+<!-- end content -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = document.title;
+piwik_idsite = 2;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+</body>
+</html>

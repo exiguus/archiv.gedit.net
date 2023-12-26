@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bloggs;Joe
+FN:Joe Bloggs
+ORG:example
+URL:http://example.org/
+EMAIL;TYPE=INTERNET:joe@example.org
+TEL;TYPE=voice,home,pref:+49-30-12345-67
+ADR;TYPE=intl,home,postal,parcel:;;Karl-Marx-Allee 42;Berlin;;D-13000;Germany
+END:VCARD

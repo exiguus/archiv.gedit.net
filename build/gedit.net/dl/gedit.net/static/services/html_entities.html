@@ -1,0 +1,562 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta name="version" content="1.0">
+<title>HTML entities</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 100%;
+	font-family: Arial, non-serif;
+	color: black;
+	background-color: white;
+}
+#header,
+#footer {
+	width: 99%;
+	padding: 0.5%;
+	line-height: 1.25em;
+	color: #202020;
+	border-bottom: 1px solid #202020;
+}
+#header {
+	position: fixed;
+	top: 0px; left: 0px;
+	background-color: #ADD8E6;
+	border-bottom: 1px solid #202020;
+	}
+#header ul {
+	float: left;
+	}
+#header li {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+}
+#header li a,
+#footer address a {
+	color: #202020;
+	padding: 0 0.5em;
+}
+#header li a:hover,
+#footer address a:hover {
+	color: #ADD8E6;
+	background-color: #404040;
+}
+#footer {
+	background-color: #C1FFC1;
+	border-top: 1px solid #202020;
+	}
+#footer em {
+	float: right;
+	}
+#footer address {
+	display: inline-block;
+	}
+#content {
+	width: 50.625em;
+	margin: 4em auto;
+	padding: 0;
+	}
+#content h1 {
+	margin: 1em 0.1875em;
+	padding: 0.25em;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	background-color: black;
+}
+#content ul {
+	display: inline-block;
+	}
+#content li {
+	float: left;
+	height: 12.5em;
+	width: 9.375em;
+	margin: 0.3125em;
+	text-align: center;
+	border: 0.0625em solid black;
+	list-style-type: none;
+	background-color: lightgreen;
+	}
+#content ul li h2 {
+	font-size: 3em;
+	margin: 0.625em 0;
+	}
+.clear {
+	clear: both;
+	}
+.right {
+	float: right;
+	}
+</style>
+</head>
+<body>
+	<div id="header">
+		<ul>
+			<li><strong>Change font-family to:</strong></li>
+			<li><a href="html_entities.html#" onClick="document.body.style.fontFamily='monospace'" title="change to monospace">monospace</a></li>
+			<li><a href="html_entities.html#" onClick="document.body.style.fontFamily='sans-serif'" title="change to sans-serif">sans-serif</a></li>
+			<li><a href="html_entities.html#" onClick="document.body.style.fontFamily='serif'" title="change to serif">serif</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<h1>HTML entities</h1>
+		<ul>
+			<li><em>Allgemein</em><h2>&quot;</h2>&amp;#x22;<br>&amp;#34;<br>&amp;quot;</li>
+			<li><em>Allgemein</em><h2>&amp;</h2>&amp;#x26;<br>&amp;#38;<br>&amp;amp;</li>
+			<li><em>Mathematisch</em><h2>&lt;</h2>&amp;#x3c;<br>&amp;#60;<br>&amp;lt;</li>
+			<li><em>Mathematisch</em><h2>&gt;</h2>&amp;#x3e;<br>&amp;#62;<br>&amp;gt;</li>
+			<li><em>Spanisch</em><h2>&iexcl;</h2>&amp;#xa1;<br>&amp;#161;<br>&amp;excl;</li>
+			<li><em>W&auml;hrung</em><h2>&cent;</h2>&amp;#xa2;<br>&amp;#162;<br>&amp;cent;</li>
+			<li><em>W&auml;hrung</em><h2>&pound;</h2>&amp;#xa3;<br>&amp;#163;<br>&amp;pound;</li>
+			<li><em>W&auml;hrung</em><h2>&curren;</h2>&amp;#xa4;<br>&amp;#164;<br>&amp;curren;</li>
+			<li><em>W&auml;hrung</em><h2>&yen;</h2>&amp;#xa5;<br>&amp;#165;<br>&amp;yen;</li>
+			<li><em>Allgemein</em><h2>&brvbar;</h2>&amp;#xa6;<br>&amp;#166;<br>&amp;brvbar;</li>
+			<li><em>Allgemein</em><h2>&sect;</h2>&amp;#xa7;<br>&amp;#167;<br>&amp;sect;</li>
+			<li><em>Allgemein</em><h2>&uml;</h2>&amp;#xa8;<br>&amp;#168;<br>&amp;uml;</li>
+			<li><em>Allgemein</em><h2>&copy;</h2>&amp;#xa9;<br>&amp;#169;<br>&amp;copy;</li>
+			<li><em>Spanisch</em><h2>&ordf;</h2>&amp;#xaa;<br>&amp;#170;<br>&amp;ordf;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&laquo;</h2>&amp;#xab;<br>&amp;#171;<br>&amp;laquo;</li>
+			<li><em>Mathematisch</em><h2>&not;</h2>&amp;#xac;<br>&amp;#172;<br>&amp;not;</li>
+			<li><em>Allgemein</em><h2>&reg;</h2>&amp;#xad;<br>&amp;#174;<br>&amp;reg;</li>
+			<li><em>Allgemein</em><h2>&macr;</h2>&amp;#xaf;<br>&amp;#175;<br>&amp;macr;</li>
+			<li><em>Allgemein</em><h2>&deg;</h2>&amp;#xb0;<br>&amp;#176;<br>&amp;deg;</li>
+			<li><em>Mathematisch</em><h2>&plusmn;</h2>&amp;#xb1;<br>&amp;#177;<br>&amp;plusmn;</li>
+			<li><em>Mathematisch</em><h2>&sup2;</h2>&amp;#xb2;<br>&amp;#178;<br>&amp;sup2;</li>
+			<li><em>Mathematisch</em><h2>&sup3;</h2>&amp;#xb3;<br>&amp;#179;<br>&amp;sup3;</li>
+			<li><em>Allgemein</em><h2>&acute;</h2>&amp;#xb4;<br>&amp;#180;<br>&amp;acute;</li>
+			<li><em>Mathematisch</em><h2>&micro;</h2>&amp;#xb5;<br>&amp;#181;<br>&amp;micro;</li>
+			<li><em>Allgemein</em><h2>&para;</h2>&amp;#xb6;<br>&amp;#182;<br>&amp;para;</li>
+			<li><em>Allgemein</em><h2>&middot;</h2>&amp;#xb7;<br>&amp;#183;<br>&amp;middot;</li>
+			<li><em>Allgemein</em><h2>&cedil;</h2>&amp;#xb8;<br>&amp;#184;<br>&amp;cedil;</li>
+			<li><em>Allgemein</em><h2>&sup1;</h2>&amp;#xb9;<br>&amp;#185;<br>&amp;sup1;</li>
+			<li><em>Spanisch</em><h2>&ordm;</h2>&amp;#xba;<br>&amp;#186;<br>&amp;ordm;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&raquo;</h2>&amp;#xbb;<br>&amp;#187;<br>&amp;raquo;</li>
+			<li><em>Mathematisch</em><h2>&frac14;</h2>&amp;#xbc;<br>&amp;#188;<br>&amp;frac14;</li>
+			<li><em>Mathematisch</em><h2>&frac12;</h2>&amp;#xbd;<br>&amp;#189;<br>&amp;frac12;</li>
+			<li><em>Mathematisch</em><h2>&frac34;</h2>&amp;#xbe;<br>&amp;#190;<br>&amp;frac34;</li>
+			<li><em>Spanisch</em><h2>&iquest;</h2>&amp;#xbf;<br>&amp;#191;<br>&amp;iquest;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Agrave;</h2>&amp;#xc0;<br>&amp;#192;<br>&amp;Agrave;</li>
+			<li><em>Span., Ung.</em><h2>&Aacute;</h2>&amp;#xc1;<br>&amp;#193;<br>&amp;Aacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Acirc;</h2>&amp;#xc2;<br>&amp;#194;<br>&amp;Acirc;</li>
+			<li><em>Portugiesisch</em><h2>&Atilde;</h2>&amp;#xc3;<br>&amp;#195;<br>&amp;Atilde;</li>
+			<li><em>Deu., Fin.</em><h2>&Auml;</h2>&amp;#xc4;<br>&amp;#196;<br>&amp;Auml;</li>
+			<li><em>D&auml;nisch</em><h2>&Aring;</h2>&amp;#xc5;<br>&amp;#197;<br>&amp;Aring;</li>
+			<li><em>D&auml;nisch</em><h2>&AElig;</h2>&amp;#xc6;<br>&amp;#198;<br>&amp;AElig;</li>
+			<li><em>Franz., T&uuml;rk.</em><h2>&Ccedil;</h2>&amp;#xc7;<br>&amp;#199;<br>&amp;Ccedil;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Egrave;</h2>&amp;#xc8;<br>&amp;#200;<br>&amp;Egrave;</li>
+			<li><em>Franz.,Span.,Ung.</em><h2>&Eacute;</h2>&amp;#xc9;<br>&amp;#201;<br>&amp;Eacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Ecirc;</h2>&amp;#xca;<br>&amp;#202;<br>&amp;Ecirc;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Euml;</h2>&amp;#xcb;<br>&amp;#203;<br>&amp;Euml;</li>
+			<li><em>Italienisch</em><h2>&Igrave;</h2>&amp;#xcc;<br>&amp;#204;<br>&amp;Igrave;</li>
+			<li><em>Span., Ung.</em><h2>&Iacute;</h2>&amp;#xcd;<br>&amp;#205;<br>&amp;Iacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Icirc;</h2>&amp;#xce;<br>&amp;#206;<br>&amp;Icirc;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Iuml;</h2>&amp;#xcf;<br>&amp;#207;<br>&amp;Iuml;</li>
+			<li><em>Isl&auml;ndisch</em><h2>&ETH;</h2>&amp;#xd0;<br>&amp;#208;<br>&amp;ETH;</li>
+			<li><em>Spanisch</em><h2>&Ntilde;</h2>&amp;#xd1;<br>&amp;#209;<br>&amp;Ntilde;</li>
+			<li><em>Italienisch</em><h2>&Ograve;</h2>&amp;#xd2;<br>&amp;#210;<br>&amp;Ograve;</li>
+			<li><em>Span.,Pol.,Ung.</em><h2>&Oacute;</h2>&amp;#xd3;<br>&amp;#211;<br>&amp;Oacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Ocirc;</h2>&amp;#xd4;<br>&amp;#212;<br>&amp;Ocirc;</li>
+			<li><em>Estnisch</em><h2>&Otilde;</h2>&amp;#xd5;<br>&amp;#213;<br>&amp;Otilde;</li>
+			<li><em>Deu., Finn.</em><h2>&Ouml;</h2>&amp;#xd6;<br>&amp;#214;<br>&amp;Ouml;</li>
+			<li><em>Mathematisch</em><h2>&times;</h2>&amp;#xd7;<br>&amp;#215;<br>&amp;times;</li>
+			<li><em>D&auml;nisch</em><h2>&Oslash;</h2>&amp;#xd8;<br>&amp;#216;<br>&amp;Oslash;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Ugrave;</h2>&amp;#xd9;<br>&amp;#217;<br>&amp;Ugrave;</li>
+			<li><em>Span., Ung.</em><h2>&Uacute;</h2>&amp;#xda;<br>&amp;#218;<br>&amp;Uacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&Ucirc;</h2>&amp;#xdb;<br>&amp;#219;<br>&amp;Ucirc;</li>
+			<li><em>Deu., Franz.</em><h2>&Uuml;</h2>&amp;#xdc;<br>&amp;#220;<br>&amp;Uuml;</li>
+			<li><em>Tschechisch</em><h2>&Yacute;</h2>&amp;#xdd;<br>&amp;#221;<br>&amp;Yacute;</li>
+			<li><em>Isl&auml;ndisch</em><h2>&THORN;</h2>&amp;#xde;<br>&amp;#222;<br>&amp;THORN;</li>
+			<li><em>Deutsch</em><h2>&szlig;</h2>&amp;#xdf;<br>&amp;#223;<br>&amp;szlig;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&agrave;</h2>&amp;#xe0;<br>&amp;#224;<br>&amp;agrave;</li>
+			<li><em>Span., Ung.</em><h2>&aacute;</h2>&amp;#xe1;<br>&amp;#225;<br>&amp;aacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&acirc;</h2>&amp;#xe2;<br>&amp;#226;<br>&amp;acirc;</li>
+			<li><em>Portugiesisch</em><h2>&atilde;</h2>&amp;#xe3;<br>&amp;#227;<br>&amp;atilde;</li>
+			<li><em>Deu., Finn.</em><h2>&auml;</h2>&amp;#xe4;<br>&amp;#228;<br>&amp;auml;</li>
+			<li><em>D&auml;nisch</em><h2>&aring;</h2>&amp;#xe5;<br>&amp;#229;<br>&amp;aring;</li>
+			<li><em>D&auml;nisch</em><h2>&aelig;</h2>&amp;#xe6;<br>&amp;#230;<br>&amp;aelig;</li>
+			<li><em>Franz., T&uuml;rk.</em><h2>&ccedil;</h2>&amp;#xe7;<br>&amp;#231;<br>&amp;ccedil;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&egrave;</h2>&amp;#xe8;<br>&amp;#232;<br>&amp;egrave;</li>
+			<li><em>Franz., Span.</em><h2>&eacute;</h2>&amp;#xe9;<br>&amp;#233;<br>&amp;eacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&ecirc;</h2>&amp;#xea;<br>&amp;#234;<br>&amp;ecirc;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&euml;</h2>&amp;#xeb;<br>&amp;#235;<br>&amp;euml;</li>
+			<li><em>Italienisch</em><h2>&igrave;</h2>&amp;#xec;<br>&amp;#236;<br>&amp;igrave;</li>
+			<li><em>Span., Ung.</em><h2>&iacute;</h2>&amp;#xed;<br>&amp;#237;<br>&amp;iacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&icirc;</h2>&amp;#xee;<br>&amp;#238;<br>&amp;icirc;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&iuml;</h2>&amp;#xef;<br>&amp;#239;<br>&amp;iuml;</li>
+			<li><em>Isl&auml;ndisch</em><h2>&eth;</h2>&amp;#xf0;<br>&amp;#240;<br>&amp;eth;</li>
+			<li><em>Spanisch</em><h2>&ntilde;</h2>&amp;#xf1;<br>&amp;#241;<br>&amp;ntilde;</li>
+			<li><em>Italienisch</em><h2>&ograve;</h2>&amp;#xf2;<br>&amp;#242;<br>&amp;ograve;</li>
+			<li><em>Span., Ung.</em><h2>&oacute;</h2>&amp;#xf3;<br>&amp;#243;<br>&amp;oacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&ocirc;</h2>&amp;#xf4;<br>&amp;#244;<br>&amp;ocirc;</li>
+			<li><em>Estnisch</em><h2>&otilde;</h2>&amp;#xf5;<br>&amp;#245;<br>&amp;otilde;</li>
+			<li><em>Deu., Finn.</em><h2>&ouml;</h2>&amp;#xf6;<br>&amp;#246;<br>&amp;ouml;</li>
+			<li><em>Mathematisch</em><h2>&divide;</h2>&amp;#xf7;<br>&amp;#247;<br>&amp;divide;</li>
+			<li><em>D&auml;nisch</em><h2>&oslash;</h2>&amp;#xf8;<br>&amp;#248;<br>&amp;oslash;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&ugrave;</h2>&amp;#xf9;<br>&amp;#249;<br>&amp;ugrave;</li>
+			<li><em>Span., Ung.</em><h2>&uacute;</h2>&amp;#xfa;<br>&amp;#250;<br>&amp;uacute;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&ucirc;</h2>&amp;#xfb;<br>&amp;#251;<br>&amp;ucirc;</li>
+			<li><em>Deu., Franz.</em><h2>&uuml;</h2>&amp;#xfc;<br>&amp;#252;<br>&amp;uuml;</li>
+			<li><em>Tschechisch</em><h2>&yacute;</h2>&amp;#xfd;<br>&amp;#253;<br>&amp;yacute;</li>
+			<li><em>Isl&auml;ndisch</em><h2>&thorn;</h2>&amp;#xfe;<br>&amp;#254;<br>&amp;thorn;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&yuml;</h2>&amp;#xff;<br>&amp;#255;<br>&amp;yuml;</li>
+			<li><em>Lettisch</em><h2>&#x100;</h2>&amp;#x100;<br>&amp;#256;</li>
+			<li><em>Lettisch</em><h2>&#x101;</h2>&amp;#x101;<br>&amp;#257;</li>
+			<li><em>Rum&auml;nisch</em><h2>&#x102;</h2>&amp;#x102;<br>&amp;#258;</li>
+			<li><em>Rum&auml;nisch</em><h2>&#x103;</h2>&amp;#x103;<br>&amp;#259;</li>
+			<li><em>Pol., Lit.</em><h2>&#x104;</h2>&amp;#x104;<br>&amp;#260;</li>
+			<li><em>Pol., Lit.</em><h2>&#x105;</h2>&amp;#x105;<br>&amp;#261;</li>
+			<li><em>Polnisch</em><h2>&#x106;</h2>&amp;#x106;<br>&amp;#262;</li>
+			<li><em>Polnisch</em><h2>&#x107;</h2>&amp;#x107;<br>&amp;#263;</li>
+			<li><em>Esperanto</em><h2>&#x108;</h2>&amp;#x108;<br>&amp;#264;</li>
+			<li><em>Esperanto</em><h2>&#x109;</h2>&amp;#x109;<br>&amp;#265;</li>
+			<li><em>Maltesisch</em><h2>&#x10a;</h2>&amp;#x10a;<br>&amp;#266;</li>
+			<li><em>Maltesisch</em><h2>&#x10b;</h2>&amp;#x10b;<br>&amp;#267;</li>
+			<li><em>Litauisch</em><h2>&#x10c;</h2>&amp;#x10c;<br>&amp;#268;</li>
+			<li><em>Litauisch</em><h2>&#x10d;</h2>&amp;#x10d;<br>&amp;#269;</li>
+			<li><em>Tschechisch</em><h2>&#x10e;</h2>&amp;#x10e;<br>&amp;#270;</li>
+			<li><em>Tschechisch</em><h2>&#x10f;</h2>&amp;#x10f;<br>&amp;#271;</li>
+			<li><em>Vietnamesisch</em><h2>&#x110;</h2>&amp;#x110;<br>&amp;#272;</li>
+			<li><em>Vietnamesisch</em><h2>&#x111;</h2>&amp;#x111;<br>&amp;#273;</li>
+			<li><em>Lettisch</em><h2>&#x112;</h2>&amp;#x112;<br>&amp;#274;</li>
+			<li><em>Lettisch</em><h2>&#x113;</h2>&amp;#x113;<br>&amp;#275;</li>
+			<li><em>Malaysisch</em><h2>&#x114;</h2>&amp;#x114;<br>&amp;#276;</li>
+			<li><em>Malaysisch</em><h2>&#x115;</h2>&amp;#x115;<br>&amp;#277;</li>
+			<li><em>Litauisch</em><h2>&#x116;</h2>&amp;#x116;<br>&amp;#278;</li>
+			<li><em>Litauisch</em><h2>&#x117;</h2>&amp;#x117;<br>&amp;#279;</li>
+			<li><em>Pol., Lit.</em><h2>&#x118;</h2>&amp;#x118;<br>&amp;#280;</li>
+			<li><em>Pol., Lit.</em><h2>&#x119;</h2>&amp;#x119;<br>&amp;#281;</li>
+			<li><em>Tschechisch</em><h2>&#x11a;</h2>&amp;#x11a;<br>&amp;#282;</li>
+			<li><em>Tschechisch</em><h2>&#x11b;</h2>&amp;#x11b;<br>&amp;#283;</li>
+			<li><em>Esperanto</em><h2>&#x11c;</h2>&amp;#x11c;<br>&amp;#284;</li>
+			<li><em>Esperanto</em><h2>&#x11d;</h2>&amp;#x11d;<br>&amp;#285;</li>
+			<li><em>T&uuml;rkisch</em><h2>&#x11e;</h2>&amp;#x11e;<br>&amp;#286;</li>
+			<li><em>T&uuml;rkisch</em><h2>&#x11f;</h2>&amp;#x11f;<br>&amp;#287;</li>
+			<li><em>Maltesisch</em><h2>&#x120;</h2>&amp;#x120;<br>&amp;#288;</li>
+			<li><em>Maltesisch</em><h2>&#x121;</h2>&amp;#x121;<br>&amp;#289;</li>
+			<li><em>Lettisch</em><h2>&#x122;</h2>&amp;#x122;<br>&amp;#290;</li>
+			<li><em>Lettisch</em><h2>&#x123;</h2>&amp;#x123;<br>&amp;#291;</li>
+			<li><em>Esperanto</em><h2>&#x124;</h2>&amp;#x124;<br>&amp;#292;</li>
+			<li><em>Esperanto</em><h2>&#x125;</h2>&amp;#x125;<br>&amp;#293;</li>
+			<li><em>Allgemein</em><h2>&#x126;</h2>&amp;#x126;<br>&amp;#294;</li>
+			<li><em>Allgemein</em><h2>&#x127;</h2>&amp;#x127;<br>&amp;#295;</li>
+			<li><em>Allgemein</em><h2>&#x128;</h2>&amp;#x128;<br>&amp;#296;</li>
+			<li><em>Allgemein</em><h2>&#x129;</h2>&amp;#x129;<br>&amp;#297;</li>
+			<li><em>Lettisch</em><h2>&#x12a;</h2>&amp;#x12a;<br>&amp;#298;</li>
+			<li><em>Lettisch</em><h2>&#x12b;</h2>&amp;#x12b;<br>&amp;#299;</li>
+			<li><em>Allgemein</em><h2>&#x12c;</h2>&amp;#x12c;<br>&amp;#300;</li>
+			<li><em>Allgemein</em><h2>&#x12d;</h2>&amp;#x12d;<br>&amp;#301;</li>
+			<li><em>Litauisch</em><h2>&#x12e;</h2>&amp;#x12e;<br>&amp;#302;</li>
+			<li><em>Litauisch</em><h2>&#x12f;</h2>&amp;#x12f;<br>&amp;#303;</li>
+			<li><em>T&uuml;rkisch</em><h2>&#x130;</h2>&amp;#x130;<br>&amp;#304;</li>
+			<li><em>T&uuml;rkisch</em><h2>&#x131;</h2>&amp;#x131;<br>&amp;#305;</li>
+			<li><em>Fl&auml;misch</em><h2>&#x132;</h2>&amp;#x132;<br>&amp;#306;</li>
+			<li><em>Fl&auml;misch</em><h2>&#x133;</h2>&amp;#x133;<br>&amp;#307;</li>
+			<li><em>Esperanto</em><h2>&#x134;</h2>&amp;#x134;<br>&amp;#308;</li>
+			<li><em>Esperanto</em><h2>&#x135;</h2>&amp;#x135;<br>&amp;#309;</li>
+			<li><em>Lettisch</em><h2>&#x136;</h2>&amp;#x136;<br>&amp;#310;</li>
+			<li><em>Lettisch</em><h2>&#x137;</h2>&amp;#x137;<br>&amp;#311;</li>
+			<li><em>Allgemein</em><h2>&#x138;</h2>&amp;#x138;<br>&amp;#312;</li>
+			<li><em>Allgemein</em><h2>&#x139;</h2>&amp;#x139;<br>&amp;#313;</li>
+			<li><em>Allgemein</em><h2>&#x13a;</h2>&amp;#x13a;<br>&amp;#314;</li>
+			<li><em>Lettisch</em><h2>&#x13b;</h2>&amp;#x13b;<br>&amp;#315;</li>
+			<li><em>Lettisch</em><h2>&#x13c;</h2>&amp;#x13c;<br>&amp;#316;</li>
+			<li><em>Allgemein</em><h2>&#x13d;</h2>&amp;#x13d;<br>&amp;#317;</li>
+			<li><em>Allgemein</em><h2>&#x13e;</h2>&amp;#x13e;<br>&amp;#318;</li>
+			<li><em>Allgemein</em><h2>&#x13f;</h2>&amp;#x13f;<br>&amp;#319;</li>
+			<li><em>Allgemein</em><h2>&#x140;</h2>&amp;#x140;<br>&amp;#320;</li>
+			<li><em>Polnisch</em><h2>&#x141;</h2>&amp;#x141;<br>&amp;#321;</li>
+			<li><em>Polnisch</em><h2>&#x142;</h2>&amp;#x142;<br>&amp;#322;</li>
+			<li><em>Polnisch</em><h2>&#x143;</h2>&amp;#x143;<br>&amp;#323;</li>
+			<li><em>Polnisch</em><h2>&#x144;</h2>&amp;#x144;<br>&amp;#324;</li>
+			<li><em>Lettisch</em><h2>&#x145;</h2>&amp;#x145;<br>&amp;#325;</li>
+			<li><em>Lettisch</em><h2>&#x146;</h2>&amp;#x146;<br>&amp;#326;</li>
+			<li><em>Tschechisch</em><h2>&#x147;</h2>&amp;#x147;<br>&amp;#327;</li>
+			<li><em>Tschechisch</em><h2>&#x148;</h2>&amp;#x148;<br>&amp;#328;</li>
+			<li><em>Allgemein</em><h2>&#x149;</h2>&amp;#x149;<br>&amp;#329;</li>
+			<li><em>Allgemein</em><h2>&#x14a;</h2>&amp;#x14a;<br>&amp;#330;</li>
+			<li><em>Allgemein</em><h2>&#x14b;</h2>&amp;#x14b;<br>&amp;#331;</li>
+			<li><em>Lettisch</em><h2>&#x14c;</h2>&amp;#x14c;<br>&amp;#332;</li>
+			<li><em>Lettisch</em><h2>&#x14d;</h2>&amp;#x14d;<br>&amp;#333;</li>
+			<li><em>Allgemein</em><h2>&#x14e;</h2>&amp;#x14e;<br>&amp;#334;</li>
+			<li><em>Allgemein</em><h2>&#x14f;</h2>&amp;#x14f;<br>&amp;#335;</li>
+			<li><em>Ungarisch</em><h2>&#x150;</h2>&amp;#x150;<br>&amp;#336;</li>
+			<li><em>Ungarisch</em><h2>&#x151;</h2>&amp;#x151;<br>&amp;#337;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&#x152;</h2>&amp;#x152;<br>&amp;#338;<br>&amp;OElig;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&#x153;</h2>&amp;#x153;<br>&amp;#339;<br>&amp;oelig;</li>
+			<li><em>Slowakisch</em><h2>&#x154;</h2>&amp;#x154;<br>&amp;#340;</li>
+			<li><em>Slowakisch</em><h2>&#x155;</h2>&amp;#x155;<br>&amp;#341;</li>
+			<li><em>Allgemein</em><h2>&#x156;</h2>&amp;#x156;<br>&amp;#342;</li>
+			<li><em>Allgemein</em><h2>&#x157;</h2>&amp;#x157;<br>&amp;#343;</li>
+			<li><em>Tschechisch</em><h2>&#x158;</h2>&amp;#x158;<br>&amp;#344;</li>
+			<li><em>Tschechisch</em><h2>&#x159;</h2>&amp;#x159;<br>&amp;#345;</li>
+			<li><em>Polnisch</em><h2>&#x15a;</h2>&amp;#x15a;<br>&amp;#346;</li>
+			<li><em>Polnisch</em><h2>&#x15b;</h2>&amp;#x15b;<br>&amp;#347;</li>
+			<li><em>Esperanto</em><h2>&#x15c;</h2>&amp;#x15c;<br>&amp;#348;</li>
+			<li><em>Esperanto</em><h2>&#x15d;</h2>&amp;#x15d;<br>&amp;#349;</li>
+			<li><em>Rum&auml;nisch</em><h2>&#x15e;</h2>&amp;#x15e;<br>&amp;#350;</li>
+			<li><em>Rum&auml;nisch</em><h2>&#x15f;</h2>&amp;#x15f;<br>&amp;#351;</li>
+			<li><em>Lett., Lit.</em><h2>&#x160;</h2>&amp;#x160;<br>&amp;#352;<br>&amp;Scaron;</li>
+			<li><em>Lett., Lit.</em><h2>&#x161;</h2>&amp;#x161;<br>&amp;#353;<br>&amp;scaron;</li>
+			<li><em>Rum&auml;nisch</em><h2>&#x162;</h2>&amp;#x162;<br>&amp;#354;</li>
+			<li><em>Rum&auml;nisch</em><h2>&#x163;</h2>&amp;#x163;<br>&amp;#355;</li>
+			<li><em>Tschechisch</em><h2>&#x164;</h2>&amp;#x164;<br>&amp;#356;</li>
+			<li><em>Tschechisch</em><h2>&#x165;</h2>&amp;#x165;<br>&amp;#357;</li>
+			<li><em>Samisch</em><h2>&#x166;</h2>&amp;#x166;<br>&amp;#358;</li>
+			<li><em>Samisch</em><h2>&#x167;</h2>&amp;#x167;<br>&amp;#359;</li>
+			<li><em>Allgemein</em><h2>&#x168;</h2>&amp;#x168;<br>&amp;#360;</li>
+			<li><em>Allgemein</em><h2>&#x169;</h2>&amp;#x169;<br>&amp;#361;</li>
+			<li><em>Lett., Lit.</em><h2>&#x16a;</h2>&amp;#x16a;<br>&amp;#362;</li>
+			<li><em>Lett., Lit.</em><h2>&#x16b;</h2>&amp;#x16b;<br>&amp;#363;</li>
+			<li><em>Esperanto</em><h2>&#x16c;</h2>&amp;#x16c;<br>&amp;#364;</li>
+			<li><em>Esperanto</em><h2>&#x16d;</h2>&amp;#x16d;<br>&amp;#365;</li>
+			<li><em>Tschechisch</em><h2>&#x16e;</h2>&amp;#x16e;<br>&amp;#366;</li>
+			<li><em>Tschechisch</em><h2>&#x16f;</h2>&amp;#x16f;<br>&amp;#367;</li>
+			<li><em>Ungarisch</em><h2>&#x170;</h2>&amp;#x170;<br>&amp;#368;</li>
+			<li><em>Ungarisch</em><h2>&#x171;</h2>&amp;#x171;<br>&amp;#369;</li>
+			<li><em>Litauisch</em><h2>&#x172;</h2>&amp;#x172;<br>&amp;#370;</li>
+			<li><em>Litauisch</em><h2>&#x173;</h2>&amp;#x173;<br>&amp;#371;</li>
+			<li><em>Walisisch</em><h2>&#x174;</h2>&amp;#x174;<br>&amp;#372;</li>
+			<li><em>Walisisch</em><h2>&#x175;</h2>&amp;#x175;<br>&amp;#373;</li>
+			<li><em>Walisisch</em><h2>&#x176;</h2>&amp;#x176;<br>&amp;#374;</li>
+			<li><em>Walisisch</em><h2>&#x177;</h2>&amp;#x177;<br>&amp;#375;</li>
+			<li><em>Franz&ouml;sisch</em><h2>&#x178;</h2>&amp;#x178;<br>&amp;#376;<br>&amp;Yuml;</li>
+			<li><em>Polnisch</em><h2>&#x179;</h2>&amp;#x179;<br>&amp;#377;</li>
+			<li><em>Polnisch</em><h2>&#x17a;</h2>&amp;#x17a;<br>&amp;#378;</li>
+			<li><em>Polnisch</em><h2>&#x17b;</h2>&amp;#x17b;<br>&amp;#379;</li>
+			<li><em>Polnisch</em><h2>&#x17c;</h2>&amp;#x17c;<br>&amp;#380;</li>
+			<li><em>Lett., Lit.</em><h2>&#x17d;</h2>&amp;#x17d;<br>&amp;#381;</li>
+			<li><em>Lett., Lit.</em><h2>&#x17e;</h2>&amp;#x17e;<br>&amp;#382;</li>
+			<li><em>Allgemein</em><h2>&#x17f;</h2>&amp;#x17f;<br>&amp;#383;</li>
+			<li><em>Mathematisch</em><h2>&#x192;</h2>&amp;#x192;<br>&amp;#402;<br>&amp;fnof;</li>
+			<li><em>Allgemein</em><h2>&circ;</h2>&amp;#x2c6;<br>&amp;#710;<br>&amp;circ;</li>
+			<li><em>Allgemein</em><h2>&tilde;</h2>&amp;#x2dc;<br>&amp;#732;<br>&amp;tilde;</li>
+			<li><em>Griechisch</em><h2>&Alpha;</h2>&amp;#x391;<br>&amp;#913;<br>&amp;Alpha;</li>
+			<li><em>Griechisch</em><h2>&Beta;</h2>&amp;#x392;<br>&amp;#914;<br>&amp;Beta;</li>
+			<li><em>Griechisch</em><h2>&Gamma;</h2>&amp;#x393;<br>&amp;#915;<br>&amp;Gamma;</li>
+			<li><em>Griechisch</em><h2>&Delta;</h2>&amp;#x394;<br>&amp;#916;<br>&amp;Delta;</li>
+			<li><em>Griechisch</em><h2>&Epsilon;</h2>&amp;#x395;<br>&amp;#917;<br>&amp;Epsilon;</li>
+			<li><em>Griechisch</em><h2>&Zeta;</h2>&amp;#x396;<br>&amp;#918;<br>&amp;Zeta;</li>
+			<li><em>Griechisch</em><h2>&Eta;</h2>&amp;#x397;<br>&amp;#919;<br>&amp;Eta;</li>
+			<li><em>Griechisch</em><h2>&Theta;</h2>&amp;#x398;<br>&amp;#920;<br>&amp;Theta;</li>
+			<li><em>Griechisch</em><h2>&Iota;</h2>&amp;#x399;<br>&amp;#921;<br>&amp;Iota;</li>
+			<li><em>Griechisch</em><h2>&Kappa;</h2>&amp;#x39a;<br>&amp;#922;<br>&amp;Kappa;</li>
+			<li><em>Griechisch</em><h2>&Lambda;</h2>&amp;#x39b;<br>&amp;#923;<br>&amp;Lambda;</li>
+			<li><em>Griechisch</em><h2>&Mu;</h2>&amp;#x39c;<br>&amp;#924;<br>&amp;Mu;</li>
+			<li><em>Griechisch</em><h2>&Nu;</h2>&amp;#x39d;<br>&amp;#925;<br>&amp;Nu;</li>
+			<li><em>Griechisch</em><h2>&Xi;</h2>&amp;#x39e;<br>&amp;#926;<br>&amp;Xi;</li>
+			<li><em>Griechisch</em><h2>&Omicron;</h2>&amp;#x39f;<br>&amp;#927;<br>&amp;Omicron;</li>
+			<li><em>Griechisch</em><h2>&Pi;</h2>&amp;#x3a0;<br>&amp;#928;<br>&amp;Pi;</li>
+			<li><em>Griechisch</em><h2>&Rho;</h2>&amp;#x3a1;<br>&amp;#929;<br>&amp;Rho;</li>
+			<li><em>Griechisch</em><h2>&Sigma;</h2>&amp;#x3a3;<br>&amp;#931;<br>&amp;Sigma;</li>
+			<li><em>Griechisch</em><h2>&Tau;</h2>&amp;#x3a4;<br>&amp;#932;<br>&amp;Tau;</li>
+			<li><em>Griechisch</em><h2>&Upsilon;</h2>&amp;#x3a5;<br>&amp;#933;<br>&amp;Upsilon;</li>
+			<li><em>Griechisch</em><h2>&Phi;</h2>&amp;#x3a6;<br>&amp;#934;<br>&amp;Phi;</li>
+			<li><em>Griechisch</em><h2>&Chi;</h2>&amp;#x3a7;<br>&amp;#935;<br>&amp;Chi;</li>
+			<li><em>Griechisch</em><h2>&Psi;</h2>&amp;#x3a8;<br>&amp;#936;<br>&amp;Psi;</li>
+			<li><em>Griechisch</em><h2>&Omega;</h2>&amp;#x3a9;<br>&amp;#937;<br>&amp;Omega;</li>
+			<li><em>Griechisch</em><h2>&alpha;</h2>&amp;#x3b1;<br>&amp;#945;<br>&amp;alpha;</li>
+			<li><em>Griechisch</em><h2>&beta;</h2>&amp;#x3b2;<br>&amp;#946;<br>&amp;beta;</li>
+			<li><em>Griechisch</em><h2>&gamma;</h2>&amp;#x3b3;<br>&amp;#947;<br>&amp;gamma;</li>
+			<li><em>Griechisch</em><h2>&delta;</h2>&amp;#x3b4;<br>&amp;#948;<br>&amp;delta;</li>
+			<li><em>Griechisch</em><h2>&epsilon;</h2>&amp;#x3b5;<br>&amp;#949;<br>&amp;epsilon;</li>
+			<li><em>Griechisch</em><h2>&zeta;</h2>&amp;#x3b6;<br>&amp;#950;<br>&amp;zeta;</li>
+			<li><em>Griechisch</em><h2>&eta;</h2>&amp;#x3b7;<br>&amp;#951;<br>&amp;eta;</li>
+			<li><em>Griechisch</em><h2>&theta;</h2>&amp;#x3b8;<br>&amp;#952;<br>&amp;theta;</li>
+			<li><em>Griechisch</em><h2>&iota;</h2>&amp;#x3b9;<br>&amp;#953;<br>&amp;iota;</li>
+			<li><em>Griechisch</em><h2>&kappa;</h2>&amp;#x3ba;<br>&amp;#954;<br>&amp;kappa;</li>
+			<li><em>Griechisch</em><h2>&lambda;</h2>&amp;#x3bb;<br>&amp;#955;<br>&amp;lambda;</li>
+			<li><em>Griechisch</em><h2>&mu;</h2>&amp;#x3bc;<br>&amp;#956;<br>&amp;mu;</li>
+			<li><em>Griechisch</em><h2>&nu;</h2>&amp;#x3bd;<br>&amp;#957;<br>&amp;nu;</li>
+			<li><em>Griechisch</em><h2>&xi;</h2>&amp;#x3be;<br>&amp;#958;<br>&amp;xi;</li>
+			<li><em>Griechisch</em><h2>&omicron;</h2>&amp;#x3bf;<br>&amp;#959;<br>&amp;omicron;</li>
+			<li><em>Griechisch</em><h2>&pi;</h2>&amp;#x3c0;<br>&amp;#960;<br>&amp;pi;</li>
+			<li><em>Griechisch</em><h2>&rho;</h2>&amp;#x3c1;<br>&amp;#961;<br>&amp;rho;</li>
+			<li><em>Griechisch</em><h2>&sigmaf;</h2>&amp;#x3c2;<br>&amp;#962;<br>&amp;sigmaf;</li>
+			<li><em>Griechisch</em><h2>&sigma;</h2>&amp;#x3c3;<br>&amp;#963;<br>&amp;sigma;</li>
+			<li><em>Griechisch</em><h2>&tau;</h2>&amp;#x3c4;<br>&amp;#964;<br>&amp;tau;</li>
+			<li><em>Griechisch</em><h2>&upsilon;</h2>&amp;#x3c5;<br>&amp;#965;<br>&amp;upsilon;</li>
+			<li><em>Griechisch</em><h2>&phi;</h2>&amp;#x3c6;<br>&amp;#966;<br>&amp;phi;</li>
+			<li><em>Griechisch</em><h2>&chi;</h2>&amp;#x3c7;<br>&amp;#967;<br>&amp;chi;</li>
+			<li><em>Griechisch</em><h2>&psi;</h2>&amp;#x3c8;<br>&amp;#968;<br>&amp;psi;</li>
+			<li><em>Griechisch</em><h2>&omega;</h2>&amp;#x3c9;<br>&amp;#969;<br>&amp;omega;</li>
+			<li><em>Griechisch</em><h2>&thetasym;</h2>&amp;#x3d1;<br>&amp;#977;<br>&amp;thetasym;</li>
+			<li><em>Griechisch</em><h3>&upsih;</h3>&amp;#x3d2;<br>&amp;#978;<br>&amp;upsih;</li>
+			<li><em>Griechisch</em><h2>&piv;</h2>&amp;#x3d6;<br>&amp;#982;<br>&amp;piv;</li>
+			<li><em>Russisch</em><h2>&#x410;</h2>&amp;#x410;<br>&amp;#1040;</li>
+			<li><em>Russisch</em><h2>&#x411;</h2>&amp;#x411;<br>&amp;#1041;</li>
+			<li><em>Russisch</em><h2>&#x412;</h2>&amp;#x412;<br>&amp;#1042;</li>
+			<li><em>Russisch</em><h2>&#x413;</h2>&amp;#x413;<br>&amp;#1043;</li>
+			<li><em>Russisch</em><h2>&#x414;</h2>&amp;#x414;<br>&amp;#1044;</li>
+			<li><em>Russisch</em><h2>&#x415;</h2>&amp;#x415;<br>&amp;#1045;</li>
+			<li><em>Russisch</em><h2>&#x416;</h2>&amp;#x416;<br>&amp;#1046;</li>
+			<li><em>Russisch</em><h2>&#x417;</h2>&amp;#x417;<br>&amp;#1047;</li>
+			<li><em>Russisch</em><h2>&#x418;</h2>&amp;#x418;<br>&amp;#1048;</li>
+			<li><em>Russisch</em><h2>&#x419;</h2>&amp;#x419;<br>&amp;#1049;</li>
+			<li><em>Russisch</em><h2>&#x41a;</h2>&amp;#x41a;<br>&amp;#1050;</li>
+			<li><em>Russisch</em><h2>&#x41b;</h2>&amp;#x41b;<br>&amp;#1051;</li>
+			<li><em>Russisch</em><h2>&#x41c;</h2>&amp;#x41c;<br>&amp;#1052;</li>
+			<li><em>Russisch</em><h2>&#x41d;</h2>&amp;#x41d;<br>&amp;#1053;</li>
+			<li><em>Russisch</em><h2>&#x41e;</h2>&amp;#x41e;<br>&amp;#1054;</li>
+			<li><em>Russisch</em><h2>&#x41f;</h2>&amp;#x41f;<br>&amp;#1055;</li>
+			<li><em>Russisch</em><h2>&#x420;</h2>&amp;#x420;<br>&amp;#1056;</li>
+			<li><em>Russisch</em><h2>&#x421;</h2>&amp;#x421;<br>&amp;#1057;</li>
+			<li><em>Russisch</em><h2>&#x422;</h2>&amp;#x422;<br>&amp;#1058;</li>
+			<li><em>Russisch</em><h2>&#x423;</h2>&amp;#x423;<br>&amp;#1059;</li>
+			<li><em>Russisch</em><h2>&#x424;</h2>&amp;#x424;<br>&amp;#1060;</li>
+			<li><em>Russisch</em><h2>&#x425;</h2>&amp;#x425;<br>&amp;#1061;</li>
+			<li><em>Russisch</em><h2>&#x426;</h2>&amp;#x426;<br>&amp;#1062;</li>
+			<li><em>Russisch</em><h2>&#x427;</h2>&amp;#x427;<br>&amp;#1063;</li>
+			<li><em>Russisch</em><h2>&#x428;</h2>&amp;#x428;<br>&amp;#1064;</li>
+			<li><em>Russisch</em><h2>&#x429;</h2>&amp;#x429;<br>&amp;#1065;</li>
+			<li><em>Russisch</em><h2>&#x42a;</h2>&amp;#x42a;<br>&amp;#1066;</li>
+			<li><em>Russisch</em><h2>&#x42b;</h2>&amp;#x42b;<br>&amp;#1067;</li>
+			<li><em>Russisch</em><h2>&#x42c;</h2>&amp;#x42c;<br>&amp;#1068;</li>
+			<li><em>Russisch</em><h2>&#x42d;</h2>&amp;#x42d;<br>&amp;#1069;</li>
+			<li><em>Russisch</em><h2>&#x42e;</h2>&amp;#x42e;<br>&amp;#1070;</li>
+			<li><em>Russisch</em><h2>&#x42f;</h2>&amp;#x42f;<br>&amp;#1071;</li>
+			<li><em>Russisch</em><h2>&#x430;</h2>&amp;#x430;<br>&amp;#1072;</li>
+			<li><em>Russisch</em><h2>&#x431;</h2>&amp;#x431;<br>&amp;#1073;</li>
+			<li><em>Russisch</em><h2>&#x432;</h2>&amp;#x432;<br>&amp;#1074;</li>
+			<li><em>Russisch</em><h2>&#x433;</h2>&amp;#x433;<br>&amp;#1075;</li>
+			<li><em>Russisch</em><h2>&#x434;</h2>&amp;#x434;<br>&amp;#1076;</li>
+			<li><em>Russisch</em><h2>&#x435;</h2>&amp;#x435;<br>&amp;#1077;</li>
+			<li><em>Russisch</em><h2>&#x436;</h2>&amp;#x436;<br>&amp;#1078;</li>
+			<li><em>Russisch</em><h2>&#x437;</h2>&amp;#x437;<br>&amp;#1079;</li>
+			<li><em>Russisch</em><h2>&#x438;</h2>&amp;#x438;<br>&amp;#1080;</li>
+			<li><em>Russisch</em><h2>&#x439;</h2>&amp;#x439;<br>&amp;#1081;</li>
+			<li><em>Russisch</em><h2>&#x43a;</h2>&amp;#x43a;<br>&amp;#1082;</li>
+			<li><em>Russisch</em><h2>&#x43b;</h2>&amp;#x43b;<br>&amp;#1083;</li>
+			<li><em>Russisch</em><h2>&#x43c;</h2>&amp;#x43c;<br>&amp;#1084;</li>
+			<li><em>Russisch</em><h2>&#x43d;</h2>&amp;#x43d;<br>&amp;#1085;</li>
+			<li><em>Russisch</em><h2>&#x43e;</h2>&amp;#x43e;<br>&amp;#1086;</li>
+			<li><em>Russisch</em><h2>&#x43f;</h2>&amp;#x43f;<br>&amp;#1087;</li>
+			<li><em>Russisch</em><h2>&#x440;</h2>&amp;#x440;<br>&amp;#1088;</li>
+			<li><em>Russisch</em><h2>&#x441;</h2>&amp;#x441;<br>&amp;#1089;</li>
+			<li><em>Russisch</em><h2>&#x442;</h2>&amp;#x442;<br>&amp;#1090;</li>
+			<li><em>Russisch</em><h2>&#x443;</h2>&amp;#x443;<br>&amp;#1091;</li>
+			<li><em>Russisch</em><h2>&#x444;</h2>&amp;#x444;<br>&amp;#1092;</li>
+			<li><em>Russisch</em><h2>&#x445;</h2>&amp;#x445;<br>&amp;#1093;</li>
+			<li><em>Russisch</em><h2>&#x446;</h2>&amp;#x446;<br>&amp;#1094;</li>
+			<li><em>Russisch</em><h2>&#x447;</h2>&amp;#x447;<br>&amp;#1095;</li>
+			<li><em>Russisch</em><h2>&#x448;</h2>&amp;#x448;<br>&amp;#1096;</li>
+			<li><em>Russisch</em><h2>&#x449;</h2>&amp;#x449;<br>&amp;#1097;</li>
+			<li><em>Russisch</em><h2>&#x44a;</h2>&amp;#x44a;<br>&amp;#1098;</li>
+			<li><em>Russisch</em><h2>&#x44b;</h2>&amp;#x44b;<br>&amp;#1099;</li>
+			<li><em>Russisch</em><h2>&#x44c;</h2>&amp;#x44c;<br>&amp;#1100;</li>
+			<li><em>Russisch</em><h2>&#x44d;</h2>&amp;#x44d;<br>&amp;#1101;</li>
+			<li><em>Russisch</em><h2>&#x44e;</h2>&amp;#x44e;<br>&amp;#1102;</li>
+			<li><em>Russisch</em><h2>&#x44f;</h2>&amp;#x44f;<br>&amp;#1103;</li>
+			<li><em>Wei&szlig;r., Ukr.</em><h2>&#x456;</h2>&amp;#x456;<br>&amp;#1110;</li>
+			<li><em>Allgemein</em><h2>&ndash;</h2>&amp;#x2013;<br>&amp;#8211;<br>&amp;ndash;</li>
+			<li><em>Allgemein</em><h2>&mdash;</h2>&amp;#x2014;<br>&amp;#8212;<br>&amp;mdash;</li>
+			<li><em>Allgemein</em><h2>&lsquo;</h2>&amp;#x2018;<br>&amp;#8216;<br>&amp;lsquo;</li>
+			<li><em>Allgemein</em><h2>&rsquo;</h2>&amp;#x2019;<br>&amp;#8217;<br>&amp;rsquo;</li>
+			<li><em>Allgemein</em><h2>&sbquo;</h2>&amp;#x201a;<br>&amp;#8218;<br>&amp;sbquo;</li>
+			<li><em>Allgemein</em><h2>&ldquo;</h2>&amp;#x201c;<br>&amp;#8220;<br>&amp;ldquo;</li>
+			<li><em>Allgemein</em><h2>&rdquo;</h2>&amp;#x201d;<br>&amp;#8221;<br>&amp;rdquo;</li>
+			<li><em>Allgemein</em><h2>&bdquo;</h2>&amp;#x201e;<br>&amp;#8222;<br>&amp;bdquo;</li>
+			<li><em>Allgemein</em><h2>&dagger;</h2>&amp;#x2020;<br>&amp;#8224;<br>&amp;dagger;</li>
+			<li><em>Allgemein</em><h2>&Dagger;</h2>&amp;#x2021;<br>&amp;#8225;<br>&amp;Dagger;</li>
+			<li><em>Allgemein</em><h2>&bull;</h2>&amp;#x2022;<br>&amp;#8226;<br>&amp;bull;</li>
+			<li><em>Allgemein</em><h2>&hellip;</h2>&amp;#x2026;<br>&amp;#8230;<br>&amp;hellip;</li>
+			<li><em>Mathematisch</em><h2>&permil;</h2>&amp;#x2030;<br>&amp;#8240;<br>&amp;permil;</li>
+			<li><em>Allgemein</em><h2>&prime;</h2>&amp;#x2032;<br>&amp;#8242;<br>&amp;prime;</li>
+			<li><em>Allgemein</em><h2>&Prime;</h2>&amp;#x2032;<br>&amp;#8243;<br>&amp;Prime;</li>
+			<li><em>Allgemein</em><h2>&lsaquo;</h2>&amp;#x2039;<br>&amp;#8249;<br>&amp;lsaquo;</li>
+			<li><em>Allgemein</em><h2>&rsaquo;</h2>&amp;#x203a;<br>&amp;#8250;<br>&amp;rsquo;</li>
+			<li><em>Allgemein</em><h2>&oline;</h2>&amp;#x203e;<br>&amp;#8254;<br>&amp;oline;</li>
+			<li><em>Allgemein</em><h2>&frasl;</h2>&amp;#x2044;<br>&amp;#8260;<br>&amp;frasl;</li>
+			<li><em>W&auml;hrung</em><h2>&euro;</h2>&amp;#x20ac;<br>&amp;#8364;<br>&amp;euro;</li>
+			<li><em>Physikalisch</em><h2>&#x210f;</h2>&amp;#x210f;<br>&amp;#8463;</li>
+			<li><em>Mathematisch</em><h3>&image;</h3>&amp;#x2111;<br>&amp;#8465;<br>&amp;image;</li>
+			<li><em>Mathematisch</em><h2>&weierp;</h2>&amp;#x2118;<br>&amp;#8472;<br>&amp;weierp;</li>
+			<li><em>Mathematisch</em><h3>&real;</h3>&amp;#x211c;<br>&amp;#8476;<br>&amp;real;</li>
+			<li><em>Allgemein</em><h2>&trade;</h2>&amp;#x2122;<br>&amp;#8482;<br>&amp;trade;</li>
+			<li><em>Allgemein</em><h2>&alefsym;</h2>&amp;#x2135;<br>&amp;#8501;<br>&amp;alefsym;</li>
+			<li><em>Allgemein</em><h2>&larr;</h2>&amp;#x2190;<br>&amp;#8592;<br>&amp;larr;</li>
+			<li><em>Allgemein</em><h2>&uarr;</h2>&amp;#x2191;<br>&amp;#8593;<br>&amp;uarr;</li>
+			<li><em>Allgemein</em><h2>&rarr;</h2>&amp;#x2192;<br>&amp;#8594;<br>&amp;rarr;</li>
+			<li><em>Allgemein</em><h2>&darr;</h2>&amp;#x2193;<br>&amp;#8595;<br>&amp;darr;</li>
+			<li><em>Allgemein</em><h2>&harr;</h2>&amp;#x2194;<br>&amp;#8596;<br>&amp;harr;</li>
+			<li><em>Allgemein</em><h3>&crarr;</h3>&amp;#x21b5;<br>&amp;#8629;<br>&amp;crarr;</li>
+			<li><em>Allgemein</em><h3>&lArr;</h3>&amp;#x21d0;<br>&amp;#8656;<br>&amp;lArr;</li>
+			<li><em>Allgemein</em><h3>&uArr;</h3>&amp;#x21d1;<br>&amp;#8657;<br>&amp;uArr;</li>
+			<li><em>Allgemein</em><h3>&rArr;</h3>&amp;#x21d2;<br>&amp;#8658;<br>&amp;rArr;</li>
+			<li><em>Allgemein</em><h3>&dArr;</h3>&amp;#x21d3;<br>&amp;#8659;<br>&amp;dArr;</li>
+			<li><em>Allgemein</em><h3>&hArr;</h3>&amp;#x21d4;<br>&amp;#8660;<br>&amp;hArr;</li>
+			<li><em>Mathematisch</em><h3>&forall;</h3>&amp;#x2200;<br>&amp;#8704;<br>&amp;forall;</li>
+			<li><em>Mathematisch</em><h2>&part;</h2>&amp;#x2202;<br>&amp;#8706;<br>&amp;part;</li>
+			<li><em>Mathematisch</em><h3>&exist;</h3>&amp;#x2203;<br>&amp;#8707;<br>&amp;exist;</li>
+			<li><em>Mathematisch</em><h3>&empty;</h3>&amp;#x2205;<br>&amp;#8709;<br>&amp;empty;</li>
+			<li><em>Mathematisch</em><h3>&nabla;</h3>&amp;#x2207;<br>&amp;#8711;<br>&amp;nabla;</li>
+			<li><em>Mathematisch</em><h3>&isin;</h3>&amp;#x2208;<br>&amp;#8712;<br>&amp;isin;</li>
+			<li><em>Mathematisch</em><h3>&notin;</h3>&amp;#x2209;<br>&amp;#8713;<br>&amp;notin;</li>
+			<li><em>Mathematisch</em><h2>&ni;</h2>&amp;#x220b;<br>&amp;#8715;<br>&amp;ni;</li>
+			<li><em>Mathematisch</em><h2>&prod;</h2>&amp;#x220f;<br>&amp;#8719;<br>&amp;prod;</li>
+			<li><em>Mathematisch</em><h2>&sum;</h2>&amp;#x2211;<br>&amp;#8721;<br>&amp;sum;</li>
+			<li><em>Mathematisch</em><h2>&minus;</h2>&amp;#x2212;<br>&amp;#8722;<br>&amp;minus;</li>
+			<li><em>Mathematisch</em><h3>&lowast;</h3>&amp;#x2217;<br>&amp;#8727;<br>&amp;lowast;</li>
+			<li><em>Mathematisch</em><h2>&radic;</h2>&amp;#x221a;<br>&amp;#8730;<br>&amp;radic;</li>
+			<li><em>Mathematisch</em><h3>&prop;</h3>&amp;#x221d;<br>&amp;#8733;<br>&amp;prop;</li>
+			<li><em>Mathematisch</em><h2>&infin;</h2>&amp;#x221e;<br>&amp;#8734;<br>&amp;infin;</li>
+			<li><em>Mathematisch</em><h3>&ang;</h3>&amp;#x2220;<br>&amp;#8736;<br>&amp;ang;</li>
+			<li><em>Mathematisch</em><h3>&and;</h3>&amp;#x2227;<br>&amp;#8743;<br>&amp;and;</li>
+			<li><em>Mathematisch</em><h3>&or;</h3>&amp;#x2228;<br>&amp;#8744;<br>&amp;or;</li>
+			<li><em>Mathematisch</em><h2>&cap;</h2>&amp;#x2229;<br>&amp;#8745;<br>&amp;cap;</li>
+			<li><em>Mathematisch</em><h3>&cup;</h3>&amp;#x222a;<br>&amp;#8746;<br>&amp;cup;</li>
+			<li><em>Mathematisch</em><h2>&int;</h2>&amp;#x222b;<br>&amp;#8747;<br>&amp;int;</li>
+			<li><em>Mathematisch</em><h3>&there4;</h3>&amp;#x2234;<br>&amp;#8756;<br>&amp;there4;</li>
+			<li><em>Mathematisch</em><h3>&sim;</h3>&amp;#x223c;<br>&amp;#8764;<br>&amp;sim;</li>
+			<li><em>Mathematisch</em><h2>&cong;</h2>&amp;#x2245;<br>&amp;#8773;<br>&amp;cong;</li>
+			<li><em>Mathematisch</em><h2>&asymp;</h2>&amp;#x2248;<br>&amp;#8776;<br>&amp;asymp;</li>
+			<li><em>Mathematisch</em><h2>&ne;</h2>&amp;#x2260;<br>&amp;#8800;<br>&amp;ne;</li>
+			<li><em>Mathematisch</em><h2>&equiv;</h2>&amp;#x2261;<br>&amp;#8801;<br>&amp;equiv;</li>
+			<li><em>Mathematisch</em><h2>&le;</h2>&amp;#x2264;<br>&amp;#8804;<br>&amp;le;</li>
+			<li><em>Mathematisch</em><h2>&ge;</h2>&amp;#x2265;<br>&amp;#8805;<br>&amp;ge;</li>
+			<li><em>Mathematisch</em><h2>&sub;</h2>&amp;#x2282;<br>&amp;#8834;<br>&amp;sub;</li>
+			<li><em>Mathematisch</em><h2>&sup;</h2>&amp;#x2283;<br>&amp;#8835;<br>&amp;sup;</li>
+			<li><em>Mathematisch</em><h2>&nsub;</h2>&amp;#x2284;<br>&amp;#8836;<br>&amp;nsub;</li>
+			<li><em>Mathematisch</em><h2>&sube;</h2>&amp;#x2286;<br>&amp;#8838;<br>&amp;sube;</li>
+			<li><em>Mathematisch</em><h2>&supe;</h2>&amp;#x2287;<br>&amp;#8839;<br>&amp;supe;</li>
+			<li><em>Mathematisch</em><h3>&oplus;</h3>&amp;#x2295;<br>&amp;#8853;<br>&amp;oplus;</li>
+			<li><em>Mathematisch</em><h3>&otimes;</h3>&amp;#x2297;<br>&amp;#8855;<br>&amp;otimes;</li>
+			<li><em>Mathematisch</em><h3>&perp;</h3>&amp;#x22a5;<br>&amp;#8869;<br>&amp;perp;</li>
+			<li><em>Mathematisch</em><h2>&sdot;</h2>&amp;#x22c4;<br>&amp;#8901;<br>&amp;sdot;</li>
+			<li><em>Allgemein</em><h2>&lceil;</h2>&amp;#x2308;<br>&amp;#8968;<br>&amp;lceil;</li>
+			<li><em>Allgemein</em><h2>&rceil;</h2>&amp;#x2309;<br>&amp;#8969;<br>&amp;rceil;</li>
+			<li><em>Allgemein</em><h2>&lfloor;</h2>&amp;#x230a;<br>&amp;#8970;<br>&amp;lfloor;</li>
+			<li><em>Allgemein</em><h2>&rfloor;</h2>&amp;#x230b;<br>&amp;#8971;<br>&amp;rfloor;</li>
+			<li><em>Allgemein</em><h2>&lang;</h2>&amp;#x2329;<br>&amp;#9001;<br>&amp;lang;</li>
+			<li><em>Allgemein</em><h2>&rang;</h2>&amp;#x232a;<br>&amp;#9002;<br>&amp;rang;</li>
+			<li><em>Allgemein</em><h2>&loz;</h2>&amp;#x25ca;<br>&amp;#9674;<br>&amp;loz;</li>
+			<li><em>Poker</em><h2>&spades;</h2>&amp;#x2660;<br>&amp;#9824;<br>&amp;spades;</li>
+			<li><em>Poker</em><h2>&clubs;</h2>&amp;#x2663;<br>&amp;#9827;<br>&amp;clubs;</li>
+			<li><em>Poker</em><h2>&hearts;</h2>&amp;#x2665;<br>&amp;#9829;<br>&amp;hearts;</li>
+			<li><em>Poker</em><h2>&diams;</h2>&amp;#x2666;<br>&amp;#9830;<br>&amp;diams;</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<em>(Javascript required for Changer)</em>
+		<address><a href="http://www.gedit.net/Simon" title="Simon Gattner">Simon Gattner</a> 2009</address>
+		<div class="clear"></div>
+	</div>
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = document.title;
+piwik_idsite = 2;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+</body>
+</html>

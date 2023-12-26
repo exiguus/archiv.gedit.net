@@ -1,0 +1,350 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+		"http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="de">
+<title> Weblog - Druckvorschau - Gedit</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Eine Liste interessanter, lesenswerter und informativer Websites zu Themen wie HTML, CSS, XML, SVG, Javascript/DOM, Ajax, SSI, CGI/Perl, PHP, Webdesign, Webdevelopment, Webstandards, Webtechniken, Accessibility, Usability, Online Business oder Online Marketing. - Druckvorschau">
+<meta name="keywords" content="gedit, weblog, blog, HTML, CSS, XML, SVG, SEO, CMS, DOM, Javascript, Ajax, SSI, CGI, Perl, PHP, Websites,  Webdesign, Webdevelopment, Webstandards, Accessibility, Usability, Online Business, Online Marketing">
+<meta name="rating" content="general">
+<meta name="revisit-after" content="2 days">
+<meta name="expires" content="never">
+<meta name="distribution" content="global">
+<meta name="robots" content="noindex,follow">
+<meta name="date" content="2023-12-26">
+<meta name="author" content="Simon Gattner">
+<meta name="copyright" content="Simon Gattner">
+<meta name="publisher" content="Simon Gattner">
+<meta name="page-topic" content="Dienstleistung, Privat">
+<meta name="page-type" content="Weblog">
+<meta name="audience" content="Webworker, Webmaster, Webdeveloper, Admin, IT, Designer, Freelancer, Press, programmer, Coder, Scripter, Systemadmin, Gurus">
+<link rel="alternate" type="application/rss+xml" title="gedit.NET - Weblog - RSS Feed" href="Weblog%3BRSS">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="impressum" title="Impressum" href="Impressum">
+<link rel="contents" title="Inhaltsverzeichnis" href="SITEMAP">
+<link rel="search" title="Suche" href="SUCHE">
+<link rel="copyright" title="Urheberrecht" href="CC">
+<link rel="top" title="Startseite" href="index.html">
+<link rel="print" title="Druckvorschau" href="Weblog,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau">
+<link rel="subsection" title="Artikel" href="Artikel">
+<link rel="subsection" title="Services" href="Services">
+<link rel="subsection" title="Weblog" href="Weblog">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script src="js/default.js" type="text/javascript"></script>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/style.css.php?ctg=7&amp;gzip=true" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/ie/style.css.php?gzip=true" media="all">
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/ie/7/style.css.php?gzip=true" media="all">
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/screen/ie/6/style.css.php?gzip=true" media="all">
+	<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/print/style.css.php?ctg=7&amp;gzip=true" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://css.gedit.net/gedit.net/v0.5/default/print/ie/style.css.php?gzip=true" media="all">
+	<![endif]-->
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<a name="top"></a>
+	<div id="header-nav">
+		<h1><a href="index.html" title="Startseite">gedit.net/</a></h1>
+		<h2><a href="Weblog" title="Weblog">Weblog</a></h2>
+										</div>
+	<div id="header-search">
+		<div class="nav">
+			<h1>Suchen</h1>
+			<form action="SUCHE" method="post">
+			<ul>
+				<li><label for="Suchtext" accesskey="s"><input type="text" class="q" name="q" value="" maxlength="50" alt="Suchtext" id="Suchtext"></label></li>
+				<li><label for="Finden" accesskey="f"><input type="submit" name="finden" value="Finden" alt="Finden" id="Finden"></label></li>
+			</ul>
+			</form>
+		</div>
+	</div>
+	<div id="header-subnav">
+		<ul>
+						<li><a href="index.html" title="Home">Home</a></li>
+						<li>| <a href="Artikel" title="Artikel">Artikel</a></li>
+						<li>| <a href="Weblog" title="Weblog">Weblog</a></li>
+						<li>| <a href="SITEMAP" title="Sitemap">Sitemap</a></li>
+						<li>| <a href="Impressum" title="Impressum">Impressum</a></li>
+						<li>| <a href="Kontakt" title="Kontakt">Kontakt</a></li>
+						<!-- <li>| <a rel="nofollow" href="/Weblog,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau" title="Druckvorschau">Druckvorschau</a></li> -->
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+<!-- start content -->
+<div id="content">
+<!-- start content left -->
+	<div id="content-left">
+		<h1>Weblog</h1>		<p class="left bold">About</p>
+<p class="right">
+<a class="rss bold" href="http://www.gedit.net/Weblog;RSS" title="//gedit.NET - RSS 2.0 FEED"><acronym title="Really Simple Syndication">RSS</acronym> Feed</a>
+</p>
+<p class="serif italic big grey clear">
+Eine Liste interessanter und lesenswerter Websites zu Themen wie Web Design, Web Development, Web Standards, Web Techniken, Accessibility, Usability, Online Business, Online Marketing, <acronym title="Search Engine Optimization">SEO</acronym>, <acronym title="Hypertext Markup Language">HTML</acronym>, <acronym title="Cascading Style Sheets ">CSS</acronym>, <acronym title="Extensible Markup Language">XML</acronym>, <acronym title="Scalable Vector Graphics">SVG</acronym>, Javascript/<acronym title="Document Object Model">DOM</acronym>, Ajax, <acronym title="Server Side Includes">SSI</acronym>, <acronym title="Common Gateway Interface">CGI</acronym>/Perl und <acronym title="Hypertext Preprocessor">PHP</acronym>.
+</p>				<!-- start Weblog Content List
+<ul>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+<li class="left bold"><a href="#" title="//gedit.NET - Weblog - "></a></li>
+</ul>
+<div class="clear"></div>
+end Weblog Content List -->
+<!-- start Weblog Content -->
+<h2><a name="WHATWG HTML5 specification for web developers" href="http://developers.whatwg.org/" title="//gedit.NET - Weblog - WHATWG HTML5 specification for web developers">WHATWG HTML5 specification for web developers</a></h2>
+<p>
+Was unterscheidet die <strong>HTML5 Web Developer Edition</strong> von der herk&ouml;mmlichen HTML5 Spezifikation des W3C?<br>
+Die klare und reduzierte <em>Navigation</em> (man hat vorallem an die Bed&uuml;rfnisse der Entwickler bei der Auswahl der einzelnen Punkte des <em>Table of Contents</em> gedacht), <em>Offline Access</em>, eine <em>integrierte Suche</em>, <em>mobile Browser Support</em>, <em>integrierte technische Referenzen</em> und nicht zuletzt ein neues Erscheinungsbild.
+</p>
+<p>
+Wer auf der Suche nach einzelnen Elemente ist, sollte meiner Meinung nach, dennoch auf die <em>one file Variante</em> des W3C (<a href="http://dev.w3.org/html5/spec/Overview.html" title="W3C HTML5 Spezifikation" class="extern"><strong>W3C HTML5 Editor's Draft</strong></a>) in Kombination mit <kbd>strg+f</kbd> zurückgreifen.
+</p><p class="left bold"><a class="extern" href="http://developers.whatwg.org/" title="//gedit.NET - Weblog - WHATWG HTML5 specification for web developers">HTML5 &mdash; A technical specification for Web developers</a></p>
+<p class="right italic">Sonntag, 03. April 2011, 19:34</p>
+<div class="clear"></div>
+<h2><a name="Microsoft veröffentlich Internet Explorer auf Virtual PC VHDs" href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&displaylang=en" title="//gedit.NET - Weblog - Microsoft veröffentlich Internet Explorer auf Virtual PC VHDs">Microsoft veröffentlich Internet Explorer auf Virtual PC VHDs</a></h2>
+<p>
+Microsoft hat f&uuml;r Web Entwickler und Designer <em>Internet Explorer</em> 6/7 und 8 auf <em>Windows XP</em>, sowie <em>Internet Explorer</em> 7 und 8 auf <em>Windows Vista</em> ver&ouml;ffentlich und bietet diese zum freien Download an.<br>
+Die <em>Internet Explorer-Versionen</em> und Betriebssysteme sind auf Virtuellen HDs für <em>Microsoft Virtuell PC</em> installiert.<br>
+Sie sollen, laut Microsoft, dazu dienen Websites mit &auml;lteren Versionen des IEs zu testen.
+</p><p class="left bold"><a class="extern" href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&displaylang=en" title="//gedit.NET - Weblog - Microsoft veröffentlich Internet Explorer auf Virtual PC VHDs">Internet Explorer Application Compatibility VPC Image</a></p>
+<p class="right italic">Montag, 31. Januar 2011, 22:09</p>
+<div class="clear"></div>
+<h2><a name="Offizieles HTML5-Logo des W3C" href="http://www.w3.org/html/logo/" title="//gedit.NET - Weblog - Offizieles HTML5-Logo des W3C">Offizieles HTML5-Logo des W3C</a></h2>
+<blockquote cite="http://www.w3.org/html/logo/">
+<p>
+	<img
+	 src="http://img.gedit.net/gedit.net/content/HTML5_Logo.png"
+	 alt="AN HTML5 LOGO
+		It stands strong and true, resilient and universal as the markup you write. It shines as bright and as bold as the forward-thinking, dedicated web developers you are. It's the standard's standard, a pennant for progress. And it certainly doesn't use tables for layout.
+		We present an HTML5 logo."
+	>
+</p>
+</blockquote><p class="left bold"><a class="extern" href="http://www.w3.org/html/logo/" title="//gedit.NET - Weblog - Offizieles HTML5-Logo des W3C">W3C veröffentlich das offizielle HTML5-Logo</a></p>
+<p class="right italic">Dienstag, 18. Januar 2011, 20:13</p>
+<div class="clear"></div>
+<h2><a name="Artikel 5 Grundgesetz" href="http://www.google.de/search?q=Artikel+5+Grundgesetz+(1)+Jeder+hat+das+Recht,+seine+Meinung+in+Wort,+Schrift+und+Bild+frei+zu+%C3%A4u%C3%9Fern+und+zu+verbreiten+und+sich+aus+allgemein+zug%C3%A4nglichen+Quellen+ungehindert+zu+unterrichten.+Die+Pressefreiheit+und+die+Freiheit+der+Berichterstattung+durch+Rundfunk+und+Film+werden+gew%C3%A4hrleistet.+Eine+Zensur+findet+nicht+statt." title="//gedit.NET - Weblog - Artikel 5 Grundgesetz">Artikel 5 Grundgesetz</a></h2>
+<p>
+<strong>Artikel 5 Grundgesetz <em>(1)</em></strong> Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.
+</p><p class="left bold"><a class="extern" href="http://www.google.de/search?q=Artikel+5+Grundgesetz+(1)+Jeder+hat+das+Recht,+seine+Meinung+in+Wort,+Schrift+und+Bild+frei+zu+%C3%A4u%C3%9Fern+und+zu+verbreiten+und+sich+aus+allgemein+zug%C3%A4nglichen+Quellen+ungehindert+zu+unterrichten.+Die+Pressefreiheit+und+die+Freiheit+der+Berichterstattung+durch+Rundfunk+und+Film+werden+gew%C3%A4hrleistet.+Eine+Zensur+findet+nicht+statt." title="//gedit.NET - Weblog - Artikel 5 Grundgesetz">Artikel 5 Grundgesetz (1) [google]</a></p>
+<p class="right italic">Dienstag, 07. Dezember 2010, 20:35</p>
+<div class="clear"></div>
+<h2><a name="HTML Geo Tags" href="http://tools.ietf.org/html/draft-daviel-html-geo-tag-08" title="//gedit.NET - Weblog - HTML Geo Tags">HTML Geo Tags</a></h2>
+<p>
+<strong>Geo-Metatags</strong> haben zum Beispiel Bedeutung bei <em>ortsbezogenen Suchabfragen</em>. Zwar erklärt <em>Google</em>, dass <a class="extern" href="http://googlewebmastercentral-de.blogspot.com/2009/09/einfluss-von-geo-meta-tags-auf-die.html" title="Google und Geo-Tags"><em>Geo-Tags</em> momentan nicht relevant</a> sein, aber was nicht ist kann ja noch werden.
+</p>
+<pre>
+<code>
+&lt;meta name=&quot;DC.Coverage&quot; content=&quot;Berlin, Germany; 52.523405, 13.4114&quot;&gt;
+&lt;meta name=&quot;geo.placename&quot; content=&quot;Berlin&quot;&gt;
+&lt;meta name=&quot;geo.region&quot; content=&quot;DE-BE&quot;&gt;
+&lt;meta name=&quot;geo.placename&quot; content=&quot;Berlin&quot;&gt;
+&lt;meta name=&quot;geo.position&quot; content=&quot;52.523405;13.4114&quot;&gt;
+&lt;meta name=&quot;ICBM&quot; content=&quot;52.523405, 13.4114&quot;&gt;
+</code>
+</pre>
+<p>
+Wer es sich einfach machen m&ouml;chte, kann einen <a class="extern" href="http://www.geo-tag.de/generator/de.html" title="HTML Geo Tag Generator">Geo-Tag-Generator</a> nutzen.
+</p>
+<p class="left bold"><a class="extern" href="http://tools.ietf.org/html/draft-daviel-html-geo-tag-08" title="//gedit.NET - Weblog - HTML Geo Tags">IETF HTML Geo Tag</a></p>
+<p class="right italic">Mittwoch, 24. November 2010, 12:51</p>
+<div class="clear"></div>
+<h2><a name="W3C vereinheitlicht seine Validierungsdienste" href="http://validator.w3.org/unicorn/" title="//gedit.NET - Weblog - W3C vereinheitlicht seine Validierungsdienste">W3C vereinheitlicht seine Validierungsdienste</a></h2>
+<p>
+Bisher bot das <a class="external" href="http://www.w3.org/" title="World Wide Web Consortium">W3C</a> verschiedene Dienst zur Pr&uuml;fung von Websites an. Der <a class="external" href="http://validator.w3.org/" title="W3C Markup Validator">Markup Validator</a> untersuchte den HTML-Code, der <a class="external" href="http://jigsaw.w3.org/css-validator/" title="W3C CSS Validator">CSS Validator</a> die Stylesheets. Ein Service f&uuml;r <a class="external" href="http://validator.w3.org/mobile/" title="W3C Mobile Validator">Mobilgeräte</a> und <a class="external" href="http://validator.w3.org/feed/" title="W3C RSS-Feed Validator">RSS-Feeds</a> runden das Angebot ab.<br>
+Diese vier Validierungsdienste fasst <strong>Unicorn</strong> nun zusammen.</p><p class="left bold"><a class="extern" href="http://validator.w3.org/unicorn/" title="//gedit.NET - Weblog - W3C vereinheitlicht seine Validierungsdienste">Unicorn - Der W3C integrierte W3C Validator</a></p>
+<p class="right italic">Mittwoch, 28. Juli 2010, 21:01</p>
+<div class="clear"></div>
+<h2><a name="Microsoft's TrueType core fonts for the web" href="http://corefonts.sourceforge.net/" title="//gedit.NET - Weblog - Microsoft's TrueType core fonts for the web">Microsoft's TrueType core fonts for the web</a></h2>
+<p>
+Laut dieser <a class="extern" href="http://www.microsoft.com/typography/fontpack/eula.htm"><abbr title="END-USER LICENSE AGREEMENT">EULA</abbr></a> scheint es m&ouml;glich zu sein die Schriftarten in Dokumente einzubetten. Warum also nicht in ein <code>.html</code>-Dokument via <code>@font-face</code>?
+</p><p class="left bold"><a class="extern" href="http://corefonts.sourceforge.net/" title="//gedit.NET - Weblog - Microsoft's TrueType core fonts for the web">Microsoft's TrueType core fonts</a></p>
+<p class="right italic">Mittwoch, 14. Juli 2010, 19:32</p>
+<div class="clear"></div>
+<h2><a name="Creative Commons und Public Domain Tools" href="http://creativecommons.org/choose/" title="//gedit.NET - Weblog - Creative Commons und Public Domain Tools">Creative Commons und Public Domain Tools</a></h2>
+<p>
+Mit dem <em><abbr title="Creative Commons">CC</abbr></em> oder <em>Public Domain Tool</em> lässt komfortabel und unkompliziert die <strong>passende Lizenz</strong> für Bilder, Videos, Dokumente oder Multimediadaten <strong>wählen</strong>.
+</p>     <p class="left bold"><a class="extern" href="http://creativecommons.org/choose/" title="//gedit.NET - Weblog - Creative Commons und Public Domain Tools">Lizenzieren Sie Ihr Werk</a></p>
+<p class="right italic">Donnerstag, 08. Juli 2010, 22:37</p>
+<div class="clear"></div>
+<h2><a name="Jarlsberg: Web Application Exploits and Defenses" href="http://jarlsberg.appspot.com/" title="//gedit.NET - Weblog - Jarlsberg: Web Application Exploits and Defenses">Jarlsberg: Web Application Exploits and Defenses</a></h2>
+<p>
+<em>Wie sp&uuml;rt man Sicherheitsl&uuml;cken auf? Wie lassen sich Sicherheitsl&uuml;cken ausnutzen? Wie vermeidet man Sicherheitsl&uuml;cken?</em><br>
+<strong>Jarlsberg</strong> ist eine <em>Web Application</em> die bewusst Sicherheitsl&uuml;cken vorh&auml;lt. Diese gilt es zu finden und auszunutzen.
+</p>
+<p class="left bold"><a class="extern" href="http://jarlsberg.appspot.com/" title="//gedit.NET - Weblog - Jarlsberg: Web Application Exploits and Defenses">Jarlsberg: Web Application Exploits and Defenses</a></p>
+<p class="right italic">Samstag, 29. Mai 2010, 19:16</p>
+<div class="clear"></div>
+<h2><a name="See the Bigger Picture Album" href="http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/" title="//gedit.NET - Weblog - See the Bigger Picture Album">See the Bigger Picture Album</a></h2>
+<p><q cite="http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/"><a href="http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/" title="See the Bigger Picture Album by Michael Paukner on Flickr">
+<img src="http://img.gedit.net/gedit.net/content/Vitruvian-Man-Mona-Lisa.jpg" alt="Der vitruvianische Mensch und die Mona Lisa von Leonardo da Vinci"></a>
+</q></p><p class="left bold"><a class="extern" href="http://www.flickr.com/photos/michaelpaukner/sets/72157622340623679/" title="//gedit.NET - Weblog - See the Bigger Picture Album">See the Bigger Picture Album &mdash; Michael Paukner</a></p>
+<p class="right italic">Dienstag, 25. Mai 2010, 11:09</p>
+<div class="clear"></div>
+  
+<ul class="pnnav">
+<li><a href="Weblog,10" title="//gedit.NET - Weblog - Letzte Seite">Letzte Seite</a></li>
+<li>1</li>
+<li><a href="Weblog,2"  title="//gedit.NET - Weblog - Seite 2">2</a></li>
+<li><a href="Weblog,3"  title="//gedit.NET - Weblog - Seite 3">3</a></li>
+<li><a href="Weblog,4"  title="//gedit.NET - Weblog - Seite 4">4</a></li>
+<li>..</li>
+<li><a href="Weblog,10"  title="//gedit.NET - Weblog - Seite 10">10</a></li>
+<li><a href="Weblog,2" title="//gedit.NET - Weblog - N&auml;chste Seite">N&auml;chste Seite</a></li>
+</ul>
+<!-- end Weblog Content -->
+		<!-- start content left bookmarks and print -->
+		<div class="clear"></div>
+		<ul class="clbpnav">
+			<li><a href="Weblog,Druckvorschau,Druckvorschau,Druckvorschau#top" onclick="location.hash='top';" title="zum Seitenanfang von gedit.NET - Weblog">
+					<img src="http://img.gedit.net/gedit.net/layout/goto-top.gif" alt="zum Seitenanfang von gedit.NET - Weblog">
+			</a></li>
+			<li> <a rel="nofollow" href="Weblog,Druckvorschau,Druckvorschau,Druckvorschau,Druckvorschau" title="Druckvorschau gedit.NET - Weblog">
+					<img src="http://img.gedit.net/gedit.net/layout/druckvorschau.gif" alt="Druckvorschau gedit.NET - Weblog">
+			</a></li>
+			<li> <a rel="nofollow" href="http://www.mister-wong.de/" onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)+'&amp;bm_tags=');return false;" title="Bookmark gedit.NET - Weblog mit Mr. Wong">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/wong.gif" alt="Bookmark gedit.NET - Weblog mit Mr. Wong">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Webnews">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/webnews.gif" alt="Bookmark gedit.NET - Weblog mit Webnews">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.icio.de/" onclick="window.open('http://www.icio.de/add.php?url='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Weblog mit Icio">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/icio.gif" alt="Bookmark gedit.NET - Weblog mit Icio">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.folkd.com/" onclick="window.open('http://www.folkd.com/page/submit.html?step2_sent=1&amp;url='+encodeURIComponent(location.href)+'&amp;check=page&amp;add_title='+encodeURIComponent(document.title)+'&amp;add_description=&amp;add_tags_show=&amp;add_tags=&amp;add_state=public');return false;" title="Bookmark gedit.NET - Weblog mit Folkd">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/folkd.gif" alt="Bookmark gedit.NET - Weblog mit Folkd">
+			</a></li>
+			<li><a rel="nofollow" href="http://yigg.de/" onclick="window.open('http://yigg.de/neu?exturl='+encodeURIComponent(location.href));return false" title="Bookmark gedit.NET - Weblog mit Yigg">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/yigg.gif" alt="Bookmark gedit.NET - Weblog mit Yigg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.linkarena.com/" onclick="window.open('http://linkarena.com/bookmarks/addlink/?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;desc=&amp;tags=');return false;" title="Bookmark gedit.NET - Weblog mit Linkarena">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/linkarena.gif" alt="Bookmark gedit.NET - Weblog mit Linkarena">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.simpy.com/" onclick="window.open('http://www.simpy.com/simpy/LinkAdd.do?title='+encodeURIComponent(document.title)+'&amp;tags=&amp;note=&amp;href='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Weblog mit Simpy">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/simpy.gif" alt="Bookmark gedit.NET - Weblog mit Simpy">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://del.icio.us/" onclick="window.open('http://del.icio.us/post?v=2&amp;url='+encodeURIComponent(location.href)+'&amp;notes=&amp;tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Del.ico.us">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/del.gif" alt="Bookmark gedit.NET - Weblog mit Del.ico.us">
+			</a></li>
+			<li><a rel="nofollow" href="http://reddit.com/" onclick="window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Reddit">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/reddit.gif" alt="Bookmark gedit.NET - Weblog mit Reddit">
+			</a></li>
+			<li><a rel="nofollow" href="http://digg.com/" onclick="window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;bodytext=&amp;tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Digg">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/digg.gif" alt="Bookmark gedit.NET - Weblog mit Digg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.stumbleupon.com/" onclick="window.open('http://www.stumbleupon.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit StumbleUpon">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/stumbleupon.gif" alt="Bookmark gedit.NET - Weblog mit StumbleUpon">
+			</a></li>
+			<li><a rel="nofollow" href="http://slashdot.org/" onclick="window.open('http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Slashdot">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/slashdot.gif" alt="Bookmark gedit.NET - Weblog mit Slashdot">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.furl.net/" onclick="window.open('http://www.furl.net/storeIt.jsp?u='+encodeURIComponent(location.href)+'&amp;keywords=&amp;t='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Furl">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/furl.gif" alt="Bookmark gedit.NET - Weblog mit Furl">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.yahoo.com/" onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+encodeURIComponent(document.title)+'&amp;d=&amp;tag=&amp;u='+encodeURIComponent(location.href));return false;" title="Bookmark gedit.NET - Weblog mit Yahoo">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/yahoo.gif" alt="Bookmark gedit.NET - Weblog mit Yahoo">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.spurl.net/" onclick="window.open('http://www.spurl.net/spurl.php?v=3&amp;tags=&amp;title='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(document.location.href));return false;" title="Bookmark gedit.NET - Weblog mit Spurl">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/spurl.gif" alt="Bookmark gedit.NET - Weblog mit Spurl">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.google.com/" onclick="window.open('http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;bkmk='+encodeURIComponent(location.href)+'&amp;annotation=&amp;labels=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Google">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/google.gif" alt="Bookmark gedit.NET - Weblog mit Google">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.blinklist.com/" onclick="window.open('http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Description=&amp;Tag=&amp;Url='+encodeURIComponent(location.href)+'&amp;Title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Blinklist">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/blinklist.gif" alt="Bookmark gedit.NET - Weblog mit Blinklist">
+			</a></li>
+			<li><a rel="nofollow" href="http://blogmarks.net/" onclick="window.open('http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url='+encodeURIComponent(location.href)+'&amp;content=&amp;public-tags=&amp;title='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Blogmarks">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/blogmarks.gif" alt="Bookmark gedit.NET - Weblog mit Blogmarks">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.diigo.com/" onclick="window.open('http://www.diigo.com/post?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;tag=&amp;comments='); return false;" title="Bookmark gedit.NET - Weblog mit Diigo">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/diigo.gif" alt="Bookmark gedit.NET - Weblog mit Diigo">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.technorati.com/" onclick="window.open('http://technorati.com/faves?add='+encodeURIComponent(location.href)+'&amp;tag=');return false;" title="Bookmark gedit.NET - Weblog mit Technorati">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/technorati.gif" alt="Bookmark gedit.NET - Weblog mit Technorati">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.newsvine.com/" onclick="window.open('http://www.newsvine.com/_wine/save?popoff=1&amp;u='+encodeURIComponent(location.href)+'&amp;tags=&amp;blurb='+encodeURIComponent(document.title));return false;" title="Bookmark gedit.NET - Weblog mit Newsvine">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/newsvine.gif" alt="Bookmark gedit.NET - Weblog mit Newsvine">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.blinkbits.com/" onclick="window.open('http://www.blinkbits.com/bookmarklets/save.php?v=1&amp;title='+encodeURIComponent(document.title)+'&amp;source_url='+encodeURIComponent(location.href)+'&amp;source_image_url=&amp;rss_feed_url=&amp;rss_feed_url=&amp;rss2member=&amp;body=');return false;" title="Bookmark gedit.NET - Weblog mit Blinkbits">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/blinkbits.gif" alt="Bookmark gedit.NET - Weblog mit Blinkbits">
+			</a></li>
+			<li><a rel="nofollow" href="http://ma.gnolia.com/" onclick="window.open('http://ma.gnolia.com/bookmarklet/add?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;description=&amp;tags=');return false;" title="Bookmark gedit.NET - Weblog mit Ma.Gnolia">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/ma.gnolia.gif" alt="Bookmark gedit.NET - Weblog mit Ma.Gnolia">
+			</a></li>
+			<li><a rel="nofollow" href="http://smarking.com/" onclick="window.open('http://smarking.com/editbookmark/?url='+ location.href +'&amp;description=&amp;tags=');return false;" title="Bookmark gedit.NET - Weblog mit Smarking">
+					<img src="http://img.gedit.net/gedit.net/layout/bookmarks/smarking.gif" alt="Bookmark gedit.NET - Weblog mit Smarking">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.vorratsdatenspeicherung.de/" title="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+					<img src="http://img.gedit.net/gedit.net/layout/akvorrat.gif" alt="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+			</a></li>
+			<li><a rel="nofollow" href="http://my.opera.com/community/download.pl?ref=gedit&amp;p=opera_desktop" title="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online.">
+					<img src="http://img.gedit.net/gedit.net/layout/opera.gif" alt="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online">
+			</a></li>
+		</ul>
+		<div class="clear"></div>
+<!-- end content left bookmarks and print -->
+	</div>
+<!-- end content left --><!-- content right is gone -->
+<!-- start footer -->
+	<div id="footer">
+		<p>
+			$req
+			17,5 KB - 0 Sec. -			<a href="Weblog" title="Weblog">gedit.net/Weblog</a> -
+			Weblog - Druckvorschau			- 26.12.2023, 01:22:29 CET
+			get $
+			<br>
+			<a class="hidden" href="http://gedit.net/_nofollow" title="Please do not follow this Link">No follow</a>
+				This is <strong>not</strong> the website of
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">gedit</a>
+				the official text editor of the
+			<a class="extern" href="http://www.gnome.org">GNOME</a>
+				desktop environment.
+			<br>
+				Visit
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gedit.org/&gt;</a>
+				or
+			<a class="extern" href="http://www.gnome.org/projects/gedit/" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gnome.org/projects/gedit/&gt;</a>
+				if you search the gnome-editor.
+			<br>
+				This work is licensed under a
+			<a rel="license" href="CC" title="Creative Commons Atritbution-NonCommercial 3.0 License">Creative Commons Attribution-NonCommercial 3.0 License</a>.
+			<a class="extern" href="http://validator.w3.org/check?uri=http%3A%2F%2Fgedit.net%2FWeblog" title="Valid HTML 4.1 Strict">Valid HTML 4.1 Strict</a>
+				//
+			<a class="extern" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgedit.net%2FWeblog&amp;profile=css3" title="Valid CSS 3.0">Valid CSS 3.0</a>
+				//
+			<a class="extern" href="http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fgedit.net%2FRSS" title="Valid RSS Feed">Valid RSS</a>
+				//
+			<a class="extern" href="http://www.access-board.gov/508.htm" title="Section 508 Homepage:  Electronic and Information Technology">Valid Section 508</a>
+				//
+			<a class="extern" href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Level Double-A Conformance to Web Content Accessibility Guidelines 1.0">Valid Level Double-A Conformance to Web Content Accessibility Guidelines 1.0</a>.
+			<br>
+			$id
+						Weblog -			Gedit (<a href="index.html" title="gedit HTML&amp;CSS Tutorials"><strong><abbr title="Hypertext Markup Language">HTML</abbr>&amp;<abbr title="Cascading Style Sheet">CSS</abbr> Tutorials</strong></a>, <a href="index.html" title="gedit Webgestaltung"><strong>Webgestaltung</strong></a>, <a href="index.html" title="gedit Webentwicklung"><strong>Webentwicklung</strong></a>, <a href="index.html" title="gedit Webdesign"><strong>Webdesign</strong></a>, <a href="index.html" title="gedit Webdevelopment"><strong>Webdevelopment</strong></a>, <a href="index.html" title="gedit Webstandards"><strong>Webstandards</strong></a>, <a href="index.html" title="gedit Benutzerfreundlichkeit (Usability)"><strong>Benutzerfreundlichkeit (Usability)</strong></a>, <a href="index.html" title="gedit Barrierefreiheit (Accessebility)"><strong>Barrierefreiheit (Accessebility)</strong></a>, <a href="index.html" title="gedit Webfrontendentwicklung"><strong>Webfrontendentwicklung</strong></a>, <a href="index.html" title="gedit Webbackendentwicklung"><strong>Webbackendentwicklung</strong></a>, <a href="index.html" title="gedit Visuelle Medien"><strong>Visuelle Medien</strong></a>, <a href="index.html" title="gedit Interfacedesign"><strong>Interfacedesign</strong></a>, <a href="index.html" title="gedit Visuelle Kommunikation"><strong>Visuelle Kommunikation</strong></a>, <a href="index.html" title="gedit Grafikdesign"><strong>Grafikdesign</strong></a>, <a href="index.html" title="gedit Screendesign"><strong>Screendesign</strong></a>, <a href="index.html" title="gedit Typografie"><strong>Typografie</strong></a>) <a href="VERSION%3Bv0.5" title="Version - v0.5">v0.5</a> &copy; 2005&ndash;2023 <a href="http://gattner.name/simon" title="Simon Gattner">Simon Gattner</a> - 27.11.2009, 15:17 CET exp $
+		</p>
+	</div>
+<!-- end footer -->
+</div>
+<!-- end content -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = document.title;
+piwik_idsite = 2;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+</body>
+</html>
