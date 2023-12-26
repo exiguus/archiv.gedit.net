@@ -106,7 +106,11 @@ create:
 	cp output/gedit.net/dl/gedit.net/static/templates/helvetica/helvetica-v0.1.zip output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1/
 	cd output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1 && unzip -o helvetica-v0.1.zip
 	cd output/gedit.net/dl/gedit.net/static/templates/vicard/ && unzip -o viCard-v0.4.zip
-# TODO: add archiv.js
+# additions
+# cp addition/js into output/gedit.net/js
+	cp -R ./addition/js ./output/gedit.net
+# add script
+	find ./output/gedit.net/* -type f -name '*.html' -exec sed -i -E 's/<\/body>/<script src="js\/archiv.js"><\/script><\/body>/g' {} \;
 
 # Path: Makefile
 # build docker 
