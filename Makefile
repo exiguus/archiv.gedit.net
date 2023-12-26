@@ -87,6 +87,8 @@ create:
 	find ./output -type f -exec sed -i -E 's/href="(.*),(.*)"/href\=\"\1_\2"/g' {} \;
 	find ./output -type f -exec sed -i -E 's/href="(.*);(.*)"/href\=\"\1_\2"/g' {} \;
 	find ./output -type f -exec sed -i -E 's/href="(.*),(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*);(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*),(.*)"/href\=\"\1_\2"/g' {} \;
 # Replace in all files "%3B" and "%2C" in hrefs with "_"
 	find ./output -type f -exec sed -i -E 's/href="(.*)%3B(.*)"/href\=\"\1_\2"/g' {} \;
 	find ./output -type f -exec sed -i -E 's/href="(.*)%2C(.*)"/href\=\"\1_\2"/g' {} \;
@@ -94,18 +96,25 @@ create:
 	find ./output -type f -exec sed -i -E 's/href="(.*)%2C(.*)"/href\=\"\1_\2"/g' {} \;
 # Fix druckvorschau
 # Replace druckvorschau with Druckvorschau in filenames
-	find ./output -type f -not \( -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' \) -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/druckvorschau/Druckvorschau/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
+	find ./output/gedit.net/* -type f -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/druckvorschau/Druckvorschau/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
 # Remove files with Druckvorschau_Druckvorschau at the end
 	find ./output -type f -name '*Druckvorschau_Druckvorschau' -exec rm {} \;
-# Remove Artikle,druckvorschau folder
-	rm -rf ./output/gedit.net/Artikel,druckvorschau
+# Replace druckvorschau with Druckvorschau in files
+	find ./output -type f -exec sed -i -E 's/druckvorschau/Druckvorschau/g' {} \;
 # Replace _Druckvorschau_Druckvorschau in files with _Druckvorschau
 	find ./output -type f -exec sed -i -E 's/_Druckvorschau_Druckvorschau/_Druckvorschau/g' {} \;
+# Remove Artikle,druckvorschau folder
+	rm -rf ./output/gedit.net/Artikel,druckvorschau
 # Fix article
 # Replace in dl/gedit.net style
 	find ./output -type f -exec sed -i -E 's/dl\/css\.gedit\.net/css/g' {} \;
 # Replace in css/img.gedit.net
 	find ./output -type f -exec sed -i -E 's/css\/img\.gedit\.net/img/g' {} \;
+# Replace www.gedit.net with gedit.net
+	find ./output -type f -exec sed -i -E 's/www\.gedit\.net/gedit.net/g' {} \;
+# Replace /css//img/gedit.net/ to /img/gedit.net/
+	find ./output -type f -exec sed -i -E 's/\/css\/\/img\/gedit\.net\//\/img\/gedit\.net\//g' {} \;
+# 
 # Extract templates from dl/gedit.net
 	cp output/gedit.net/dl/gedit.net/static/templates/helvetica/helvetica-v0.1.zip output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1/
 	cd output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1 && unzip -o helvetica-v0.1.zip
@@ -132,12 +141,12 @@ build:
 	rm -rf ./build/*
 	cp -R ./output/* ./build
 # create docker image
-	docker build --no-cache -t archive.gedit.net .
+	docker build --no-cache -t archiv.gedit.net .
 
 # Path: Makefile
 # run docker image
 run:
-	docker run -p 8080:80 archive.gedit.net
+	docker run -p 8080:80 archiv.gedit.net
 
 # Path: Makefile
 # run all

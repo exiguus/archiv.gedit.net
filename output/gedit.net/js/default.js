@@ -7,12 +7,12 @@ Y888 888 888   , Y888 888 888  888   d8b 8b Y88b  888 ",d     888
   ,  88P                                                              
  "8",P"                                                             */
 
-/* <http://www.gedit.net/js/default.js>
+/* <http://gedit.net/js/default.js>
  * Copyright 2006/2007/2008 Simon Gattner
  * This work is licensed under a Creative Commons Attribution-
  * NonCommercial 3.0 License.
- * Licence: <http://www.gedit.net/CC>
- * Contact: <http://www.gedit.net/Kontakt>                          */
+ * Licence: <http://gedit.net/CC>
+ * Contact: <http://gedit.net/Kontakt>                          */
 
 function externalLinks() {
 if (!document.getElementsByTagName) return;
