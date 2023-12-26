@@ -1,0 +1,871 @@
+/* css.
+                      888 ,e,   d8       Y88b Y88 888'Y88 88P'888'Y88 
+ e88 888  ,e e,   e88 888  "   d88        Y88b Y8 888 ,'Y P'  888  'Y 
+d888 888 d88 88b d888 888 888 d88888     b Y88b Y 888C8       888     
+Y888 888 888   , Y888 888 888  888   d8b 8b Y88b  888 ",d     888     
+ "88 888  "YeeP"  "88 888 888  888   Y8P 88b Y88b 888,d88     888     
+  ,  88P                                                              
+ "8",P"                                                             */
+
+/* </css/>
+ * Copyright 2006 - 2023 Simon Gattner
+ * This work is licensed under a Creative Commons Attribution-
+ * NonCommercial 3.0 License.
+ * Licence: <http://www.gedit.net/CC>
+ * Contact: <http://www.gedit.net/Kontakt>                          */
+
+/* </css/gedit.net/v0.5/default/print/style.css>
+ * Page:         gedit.net
+ * Version:      v0.5
+ * Style:        default
+ * Media:        print
+ * Browser:      ALL
+ */
+
+body {
+	background: #FFFFFF;
+}
+/* 
+ * Header 
+ */
+#header {
+	width: 100%;
+	margin: 0 60px;
+}
+#header-nav {
+	height: auto;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+#header-nav h1 a:before {
+	content: "Dokument:\0020";
+}
+#header-nav h1 a,
+#header-nav h2 a,
+#header-nav h3 a,
+#header-nav h4 a,
+#header-nav h5 a,
+#header-nav h6 a {
+	margin-top: 60px;
+	padding-bottom: 1px;
+	color: #CCCCCC;
+	font-size: 12px;
+	font-weight: normal;
+}
+#header-subnav,
+#header-search,
+#header-search div.nav {
+	display: none;
+}
+#content {
+	padding-bottom: 42px;
+}
+/*
+ * Content left
+ */
+#content-left {
+	margin: 0 60px;
+	border-bottom: none;
+}
+#content-left h1 {
+	padding-top: 24px;
+	color: #000000;
+}
+#content-left h2,
+#content-left h3,
+#content-left h4 {
+	color: #404040;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content-left h1 a,
+#content-left h2 a,
+#content-left h3 a {
+	color: #404040;
+}
+#content-left a {
+	color: #000000;
+	text-decoration: none;
+}
+#content-left acronym {
+	color: #000000;
+}
+#content-left p a {
+	text-decoration: underline;
+}
+#content-left pre {
+	margin: 20px 0 0 0;
+	opacity: 1;
+	border: 1px dotted #CCCCCC;
+	background: #FAFAFA;
+}
+#content-left img.inner {
+	border: 2px solid #CCCCCC;
+}
+#content-left pre span {
+	color: #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content-left blockquote {
+	color: #404040;
+}
+#content-left p.overview{
+	display: none;
+}
+/*
+ * Content left Important error/success
+ */
+#content-left div#error,
+#content-left div#success {
+	color: #000000;
+	background-color: #FAFAFA;
+	border-bottom-color: #CCCCCC !important;
+}
+#content-left div#error h2,
+#content-left div#success h2,
+#content-left div#error h2 a,
+#content-left div#success h2 a {
+	color: #FAFAFA !important;
+	background-color: #CCCCCC;
+}
+/*
+ * Content left Forms
+ */
+#content-left input,
+#content-left textarea {
+	border: 1px solid #CCCCCC;
+}
+/* 
+ *Content left Comments
+ */
+#content-left div#comments {
+	display: none;
+}
+/*
+ * Content left SubKategorie Teaser
+ */
+#content-left ul.subcategory li p.subcategory {
+	color: #404040;
+}
+/*
+ * Content left Prev/Next Navigation
+ */
+#content-left ul.pnnav {
+	display: none;
+}
+/*
+ * Content left Navigation
+ */
+#content-left ul.clnav,
+#content-left ul.clpnav,
+#content-left ul.clbpnav {
+	display: none;
+}
+/*
+ * Content left teaser img
+ */
+#content-left ul.teaser img {
+	border: 2px solid #CCCCCC;
+}
+/* 
+ * Content left Galerie
+ */
+#content-left ul.galerie li,
+#content-left li.img {
+	background-color: #FAFAFA;
+	border: solid 1px #CCCCCC;
+}
+#content-left ul.galerie img,
+#content-left li.img img {
+	border: solid 1px #CCCCCC;
+}
+#content-left ul.galerie p,
+#content-left ul.galerie h2 {
+	color: #CCCCCC;
+}
+#content-left ul.galerie a {
+	color: #CCCCCC;
+}
+/*
+ * Content right
+ */
+#content-right {
+	display: none;
+}
+/*
+ * Footer
+ */
+#footer {
+	display: none;
+}
+/*
+ * Classes
+ */
+.green,
+.color {
+	color: #404040 !important;
+}
+.jshide .noscript { /* normaly display .noscript class if Javascript is OFF */
+	display: block; /* now, show everything on Print */
+}
+/*
+ * Classes Link Icons
+ */
+a.extern,
+a.kontakt,
+a.irc,
+a.rss {
+	padding: 0;
+	background: none;
+}
+.green,
+.color {
+	color: #404040 !important;
+}
+.jshide .noscript { /* normaly display .noscript class if Javascript is OFF */
+	display: block; /* now, show everything on Print */
+}
+/*
+ * Classes Link Icons
+ */
+a.extern,
+a.kontakt,
+a.irc,
+a.rss {
+	padding: 0;
+	background: none;
+} NULL;
+$_GET['tpl'] = NULL;
+
+// Get the Colors
+//
+
+// About
+if ( $_GET['ctg'] == '1')
+{
+	$color = 'rgb(153, 112, 93)';
+}
+// Impressum
+elseif ( $_GET['ctg'] == '2' )
+{
+	$color = 'rgb(153, 66, 58)';
+}
+// Simon
+elseif ( $_GET['ctg'] == '3' )
+{
+	$color = 'rgb(75, 61, 62)';
+}
+// Christoph
+elseif ( $_GET['ctg'] == '4' )
+{
+	$color = 'rgb(64, 77, 146)';
+}
+// Christina
+elseif ( $_GET['ctg'] == '5' )
+{
+	$color = 'rgb(153, 112, 93)';
+}
+// Galerie
+elseif ( $_GET['ctg'] == '6' )
+{
+	$color = 'rgb(64, 94, 74)';
+}
+// Weblog
+elseif ( $_GET['ctg'] == '7' )
+{
+	$color = 'rgb(124, 125, 101)';
+}
+// Services
+elseif ( $_GET['ctg'] == '8' )
+{
+	$color = 'rgb(98, 128, 182)';
+}
+// Artikel
+elseif ( $_GET['ctg'] == '9' )
+{
+	$color = 'rgb(76, 82, 88)';
+}
+// default und Startseite
+else
+{
+	$color = 'rgb(149, 150, 161)';
+}
+?>
+body {
+	background: #FFFFFF;
+}
+<?php
+if( $_GET['adm'] == 'true' )
+{
+echo <<< EOF
+/* 
+ * Admin
+ */
+#admin {
+	display: none;
+}
+EOF;
+}
+?>
+/* 
+ * Header 
+ */
+#header {
+	width: 100%;
+	margin: 0 60px;
+}
+#header-nav {
+	height: auto;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+#header-nav h1 a:before {
+	content: "Dokument:\0020";
+}
+#header-nav h1 a,
+#header-nav h2 a,
+#header-nav h3 a,
+#header-nav h4 a,
+#header-nav h5 a,
+#header-nav h6 a {
+	margin-top: 60px;
+	padding-bottom: 1px;
+	color: #CCCCCC;
+	font-size: 12px;
+	font-weight: normal;
+}
+#header-subnav,
+#header-search,
+#header-search div.nav {
+	display: none;
+}
+#content {
+	padding-bottom: 42px;
+}
+/*
+ * Content left
+ */
+#content-left {
+	margin: 0 60px;
+	border-bottom: none;
+}
+#content-left h1 {
+	padding-top: 24px;
+	color: #000000;
+}
+#content-left h2,
+#content-left h3,
+#content-left h4 {
+	color: #404040;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content-left h1 a,
+#content-left h2 a,
+#content-left h3 a {
+	color: #404040;
+}
+#content-left a {
+	color: #000000;
+	text-decoration: none;
+}
+#content-left acronym {
+	color: #000000;
+}
+#content-left p a {
+	text-decoration: underline;
+}
+#content-left pre {
+	margin: 20px 0 0 0;
+	opacity: 1;
+	border: 1px dotted #CCCCCC;
+	background: #FAFAFA;
+}
+#content-left img.inner {
+	border: 2px solid #CCCCCC;
+}
+<?php
+if( $_GET['ctg'] == '8' )
+{
+echo <<< EOF
+/*
+ * Content left Services
+ */
+#content-left pre.services {
+	background: #FAFAFA;
+}
+EOF;
+}
+?>
+#content-left pre span {
+	color: #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content-left blockquote {
+	color: #404040;
+}
+#content-left p.overview{
+	display: none;
+}
+/*
+ * Content left Important error/success
+ */
+#content-left div#error,
+#content-left div#success {
+	color: #000000;
+	background-color: #FAFAFA;
+	border-bottom-color: #CCCCCC !important;
+}
+#content-left div#error h2,
+#content-left div#success h2,
+#content-left div#error h2 a,
+#content-left div#success h2 a {
+	color: #FAFAFA !important;
+	background-color: #CCCCCC;
+}
+/*
+ * Content left Forms
+ */
+#content-left input,
+#content-left textarea {
+	border: 1px solid #CCCCCC;
+}
+/* 
+ *Content left Comments
+ */
+#content-left div#comments {
+	display: none;
+}
+/*
+ * Content left SubKategorie Teaser
+ */
+#content-left ul.subcategory li p.subcategory {
+	color: #404040;
+}
+/*
+ * Content left Prev/Next Navigation
+ */
+#content-left ul.pnnav {
+	display: none;
+}
+/*
+ * Content left Navigation
+ */
+#content-left ul.clnav,
+#content-left ul.clpnav,
+#content-left ul.clbpnav {
+	display: none;
+}
+/*
+ * Content left teaser img
+ */
+#content-left ul.teaser img {
+	border: 2px solid #CCCCCC;
+}
+/* 
+ * Content left Galerie
+ */
+#content-left ul.galerie li,
+#content-left li.img {
+	background-color: #FAFAFA;
+	border: solid 1px #CCCCCC;
+}
+#content-left ul.galerie img,
+#content-left li.img img {
+	border: solid 1px #CCCCCC;
+}
+#content-left ul.galerie p,
+#content-left ul.galerie h2 {
+	color: #CCCCCC;
+}
+#content-left ul.galerie a {
+	color: #CCCCCC;
+}
+<?php
+if( $_GET['tpl'] == 'photo' )
+{
+echo <<< EOF
+/* 
+ * Content left Photos
+ */
+#content-left ul.photo {
+	border-top: none;
+}
+#content-left ul.photo li h2 {
+	color: #AAAAAA;
+	border: none;
+}
+#content-left ul.photo li.right {
+	display: none;
+}
+#content-left li.photo img {
+	padding: 0;
+	background-color: #FFFFFF;
+	border: none;
+}
+EOF;
+}
+?>
+<?php
+if( $_GET['ctg'] == '8' )
+{
+echo <<< EOF
+/* 
+ * Content left Directory Listing
+ */
+#content-left ul.indexes a {
+color: #000000;
+}
+EOF;
+}
+?>
+<?php
+if( $_GET['ctg'] == '1' )
+{
+echo <<< EOF
+/*
+ * Content left about
+ */
+#content-left table#about td {
+	padding: 2px 8px;
+	color: #404040;
+	background-color: #FAFAFA;
+	border: 1px solid #404040;
+}
+#content-left table#about td a {
+	color: #000000;
+	background-color: #FAFAFA;
+}
+EOF;
+}
+?>
+/*
+ * Content right
+ */
+#content-right {
+	display: none;
+}
+/*
+ * Footer
+ */
+#footer {
+	display: none;
+}
+/*
+ * Classes
+ */
+.green,
+.color {
+	color: #404040 !important;
+}
+.jshide .noscript { /* normaly display .noscript class if Javascript is OFF */
+	display: block; /* now, show everything on Print */
+}
+/*
+ * Classes Link Icons
+ */
+a.extern,
+a.kontakt,
+a.irc,
+a.rss {
+	padding: 0;
+	background: none;
+}
+.green,
+.color {
+	color: #404040 !important;
+}
+.jshide .noscript { /* normaly display .noscript class if Javascript is OFF */
+	display: block; /* now, show everything on Print */
+}
+/*
+ * Classes Link Icons
+ */
+a.extern,
+a.kontakt,
+a.irc,
+a.rss {
+	padding: 0;
+	background: none;
+}<?php
+require_once( '/var/kunden/webs/web3/gedit.net/public_www/_sub/_inc/css.inc.php' );
+// print all
+?>
+body {
+	background: #FFFFFF;
+}
+<?php
+if( $_GET['adm'] == 'true' )
+{
+echo <<< EOF
+/* 
+ * Admin
+ */
+#admin {
+	display: none;
+}
+EOF;
+}
+?>
+/* 
+ * Header 
+ */
+#header {
+	width: auto;
+	margin: 0 60px;
+}
+#header-nav {
+	width: auto;
+	height: auto;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+#header-nav h1 a:before {
+	content: "Dokument:\0020";
+}
+#header-nav h1 a,
+#header-nav h2 a,
+#header-nav h3 a,
+#header-nav h4 a,
+#header-nav h5 a,
+#header-nav h6 a {
+	margin-top: 60px;
+	padding-bottom: 1px;
+	color: #CCCCCC;
+	font-size: 12px;
+	font-weight: normal;
+}
+#header-subnav,
+#header-search,
+#header-search div.nav {
+	display: none;
+}
+#content {
+	padding-bottom: 42px;
+}
+/*
+ * Content left
+ */
+#content-left {
+	margin: 0 60px;
+	border-bottom: none;
+}
+#content-left h1 {
+	padding-top: 24px;
+	color: #000000;
+}
+#content-left h2,
+#content-left h3,
+#content-left h4 {
+	color: #404040;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content-left h1 a,
+#content-left h2 a,
+#content-left h3 a {
+	color: #404040;
+}
+#content-left a {
+	color: #000000;
+	text-decoration: none;
+}
+#content-left acronym {
+	color: #000000;
+}
+#content-left p a {
+	text-decoration: underline;
+}
+#content-left pre {
+	margin: 20px 0 0 0;
+	opacity: 1;
+	border: 1px dotted #CCCCCC;
+	background: #FAFAFA;
+}
+#content-left img.inner {
+	border: 2px solid #CCCCCC;
+}
+<?php
+if( $_GET['ctg'] == '8' )
+{
+echo <<< EOF
+/*
+ * Content left Services
+ */
+#content-left pre.services {
+	background: #FAFAFA;
+}
+EOF;
+}
+?>
+#content-left pre span {
+	color: #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content-left blockquote {
+	color: #404040;
+}
+#content-left p.overview{
+	display: none;
+}
+/*
+ * Content left Important error/success
+ */
+#content-left div#error,
+#content-left div#success {
+	color: #000000;
+	background-color: #FAFAFA;
+	border-bottom-color: #CCCCCC !important;
+}
+#content-left div#error h2,
+#content-left div#success h2,
+#content-left div#error h2 a,
+#content-left div#success h2 a {
+	color: #FAFAFA !important;
+	background-color: #CCCCCC;
+}
+/*
+ * Content left Forms
+ */
+#content-left input,
+#content-left textarea {
+	border: 1px solid #CCCCCC;
+}
+/* 
+ *Content left Comments
+ */
+#content-left div#comments {
+	display: none;
+}
+/*
+ * Content left SubKategorie Teaser
+ */
+#content-left ul.subcategory li p.subcategory {
+	color: #404040;
+}
+/*
+ * Content left Prev/Next Navigation
+ */
+#content-left ul.pnnav {
+	display: none;
+}
+/*
+ * Content left Navigation
+ */
+#content-left ul.clnav,
+#content-left ul.clpnav,
+#content-left ul.clbpnav {
+	display: none;
+}
+/*
+ * Content left teaser img
+ */
+#content-left ul.teaser img {
+	border: 2px solid #CCCCCC;
+}
+/* 
+ * Content left Galerie
+ */
+#content-left ul.galerie li,
+#content-left li.img {
+	background-color: #FAFAFA;
+	border: solid 1px #CCCCCC;
+}
+#content-left ul.galerie img,
+#content-left li.img img {
+	border: solid 1px #CCCCCC;
+}
+#content-left ul.galerie p,
+#content-left ul.galerie h2 {
+	color: #CCCCCC;
+}
+#content-left ul.galerie a {
+	color: #CCCCCC;
+}
+<?php
+if( $_GET['tpl'] == 'photo' )
+{
+echo <<< EOF
+/* 
+ * Content left Photos
+ */
+#content-left ul.photo {
+	border-top: none;
+}
+#content-left ul.photo li h2 {
+	color: #AAAAAA;
+	border: none;
+}
+#content-left ul.photo li.right {
+	display: none;
+}
+#content-left li.photo img {
+	padding: 0;
+	background-color: #FFFFFF;
+	border: none;
+}
+EOF;
+}
+?>
+<?php
+if( $_GET['ctg'] == '8' )
+{
+echo <<< EOF
+/* 
+ * Content left Directory Listing
+ */
+#content-left ul.indexes a {
+color: #000000;
+}
+EOF;
+}
+?>
+<?php
+if( $_GET['ctg'] == '1' )
+{
+echo <<< EOF
+/*
+ * Content left about
+ */
+#content-left table#about td {
+	padding: 2px 8px;
+	color: #404040;
+	background-color: #FAFAFA;
+	border: 1px solid #404040;
+}
+#content-left table#about td a {
+	color: #000000;
+	background-color: #FAFAFA;
+}
+EOF;
+}
+?>
+/*
+ * Content right
+ */
+#content-right {
+	display: none;
+}
+/*
+ * Footer
+ */
+#footer {
+	display: none;
+}
+/*
+ * Classes
+ */
+.green,
+.color {
+	color: #404040 !important;
+}
+.jshide .noscript { /* normaly display .noscript class if Javascript is OFF */
+	display: block; /* now, show everything on Print */
+}
+/*
+ * Classes Link Icons
+ */
+a.extern,
+a.kontakt,
+a.irc,
+a.rss {
+	padding: 0;
+	background: none;
+}

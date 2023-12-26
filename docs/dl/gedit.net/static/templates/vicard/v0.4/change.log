@@ -1,0 +1,9 @@
+CHANGELOG
+
+  viCard v0.4 09-07-11
+    index.html change hCard postal-code title D-13000
+    index.html change #footer paragraph to unordert-lists
+    vcard.vcf  change postal-code to D-13000
+    style.css  change #footer.section.col width
+    style.css  change h1/h2 font-size for more flexibility
+    main.js    change name of onload functions to load(In|Ex)HTML()

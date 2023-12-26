@@ -1,0 +1,411 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>fontstacks - HTML/CSS FONT-FAMILY</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			padding: 2em 4em;
+			font: normal 100%/1.2 Georgia, Times, Times New Roman, serif;
+			text-align: center;
+			color #000000;
+			background-color: #ffffff;
+		}
+		header h1 {
+			display: inline-block;
+			padding: 0.1em 0.3em;
+			font-size: 4em;
+			font-weight: normal;
+			text-transform: capitalize;
+			color: rgb(30,30,30);
+			border-bottom: 1px solid rgb(90,90,90);
+		}
+		header h2 {
+			padding-top: 1em;
+			font-size: 1.2em;
+			font-weight: normal;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+		}
+		article footer dl,
+		footer {
+			padding: 0.2em 0;
+			text-align: center;
+		}
+		article footer dl dt,
+		article ul li strong sup,
+		article ul li code,
+		footer {
+			font: normal 1.1em/1 Consolas, Lucida Console, Monaco, monospace;
+			text-transform: uppercase;
+		}
+		article footer dl dd,
+		article footer dl dt {
+			display: inline;
+		}
+		article footer dl dd {
+			font-size: 0.8em;
+			font-style: italic;
+		}
+		article footer dl dd + dt:before {
+			content: "·";
+			padding: 0 0.5em;
+			font: normal 100%/1.2 Georgia, Times, Times New Roman, serif;
+		}
+		article ul {
+			margin: 3.2em auto;
+			max-width: 48em;
+			text-align: center;
+			border-top: 1px solid rgb(120,120,120);
+		}
+		article ul li {
+			position: relative;
+			list-style: none;
+			margin: 1px 0 4em 0;
+			padding-top: 1.8em;
+			border-top: 1px solid rgb(160,160,160);
+		}
+		article ul li strong {
+			display: block;
+			width: 100%;
+			font-size: 1.5em;
+			font-weight: normal;
+			text-align: center;
+		}
+		article ul li strong:before {
+			display: block;
+			width: 100%;
+			content: attr(title);
+			font-size: 1.4em;
+			text-align: center;
+		}
+		article ul li strong:after {
+			display: block;
+			width: 100%;
+			content: attr(title);
+			font-size: 0.7em;
+			line-height: 1.6em;
+			text-align: center;
+		}
+		article ul li strong sup {
+			position: absolute;
+			left: 0; bottom: -3em;
+			padding: 0.6em 0;
+			width: 100%;
+			font-size: 0.6em;
+			letter-spacing: -0.2em;
+			color: rgb(160,160,160);
+		}
+		article ul li code {
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 0.2em 0;
+			width: 100%;
+			font-size: 0.9em;
+			text-transform: none;
+			color: rgb(120,120,120);
+			background-color: rgb(240,240,240);
+			border-bottom: 1px solid rgb(210,210,210);
+		}
+		article ul li code:hover,
+		article ul li code:active,
+		article ul li code:focus {
+			color: rgb(90,90,90);
+			background-color: rgb(250,250,250);
+			border-color: rgb(210,210,210);
+		}
+		article ul li code:hover:before,
+		article ul li code:active:before,
+		article ul li code:focus:before {
+			position: absolute;
+			top: 0.3em; right: 0.3em;
+			content: attr(title);
+			font-size: 0.8em;
+			text-transform: uppercase;
+			color: rgb(180,180,180);
+		}
+		article ul li + li {
+			margin-top: 1em;
+		}
+		footer cite,
+		footer address {
+			font-size: 0.6em;
+			font-style: normal;
+			letter-spacing: 0.2em;
+		}
+		footer cite {
+			display: inline-block;
+			margin-bottom: 1em;
+			padding: 1em 6em;
+			text-transform: none;
+			border-bottom: 1px solid rgb(180,180,180);
+		}
+		footer address a {
+			text-decoration: none;
+		}
+		/*
+		 * fontstacks
+		 */
+		article ul li#fontstack-01 {
+			font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+		}
+		article ul li#fontstack-02 {
+			font-family: Baskerville, Times New Roman, Times, serif ;
+		}
+		article ul li#fontstack-03 {
+			font-family: Baskerville, Times, Times New Roman, serif;
+		}
+		article ul li#fontstack-03 {
+			font-family: Cambria, Georgia, Times, Times New Roman, serif
+		}
+		article ul li#fontstack-05{
+			font-family: Century Gothic, Apple Gothic, sans-serif;
+		}
+		article ul li#fontstack-06{
+			font-family: Consolas, Lucida Console, Monaco, monospace;
+		}
+		article ul li#fontstack-07{
+			font-family: Copperplate Light, Copperplate Gothic Light, serif;
+		}
+		article ul li#fontstack-08{
+			font-family: Courier New, Courier, monospace;
+		}
+		article ul li#fontstack-09{
+			font-family: Franklin Gothic Medium, Arial Narrow Bold, Arial, sans-serif;
+		}
+		article ul li#fontstack-10{
+			font-family: Futura, Century Gothic, AppleGothic, sans-serif;
+		}
+		article ul li#fontstack-11{
+			font-family: Garamond, Hoefler Text, Times New Roman, Times, serif;
+		}
+		article ul li#fontstack-12{
+			font-family: Garamond, Hoefler Text, Palatino, Palatino Linotype, serif;
+		}
+		article ul li#fontstack-13{
+			font-family: Geneva, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;
+		}
+		article ul li#fontstack-14{
+			font-family: Geneva, Verdana, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+		}
+		article ul li#fontstack-15{
+			font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+		}
+		article ul li#fontstack-16{
+			font-family: Georgia, Times, Times New Roman, serif;
+		}
+		article ul li#fontstack-17{
+			font-family: GillSans, Calibri, Trebuchet, sans-serif;
+		}
+		article ul li#fontstack-18{
+			font-family: GillSans, Trebuchet, Calibri, sans-serif;
+		}
+		article ul li#fontstack-19{
+			font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+		}
+		article ul li#fontstack-20{
+			font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+		}
+		article ul li#fontstack-21{
+			font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
+		}
+		article ul li#fontstack-22{
+			font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+		}
+		article ul li#fontstack-23{
+			font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
+		}
+		article ul li#fontstack-24{
+			font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;
+		}
+		article ul li#fontstack-25{
+			font-family: Tahoma, Geneva, Verdana;
+		}
+		article ul li#fontstack-26{
+			font-family: Tahoma, Verdana, Geneva;
+		}
+		article ul li#fontstack-27{
+			font-family: Times, Times New Roman, Georgia, serif;
+		}
+		article ul li#fontstack-28{
+			font-family: Trebuchet, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+		}
+		article ul li#fontstack-29{
+			font-family: Trebuchet, Tahoma, Arial, sans-serif;
+		}
+		article ul li#fontstack-30{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		}
+		article ul li#fontstack-31{
+			font-family: Verdana, Tahoma, Geneva, sans-serif;
+		}
+	</style>
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1>fontstacks</h1>
+		<h2>the cross-platform&amp;browser font-family HTML/CSS declaration</h2>
+	</header>
+	<article>
+		<footer>
+			<dl>
+				<dt>p</dt>
+				<dd>balanced for paragraphs or body copy</dd>
+				<dt>t</dt>
+				<dd>balanced for headlines or titles</dd>
+			</dl>
+		</footer>
+		<ul>
+			<li id="fontstack-01">
+				<strong title="Arial, Helvetica Neue, Helvetica, sans-serif">Arial, Helvetica Neue, Helvetica, sans-serif<sup>p, t</sup></strong>
+				<code title="text/css">font: normal 100%/1.2 Arial, Helvetica Neue, Helvetica, sans-serif;</code>
+			</li>
+			<li id="fontstack-02">
+				<strong title="Baskerville, Times New Roman, Times, serif">Baskerville, Times New Roman, Times, serif<sup>p</sup></strong>
+				<code title="text/css">font: normal 100%/1.2 Baskerville, Times New Roman, Times, serif;</code>
+			</li>
+			<li id="fontstack-03">
+				<strong title="Baskerville, Times, Times New Roman, serif">Baskerville, Times, Times New Roman, serif<sup>t</sup></strong>
+				<code title="text/css">font: normal 100%/1.2 Baskerville, Times, Times New Roman, serif;</code>
+			</li>
+			<li id="fontstack-04">
+				<strong title="Cambria, Georgia, Times, Times New Roman, serif">Cambria, Georgia, Times, Times New Roman, serif<sup>p, t</sup></strong>
+				<code title="text/css">font: normal 100%/1.2 Cambria, Georgia, Times, Times New Roman, serif;</code>
+			</li>
+			<li id="fontstack-05">
+				<strong title="Century Gothic, Apple Gothic, sans-serif">Century Gothic, Apple Gothic, sans-serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Century Gothic, Apple Gothic, sans-serif;</code>
+			</li>
+			<li id="fontstack-06">
+				<strong title="Consolas, Lucida Console, Monaco, monospace">Consolas, Lucida Console, Monaco, monospace<sup>p, t</sup></strong>
+				<code title="text/css">font: Consolas, Lucida Console, Monaco, monospace;</code>
+			</li>
+			<li id="fontstack-07">
+				<strong title="Copperplate Light, Copperplate Gothic Light, serif">Copperplate Light, Copperplate Gothic Light, serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Copperplate Light, Copperplate Gothic Light, serif;</code>
+			</li>
+			<li id="fontstack-08">
+				<strong title="Courier New, Courier, monospace">Courier New, Courier, monospace<sup>p, t</sup></strong>
+				<code title="text/css">font: Courier New, Courier, monospace;</code>
+			</li>
+			<li id="fontstack-09">
+				<strong title="Franklin Gothic Medium, Arial Narrow Bold, Arial, sans-serif">Franklin Gothic Medium, Arial Narrow Bold, Arial, sans-serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Franklin Gothic Medium, Arial Narrow Bold, Arial, sans-serif;</code>
+			</li>
+			<li id="fontstack-10">
+				<strong title="Futura, Century Gothic, AppleGothic, sans-serif">Futura, Century Gothic, AppleGothic, sans-serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Futura, Century Gothic, AppleGothic, sans-serif;</code>
+			</li>
+			<li id="fontstack-11">
+				<strong title="Garamond, Hoefler Text, Times New Roman, Times, serif">Garamond, Hoefler Text, Times New Roman, Times, serif<sup>p</sup></strong>
+				<code title="text/css">font: Garamond, Hoefler Text, Times New Roman, Times, serif;</code>
+			</li>
+			<li id="fontstack-12">
+				<strong title="Garamond, Hoefler Text, Palatino, Palatino Linotype, serif">Garamond, Hoefler Text, Palatino, Palatino Linotype, serif<sup>t</sup></strong>
+				<code title="text/css">font: Garamond, Hoefler Text, Palatino, Palatino Linotype, serif;</code>
+			</li>
+			<li id="fontstack-13">
+				<strong title="Geneva, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif">Geneva, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif<sup>p</sup></strong>
+				<code title="text/css">font: Geneva, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;</code>
+			</li>
+			<li id="fontstack-14">
+				<strong title="Geneva, Verdana, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif">Geneva, Verdana, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif<sup>t</sup></strong>
+				<code title="text/css">font: Geneva, Verdana, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;</code>
+			</li>
+			<li id="fontstack-15">
+				<strong title="Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif">Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif<sup>p</sup></strong>
+				<code title="text/css">font: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;</code>
+			</li>
+			<li id="fontstack-16">
+				<strong title="Georgia, Times, Times New Roman, serif">Georgia, Times, Times New Roman, serif<sup>t</sup></strong>
+				<code title="text/css">font: Georgia, Times, Times New Roman, serif;</code>
+			</li>
+			<li id="fontstack-17">
+				<strong title="GillSans, Calibri, Trebuchet, sans-serif">GillSans, Calibri, Trebuchet, sans-serif<sup>p</sup></strong>
+				<code title="text/css">font: GillSans, Calibri, Trebuchet, sans-serif;</code>
+			</li>
+			<li id="fontstack-18">
+				<strong title="GillSans, Trebuchet, Calibri, sans-serif">GillSans, Trebuchet, Calibri, sans-serif<sup>t</sup></strong>
+				<code title="text/css">font: GillSans, Trebuchet, Calibri, sans-serif;</code>
+			</li>
+			<li id="fontstack-19">
+				<strong title="Helvetica Neue, Arial, Helvetica, sans-serif">Helvetica Neue, Arial, Helvetica, sans-serif<sup>p</sup></strong>
+				<code title="text/css">font: Helvetica Neue, Arial, Helvetica, sans-serif;</code>
+			</li>
+			<li id="fontstack-20">
+				<strong title="Helvetica, Helvetica Neue, Arial, sans-serif">Helvetica, Helvetica Neue, Arial, sans-serif<sup>t</sup></strong>
+				<code title="text/css">font: Helvetica, Helvetica Neue, Arial, sans-serif;</code>
+			</li>
+			<li id="fontstack-21">
+				<strong title="Impact, Haettenschweiler, Arial Narrow Bold, sans-serif">Impact, Haettenschweiler, Arial Narrow Bold, sans-serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;</code>
+			</li>
+			<li id="fontstack-22">
+				<strong title="Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif">Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;</code>
+			</li>
+			<li id="fontstack-23">
+				<strong title="Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif">Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif<sup>p</sup></strong>
+				<code title="text/css">font: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;</code>
+			</li>
+			<li id="fontstack-24">
+				<strong title="Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif">Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif<sup>t</sup></strong>
+				<code title="text/css">font: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;</code>
+			</li>
+			<li id="fontstack-25">
+				<strong title="Tahoma, Geneva, Verdana">Tahoma, Geneva, Verdana<sup>p</sup></strong>
+				<code title="text/css">font: Tahoma, Geneva, Verdana;</code>
+			</li>
+			<li id="fontstack-26">
+				<strong title="Tahoma, Verdana, Geneva">Tahoma, Verdana, Geneva<sup>t</sup></strong>
+				<code title="text/css">font: Tahoma, Verdana, Geneva;</code>
+			</li>
+			<li id="fontstack-27">
+				<strong title="Times, Times New Roman, Georgia, serif">Times, Times New Roman, Georgia, serif<sup>p, t</sup></strong>
+				<code title="text/css">font: Times, Times New Roman, Georgia, serif;</code>
+			</li>
+			<li id="fontstack-28">
+				<strong title="Trebuchet, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif">Trebuchet, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif<sup>p</sup></strong>
+				<code title="text/css">font: Trebuchet, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;</code>
+			</li>
+			<li id="fontstack-29">
+				<strong title="Trebuchet, Tahoma, Arial, sans-serif">Trebuchet, Tahoma, Arial, sans-serif<sup>t</sup></strong>
+				<code title="text/css">font: Trebuchet, Tahoma, Arial, sans-serif;</code>
+			</li>
+			<li id="fontstack-30">
+				<strong title="Verdana, Geneva, Tahoma, sans-serif">Verdana, Geneva, Tahoma, sans-serif<sup>p</sup></strong>
+				<code title="text/css">font: Verdana, Geneva, Tahoma, sans-serif;</code>
+			</li>
+			<li id="fontstack-31">
+				<strong title="Verdana, Tahoma, Geneva, sans-serif">Verdana, Tahoma, Geneva, sans-serif<sup>t</sup></strong>
+				<code title="text/css">font: Verdana, Tahoma, Geneva, sans-serif;</code>
+			</li>
+		</ul>
+	</article>
+	<footer>
+		<cite>based on an <a href="http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/" title="Better CSS Font Stacks">article</a> by <a href="http://unitinteractive.com/unit-info.php" title="Nathan Ford on Unit VERSE">Nathan Ford</a> on UNIT VERSE</cite>
+		<address>
+			<time>2012-02-24</time>
+			<a href="http://gattner.name/simon" title="Simon Gattner Berlin">Simon Gattner</a> on <a href="/" title="Webentwicklung und Webgestaltung">gedit.net</a>
+		</address>
+	</footer>
+	<script>
+	var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
+	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script>
+	piwik_action_name = document.title;
+	piwik_idsite = 2;
+	piwik_url = pkBaseURL + "piwik.php";
+	piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+	</script>
+</body>
+</html>
