@@ -83,20 +83,24 @@ create:
 # Replace "," in filenames with "_" 
 	find ./output -type f -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/,/_/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
 # Replace in all files ";" and "," in hrefs with "_"
-	find ./output -type f -exec sed -i -E 's/href="([^"]*);([^"]*)"/href\=\"\1_\2"/g' {} \;
-	find ./output -type f -exec sed -i -E 's/href="([^"]*),([^"]*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*);(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*),(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*);(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*),(.*)"/href\=\"\1_\2"/g' {} \;
 # Replace in all files "%3B" and "%2C" in hrefs with "_"
-	find ./output -type f -exec sed -i -E 's/href="([^"]*)%3B([^"]*)"/href\=\"\1_\2"/g' {} \;
-	find ./output -type f -exec sed -i -E 's/href="([^"]*)%2C([^"]*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*)%3B(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*)%2C(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*)%3B(.*)"/href\=\"\1_\2"/g' {} \;
+	find ./output -type f -exec sed -i -E 's/href="(.*)%2C(.*)"/href\=\"\1_\2"/g' {} \;
 # Fix druckvorschau
 # Replace druckvorschau with Druckvorschau in filenames
 	find ./output -type f -not \( -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' \) -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/druckvorschau/Druckvorschau/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
 # Remove files with Druckvorschau_Druckvorschau at the end
 	find ./output -type f -name '*Druckvorschau_Druckvorschau' -exec rm {} \;
-# Replace druckvorschau with Druckvorschau in filenames
-	find ./output -type f -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/druckvorschau/Druckvorschau/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
 # Remove Artikle,druckvorschau folder
 	rm -rf ./output/gedit.net/Artikel,druckvorschau
+# Replace _Druckvorschau_Druckvorschau in files with _Druckvorschau
+	find ./output -type f -exec sed -i -E 's/_Druckvorschau_Druckvorschau/_Druckvorschau/g' {} \;
 # Fix article
 # Replace in dl/gedit.net style
 	find ./output -type f -exec sed -i -E 's/dl\/css\.gedit\.net/css/g' {} \;
@@ -106,6 +110,16 @@ create:
 	cp output/gedit.net/dl/gedit.net/static/templates/helvetica/helvetica-v0.1.zip output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1/
 	cd output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1 && unzip -o helvetica-v0.1.zip
 	cd output/gedit.net/dl/gedit.net/static/templates/vicard/ && unzip -o viCard-v0.4.zip
+# rename to html file
+	find ./output/gedit.net -type f ! -name '*.*' -exec sh -c 'for file; do mv "$$file" "$$file.html"; echo "Added .html extension to $$file"; done' sh {} \;
+# add .html to all links if link href has no file extension
+	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="([^"\.]*)"/href="\1.html"/g' {} \;
+# fix links that end with # hash
+	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="([^"]*)(#[^"]*)\.html"/href="\1.html\2"/g' {} \;
+# fix links that start with javascript
+	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="javascript:([^"]*).html"/href="\1"/g' {} \;
+# fix links that start with .html
+	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="\.html([^"]*)"/href="\1"/g' {} \;
 # additions
 # cp addition/js into output/gedit.net/js
 	cp -R ./addition/js ./output/gedit.net
@@ -118,12 +132,12 @@ build:
 	rm -rf ./build/*
 	cp -R ./output/* ./build
 # create docker image
-	docker build --no-cache -t archiv.gedit.net .
+	docker build --no-cache -t archive.gedit.net .
 
 # Path: Makefile
 # run docker image
 run:
-	docker run -p 8080:80 archiv.gedit.net
+	docker run -p 8080:80 archive.gedit.net
 
 # Path: Makefile
 # run all

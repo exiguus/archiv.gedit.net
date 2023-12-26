@@ -1,0 +1,353 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+		"http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="de">
+<title> Artikel - KVIrc Windows exec alias - Gedit</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Wie benutze ich den KVIrc exec alias unter Windows mit cmd.exe oder cygwin sh.exe">
+<meta name="keywords" content="gedit, KVIrc, KVIrc alias, Windows, exec, alias, cygwin, shell, bash">
+<meta name="rating" content="general">
+<meta name="revisit-after" content="7 days">
+<meta name="expires" content="never">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+<meta name="date" content="2023-12-26">
+<meta name="author" content="Simon Gattner">
+<meta name="copyright" content="Simon Gattner">
+<meta name="publisher" content="Simon Gattner">
+<meta name="page-topic" content="Dienstleistung, Privat">
+<meta name="page-type" content="Artikel">
+<meta name="audience" content="Webworker, Webmaster, Webdeveloper, Admin, IT, Designer, Freelancer, Press, programmer, Coder, Scripter, Systemadmin, Gurus">
+<link rel="alternate" type="application/rss+xml" title="gedit.NET - RSS Feed" href="RSS.html">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="impressum" title="Impressum" href="Impressum.html">
+<link rel="contents" title="Inhaltsverzeichnis" href="SITEMAP.html">
+<link rel="search" title="Suche" href="SUCHE.html">
+<link rel="copyright" title="Urheberrecht" href="CC.html">
+<link rel="top" title="Startseite" href="index.html">
+<link rel="print" title="Druckvorschau" href="Artikel_KVIrc_Windows_exec_alias_Druckvorschau.html">
+<link rel="subsection" title="Artikel" href="Artikel.html">
+<link rel="subsection" title="Services" href="Services.html">
+<link rel="subsection" title="Weblog" href="Weblog.html">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script src="js/default.js" type="text/javascript"></script>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/style.9.css" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/style.css" media="all">
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/7/style.css" media="all">
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/6/style.css" media="all">
+	<![endif]-->
+<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/print/style.9.css" media="print">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/print/ie/style.css" media="print">
+	<![endif]-->
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<a name="top"></a>
+	<div id="header-nav">
+		<h1><a href="index.html" title="Startseite">gedit.net/</a></h1>
+		<h2><a href="Artikel.html" title="Artikel">Artikel/</a></h2>
+				<h3><a href="Artikel_KVIrc_Windows_exec_alias.html" title="KVIrc_Windows_exec_alias">KVIrc_Windows_exec_alias</a></h3>
+										</div>
+	<div id="header-search">
+		<div class="nav">
+			<h1>Suchen</h1>
+			<form action="SUCHE" method="post">
+			<ul>
+				<li><label for="Suchtext" accesskey="s"><input type="text" class="q" name="q" value="" maxlength="50" alt="Suchtext" id="Suchtext"></label></li>
+				<li><label for="Finden" accesskey="f"><input type="submit" name="finden" value="Finden" alt="Finden" id="Finden"></label></li>
+			</ul>
+			</form>
+		</div>
+	</div>
+	<div id="header-subnav">
+		<ul>
+						<li><a href="index.html" title="Home">Home</a></li>
+						<li>| <a href="Artikel.html" title="Artikel">Artikel</a></li>
+						<li>| <a href="Weblog.html" title="Weblog">Weblog</a></li>
+						<li>| <a href="SITEMAP.html" title="Sitemap">Sitemap</a></li>
+						<li>| <a href="Impressum.html" title="Impressum">Impressum</a></li>
+						<li>| <a href="Kontakt.html" title="Kontakt">Kontakt</a></li>
+						<!-- <li>| <a rel="nofollow" href="/Artikel_KVIrc_Windows_exec_alias_Druckvorschau.html" title="Druckvorschau">Druckvorschau</a></li> -->
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+<!-- start content -->
+<div id="content">
+<!-- start content left -->
+	<div id="content-left">
+		<h1>KVIrc exec Alias unter Windows</h1>		<ul class="decimal green bold">
+	<li><a href="Artikel_KVIrc_Windows_exec_alias.html#Vorwort" title="//gedit.NET - Artikel - KVIrc Windows exec alias - Vorwort">Vorwort</a></li>
+	<li><a href="Artikel_KVIrc_Windows_exec_alias.html#KVIrc_command_prompt" title="//gedit.NET - Artikel - KVIrc Windows exec alias - KVIrc command prompt">KVIrc command prompt</a></li>
+	<li><a href="Artikel_KVIrc_Windows_exec_alias.html#KVIrc_exec_Alias" title="//gedit.NET - Artikel - KVIrc Windows exec alias - KVIrc exec Alias">KVIrc exec Alias</a></li>
+	<li><a href="Artikel_KVIrc_Windows_exec_alias.html#Download" title="//gedit.NET - Artikel - KVIrc Windows exec alias - Download">Download</a></li>
+</ul>
+<h2><a name="Vorwort">Vorwort</a></h2>
+<p>
+Wie schaffe ich es den KVIrc <span class="tt">exec</span> Befehl unter Windows zu benutzen? Die Antwort ist eigentlich ganz einfach.<br>
+Sie benutzen den in <span class="bold">KVIrc</span> integrierten <span class="bold"><span class="tt">--shell</span> Schalter</span> um die gew&uuml;nschte Shell, zum Beispiel <span class="bold">cmd.exe oder sh.exe</span> bei Cygwin, <span class="bold">anzusprechen</span>.
+</p>
+<h2><a name="KVIrc_command_prompt">KVIrc command prompt</a></h2>
+<p class="bold">
+Im KVIrc command prompt sieht der <span class="tt">/exec</span> Befehl folgenderma&szlig;en aus:
+</p>
+<pre>
+<span class="right">exec Befehl Syntax im KVIrc command prompt</span>
+<code>
+# Example without a shell
+/exec -s=&quot;shell&quot; (&quot;programm to exec&quot;){ stdout; };
+# Example using cmd with netstat -ano
+/exec -s=&quot;cmd.exe&quot; (&quot;netstat -ano&quot;){ echo $1; };
+# Example using cygwin to cat the cpuinfo
+/exec -s=&quot;D:/bin/sh -c&quot; (&quot;cat /proc/cpuinfo&quot;){ echo $1; };
+</code>
+</pre>
+<p>
+Mehr Informationen zum KVIrc <span class="tt">/exec</span> Befehl gibt es in KVIrc unter <span class="tt">/help exec</span> in der Console oder im World Wide Web unter 
+<a class="extern" href="http://kvirc.thexception.net/doc/cmd_exec.html"
+title="KVIrc Dokumentation - exec cmd">&lt;http://kvirc.thexception.net/doc/cmd_exec.html&gt;</a>.
+</p>
+<h2><a name="KVIrc_exec_Alias">KVIrc exec Alias</a></h2>
+<p class="bold">
+Hier einige <span class="tt">alias</span> Beispiel mit <span class="tt">exec</span> um Systeminformationen abzurufen.
+</p>
+<pre>
+<span class="right">alias Beispiele</span>
+<code>
+# WEXEC
+# alias work like: wexec &quot;netstat -ano | grep -r imap&quot;
+/alias(wexec)
+{
+	exec -s=&quot;D:/bin/sh -c&quot; ($0) { echo $1; }
+}
+# wexec STDOUT using /wexec &quot;ipconfig /all&quot;
+# 18:48:45 
+# 18:48:45 Windows-IP-Konfiguration
+# 18:48:45 
+# 18:48:45 
+# 18:48:45 Ethernetadapter LAN-Verbindung:
+# 18:48:45 
+# 18:48:45         Verbindungsspezifisches DNS-Suffix: 
+# 18:48:45         IP-Adresse. . . . . . . . . . . . : 192.168.32.19
+# 18:48:45         Subnetzmaske. . . . . . . . . . . : 255.255.255.0
+# 18:48:45         Standardgateway . . . . . . . . . : 192.168.32.1
+
+
+# UPTIME
+/alias(uptime)
+{
+	exec -s=&quot;D:/bin/sh -c&quot; (uptime) { privmsg $target $1; }
+}
+# uptime STDOUT
+# 18:50:58 &lt;@foo&gt;  18:50:58 up 10 days, 16:50,  4 users,  load average: 0.00, 0.00, 0.00
+
+
+# UNAME
+/alias(uname)
+{
+	exec -s=&quot;D:/bin/sh -c&quot; (uname --all) { privmsg $target $1; }
+}
+# uname STDOUT
+# 18:52:07 &lt;@foo&gt; CYGWIN_NT-5.1 XANTHUS 1.5.25(0.156/4/2) 2007-12-09 09:47 i686 Cygwin
+
+
+# CPUINFO
+/alias(cpuinfo)
+{
+	exec -s=&quot;D:/bin/sh -c&quot; (cat /proc/cpuinfo) { msg $target $1; }
+}
+# cpuinfo STDOUT
+# 18:52:55 &lt;@foo&gt; processor       : 0
+# 18:52:55 &lt;@foo&gt; vendor_id       : AuthenticAMD
+# 18:52:55 &lt;@foo&gt; type            : primary processor
+# 18:52:55 &lt;@foo&gt; cpu family      : 6
+# 18:52:55 &lt;@foo&gt; model           : 10
+# 18:52:55 &lt;@foo&gt; model name      : mobile AMD Athlon(tm) XP 2400+
+# 18:52:55 &lt;@foo&gt; stepping        : 0
+# 18:52:55 &lt;@foo&gt; brand id        : 0
+# 18:52:55 &lt;@foo&gt; cpu count       : 0
+# 18:52:55 &lt;@foo&gt; apic id         : 0
+# 18:52:55 &lt;@foo&gt; cpu MHz         : 1793
+# 18:52:55 &lt;@foo&gt; fpu             : yes
+# 18:52:55 &lt;@foo&gt; flags           : fpu vme de pse tsc msr pae mce cx8 sep mtrr pge mca cmov pat pse36 mmx fxsr sse syscall mp mmxext 3dnowext 3dnow
+</code>
+</pre>
+<h2><a name="Download">Download</a></h2>
+<p class="bold">Alle oben beschriebenen Aliases zum herunterladen im <span class="tt">.kvs</span> Format.</p>
+<ul>
+	<li><span class="tt">/wexec</span> - <a href="/archiv/etc/kvirc/win/wexec.kvs" title="wexec.kvs">wexec.kvs</a></li>
+	<li><span class="tt">/uptime</span> - <a href="/archiv/etc/kvirc/win/uptime.kvs" title="uptime.kvs">uptime.kvs</a></li>
+	<li><span class="tt">/uname</span> - <a href="/archiv/etc/kvirc/win/uname.kvs" title="uname.kvs">uname.kvs</a></li>
+	<li><span class="tt">/cpuinfo</span> - <a href="/archiv/etc/kvirc/win/cpuinfo.kvs" title="cpuinfo.kvs">cpuinfo.kvs</a></li>
+</ul>				
+<!-- start content left comment -->
+<h2><a name="Kommentare">Kommentare</a></h2>
+<p class="italic">Es sind noch keine Kommentare vorhanden.</p>
+<!-- end content left comment -->
+<!-- start content left comment write -->
+<div id="comments">
+<h2><a name="Kommentar_schreiben">Kommentar schreiben</a></h2>
+<form method="post" action="Artikel%3BKVIrc_Windows_exec_alias#Kommentare">
+<ul>
+<li class="bold"><label for="comment_text">Kommentar:</label></li>
+<li><textarea id="comment_text" name="comment_text" cols="63" rows="10"></textarea></li>
+<li class="bold"><label for="name">Name:</label></li>
+<li><input type="text" id="name" name="name" value="" size="30" maxlength="30"></li>
+<li class="bold"><label for="email_hp">Email oder Homepage:</label></li>
+<li><input type="text" id="email_hp" name="email_hp" value="" size="30" maxlength="100"></li>
+<li class="italic">(optional, Email Adresse wird nicht angezeigt)</li>
+<li><input name="comment_submit" type="submit" value="Abschicken"><input name="comment_preview" type="submit" value="Vorschau"></li>
+</ul>
+</form>
+</div>
+<!-- end content left comment write -->
+		<!-- start content left bookmarks and print -->
+		<div class="clear"></div>
+		<ul class="clbpnav">
+			<li><a href="Artikel_KVIrc_Windows_exec_alias.html#top" onclick="location.hash='top'_" title="zum Seitenanfang von gedit.NET - Artikel - KVIrc Windows exec alias">
+					<img src="/img/gedit.net/layout/goto-top.gif" alt="zum Seitenanfang von gedit.NET - Artikel - KVIrc Windows exec alias">
+			</a></li>
+			<li> <a rel="nofollow" href="Artikel_KVIrc_Windows_exec_alias_Druckvorschau.html" title="Druckvorschau gedit.NET - Artikel - KVIrc Windows exec alias">
+					<img src="/img/gedit.net/layout/druckvorschau.gif" alt="Druckvorschau gedit.NET - Artikel - KVIrc Windows exec alias">
+			</a></li>
+			<li> <a rel="nofollow" href="http://www.mister-wong.de/" onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)+'&amp;bm_tags=')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Mr. Wong">
+					<img src="/img/gedit.net/layout/bookmarks/wong.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Mr. Wong">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Webnews">
+					<img src="/img/gedit.net/layout/bookmarks/webnews.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Webnews">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.icio.de/" onclick="window.open('http://www.icio.de/add.php?url='+encodeURIComponent(location.href))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Icio">
+					<img src="/img/gedit.net/layout/bookmarks/icio.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Icio">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.folkd.com/" onclick="window.open('http://www.folkd.com/page/submit.html?step2_sent=1&amp;url='+encodeURIComponent(location.href)+'&amp;check=page&amp;add_title='+encodeURIComponent(document.title)+'&amp;add_description=&amp;add_tags_show=&amp;add_tags=&amp;add_state=public')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Folkd">
+					<img src="/img/gedit.net/layout/bookmarks/folkd.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Folkd">
+			</a></li>
+			<li><a rel="nofollow" href="http://yigg.de/" onclick="window.open('http://yigg.de/neu?exturl='+encodeURIComponent(location.href))_return false" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Yigg">
+					<img src="/img/gedit.net/layout/bookmarks/yigg.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Yigg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.linkarena.com/" onclick="window.open('http://linkarena.com/bookmarks/addlink/?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;desc=&amp;tags=')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Linkarena">
+					<img src="/img/gedit.net/layout/bookmarks/linkarena.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Linkarena">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.simpy.com/" onclick="window.open('http://www.simpy.com/simpy/LinkAdd.do?title='+encodeURIComponent(document.title)+'&amp;tags=&amp;note=&amp;href='+encodeURIComponent(location.href))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Simpy">
+					<img src="/img/gedit.net/layout/bookmarks/simpy.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Simpy">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://del.icio.us/" onclick="window.open('http://del.icio.us/post?v=2&amp;url='+encodeURIComponent(location.href)+'&amp;notes=&amp;tags=&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Del.ico.us">
+					<img src="/img/gedit.net/layout/bookmarks/del.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Del.ico.us">
+			</a></li>
+			<li><a rel="nofollow" href="http://reddit.com/" onclick="window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Reddit">
+					<img src="/img/gedit.net/layout/bookmarks/reddit.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Reddit">
+			</a></li>
+			<li><a rel="nofollow" href="http://digg.com/" onclick="window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;bodytext=&amp;tags=&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Digg">
+					<img src="/img/gedit.net/layout/bookmarks/digg.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Digg">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.stumbleupon.com/" onclick="window.open('http://www.stumbleupon.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit StumbleUpon">
+					<img src="/img/gedit.net/layout/bookmarks/stumbleupon.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit StumbleUpon">
+			</a></li>
+			<li><a rel="nofollow" href="http://slashdot.org/" onclick="window.open('http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Slashdot">
+					<img src="/img/gedit.net/layout/bookmarks/slashdot.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Slashdot">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.furl.net/" onclick="window.open('http://www.furl.net/storeIt.jsp?u='+encodeURIComponent(location.href)+'&amp;keywords=&amp;t='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Furl">
+					<img src="/img/gedit.net/layout/bookmarks/furl.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Furl">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.yahoo.com/" onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+encodeURIComponent(document.title)+'&amp;d=&amp;tag=&amp;u='+encodeURIComponent(location.href))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Yahoo">
+					<img src="/img/gedit.net/layout/bookmarks/yahoo.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Yahoo">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.spurl.net/" onclick="window.open('http://www.spurl.net/spurl.php?v=3&amp;tags=&amp;title='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(document.location.href))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Spurl">
+					<img src="/img/gedit.net/layout/bookmarks/spurl.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Spurl">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.google.com/" onclick="window.open('http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;bkmk='+encodeURIComponent(location.href)+'&amp;annotation=&amp;labels=&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Google">
+					<img src="/img/gedit.net/layout/bookmarks/google.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Google">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.blinklist.com/" onclick="window.open('http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Description=&amp;Tag=&amp;Url='+encodeURIComponent(location.href)+'&amp;Title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Blinklist">
+					<img src="/img/gedit.net/layout/bookmarks/blinklist.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Blinklist">
+			</a></li>
+			<li><a rel="nofollow" href="http://blogmarks.net/" onclick="window.open('http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url='+encodeURIComponent(location.href)+'&amp;content=&amp;public-tags=&amp;title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Blogmarks">
+					<img src="/img/gedit.net/layout/bookmarks/blogmarks.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Blogmarks">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.diigo.com/" onclick="window.open('http://www.diigo.com/post?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;tag=&amp;comments=')_ return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Diigo">
+					<img src="/img/gedit.net/layout/bookmarks/diigo.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Diigo">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.technorati.com/" onclick="window.open('http://technorati.com/faves?add='+encodeURIComponent(location.href)+'&amp;tag=')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Technorati">
+					<img src="/img/gedit.net/layout/bookmarks/technorati.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Technorati">
+			</a></li>
+			<!--<li><a rel="nofollow" href="http://www.newsvine.com/" onclick="window.open('http://www.newsvine.com/_wine/save?popoff=1&amp;u='+encodeURIComponent(location.href)+'&amp;tags=&amp;blurb='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Newsvine">
+					<img src="/img/gedit.net/layout/bookmarks/newsvine.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Newsvine">
+			</a></li>
+			<li><a rel="nofollow" href="http://www.blinkbits.com/" onclick="window.open('http://www.blinkbits.com/bookmarklets/save.php?v=1&amp;title='+encodeURIComponent(document.title)+'&amp;source_url='+encodeURIComponent(location.href)+'&amp;source_image_url=&amp;rss_feed_url=&amp;rss_feed_url=&amp;rss2member=&amp;body=')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Blinkbits">
+					<img src="/img/gedit.net/layout/bookmarks/blinkbits.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Blinkbits">
+			</a></li>
+			<li><a rel="nofollow" href="http://ma.gnolia.com/" onclick="window.open('http://ma.gnolia.com/bookmarklet/add?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;description=&amp;tags=')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Ma.Gnolia">
+					<img src="/img/gedit.net/layout/bookmarks/ma.gnolia.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Ma.Gnolia">
+			</a></li>
+			<li><a rel="nofollow" href="http://smarking.com/" onclick="window.open('http://smarking.com/editbookmark/?url='+ location.href +'&amp;description=&amp;tags=')_return false_" title="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Smarking">
+					<img src="/img/gedit.net/layout/bookmarks/smarking.gif" alt="Bookmark gedit.NET - Artikel - KVIrc Windows exec alias mit Smarking">
+			</a></li>-->
+			<li><a rel="nofollow" href="http://www.vorratsdatenspeicherung.de/" title="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+					<img src="/img/gedit.net/layout/akvorrat.gif" alt="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
+			</a></li>
+			<li><a rel="nofollow" href="http://my.opera.com/community/download.pl?ref=gedit&amp_p=opera_desktop" title="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online.">
+					<img src="/img/gedit.net/layout/opera.gif" alt="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online">
+			</a></li>
+		</ul>
+		<div class="clear"></div>
+<!-- end content left bookmarks and print -->
+	</div>
+<!-- end content left --><!-- content right is gone -->
+<!-- start footer -->
+	<div id="footer">
+		<p>
+			$req
+			17,5 KB - 0 Sec. -			<a href="Artikel_KVIrc_Windows_exec_alias.html" title="Artikel_KVIrc_Windows_exec_alias">gedit.net/Artikel;KVIrc_Windows_exec_alias</a> -
+			Artikel - KVIrc Windows exec alias			- 26.12.2023, 00:47:39 CET
+			get $
+			<br>
+			<a class="hidden" href="/_nofollow.html" title="Please do not follow this Link">No follow</a>
+				This is <strong>not</strong> the website of
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">gedit</a>
+				the official text editor of the
+			<a class="extern" href="http://www.gnome.org">GNOME</a>
+				desktop environment.
+			<br>
+				Visit
+			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gedit.org/&gt;</a>
+				or
+			<a class="extern" href="http://www.gnome.org/projects/gedit/" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gnome.org/projects/gedit/&gt;</a>
+				if you search the gnome-editor.
+			<br>
+				This work is licensed under a
+			<a rel="license" href="CC.html" title="Creative Commons Atritbution-NonCommercial 3.0 License">Creative Commons Attribution-NonCommercial 3.0 License</a>.
+			<a class="extern" href="http://validator.w3.org/check?uri=http%3A%2F%2Fgedit.net%2FArtikel_KVIrc_Windows_exec_alias" title="Valid HTML 4.1 Strict">Valid HTML 4.1 Strict</a>
+				//
+			<a class="extern" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgedit.net%2FArtikel_KVIrc_Windows_exec_alias&amp_profile=css3" title="Valid CSS 3.0">Valid CSS 3.0</a>
+				//
+			<a class="extern" href="http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fgedit.net%2FRSS" title="Valid RSS Feed">Valid RSS</a>
+				//
+			<a class="extern" href="http://www.access-board.gov/508.htm" title="Section 508 Homepage:  Electronic and Information Technology">Valid Section 508</a>
+				//
+			<a class="extern" href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Level Double-A Conformance to Web Content Accessibility Guidelines 1.0">Valid Level Double-A Conformance to Web Content Accessibility Guidelines 1.0</a>.
+			<br>
+			$id
+						KVIrc exec Alias unter Windows -			Gedit (<a href="index.html" title="gedit HTML&amp;CSS Tutorials"><strong><abbr title="Hypertext Markup Language">HTML</abbr>&amp;<abbr title="Cascading Style Sheet">CSS</abbr> Tutorials</strong></a>, <a href="index.html" title="gedit Webgestaltung"><strong>Webgestaltung</strong></a>, <a href="index.html" title="gedit Webentwicklung"><strong>Webentwicklung</strong></a>, <a href="index.html" title="gedit Webdesign"><strong>Webdesign</strong></a>, <a href="index.html" title="gedit Webdevelopment"><strong>Webdevelopment</strong></a>, <a href="index.html" title="gedit Webstandards"><strong>Webstandards</strong></a>, <a href="index.html" title="gedit Benutzerfreundlichkeit (Usability)"><strong>Benutzerfreundlichkeit (Usability)</strong></a>, <a href="index.html" title="gedit Barrierefreiheit (Accessebility)"><strong>Barrierefreiheit (Accessebility)</strong></a>, <a href="index.html" title="gedit Webfrontendentwicklung"><strong>Webfrontendentwicklung</strong></a>, <a href="index.html" title="gedit Webbackendentwicklung"><strong>Webbackendentwicklung</strong></a>, <a href="index.html" title="gedit Visuelle Medien"><strong>Visuelle Medien</strong></a>, <a href="index.html" title="gedit Interfacedesign"><strong>Interfacedesign</strong></a>, <a href="index.html" title="gedit Visuelle Kommunikation"><strong>Visuelle Kommunikation</strong></a>, <a href="index.html" title="gedit Grafikdesign"><strong>Grafikdesign</strong></a>_ <a href="index.html" title="gedit Screendesign"><strong>Screendesign</strong></a>_ <a href="index.html" title="gedit Typografie"><strong>Typografie</strong></a>) <a href="VERSION_v0.5" title="Version - v0.5">v0.5</a> &copy_ 2005&ndash_2023 <a href="http://gattner.name/simon" title="Simon Gattner">Simon Gattner</a> - 12.08.2009, 13:59 CET exp $
+		</p>
+	</div>
+<!-- end footer -->
+</div>
+<!-- end content -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = document.title;
+piwik_idsite = 2;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+<script src="js/archiv.js"></script></body>
+</html>
