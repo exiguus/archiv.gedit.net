@@ -21,11 +21,15 @@ make run
 
 ## Github Pages
 
-Deploy to github pages:
+Manual deploy to github pages:
 
 ```bash
 git checkout gh-pages
-cp -r build/gedit.net/ docs/
+make all
+# test static site
+make test
+rm -rf ./docs/** && cp -r ./build/gedit.net/ docs/
 git add docs/
 git commit -m "feat(docs): update docs"
+git push origin gh-pages
 ```
