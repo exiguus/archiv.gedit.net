@@ -3,9 +3,10 @@
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  create		to create output"
-	@echo "  fetch		to fetch input"
+	@echo "  fetch		to fetch input (only run once to fetch input from gedit.net)"
 	@echo "  build		to build docker image (run with -B to force rebuild)"
 	@echo "  run		to run docker image"
+	@echo "  all		to create output, build docker image and run docker image"
 
 
 # Path: Makefile
@@ -113,9 +114,16 @@ build:
 	rm -rf ./build/*
 	cp -R ./output/* ./build
 # create docker image
-	docker build --no-cache -t archive.gedit.net .
+	docker build --no-cache -t archiv.gedit.net .
 
 # Path: Makefile
 # run docker image
 run:
-	docker run -p 8080:80 archive.gedit.net
+	docker run -p 8080:80 archiv.gedit.net
+
+# Path: Makefile
+# run all
+all:
+	make create
+	make build -B
+	make run
