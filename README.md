@@ -33,3 +33,18 @@ git add docs/
 git commit -m "feat(docs): update docs"
 git push origin gh-pages
 ```
+
+## test
+
+test static site:
+
+```bash
+make test
+```
+
+update `url-list.txt` mock:
+
+```bash
+make all
+wget --recursive --spider localhost:8080 2>&1 | grep '^--' | awk '{ print $3 }' | sort | uniq > url-list.txt
+```

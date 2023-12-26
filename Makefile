@@ -149,6 +149,21 @@ run:
 	docker run -p 8080:80 archiv.gedit.net
 
 # Path: Makefile
+# test docker image
+test:
+	output_file="tmp-url-list.txt"; \
+	wget --recursive --spider localhost:8080 2>&1 | grep '^--' | awk '{ print $$3 }' | sort | uniq > "$$output_file";\
+	expected_file="url-list.txt"; \
+	if diff "$$output_file" "$$expected_file"; then \
+	    echo "Test passed: Output matches expected content."; \
+			rm tmp-url-list.txt; \
+			exit 0; \
+	else \
+	    echo "Test failed: Output does not match expected content."; \
+			exit 1; \
+	fi
+
+# Path: Makefile
 # run all
 all:
 	make create
