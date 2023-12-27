@@ -15,45 +15,36 @@ Y888 888 888   , Y888 888 888  888   d8b 8b Y88b  888 ",d     888
  * Contact: <http://gedit.net/Kontakt>                          */
 
 function externalLinks() {
-if (!document.getElementsByTagName) return;
-var anchors = document.getElementsByTagName("a");
-for (var i=0; i<anchors.length; i++)
- {
-   var anchor = anchors[i];
-   if (anchor.getAttribute("href") &&
-       anchor.getAttribute("class") == "extern")
-     anchor.target = "_blank";
- }
+  if (!document.getElementsByTagName) return;
+  var anchors = document.getElementsByTagName('a');
+  for (var i = 0; i < anchors.length; i++) {
+    var anchor = anchors[i];
+    if (anchor.getAttribute('href') && anchor.getAttribute('class') == 'extern')
+      anchor.target = '_blank';
+  }
 }
 
-
-function show_elements()
- {
+function show_elements() {
   var elementNames = show_elements.arguments;
-  for (var i=0; i<elementNames.length; i++)
-   {
-     var elementName = elementNames[i];
-     document.getElementById(elementName).style.display='block';
-   }
- }
+  for (var i = 0; i < elementNames.length; i++) {
+    var elementName = elementNames[i];
+    document.getElementById(elementName).style.display = 'block';
+  }
+}
 
-function hide_elements()
- {
+function hide_elements() {
   var elementNames = hide_elements.arguments;
-  for (var i=0; i<elementNames.length; i++)
-   {
-     var elementName = elementNames[i];
-     document.getElementById(elementName).style.display='none';
-   }
- }
+  for (var i = 0; i < elementNames.length; i++) {
+    var elementName = elementNames[i];
+    document.getElementById(elementName).style.display = 'none';
+  }
+}
 
-function hide_class()
- {
+function hide_class() {
   document.documentElement.className += ' jshide';
- }
+}
 
-window.onload = function()
- {
+window.onload = function () {
   //externalLinks();
   hide_class();
- }
+};
