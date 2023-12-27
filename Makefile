@@ -123,8 +123,12 @@ create:
 	cd output/gedit.net/dl/gedit.net/static/templates/vicard/ && unzip -o viCard-v0.4.zip
 # rename to html file
 	find ./output/gedit.net -type f ! -name '*.*' -exec sh -c 'for file; do mv "$$file" "$$file.html"; echo "Added .html extension to $$file"; done' sh {} \;
+# rename VERSION files to html file
+	find ./output/gedit.net -type f -name 'VERSION*' -exec sh -c 'for file; do mv "$$file" "$$file.html"; echo "Added .html extension to $$file"; done' sh {} \;
 # add .html to all links if link href has no file extension
 	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="([^"\.]*)"/href="\1.html"/g' {} \;
+# add .html to all links if link href contain VERSION
+	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="([^"]*VERSION[^"]*)"/href="\1.html"/g' {} \;
 # fix links that end with # hash
 	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="([^"]*)(#[^"]*)\.html"/href="\1.html\2"/g' {} \;
 # fix links that start with javascript
