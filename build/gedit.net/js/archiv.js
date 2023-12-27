@@ -1,4 +1,3 @@
-
 function archiv() {
   var element = document.createElement('button');
   element.setAttribute('id', 'archiv');
@@ -56,4 +55,4 @@ function archiv_close() {
 
 window.onload = function () {
   archiv();
-}
+};

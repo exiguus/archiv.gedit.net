@@ -1,105 +1,291 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-        "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html dir="ltr" lang="en">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<!--[if gt IE 6]><!-->
-<meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-<!--<![endif]-->
-<title>Joe Bloggs viCard</title>
-</head>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--[if gt IE 6]><!-->
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <!--<![endif]-->
+    <title>Joe Bloggs viCard</title>
+  </head>
 
-<body>
-<div class="section row" id="top">
-	<a class="screen" href="#content" title="Scip to Content">Scip to Content</a>
-	<a class="handheld" href="#navigation" title="Scip to Navigation">Scip to Navigation</a>
-</div><!-- end section row top -->
-<div class="article">
-	<div class="section row" id="content">
-		<div class="c t l"></div><div class="c t r"></div><!-- end rounded corners top -->
-		<div class="section col" id="header">
-			<h1><em>Virtual Identity Card of</em> Joe Bloggs</h1>
-			<ul class="nav handheld" id="navigation">
-				<li><a href="#contact" title="Contact Information"><em>Contact</em> <strong>vCard</strong></a></li>
-				<li><a href="#whois" title="Who am I"><em>Whois</em> <strong>Joe Bloggs</strong></a></li>
-				<li><a href="#follow" title="Follow Me"><em>Follow</em> <strong>Blogs&amp;Websites</strong></a></li>
-			</ul><!-- end ul main nav / only handheld or text based browser -->
-		</div><!-- end section col header -->
-		<div class="section col" id="contact">
-			<h2>Contact <a class="handheld" href="#navigation" title="Go back to Navigation">Goto Nav</a></h2>
-			<dl class="vcard">
-				<dt>Name:</dt>
-				<dd class="fn"><span class="given-name">Joe</span> <span class="family-name">Bloggs</span></dd>
-				<dt>Address:</dt>
-				<dd class="adr"><div class="street-address">Karl-Marx-Allee 42</div><span class="postal-code" title="D-130000">13000</span> <span class="locality region">Berlin</span><div class="country-name">Germany</div></dd>
-				<dt>Phone:</dt>
-				<dd class="tel" title="+49-30-12345-67"><em>+</em>49&nbsp;30&nbsp;12345<em>&ndash;</em>67</dd>
-				<dt>E-Mail:</dt>
-				<dd class="email"><a class="url" onclick="this.href=this.href.replace(/(.*)\/at\/(.*)\/dot\/(.*)/i,'$1\@$2\.$3');" href="mailto:joe/at/example/dot/org.html" title="Joe Bloggs email">joe<em>@</em>example<em>.</em>org</a></dd>
-				<dt><abbr title="Uniform Resource Locator">URL</abbr>:</dt>
-				<dd><a class="url" href="http://example.org/" title="Joe Bloggs url">example.org</a></dd>
-			</dl><!-- end dl vcard -->
-			<p>
-				Download my <a href="files/vcard.vcf" title="vCard of Joe Bloggs">vCard</a>.
-			</p>
-		</div><!-- end section col contact -->
-		<div class="section col" id="whois">
-			<h2>Whois <a class="handheld" href="#navigation" title="Go back to Navigation">Goto Nav</a></h2>
-			<p>Suspendisse elit odio, interdum pretium cursus quis, mattis a libero.</p>
-			<p>Nunc magna nulla, tincidunt quis mattis sit amet, suscipit at turpis.<br> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-			<p>Tincidunt uis mattis sit amet, suscipit at turpis magna nulla.
-			<a class="jshide" href="#more-whois" onclick="toggle('more-whois')" title="Show/Hide more Informations">(Show/Hide) <span>read more &rarr;</span></a></p>
-			<p id="more-whois">Quis mattis sit amet, <strong>suscipit</strong> at turpis.<br> Pellentesque <q>habitant morbi tristique</q> &mdash; senectus et <a href="#link" title="example link">netus et</a> malesuada fames <em>tincidunt</em> ac turpis <code>morbi tristique</code> egestas.</p>
-		</div><!-- end section col whois -->
-		<div class="section col" id="follow">
-			<h2>Follow <a class="handheld" href="#navigation" title="Go back to Navigation">Goto Nav</a></h2>
-			<ul class="nav">
-				<li>Related <a class="jshide" href="#related-sites" onclick="toggle('related-sites');" title="Show/Hide Related Links">(Show/Hide)</a>
-					<ul id="related-sites" class="vcard">
-						<li><a class="url" href="http://example.org/blog/" title="Jon Bloggs Blog">Read my <strong>Blog</strong></a></li>
-						<li><a class="url" href="http://flickr.com/photos/joe" title="Jon Bloggs Photos">Watch my <strong>Photos</strong></a></li>
-						<li><a class="url" href="http://del.icio.us/joe" title="Jon Bloggs Bookmarks">Take a look at my <strong>Bookmarks</strong></a></li>
-						<li><a class="url" href="irc:irc.example.org/joe" title="Jon Bloggs on IRC">Chat with me on <strong><abbr title="Internet Relay Chat">IRC</abbr></strong></a></li>
-						<li><a class="url" href="aim:goim?screenname=joe.html" title="Jon Bloggs on AIM">Get back to me on <strong><abbr title="AOL Instant Messenger">AIM</abbr></strong></a></li>
-						<li><a class="url" href="ymsgr:sendIM?joe.html" title="Jon Bloggs YIM">Get in touch with me on <strong><abbr title="Yahoo Messenger">YIM</abbr></strong></a></li>
-						<li><a class="url" href="xmpp:joe.html" title="Jon Bloggs JABBER">Contact me on <strong>Jabber</strong></a></li>
-					</ul>
-				</li>
-				<li>Other Sites <a class="jshide" href="#other-sites" onclick="toggle('other-sites');" title="Show/Hide Other Sites">(Show/Hide)</a>
-					<ul id="other-sites">
-						<li><a href="http://example.org/" title="example link">example.org <strong>Organisation</strong></a></li>
-						<li><a href="http://example.net/" title="example link">example.net <strong>Network</strong></a></li>
-						<li><a href="http://example.com/" title="example link">example.com <strong>Commercial</strong></a></li>
-					</ul>
-				</li>
-			</ul>
-		</div><!-- end section col follow -->
-	</div><!-- end section row content -->
-	<div class="section row" id="footer">
-			<div class="section col">
-				<ul class="nav">
-					<li>v0.4</li>
-					<li><a href="http://example.org/" title="Joe Gattner Website"><strong>example.org</strong></a></li>
-				</ul>
-			</div>
-			<div class="section col">
-				<ul class="nav">
-					<li><a href="http://gedit.net/" title="Template by gedit.net"><abbr title="Virtual Identity Card">viCard</abbr> by &lt;gedit.net/&gt;</a></li>
-					<li>&copy; <strong>Joe Bloggs</strong> 2009</li>
-					<li><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB" title="Creativ Commons Licence BY-NC-SA">Some Rights Reserved</a></li>
-					<li class="handheld"><a href="#navigation" title="Go back to Navigation">Goto Nav</a></li>
-				</ul>
-			</div>
-		<div class="c b l"></div><div class="c b r"></div><!-- end rounded corners bottom -->
-	</div><!-- end section row footer -->
-</div><!-- end article -->
-<script type="text/javascript">
-function loadInHTML()
-  {
-    toggle('other-sites','more-whois');
-  }
-</script>
-<script type="text/javascript" src="js/main.js"></script>
-<script src="js/archiv.js"></script></body>
+  <body>
+    <div class="section row" id="top">
+      <a class="screen" href="#content" title="Scip to Content"
+        >Scip to Content</a
+      >
+      <a class="handheld" href="#navigation" title="Scip to Navigation"
+        >Scip to Navigation</a
+      >
+    </div>
+    <!-- end section row top -->
+    <div class="article">
+      <div class="section row" id="content">
+        <div class="c t l"></div>
+        <div class="c t r"></div>
+        <!-- end rounded corners top -->
+        <div class="section col" id="header">
+          <h1><em>Virtual Identity Card of</em> Joe Bloggs</h1>
+          <ul class="nav handheld" id="navigation">
+            <li>
+              <a href="#contact" title="Contact Information"
+                ><em>Contact</em> <strong>vCard</strong></a
+              >
+            </li>
+            <li>
+              <a href="#whois" title="Who am I"
+                ><em>Whois</em> <strong>Joe Bloggs</strong></a
+              >
+            </li>
+            <li>
+              <a href="#follow" title="Follow Me"
+                ><em>Follow</em> <strong>Blogs&amp;Websites</strong></a
+              >
+            </li>
+          </ul>
+          <!-- end ul main nav / only handheld or text based browser -->
+        </div>
+        <!-- end section col header -->
+        <div class="section col" id="contact">
+          <h2>
+            Contact
+            <a class="handheld" href="#navigation" title="Go back to Navigation"
+              >Goto Nav</a
+            >
+          </h2>
+          <dl class="vcard">
+            <dt>Name:</dt>
+            <dd class="fn">
+              <span class="given-name">Joe</span>
+              <span class="family-name">Bloggs</span>
+            </dd>
+            <dt>Address:</dt>
+            <dd class="adr">
+              <div class="street-address">Karl-Marx-Allee 42</div>
+              <span class="postal-code" title="D-130000">13000</span>
+              <span class="locality region">Berlin</span>
+              <div class="country-name">Germany</div>
+            </dd>
+            <dt>Phone:</dt>
+            <dd class="tel" title="+49-30-12345-67">
+              <em>+</em>49&nbsp;30&nbsp;12345<em>&ndash;</em>67
+            </dd>
+            <dt>E-Mail:</dt>
+            <dd class="email">
+              <a
+                class="url"
+                onclick="this.href=this.href.replace(/(.*)\/at\/(.*)\/dot\/(.*)/i,'$1\@$2\.$3');"
+                href="mailto:joe/at/example/dot/org.html"
+                title="Joe Bloggs email"
+                >joe<em>@</em>example<em>.</em>org</a
+              >
+            </dd>
+            <dt><abbr title="Uniform Resource Locator">URL</abbr>:</dt>
+            <dd>
+              <a class="url" href="http://example.org/" title="Joe Bloggs url"
+                >example.org</a
+              >
+            </dd>
+          </dl>
+          <!-- end dl vcard -->
+          <p>
+            Download my
+            <a href="files/vcard.vcf" title="vCard of Joe Bloggs">vCard</a>.
+          </p>
+        </div>
+        <!-- end section col contact -->
+        <div class="section col" id="whois">
+          <h2>
+            Whois
+            <a class="handheld" href="#navigation" title="Go back to Navigation"
+              >Goto Nav</a
+            >
+          </h2>
+          <p>
+            Suspendisse elit odio, interdum pretium cursus quis, mattis a
+            libero.
+          </p>
+          <p>
+            Nunc magna nulla, tincidunt quis mattis sit amet, suscipit at
+            turpis.<br />
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas.
+          </p>
+          <p>
+            Tincidunt uis mattis sit amet, suscipit at turpis magna nulla.
+            <a
+              class="jshide"
+              href="#more-whois"
+              onclick="toggle('more-whois')"
+              title="Show/Hide more Informations"
+              >(Show/Hide) <span>read more &rarr;</span></a
+            >
+          </p>
+          <p id="more-whois">
+            Quis mattis sit amet, <strong>suscipit</strong> at turpis.<br />
+            Pellentesque <q>habitant morbi tristique</q> &mdash; senectus et
+            <a href="#link" title="example link">netus et</a> malesuada fames
+            <em>tincidunt</em> ac turpis <code>morbi tristique</code> egestas.
+          </p>
+        </div>
+        <!-- end section col whois -->
+        <div class="section col" id="follow">
+          <h2>
+            Follow
+            <a class="handheld" href="#navigation" title="Go back to Navigation"
+              >Goto Nav</a
+            >
+          </h2>
+          <ul class="nav">
+            <li>
+              Related
+              <a
+                class="jshide"
+                href="#related-sites"
+                onclick="toggle('related-sites');"
+                title="Show/Hide Related Links"
+                >(Show/Hide)</a
+              >
+              <ul id="related-sites" class="vcard">
+                <li>
+                  <a
+                    class="url"
+                    href="http://example.org/blog/"
+                    title="Jon Bloggs Blog"
+                    >Read my <strong>Blog</strong></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="url"
+                    href="http://flickr.com/photos/joe"
+                    title="Jon Bloggs Photos"
+                    >Watch my <strong>Photos</strong></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="url"
+                    href="http://del.icio.us/joe"
+                    title="Jon Bloggs Bookmarks"
+                    >Take a look at my <strong>Bookmarks</strong></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="url"
+                    href="irc:irc.example.org/joe"
+                    title="Jon Bloggs on IRC"
+                    >Chat with me on
+                    <strong
+                      ><abbr title="Internet Relay Chat">IRC</abbr></strong
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="url"
+                    href="aim:goim?screenname=joe.html"
+                    title="Jon Bloggs on AIM"
+                    >Get back to me on
+                    <strong
+                      ><abbr title="AOL Instant Messenger">AIM</abbr></strong
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="url"
+                    href="ymsgr:sendIM?joe.html"
+                    title="Jon Bloggs YIM"
+                    >Get in touch with me on
+                    <strong><abbr title="Yahoo Messenger">YIM</abbr></strong></a
+                  >
+                </li>
+                <li>
+                  <a class="url" href="xmpp:joe.html" title="Jon Bloggs JABBER"
+                    >Contact me on <strong>Jabber</strong></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              Other Sites
+              <a
+                class="jshide"
+                href="#other-sites"
+                onclick="toggle('other-sites');"
+                title="Show/Hide Other Sites"
+                >(Show/Hide)</a
+              >
+              <ul id="other-sites">
+                <li>
+                  <a href="http://example.org/" title="example link"
+                    >example.org <strong>Organisation</strong></a
+                  >
+                </li>
+                <li>
+                  <a href="http://example.net/" title="example link"
+                    >example.net <strong>Network</strong></a
+                  >
+                </li>
+                <li>
+                  <a href="http://example.com/" title="example link"
+                    >example.com <strong>Commercial</strong></a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- end section col follow -->
+      </div>
+      <!-- end section row content -->
+      <div class="section row" id="footer">
+        <div class="section col">
+          <ul class="nav">
+            <li>v0.4</li>
+            <li>
+              <a href="http://example.org/" title="Joe Gattner Website"
+                ><strong>example.org</strong></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="section col">
+          <ul class="nav">
+            <li>
+              <a href="http://gedit.net/" title="Template by gedit.net"
+                ><abbr title="Virtual Identity Card">viCard</abbr> by
+                &lt;gedit.net/&gt;</a
+              >
+            </li>
+            <li>&copy; <strong>Joe Bloggs</strong> 2009</li>
+            <li>
+              <a
+                href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB"
+                title="Creativ Commons Licence BY-NC-SA"
+                >Some Rights Reserved</a
+              >
+            </li>
+            <li class="handheld">
+              <a href="#navigation" title="Go back to Navigation">Goto Nav</a>
+            </li>
+          </ul>
+        </div>
+        <div class="c b l"></div>
+        <div class="c b r"></div>
+        <!-- end rounded corners bottom -->
+      </div>
+      <!-- end section row footer -->
+    </div>
+    <!-- end article -->
+    <script type="text/javascript">
+      function loadInHTML() {
+        toggle('other-sites', 'more-whois');
+      }
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/archiv.js"></script>
+  </body>
 </html>

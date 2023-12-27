@@ -8,36 +8,27 @@
  */
 
 // toggles
-function toggle()
-  {
-    var els = toggle.arguments;
-    var elsLen = els.length;
-    for (var i = 0; i < elsLen; i++)
-      {
-        var el = document.getElementById(els[i]);
-        if(el)
-          {
-             if(el.style.display != 'none')
-              {
-                el.style.display  = 'none';
-              }
-             else
-              {
-                el.style.display = '';
-              }
-          }
+function toggle() {
+  var els = toggle.arguments;
+  var elsLen = els.length;
+  for (var i = 0; i < elsLen; i++) {
+    var el = document.getElementById(els[i]);
+    if (el) {
+      if (el.style.display != 'none') {
+        el.style.display = 'none';
+      } else {
+        el.style.display = '';
       }
+    }
   }
-function addClass(cl)
- {
-  document.documentElement.className += ' '+cl;
- }
+}
+function addClass(cl) {
+  document.documentElement.className += ' ' + cl;
+}
 // onload functions
-window.onload = function loadExHTML()
-  {
-    addClass('jsshow'); //show js functionality
-    if(typeof window.loadInHTML == 'function')
-      {
-        loadInHTML();
-      }
+window.onload = function loadExHTML() {
+  addClass('jsshow'); //show js functionality
+  if (typeof window.loadInHTML == 'function') {
+    loadInHTML();
   }
+};

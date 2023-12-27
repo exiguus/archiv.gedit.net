@@ -1,10 +1,10 @@
 /* css.
-                      888 ,e,   d8       Y88b Y88 888'Y88 88P'888'Y88 
- e88 888  ,e e,   e88 888  "   d88        Y88b Y8 888 ,'Y P'  888  'Y 
-d888 888 d88 88b d888 888 888 d88888     b Y88b Y 888C8       888     
-Y888 888 888   , Y888 888 888  888   d8b 8b Y88b  888 ",d     888     
- "88 888  "YeeP"  "88 888 888  888   Y8P 88b Y88b 888,d88     888     
-  ,  88P                                                              
+                      888 ,e,   d8       Y88b Y88 888'Y88 88P'888'Y88
+ e88 888  ,e e,   e88 888  "   d88        Y88b Y8 888 ,'Y P'  888  'Y
+d888 888 d88 88b d888 888 888 d88888     b Y88b Y 888C8       888
+Y888 888 888   , Y888 888 888  888   d8b 8b Y88b  888 ",d     888
+ "88 888  "YeeP"  "88 888 888  888   Y8P 88b Y88b 888,d88     888
+  ,  88P
  "8",P"                                                             */
 
 /* <http://css.gedit.net/>
@@ -25,8 +25,8 @@ Y888 888 888   , Y888 888 888  888   d8b 8b Y88b  888 ",d     888
 body {
 	background: #FFFFFF;
 }
-/* 
- * Header 
+/*
+ * Header
  */
 #header {
 	width: 100%;
@@ -134,7 +134,7 @@ body {
 #content-left textarea {
 	border: 1px solid #CCCCCC;
 }
-/* 
+/*
  *Content left Comments
  */
 #content-left div#comments {
@@ -166,7 +166,7 @@ body {
 #content-left ul.teaser img {
 	border: 2px solid #CCCCCC;
 }
-/* 
+/*
  * Content left Galerie
  */
 #content-left ul.galerie li,
@@ -233,81 +233,9 @@ a.irc,
 a.rss {
 	padding: 0;
 	background: none;
-} NULL;
-$_GET['tpl'] = NULL;
-
-// Get the Colors
-//
-
-// About
-if ( $_GET['ctg'] == '1')
-{
-	$color = 'rgb(153, 112, 93)';
 }
-// Impressum
-elseif ( $_GET['ctg'] == '2' )
-{
-	$color = 'rgb(153, 66, 58)';
-}
-// Simon
-elseif ( $_GET['ctg'] == '3' )
-{
-	$color = 'rgb(75, 61, 62)';
-}
-// Christoph
-elseif ( $_GET['ctg'] == '4' )
-{
-	$color = 'rgb(64, 77, 146)';
-}
-// Christina
-elseif ( $_GET['ctg'] == '5' )
-{
-	$color = 'rgb(153, 112, 93)';
-}
-// Galerie
-elseif ( $_GET['ctg'] == '6' )
-{
-	$color = 'rgb(64, 94, 74)';
-}
-// Weblog
-elseif ( $_GET['ctg'] == '7' )
-{
-	$color = 'rgb(124, 125, 101)';
-}
-// Services
-elseif ( $_GET['ctg'] == '8' )
-{
-	$color = 'rgb(98, 128, 182)';
-}
-// Artikel
-elseif ( $_GET['ctg'] == '9' )
-{
-	$color = 'rgb(76, 82, 88)';
-}
-// default und Startseite
-else
-{
-	$color = 'rgb(149, 150, 161)';
-}
-?>
-body {
-	background: #FFFFFF;
-}
-<?php
-if( $_GET['adm'] == 'true' )
-{
-echo <<< EOF
-/* 
- * Admin
- */
-#admin {
-	display: none;
-}
-EOF;
-}
-?>
-/* 
- * Header 
+/*
+ * Header
  */
 #header {
 	width: 100%;
@@ -382,19 +310,7 @@ EOF;
 #content-left img.inner {
 	border: 2px solid #CCCCCC;
 }
-<?php
-if( $_GET['ctg'] == '8' )
-{
-echo <<< EOF
-/*
- * Content left Services
- */
-#content-left pre.services {
-	background: #FAFAFA;
-}
-EOF;
-}
-?>
+
 #content-left pre span {
 	color: #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
@@ -428,7 +344,7 @@ EOF;
 #content-left textarea {
 	border: 1px solid #CCCCCC;
 }
-/* 
+/*
  *Content left Comments
  */
 #content-left div#comments {
@@ -460,7 +376,7 @@ EOF;
 #content-left ul.teaser img {
 	border: 2px solid #CCCCCC;
 }
-/* 
+/*
  * Content left Galerie
  */
 #content-left ul.galerie li,
@@ -479,64 +395,7 @@ EOF;
 #content-left ul.galerie a {
 	color: #CCCCCC;
 }
-<?php
-if( $_GET['tpl'] == 'photo' )
-{
-echo <<< EOF
-/* 
- * Content left Photos
- */
-#content-left ul.photo {
-	border-top: none;
-}
-#content-left ul.photo li h2 {
-	color: #AAAAAA;
-	border: none;
-}
-#content-left ul.photo li.right {
-	display: none;
-}
-#content-left li.photo img {
-	padding: 0;
-	background-color: #FFFFFF;
-	border: none;
-}
-EOF;
-}
-?>
-<?php
-if( $_GET['ctg'] == '8' )
-{
-echo <<< EOF
-/* 
- * Content left Directory Listing
- */
-#content-left ul.indexes a {
-color: #000000;
-}
-EOF;
-}
-?>
-<?php
-if( $_GET['ctg'] == '1' )
-{
-echo <<< EOF
-/*
- * Content left about
- */
-#content-left table#about td {
-	padding: 2px 8px;
-	color: #404040;
-	background-color: #FAFAFA;
-	border: 1px solid #404040;
-}
-#content-left table#about td a {
-	color: #000000;
-	background-color: #FAFAFA;
-}
-EOF;
-}
-?>
+
 /*
  * Content right
  */
@@ -585,28 +444,13 @@ a.irc,
 a.rss {
 	padding: 0;
 	background: none;
-}<?php
-require_once( '/var/kunden/webs/web3/gedit.net/public_www/_sub/_inc/css.inc.php' );
-// print all
-?>
+}
 body {
 	background: #FFFFFF;
 }
-<?php
-if( $_GET['adm'] == 'true' )
-{
-echo <<< EOF
-/* 
- * Admin
- */
-#admin {
-	display: none;
-}
-EOF;
-}
-?>
-/* 
- * Header 
+
+/*
+ * Header
  */
 #header {
 	width: auto;
@@ -682,19 +526,7 @@ EOF;
 #content-left img.inner {
 	border: 2px solid #CCCCCC;
 }
-<?php
-if( $_GET['ctg'] == '8' )
-{
-echo <<< EOF
-/*
- * Content left Services
- */
-#content-left pre.services {
-	background: #FAFAFA;
-}
-EOF;
-}
-?>
+
 #content-left pre span {
 	color: #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
@@ -728,7 +560,7 @@ EOF;
 #content-left textarea {
 	border: 1px solid #CCCCCC;
 }
-/* 
+/*
  *Content left Comments
  */
 #content-left div#comments {
@@ -760,7 +592,7 @@ EOF;
 #content-left ul.teaser img {
 	border: 2px solid #CCCCCC;
 }
-/* 
+/*
  * Content left Galerie
  */
 #content-left ul.galerie li,
@@ -779,64 +611,7 @@ EOF;
 #content-left ul.galerie a {
 	color: #CCCCCC;
 }
-<?php
-if( $_GET['tpl'] == 'photo' )
-{
-echo <<< EOF
-/* 
- * Content left Photos
- */
-#content-left ul.photo {
-	border-top: none;
-}
-#content-left ul.photo li h2 {
-	color: #AAAAAA;
-	border: none;
-}
-#content-left ul.photo li.right {
-	display: none;
-}
-#content-left li.photo img {
-	padding: 0;
-	background-color: #FFFFFF;
-	border: none;
-}
-EOF;
-}
-?>
-<?php
-if( $_GET['ctg'] == '8' )
-{
-echo <<< EOF
-/* 
- * Content left Directory Listing
- */
-#content-left ul.indexes a {
-color: #000000;
-}
-EOF;
-}
-?>
-<?php
-if( $_GET['ctg'] == '1' )
-{
-echo <<< EOF
-/*
- * Content left about
- */
-#content-left table#about td {
-	padding: 2px 8px;
-	color: #404040;
-	background-color: #FAFAFA;
-	border: 1px solid #404040;
-}
-#content-left table#about td a {
-	color: #000000;
-	background-color: #FAFAFA;
-}
-EOF;
-}
-?>
+
 /*
  * Content right
  */

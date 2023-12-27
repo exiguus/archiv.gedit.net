@@ -5,6 +5,8 @@ help:
 	@echo "  create		to create output"
 	@echo "  fetch		to fetch input (only run once to fetch input from gedit.net)"
 	@echo "  build		to build docker image (run with -B to force rebuild)"
+	@echo "  format		to format code"
+	@echo "  test		to test docker image"
 	@echo "  run		to run docker image"
 	@echo "  all		to create output, build docker image and run docker image"
 
@@ -80,7 +82,7 @@ create:
 # Fix ";" and "," in filenames and hrefs
 # Replace ";" in filesnames with "_"
 	find ./output -type f -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/;/_/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
-# Replace "," in filenames with "_" 
+# Replace "," in filenames with "_"
 	find ./output -type f -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/,/_/g"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
 # Replace in all files ";" and "," in hrefs with "_"
 	find ./output -type f -exec sed -i -E 's/href="(.*);(.*)"/href\=\"\1_\2"/g' {} \;
@@ -114,7 +116,7 @@ create:
 	find ./output -type f -exec sed -i -E 's/www\.gedit\.net/gedit.net/g' {} \;
 # Replace /css//img/gedit.net/ to /img/gedit.net/
 	find ./output -type f -exec sed -i -E 's/\/css\/\/img\/gedit\.net\//\/img\/gedit\.net\//g' {} \;
-# 
+#
 # Extract templates from dl/gedit.net
 	cp output/gedit.net/dl/gedit.net/static/templates/helvetica/helvetica-v0.1.zip output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1/
 	cd output/gedit.net/dl/gedit.net/static/templates/helvetica/v0.1 && unzip -o helvetica-v0.1.zip
@@ -133,6 +135,13 @@ create:
 	find ./output/gedit.net/* -type f -name 'Services_WhoAmI.html' -exec sed -i -E 's/([0-9]{1,3}\.){3}[0-9]{1,3}/0.0.0.0/g' {} \;
 # remove hostname from who am i service Services_WhoAmI.html
 	find ./output/gedit.net/* -type f -name 'Services_WhoAmI.html' -exec sed -i -E 's/<p class=\"right whoami\">[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+\.[a-zA-Z-]{2,3}<\/p>/<p class=\"right whoami\">unknown<\/p>/g' {} \;
+# fix missing <head> tags in .html files
+	find ./output/gedit.net/* -type f -name '*.html' -exec sed -i -E 's/<html dir="ltr" lang="de">/<html dir="ltr" lang="de"><head>/g' {} +
+# rename files that end with RSS.html to RSS.xml
+	find ./output/gedit.net/* -type f -name '*RSS.html' -exec sh -c 'new_name=$$(echo "$$1" | sed -E "s/RSS.html/RSS.xml/"); mv "$$1" "$$new_name"; echo "Renamed $$1 to $$new_name";' sh {} \;
+# change hrefs that end with RSS.html to RSS.xml
+	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="([^"]*)RSS.html"/href="\1RSS.xml"/g' {} \;
+
 # additions
 # cp addition/js into output/gedit.net/js
 	cp -R ./addition/js ./output/gedit.net
@@ -140,7 +149,7 @@ create:
 	find ./output/gedit.net/* -type f -name '*.html' -exec sed -i -E 's/<\/body>/<script src="js\/archiv.js"><\/script><\/body>/g' {} \;
 
 # Path: Makefile
-# build docker 
+# build docker
 build:
 	rm -rf ./build/*
 	cp -R ./output/* ./build
@@ -151,6 +160,11 @@ build:
 # run docker image
 run:
 	docker run -p 8080:80 archiv.gedit.net
+
+# Path: Makefile
+# format code
+format:
+	prettier --write . --ignore-path .prettierignore --config .prettierrc
 
 # Path: Makefile
 # test docker image
@@ -166,10 +180,12 @@ test:
 	    echo "Test failed: Output does not match expected content."; \
 			exit 1; \
 	fi
+	pretter --ignore-path .prettierignore --config .prettierrc
 
 # Path: Makefile
 # run all
 all:
 	make create
+	make format
 	make build -B
 	make run

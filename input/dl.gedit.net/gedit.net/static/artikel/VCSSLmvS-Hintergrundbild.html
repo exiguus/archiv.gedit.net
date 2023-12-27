@@ -1,119 +1,288 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-        "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 <html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>
+      Variables CSS-Layout mit verschiedenen Spaltenfarben | Hintergrundbild
+    </title>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://dl.gedit.net/css.gedit.net/gedit.net/v0.5/artikel/screen/style.css.php?gzip=true"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://dl.gedit.net/css.gedit.net/gedit.net/v0.5/artikel/print/style.css.php?gzip=true"
+      media="print"
+    />
+    <style type="text/css">
+      #wrapper {
+        float: left;
+        width: 59.25em; /* 948px */
+        background: rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top;
+        /* background: rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top; */
+      }
+      #content-left {
+        float: left;
+        width: 19.25em; /* 308px */
+        background-color: transparent;
+      }
+      #content-right {
+        float: left;
+        width: 40em; /* 640px; */
+        background-color: transparent;
+      }
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
 
-<head>
-
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>Variables CSS-Layout mit verschiedenen Spaltenfarben | Hintergrundbild</title>
-<meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" type="text/css" href="http://dl.gedit.net/css.gedit.net/gedit.net/v0.5/artikel/screen/style.css.php?gzip=true" media="all">
-<link rel="stylesheet" type="text/css" href="http://dl.gedit.net/css.gedit.net/gedit.net/v0.5/artikel/print/style.css.php?gzip=true" media="print">
-<style type="text/css">
-#wrapper {
-	float: left;
-	width: 59.25em; /* 948px */
-	background: rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top;
-	/* background: rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top; */
-	}
-#content-left {
-	float: left;
-	width: 19.25em; /* 308px */
-	background-color: transparent;
-	}
-#content-right {
-	float: left;
-	width: 40em; /* 640px; */
-	background-color: transparent;
-	}
-.clear {
-	clear: both;
-	}
-</style>
-
-</head>
-
-<body onload="document.getElementById('jshide').style.display='none'">
-<div id="head">
-	<h1><a name="top" href="http://dl.gedit.net/www.gedit.net/Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben" title="Variables CSS-Layout mit verschiedenen Spaltenfarben">Variables CSS-Layout mit verschiedenen Spaltenfarben</a></h1>
-	<h2>Technik mit Hintergrundfarbe</h2>
-	<p class="browser">Getestet mit Opera 9.64/8.54/7.54, IE 8/7/6, Firefox 3.0.8/2.0.0.18/1.5.0.12</p>
-	<h3>Schriftgröße ändern in</h3>
-	<ul>
-		<li style="font-size:1em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="document.body.style.fontSize='1em'" title="Schriftgröße ändern in: 100%">100%</a></li>
-		<li style="font-size:1.25em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="document.body.style.fontSize='1.25em'" title="Schriftgröße ändern in: 125%">125%</a></li>
-		<li style="font-size:1.5em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="document.body.style.fontSize='1.5em'" title="Schriftgröße ändern in: 150%">150%</a></li>
-		<li style="font-size:1.75em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="document.body.style.fontSize='1.75em'" title="Schriftgröße ändern in: 175%">175%</a></li>
-		<li style="font-size:2em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="document.body.style.fontSize='2em'" title="Schriftgröße ändern in: 200%">200%</a></li>
-	</ul>
-	<div class="clear"></div>
-	<h3>Hintergrundgrafik rechte Spalte ändern in</h3>
-	<ul>
-		<li style="font-size:1em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';" title="Hintergrundgrafik | 40em/640px">40em/640px</a></li>
-		<li style="font-size:2em"><a href="VCSSLmvS-Hintergrundbild.html#" onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';" title="Hintergrundgrafik für variable Schriftgröße | 80em/1280px">80em/1280px</a></li>
-	</ul>
-	<div class="clear"></div>
-	<p id="jshide" class="info">(<strong>Schriftgröße ändern in</strong> und <strong>Hintergrundgrafik rechte Spalte ändern in</strong> benötigt Javascript)</p>
-</div>
-<!-- Wrapper-Technik -->
-<div id="wrapper">
-	<div id="content-left">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla,
-			purus ultricies tincidunt malesuada, mauris arcu interdum libero, eu convallis risus turpis sit amet nisl.<br>
-			Nam vitae eros. Vestibulum accumsan. Aenean risus massa, vehicula eget, accumsan sed,
-			feugiat quis, leo.
-		</p>
-		<p>
-			Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-			per inceptos himenaeos. Quisque scelerisque ligula ac purus. Integer interdum dapibus erat.
-			Quisque risus mi, imperdiet vitae, porta eu, eleifend non, turpis.
-			Aliquam erat volutpat enean risus massa, vehicula eget, accumsan sed.<br>
-			Nullam ac arcu vel magna posuere dignissim.
-			Nam vitae eros. Vestibulum accumsan.
-		</p>
-	</div><!-- end content-left -->
-	<div id="content-right">
-		<p class="description">
-			Der blaue Hintergrund auf der rechten Seite wird mit der Hintergrundgrafik des Wrappers erzeugt.<br>
-			Im <a name="hintergrund" href="VCSSLmvS-Hintergrundbild.html#hintergrund" onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';" title="Hintergrund nicht variable">moment</a> <em>(Javascript-Link)</em> hat die Hintergrundgrafik die Breite der rechten Spalte (40em*16px/em=640px) und wird mit
-			<tt>background: rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top;</tt> eingebunden.<br>
-		</p>
-		<p class="description">
-			Ändert man nun die Schriftgröße z.B. in <a name="#125" href="VCSSLmvS-Hintergrundbild.html#125" onclick="document.body.style.fontSize='1.25em'" title="Schriftgröße ändern in: 125%">125%</a><em>(Javascript-Link)</em> wird die Hintergrundgrafik zu kurz.<br>
-			Bindet man die Hintergrundgrafik aber mit <tt>background: rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top;</tt> ein und verdoppelt die Breite der Grafik von 640px auf 1280px,
-			macht das Layout bei einem Vergrößern der Schriftgröße auf bis zu 200% mit.<br>
-			Den <a name="hintergrund-variable" href="VCSSLmvS-Hintergrundbild.html#hintergrund-variable" onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';" title="Hintergrund anpassen">Hintergrund für variable Schriftgröße</a> <em>(Javascript-Link)</em> einbinden.
-		</p>
-		<p id="show" class="description"><a name="mehr" href="VCSSLmvS-Hintergrundbild.html#weniger" onclick="document.getElementById('hide').style.display='block';document.getElementById('show').style.display='none'" title="Mehr Text">Mehr Text</a><em>(Javascript-Link)</em></p>
-		<p id="hide">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla, purus ultricies tincidunt malesuada,
-			mauris arcu interdum libero, eu convallis risus turpis sit amet nisl. Nam vitae eros. Vestibulum accumsan.
-			Aenean risus massa, vehicula eget, accumsan sed, feugiat quis, leo.<br>
-			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br>
-			Quisque scelerisque ligula ac purus. Integer interdum dapibus erat. Quisque risus mi, imperdiet vitae, porta eu,
-			eleifend non, turpis. Aliquam erat volutpat. Vestibulum pulvinar. Nullam ac arcu vel magna posuere dignissim.<br>
-			<a class="description" name="weniger" href="VCSSLmvS-Hintergrundbild.html#mehr" onclick="document.getElementById('show').style.display='block';document.getElementById('hide').style.display='none'" title="Weniger Text">Weniger Text</a>
-		</p>
-	</div><!-- end content-right -->
-	<div class="clear"></div>
-</div><!-- end wrapper -->
-<div class="clear"></div>
-<!-- end Wrapper-Technik -->
-<div id="foot">
-	<p>
-		<a href="VCSSLmvS-Hintergrundfarbe.html" title="Variables CSS-Layout mit verschiedenen Spaltenfarben | Technik Hintergrundfarbe">&lt; Zurück</a>
-	</p>
-	<ul>
-		<li><a href="VCSSLmvS-Hintergrundbild.html#top" title="Nach Oben">&uarr; Nach oben</a></li>
-		<li><a href="http://dl.gedit.net/www.gedit.net/CC" title="Lizenz">Lizenz</a></li>
-		<li><a href="http://dl.gedit.net/www.gedit.net/Impressum" title="Impressum">Impressum</a></li>
-		<li><a href="http://dl.gedit.net/www.gedit.net/Artikel" title="Artikel &Uuml;bersicht">Artikel &Uuml;bersicht</a></li>
-		<li><a href="http://dl.gedit.net/www.gedit.net/Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben" title="Variables CSS-Layout mit verschiedenen Spaltenfarben">Dieser Artikel</a></li>
-		<li><address><a href="http://www.gedit.net/" title="gedit.net">gedit.NET</a> &copy; <a href="http://www.gedit.net/Simon" title="Simon Gattner">Simon Gattner 2009</a></address></li>
-	</ul>
-	<div class="clear"></div>
-</div>
-</body>
+  <body onload="document.getElementById('jshide').style.display='none'">
+    <div id="head">
+      <h1>
+        <a
+          name="top"
+          href="http://dl.gedit.net/www.gedit.net/Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben"
+          title="Variables CSS-Layout mit verschiedenen Spaltenfarben"
+          >Variables CSS-Layout mit verschiedenen Spaltenfarben</a
+        >
+      </h1>
+      <h2>Technik mit Hintergrundfarbe</h2>
+      <p class="browser">
+        Getestet mit Opera 9.64/8.54/7.54, IE 8/7/6, Firefox
+        3.0.8/2.0.0.18/1.5.0.12
+      </p>
+      <h3>Schriftgröße ändern in</h3>
+      <ul>
+        <li style="font-size: 1em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="document.body.style.fontSize='1em'"
+            title="Schriftgröße ändern in: 100%"
+            >100%</a
+          >
+        </li>
+        <li style="font-size: 1.25em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="document.body.style.fontSize='1.25em'"
+            title="Schriftgröße ändern in: 125%"
+            >125%</a
+          >
+        </li>
+        <li style="font-size: 1.5em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="document.body.style.fontSize='1.5em'"
+            title="Schriftgröße ändern in: 150%"
+            >150%</a
+          >
+        </li>
+        <li style="font-size: 1.75em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="document.body.style.fontSize='1.75em'"
+            title="Schriftgröße ändern in: 175%"
+            >175%</a
+          >
+        </li>
+        <li style="font-size: 2em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="document.body.style.fontSize='2em'"
+            title="Schriftgröße ändern in: 200%"
+            >200%</a
+          >
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <h3>Hintergrundgrafik rechte Spalte ändern in</h3>
+      <ul>
+        <li style="font-size: 1em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';"
+            title="Hintergrundgrafik | 40em/640px"
+            >40em/640px</a
+          >
+        </li>
+        <li style="font-size: 2em">
+          <a
+            href="VCSSLmvS-Hintergrundbild.html#"
+            onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';"
+            title="Hintergrundgrafik für variable Schriftgröße | 80em/1280px"
+            >80em/1280px</a
+          >
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <p id="jshide" class="info">
+        (<strong>Schriftgröße ändern in</strong> und
+        <strong>Hintergrundgrafik rechte Spalte ändern in</strong> benötigt
+        Javascript)
+      </p>
+    </div>
+    <!-- Wrapper-Technik -->
+    <div id="wrapper">
+      <div id="content-left">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          fringilla, purus ultricies tincidunt malesuada, mauris arcu interdum
+          libero, eu convallis risus turpis sit amet nisl.<br />
+          Nam vitae eros. Vestibulum accumsan. Aenean risus massa, vehicula
+          eget, accumsan sed, feugiat quis, leo.
+        </p>
+        <p>
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos. Quisque scelerisque ligula ac purus. Integer
+          interdum dapibus erat. Quisque risus mi, imperdiet vitae, porta eu,
+          eleifend non, turpis. Aliquam erat volutpat enean risus massa,
+          vehicula eget, accumsan sed.<br />
+          Nullam ac arcu vel magna posuere dignissim. Nam vitae eros. Vestibulum
+          accumsan.
+        </p>
+      </div>
+      <!-- end content-left -->
+      <div id="content-right">
+        <p class="description">
+          Der blaue Hintergrund auf der rechten Seite wird mit der
+          Hintergrundgrafik des Wrappers erzeugt.<br />
+          Im
+          <a
+            name="hintergrund"
+            href="VCSSLmvS-Hintergrundbild.html#hintergrund"
+            onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';"
+            title="Hintergrund nicht variable"
+            >moment</a
+          >
+          <em>(Javascript-Link)</em> hat die Hintergrundgrafik die Breite der
+          rechten Spalte (40em*16px/em=640px) und wird mit
+          <tt
+            >background: rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y
+            right top;</tt
+          >
+          eingebunden.<br />
+        </p>
+        <p class="description">
+          Ändert man nun die Schriftgröße z.B. in
+          <a
+            name="#125"
+            href="VCSSLmvS-Hintergrundbild.html#125"
+            onclick="document.body.style.fontSize='1.25em'"
+            title="Schriftgröße ändern in: 125%"
+            >125%</a
+          ><em>(Javascript-Link)</em> wird die Hintergrundgrafik zu kurz.<br />
+          Bindet man die Hintergrundgrafik aber mit
+          <tt
+            >background: rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif)
+            repeat-y 19.25em top;</tt
+          >
+          ein und verdoppelt die Breite der Grafik von 640px auf 1280px, macht
+          das Layout bei einem Vergrößern der Schriftgröße auf bis zu 200%
+          mit.<br />
+          Den
+          <a
+            name="hintergrund-variable"
+            href="VCSSLmvS-Hintergrundbild.html#hintergrund-variable"
+            onclick="getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';"
+            title="Hintergrund anpassen"
+            >Hintergrund für variable Schriftgröße</a
+          >
+          <em>(Javascript-Link)</em> einbinden.
+        </p>
+        <p id="show" class="description">
+          <a
+            name="mehr"
+            href="VCSSLmvS-Hintergrundbild.html#weniger"
+            onclick="document.getElementById('hide').style.display='block';document.getElementById('show').style.display='none'"
+            title="Mehr Text"
+            >Mehr Text</a
+          ><em>(Javascript-Link)</em>
+        </p>
+        <p id="hide">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          fringilla, purus ultricies tincidunt malesuada, mauris arcu interdum
+          libero, eu convallis risus turpis sit amet nisl. Nam vitae eros.
+          Vestibulum accumsan. Aenean risus massa, vehicula eget, accumsan sed,
+          feugiat quis, leo.<br />
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos.<br />
+          Quisque scelerisque ligula ac purus. Integer interdum dapibus erat.
+          Quisque risus mi, imperdiet vitae, porta eu, eleifend non, turpis.
+          Aliquam erat volutpat. Vestibulum pulvinar. Nullam ac arcu vel magna
+          posuere dignissim.<br />
+          <a
+            class="description"
+            name="weniger"
+            href="VCSSLmvS-Hintergrundbild.html#mehr"
+            onclick="document.getElementById('show').style.display='block';document.getElementById('hide').style.display='none'"
+            title="Weniger Text"
+            >Weniger Text</a
+          >
+        </p>
+      </div>
+      <!-- end content-right -->
+      <div class="clear"></div>
+    </div>
+    <!-- end wrapper -->
+    <div class="clear"></div>
+    <!-- end Wrapper-Technik -->
+    <div id="foot">
+      <p>
+        <a
+          href="VCSSLmvS-Hintergrundfarbe.html"
+          title="Variables CSS-Layout mit verschiedenen Spaltenfarben | Technik Hintergrundfarbe"
+          >&lt; Zurück</a
+        >
+      </p>
+      <ul>
+        <li>
+          <a href="VCSSLmvS-Hintergrundbild.html#top" title="Nach Oben"
+            >&uarr; Nach oben</a
+          >
+        </li>
+        <li>
+          <a href="http://dl.gedit.net/www.gedit.net/CC" title="Lizenz"
+            >Lizenz</a
+          >
+        </li>
+        <li>
+          <a
+            href="http://dl.gedit.net/www.gedit.net/Impressum"
+            title="Impressum"
+            >Impressum</a
+          >
+        </li>
+        <li>
+          <a
+            href="http://dl.gedit.net/www.gedit.net/Artikel"
+            title="Artikel &Uuml;bersicht"
+            >Artikel &Uuml;bersicht</a
+          >
+        </li>
+        <li>
+          <a
+            href="http://dl.gedit.net/www.gedit.net/Artikel%3BVariables_CSS-Layout_mit_verschiedenen_Spaltenfarben"
+            title="Variables CSS-Layout mit verschiedenen Spaltenfarben"
+            >Dieser Artikel</a
+          >
+        </li>
+        <li>
+          <address>
+            <a href="http://www.gedit.net/" title="gedit.net">gedit.NET</a>
+            &copy;
+            <a href="http://www.gedit.net/Simon" title="Simon Gattner"
+              >Simon Gattner 2009</a
+            >
+          </address>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </body>
 </html>

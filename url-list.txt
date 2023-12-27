@@ -168,7 +168,7 @@ http://localhost:8080/Kontakt_Druckvorschau.html
 http://localhost:8080/kontakt.html
 http://localhost:8080/Kontakt.html
 http://localhost:8080/_nofollow.html
-http://localhost:8080/RSS.html
+http://localhost:8080/RSS.xml
 http://localhost:8080/Services_Druckvorschau.html
 http://localhost:8080/Services.html
 http://localhost:8080/Services_WhoAmI_Druckvorschau.html
@@ -223,4 +223,4 @@ http://localhost:8080/Weblog_9_Druckvorschau.html
 http://localhost:8080/Weblog_9.html
 http://localhost:8080/Weblog_Druckvorschau.html
 http://localhost:8080/Weblog.html
-http://localhost:8080/Weblog_RSS.html
+http://localhost:8080/Weblog_RSS.xml

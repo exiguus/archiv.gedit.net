@@ -1,166 +1,232 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-        "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 <html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>font-size/line-height</title>
 
-<head>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-weight: normal;
+        text-decoration: none;
+        list-style-type: none;
+      }
+      html {
+        background-color: #f9f9f9;
+      }
+      body {
+        line-height: 16px;
+        font-size: 16px;
+        font-family: sans-serif;
+        background: #fff url(raster_bg.gif);
+        color: #000;
+        margin: 64px;
+        padding: 32px;
+        width: 640px;
+        border: 1px solid black;
+      }
+      h1,
+      h2,
+      h3 {
+        line-height: 32px;
+        margin-bottom: 16px;
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-family: monospace;
+        line-height: 1em;
+        margin-bottom: 16px;
+      }
+      address a,
+      address a:visited {
+        color: #000;
+      }
+      address a:hover,
+      address a:active,
+      address a:focus {
+        color: #fff;
+        background-color: #000;
+      }
+      .blue {
+        background-color: cyan;
+      }
+      .violet {
+        background-color: magenta;
+      }
+      .red {
+        background-color: red;
+      }
+      .orange {
+        background-color: orange;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .one-half {
+        font-size: 1.5em;
+      }
+      .two {
+        font-size: 2em;
+      }
+      .three {
+        font-size: 3em;
+      }
+      .one-half-line {
+        line-height: 1.5em;
+      }
+      .two-line {
+        line-height: 2em;
+      }
+      .three-line {
+        line-height: 3em;
+      }
+      .bestread {
+        line-height: 1.25em;
+        background-image: url(line-height_20.gif);
+      }
+      .compressed {
+        line-height: 1em;
+        background-image: url(line-height_16.gif);
+      }
+      .widther {
+        line-height: 1.5em;
+        background-image: url(line-height_24.gif);
+      }
+    </style>
+  </head>
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>font-size/line-height</title>
+  <body>
+    <h1>font-size/line-height</h1>
+    <h2>paragraphs</h2>
 
-<style type="text/css">
-* {
-	margin: 0;
-	padding: 0;
-	border: none;
-	font-weight: normal;
-	text-decoration: none;
-	list-style-type: none;
-	}
-html {
-	background-color: #F9F9F9;
-	}
-body {
-	line-height: 16px;
-	font-size: 16px;
-	font-family: sans-serif;
-	background: #FFF url(raster_bg.gif);
-	color: #000;
-	margin: 64px;
-	padding: 32px;
-	width: 640px;
-	border: 1px solid black;
-	}
-h1,
-h2,
-h3 {
-	line-height: 32px;
-	margin-bottom: 16px;
-	}
-h1 {
-	font-size: 28px;
-	font-weight: bold;
-	}
-h2 {
-	font-size: 24px;
-	}
-h3 {
-	font-size: 18px;
-	}
-p {
-	font-family: monospace;
-	line-height: 1em;
-	margin-bottom: 16px;
-}
-address a,
-address a:visited {
-	color: #000;
-	}
-address a:hover,
-address a:active,
-address a:focus{
-	color: #FFF;
-	background-color: #000;
-	}
-.blue {
-	background-color: cyan;
-	}
-.violet {
-	background-color: magenta;
-	}
-.red {
-	background-color: red;
-	}
-.orange {
-	background-color: orange;
-}
-.yellow {
-	background-color: yellow;
-	}
-.one-half {
-	font-size: 1.5em;
-	}
-.two {
-	font-size: 2em;
-	}
-.three {
-	font-size: 3em;
-	}
-.one-half-line {
-	line-height: 1.5em;
-	}
-.two-line {
-	line-height: 2em;
-	}
-.three-line {
-	line-height: 3em;
-	}
-.bestread {
-	line-height: 1.25em;
-	background-image: url(line-height_20.gif);
-	}
-.compressed {
-	line-height: 1em;
-	background-image: url(line-height_16.gif);
-	}
-.widther {
-	line-height: 1.5em;
-	background-image: url(line-height_24.gif);
-	}
+    <h3>font-size</h3>
+    <p class="blue">default p-element</p>
+    <p class="yellow one-half">p-element font-size: 150%</p>
+    <p class="orange two">p-element font-size: 200%</p>
+    <p class="red three">p-element font-size: 300%</p>
+    <p class="blue">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="yellow one-half">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="orange two">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="red three">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
 
-</style>
-</head>
+    <h3>line-height</h3>
+    <p class="blue">default p-element</p>
+    <p class="yellow one-half-line">p-element line-height: 150%</p>
+    <p class="orange two-line">p-element line-height: 200%</p>
+    <p class="red three-line">p-element line-height: 300%</p>
+    <p class="blue">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="yellow one-half-line">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="orange two-line">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="red three-line">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <h3>font-size/line-height</h3>
+    <p class="blue">default p-element</p>
+    <p class="yellow two-line one-half">
+      p-element font-size/line-height: 150%/200%
+    </p>
+    <p class="blue">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
+    <p class="yellow two-line one-half">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
 
-<body>
-<h1>font-size/line-height</h1>
-<h2>paragraphs</h2>
+    <h3>font-size/line-height bestread</h3>
+    <p class="blue bestread">p-element font-size/line-height: 100%/125%</p>
+    <p class="violet bestread">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
 
-<h3>font-size</h3>
-<p class="blue">default p-element</p>
-<p class="yellow one-half">p-element font-size: 150%</p>
-<p class="orange two">p-element font-size: 200%</p>
-<p class="red three">p-element font-size: 300%</p>
-<p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="yellow one-half">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="orange two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="red three">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
+    <h3>font-size/line-height compressed</h3>
+    <p class="blue compressed">p-element font-size/line-height: 100%/100%</p>
+    <p class="violet compressed">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
 
-<h3>line-height</h3>
-<p class="blue">default p-element</p>
-<p class="yellow one-half-line">p-element line-height: 150%</p>
-<p class="orange two-line">p-element line-height: 200%</p>
-<p class="red three-line">p-element line-height: 300%</p>
-<p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="yellow one-half-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="orange two-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="red three-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<h3>font-size/line-height</h3>
-<p class="blue">default p-element</p>
-<p class="yellow two-line one-half">p-element font-size/line-height: 150%/200%</p>
-<p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-<p class="yellow two-line one-half">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
+    <h3>font-size/line-height widther</h3>
+    <p class="blue widther">p-element font-size/line-height: 100%/150%</p>
+    <p class="violet widther">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a
+      leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et,
+      ullamcorper eget, venenatis a, lectus.
+    </p>
 
-<h3>font-size/line-height bestread</h3>
-<p class="blue bestread">p-element font-size/line-height: 100%/125%</p>
-<p class="violet bestread">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-
-<h3>font-size/line-height compressed</h3>
-<p class="blue compressed">p-element font-size/line-height: 100%/100%</p>
-<p class="violet compressed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-
-<h3>font-size/line-height widther</h3>
-<p class="blue widther">p-element font-size/line-height: 100%/150%</p>
-<p class="violet widther">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a felis a leo mattis faucibus. Sed rutrum lectus. Nullam elit purus, posuere et, ullamcorper eget, venenatis a, lectus.</p>
-
-<address>&copy; <a href="http://www.gedit.net/Simon" title="Simon Gattner">Simon Gattner</a> 2009</address>
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-piwik_action_name = document.title;
-piwik_idsite = 2;
-piwik_url = pkBaseURL + "piwik.php";
-piwik_log(piwik_action_name, piwik_idsite, piwik_url);
-</script>
-</body>
+    <address>
+      &copy;
+      <a href="http://www.gedit.net/Simon" title="Simon Gattner"
+        >Simon Gattner</a
+      >
+      2009
+    </address>
+    <script type="text/javascript">
+      var pkBaseURL =
+        'https:' == document.location.protocol
+          ? 'https://p.netzkonstrukt.de/'
+          : 'http://p.netzkonstrukt.de/';
+      document.write(
+        unescape(
+          "%3Cscript src='" +
+            pkBaseURL +
+            "piwik.js' type='text/javascript'%3E%3C/script%3E",
+        ),
+      );
+    </script>
+    <script type="text/javascript">
+      piwik_action_name = document.title;
+      piwik_idsite = 2;
+      piwik_url = pkBaseURL + 'piwik.php';
+      piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+    </script>
+  </body>
 </html>

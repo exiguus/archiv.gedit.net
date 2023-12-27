@@ -1,154 +1,331 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-		"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html dir="ltr" lang="de">
-<title> Artikel - Elemente anzeigen und verbergen mit Javascript - Seite 2 - Druckvorschau - Gedit</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="description" content="Elemente anzeigen und verbergen mit Javascript - Seite 2 - Druckvorschau">
-<meta name="keywords" content="gedit, Javascript, Elemente verbergen, Elemente anzeigen, HTML, CSS, DOM, toggle">
-<meta name="rating" content="general">
-<meta name="revisit-after" content="7 days">
-<meta name="expires" content="never">
-<meta name="distribution" content="global">
-<meta name="robots" content="noindex,follow">
-<meta name="date" content="2023-12-26">
-<meta name="author" content="Simon Gattner">
-<meta name="copyright" content="Simon Gattner">
-<meta name="publisher" content="Simon Gattner">
-<meta name="page-topic" content="Dienstleistung, Privat">
-<meta name="page-type" content="Artikel">
-<meta name="audience" content="Webworker, Webmaster, Webdeveloper, Admin, IT, Designer, Freelancer, Press, programmer, Coder, Scripter, Systemadmin, Gurus">
-<link rel="alternate" type="application/rss+xml" title="gedit.NET - RSS Feed" href="RSS.html">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<link rel="impressum" title="Impressum" href="Impressum.html">
-<link rel="contents" title="Inhaltsverzeichnis" href="SITEMAP.html">
-<link rel="search" title="Suche" href="SUCHE.html">
-<link rel="copyright" title="Urheberrecht" href="CC.html">
-<link rel="top" title="Startseite" href="index.html">
-<link rel="print" title="Druckvorschau" href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html">
-<link rel="subsection" title="Artikel" href="Artikel.html">
-<link rel="subsection" title="Services" href="Services.html">
-<link rel="subsection" title="Weblog" href="Weblog.html">
-<meta http-equiv="Content-Script-Type" content="text/javascript">
-<script src="js/default.js" type="text/javascript"></script>
-<meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/style.9.css" media="all">
-	<!--[if IE]>
-		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/style.css" media="all">
-	<![endif]-->
-	<!--[if IE 7]>
-		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/7/style.css" media="all">
-	<![endif]-->
-	<!--[if lt IE 7]>
-		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/screen/ie/6/style.css" media="all">
-	<![endif]-->
-<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/print/style.9.css" media="all">
-	<!--[if IE]>
-		<link rel="stylesheet" type="text/css" href="/css/gedit.net/v0.5/default/print/ie/style.css" media="all">
-	<![endif]-->
-</head>
-<body>
-<!-- start header -->
-<div id="header">
-	<a name="top"></a>
-	<div id="header-nav">
-		<h1><a href="index.html" title="Startseite">gedit.net/</a></h1>
-		<h2><a href="Artikel.html" title="Artikel">Artikel/</a></h2>
-				<h3><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html" title="Elemente_anzeigen_und_verbergen_mit_Javascript">Elemente_anzeigen_und_verbergen_mit_Javascript</a></h3>
-										</div>
-	<div id="header-search">
-		<div class="nav">
-			<h1>Suchen</h1>
-			<form action="SUCHE" method="post">
-			<ul>
-				<li><label for="Suchtext" accesskey="s"><input type="text" class="q" name="q" value="" maxlength="50" alt="Suchtext" id="Suchtext"></label></li>
-				<li><label for="Finden" accesskey="f"><input type="submit" name="finden" value="Finden" alt="Finden" id="Finden"></label></li>
-			</ul>
-			</form>
-		</div>
-	</div>
-	<div id="header-subnav">
-		<ul>
-						<li><a href="index.html" title="Home">Home</a></li>
-						<li>| <a href="Artikel.html" title="Artikel">Artikel</a></li>
-						<li>| <a href="Weblog.html" title="Weblog">Weblog</a></li>
-						<li>| <a href="SITEMAP.html" title="Sitemap">Sitemap</a></li>
-						<li>| <a href="Impressum.html" title="Impressum">Impressum</a></li>
-						<li>| <a href="Kontakt.html" title="Kontakt">Kontakt</a></li>
-						<!-- <li>| <a rel="nofollow" href="/Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html" title="Druckvorschau">Druckvorschau</a></li> -->
-		</ul>
-	</div>
-</div>
-<!-- end header -->
-<!-- start content -->
-<div id="content">
-<!-- start content left -->
-	<div id="content-left">
-		<h1>Elemente anzeigen und verbergen mit Javascript</h1>		<ul class="decimal green bold">
-	<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Vorwort" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Vorwort">Vorwort</a></li>
-	<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Funktionsweise" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Funktionsweise">Funktionsweise</a></li>
-	<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#anzeigen_verbergen_Funktionen" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Anzeigen_ verbergen Funktionen">Anzeigen, verbergen Funktionen</a></li>
-	<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Beispiele_Elemente_anzeigen_verbergen" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispiele Elemente anzeigen und verbergen">Beispiele Elemente anzeigen, verbergen</a></li>
-	<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Alternative_zu_noscript_Elementen" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Alternative zu noscript Elemente">Alternative zu noscript Elementen</a></li>
-	<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Links_und_Quellen" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Links und Quellen">Links und Quellen</a></li>
-</ul>
+  <head>
+    <title>
+      Artikel - Elemente anzeigen und verbergen mit Javascript - Seite 2 -
+      Druckvorschau - Gedit
+    </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="description"
+      content="Elemente anzeigen und verbergen mit Javascript - Seite 2 - Druckvorschau"
+    />
+    <meta
+      name="keywords"
+      content="gedit, Javascript, Elemente verbergen, Elemente anzeigen, HTML, CSS, DOM, toggle"
+    />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="expires" content="never" />
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="noindex,follow" />
+    <meta name="date" content="2023-12-26" />
+    <meta name="author" content="Simon Gattner" />
+    <meta name="copyright" content="Simon Gattner" />
+    <meta name="publisher" content="Simon Gattner" />
+    <meta name="page-topic" content="Dienstleistung, Privat" />
+    <meta name="page-type" content="Artikel" />
+    <meta
+      name="audience"
+      content="Webworker, Webmaster, Webdeveloper, Admin, IT, Designer, Freelancer, Press, programmer, Coder, Scripter, Systemadmin, Gurus"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="gedit.NET - RSS Feed"
+      href="RSS.xml"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="impressum" title="Impressum" href="Impressum.html" />
+    <link rel="contents" title="Inhaltsverzeichnis" href="SITEMAP.html" />
+    <link rel="search" title="Suche" href="SUCHE.html" />
+    <link rel="copyright" title="Urheberrecht" href="CC.html" />
+    <link rel="top" title="Startseite" href="index.html" />
+    <link
+      rel="print"
+      title="Druckvorschau"
+      href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html"
+    />
+    <link rel="subsection" title="Artikel" href="Artikel.html" />
+    <link rel="subsection" title="Services" href="Services.html" />
+    <link rel="subsection" title="Weblog" href="Weblog.html" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <script src="js/default.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/gedit.net/v0.5/default/screen/style.9.css"
+      media="all"
+    />
+    <!--[if IE]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/css/gedit.net/v0.5/default/screen/ie/style.css"
+        media="all"
+      />
+    <![endif]-->
+    <!--[if IE 7]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/css/gedit.net/v0.5/default/screen/ie/7/style.css"
+        media="all"
+      />
+    <![endif]-->
+    <!--[if lt IE 7]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/css/gedit.net/v0.5/default/screen/ie/6/style.css"
+        media="all"
+      />
+    <![endif]-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/gedit.net/v0.5/default/print/style.9.css"
+      media="all"
+    />
+    <!--[if IE]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/css/gedit.net/v0.5/default/print/ie/style.css"
+        media="all"
+      />
+    <![endif]-->
+  </head>
+  <body>
+    <!-- start header -->
+    <div id="header">
+      <a name="top"></a>
+      <div id="header-nav">
+        <h1><a href="index.html" title="Startseite">gedit.net/</a></h1>
+        <h2><a href="Artikel.html" title="Artikel">Artikel/</a></h2>
+        <h3>
+          <a
+            href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html"
+            title="Elemente_anzeigen_und_verbergen_mit_Javascript"
+            >Elemente_anzeigen_und_verbergen_mit_Javascript</a
+          >
+        </h3>
+      </div>
+      <div id="header-search">
+        <div class="nav">
+          <h1>Suchen</h1>
+          <form action="SUCHE" method="post">
+            <ul>
+              <li>
+                <label for="Suchtext" accesskey="s"
+                  ><input
+                    type="text"
+                    class="q"
+                    name="q"
+                    value=""
+                    maxlength="50"
+                    alt="Suchtext"
+                    id="Suchtext"
+                /></label>
+              </li>
+              <li>
+                <label for="Finden" accesskey="f"
+                  ><input
+                    type="submit"
+                    name="finden"
+                    value="Finden"
+                    alt="Finden"
+                    id="Finden"
+                /></label>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+      <div id="header-subnav">
+        <ul>
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li>| <a href="Artikel.html" title="Artikel">Artikel</a></li>
+          <li>| <a href="Weblog.html" title="Weblog">Weblog</a></li>
+          <li>| <a href="SITEMAP.html" title="Sitemap">Sitemap</a></li>
+          <li>| <a href="Impressum.html" title="Impressum">Impressum</a></li>
+          <li>| <a href="Kontakt.html" title="Kontakt">Kontakt</a></li>
+          <!-- <li>| <a rel="nofollow" href="/Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html" title="Druckvorschau">Druckvorschau</a></li> -->
+        </ul>
+      </div>
+    </div>
+    <!-- end header -->
+    <!-- start content -->
+    <div id="content">
+      <!-- start content left -->
+      <div id="content-left">
+        <h1>Elemente anzeigen und verbergen mit Javascript</h1>
+        <ul class="decimal green bold">
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Vorwort"
+              title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Vorwort"
+              >Vorwort</a
+            >
+          </li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Funktionsweise"
+              title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Funktionsweise"
+              >Funktionsweise</a
+            >
+          </li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#anzeigen_verbergen_Funktionen"
+              title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Anzeigen_ verbergen Funktionen"
+              >Anzeigen, verbergen Funktionen</a
+            >
+          </li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Beispiele_Elemente_anzeigen_verbergen"
+              title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispiele Elemente anzeigen und verbergen"
+              >Beispiele Elemente anzeigen, verbergen</a
+            >
+          </li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Alternative_zu_noscript_Elementen"
+              title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Alternative zu noscript Elemente"
+              >Alternative zu noscript Elementen</a
+            >
+          </li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Links_und_Quellen"
+              title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Links und Quellen"
+              >Links und Quellen</a
+            >
+          </li>
+        </ul>
 
-<h2><a name="Vorwort">Vorwort</a></h2>
-<p>
-M&ouml;chten Sie auf Ihrer Webseite <acronym title="Hyper Text Markup Language">HTML</acronym> <span class="bold">Elemente anzeigen</span> oder <span class="bold">verbergen</span> ohne die Seite neu zu laden,
-dann werden die in diesem Artikel beschriebenen <span class="bold">Javascript</span> Funktionen Ihnen eine M&ouml;glichkeit aufzeigen.
-</p>
-<p>
-Beim erstellen von <span class="bold">Hypertext</span> ist es von Vorteil dem Besucher die Wahl zu lassen ob er weitere Informationen zu einem Thema w&uuml;nscht oder nicht.<br>
-Vermeiden Sie, dass Ihr Besucher von unwichtigen Informationen &uuml;berflutet wird. Halten Sie die Struktur Ihrer Webseite <span class="bold">&uuml;bersichtlich</span> und fassen Sie sich Kurz.
-</p>
-<p>
-Zu diesem Zweck mit Vorschauen oder Teasern zu Arbeiten ist also nichts neues und wird oft praktiziert. Meist dienen diese <span class="bold">Vorschauen</span> als Hyperlink und leiten den Besucher auf Unterseiten weiter.<br>
-Mit Hilfe der folgenden Javascript Funktionen ist es m&ouml;glich <span class="bold">Inhalte</span> die mit Ankern verkn&uuml;pft sind <span class="bold">ohne</span> das <span class="bold">Laden</span> einer Unterseite <span class="bold">anzuzeigen</span>.<br>
-Was z. B. Hilfreich sein kann, wenn es sich nicht lohnt eine extra Unterseite zu erstellen. Im Fall, dass die Information kurz ist oder inhaltlich unmittelbar mit der Seite verflochten ist.
-</p>
-<p>
-Ein weiteres Anwendungsbeispiel w&auml;ren Ihren Besuchern interaktive Hilfestellung beim ausf&uuml;llen von Formularen zu geben. In Form von:
-</p>
-<p class="left bold">
-Kundennummer:<br>
-<label for="Kundennummer"><input type="text" name="Kundennummer" value="" size="23" maxlength="128" id="Kundennummer"></label>
-[<a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Kundennummer_Hilfe" title="Hier finden Sie Hilfe zu Ihrer Kundennummer" onclick="show_elements('Kundennummer_Hilfe')">?</a>]
-</p>
-<p id="Kundennummer_Hilfe" class="right bold noscript">
-	<a name="Kundennummer_Hilfe"></a>
-	Sie finden Ihre Kundennummer auf der R&uuml;ckseite Ihres Ger&auml;tes.<br>
-	Ihre Kundennummer hat das Format: <span class="tt">KNr.: 000-000-00</span>
-</p>
-<p class="clear">
-Beim <kbd>klick</kbd> auf das <span class="italic">Fragezeichen</span> findet Ihr Besucher dann z. B. Antworten auf Fragen wie:
-<span class="italic">Wo finde ich meine Kundennummer? Oder wie sieht eigentlich die Kundennummer aus?</span><br>
-Probieren Sie es einfach selbst aus und <span class="bold">klicken</span> Sie einmal auf das <span class="bold">Fragezeichen</span>.
-</p>
-<p>
-Gerade bei Formularen, da hier ein neu laden der Seite nicht m&ouml;glich ist ohne ausgef&uuml;llte Inhalte zu l&ouml;schen, ist diese Methode sehr effektiv und eine weitere M&ouml;glichkeit neben einem Pop-up.
-</p>
+        <h2><a name="Vorwort">Vorwort</a></h2>
+        <p>
+          M&ouml;chten Sie auf Ihrer Webseite
+          <acronym title="Hyper Text Markup Language">HTML</acronym>
+          <span class="bold">Elemente anzeigen</span> oder
+          <span class="bold">verbergen</span> ohne die Seite neu zu laden, dann
+          werden die in diesem Artikel beschriebenen
+          <span class="bold">Javascript</span> Funktionen Ihnen eine
+          M&ouml;glichkeit aufzeigen.
+        </p>
+        <p>
+          Beim erstellen von <span class="bold">Hypertext</span> ist es von
+          Vorteil dem Besucher die Wahl zu lassen ob er weitere Informationen zu
+          einem Thema w&uuml;nscht oder nicht.<br />
+          Vermeiden Sie, dass Ihr Besucher von unwichtigen Informationen
+          &uuml;berflutet wird. Halten Sie die Struktur Ihrer Webseite
+          <span class="bold">&uuml;bersichtlich</span> und fassen Sie sich Kurz.
+        </p>
+        <p>
+          Zu diesem Zweck mit Vorschauen oder Teasern zu Arbeiten ist also
+          nichts neues und wird oft praktiziert. Meist dienen diese
+          <span class="bold">Vorschauen</span> als Hyperlink und leiten den
+          Besucher auf Unterseiten weiter.<br />
+          Mit Hilfe der folgenden Javascript Funktionen ist es m&ouml;glich
+          <span class="bold">Inhalte</span> die mit Ankern verkn&uuml;pft sind
+          <span class="bold">ohne</span> das
+          <span class="bold">Laden</span> einer Unterseite
+          <span class="bold">anzuzeigen</span>.<br />
+          Was z. B. Hilfreich sein kann, wenn es sich nicht lohnt eine extra
+          Unterseite zu erstellen. Im Fall, dass die Information kurz ist oder
+          inhaltlich unmittelbar mit der Seite verflochten ist.
+        </p>
+        <p>
+          Ein weiteres Anwendungsbeispiel w&auml;ren Ihren Besuchern interaktive
+          Hilfestellung beim ausf&uuml;llen von Formularen zu geben. In Form
+          von:
+        </p>
+        <p class="left bold">
+          Kundennummer:<br />
+          <label for="Kundennummer"
+            ><input
+              type="text"
+              name="Kundennummer"
+              value=""
+              size="23"
+              maxlength="128"
+              id="Kundennummer"
+          /></label>
+          [<a
+            href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#Kundennummer_Hilfe"
+            title="Hier finden Sie Hilfe zu Ihrer Kundennummer"
+            onclick="show_elements('Kundennummer_Hilfe')"
+            >?</a
+          >]
+        </p>
+        <p id="Kundennummer_Hilfe" class="right bold noscript">
+          <a name="Kundennummer_Hilfe"></a>
+          Sie finden Ihre Kundennummer auf der R&uuml;ckseite Ihres
+          Ger&auml;tes.<br />
+          Ihre Kundennummer hat das Format:
+          <span class="tt">KNr.: 000-000-00</span>
+        </p>
+        <p class="clear">
+          Beim <kbd>klick</kbd> auf das
+          <span class="italic">Fragezeichen</span> findet Ihr Besucher dann z.
+          B. Antworten auf Fragen wie:
+          <span class="italic"
+            >Wo finde ich meine Kundennummer? Oder wie sieht eigentlich die
+            Kundennummer aus?</span
+          ><br />
+          Probieren Sie es einfach selbst aus und
+          <span class="bold">klicken</span> Sie einmal auf das
+          <span class="bold">Fragezeichen</span>.
+        </p>
+        <p>
+          Gerade bei Formularen, da hier ein neu laden der Seite nicht
+          m&ouml;glich ist ohne ausgef&uuml;llte Inhalte zu l&ouml;schen, ist
+          diese Methode sehr effektiv und eine weitere M&ouml;glichkeit neben
+          einem Pop-up.
+        </p>
 
-<h2><a name="Funktionsweise">Funktionsweise</a></h2>
-<p>
-Die betreffenden <acronym title="Hyper Text Markup Language">HTML</acronym> Elemente werden &uuml;ber das <acronym title="Cascading Style Sheets">CSS</acronym>
-Element <span class="tt">display</span> verborgen bzw. angezeigt.
-</p>
-<p>
-&Uuml;ber die Zuordnung einer eindeutigen <span class="tt">ID</span> bei den entsprechenden <acronym title="Hyper Text Markup Language">HTML</acronym> Elementen,
-wird mit Hilfe von Javascript die <acronym title="Cascading Style Sheets">CSS</acronym> Direktive <span class="tt">display: none;</span> bzw. <span class="tt">display: block;</span> gesetzt.
-Was dann z. B. durch das Anklicken eines Hyperlinks ausgel&ouml;st werden kann mit dem entsprechenden Javascript Eventhandler.
-</p>
-<p>
-Hierbei ist <span class="tt">display: none;</span> &uuml;ber die <span class="tt">onload</span> Funktion <span class="tt">hide_class()</span> auf betreffende Elemente default gesetzt.
-Um zu vermeiden das Besucher mit ausgeschalteten Javascript die Informationen nicht wahrnehmen k&ouml;nnen.<br>
-</p>
+        <h2><a name="Funktionsweise">Funktionsweise</a></h2>
+        <p>
+          Die betreffenden
+          <acronym title="Hyper Text Markup Language">HTML</acronym> Elemente
+          werden &uuml;ber das
+          <acronym title="Cascading Style Sheets">CSS</acronym> Element
+          <span class="tt">display</span> verborgen bzw. angezeigt.
+        </p>
+        <p>
+          &Uuml;ber die Zuordnung einer eindeutigen
+          <span class="tt">ID</span> bei den entsprechenden
+          <acronym title="Hyper Text Markup Language">HTML</acronym> Elementen,
+          wird mit Hilfe von Javascript die
+          <acronym title="Cascading Style Sheets">CSS</acronym> Direktive
+          <span class="tt">display: none;</span> bzw.
+          <span class="tt">display: block;</span> gesetzt. Was dann z. B. durch
+          das Anklicken eines Hyperlinks ausgel&ouml;st werden kann mit dem
+          entsprechenden Javascript Eventhandler.
+        </p>
+        <p>
+          Hierbei ist <span class="tt">display: none;</span> &uuml;ber die
+          <span class="tt">onload</span> Funktion
+          <span class="tt">hide_class()</span> auf betreffende Elemente default
+          gesetzt. Um zu vermeiden das Besucher mit ausgeschalteten Javascript
+          die Informationen nicht wahrnehmen k&ouml;nnen.<br />
+        </p>
 
-<h2><a name="anzeigen_verbergen_Funktionen">Anzeigen, Verbergen Funktionen</a></h2>
-<p class="bold">
-Die zwei Kernfunktionen <span class="tt">hide_elements()</span> und <span class="tt">show_elements()</span>,
-welche &uuml;ber die <acronym title="Cascading Style Sheets">CSS</acronym> <span class="tt">ID</span> Elemente verbergen bzw. anzeigen.
-</p>
-<pre>
+        <h2>
+          <a name="anzeigen_verbergen_Funktionen"
+            >Anzeigen, Verbergen Funktionen</a
+          >
+        </h2>
+        <p class="bold">
+          Die zwei Kernfunktionen <span class="tt">hide_elements()</span> und
+          <span class="tt">show_elements()</span>, welche &uuml;ber die
+          <acronym title="Cascading Style Sheets">CSS</acronym>
+          <span class="tt">ID</span> Elemente verbergen bzw. anzeigen.
+        </p>
+        <pre>
 <span class="right">function show_elements()</span>
 <code>
 
@@ -180,40 +357,82 @@ function hide_elements()
  }
 </code>
 </pre>
-<p>
-Sie sprechen die beiden Funktionen in Ihrem Template mit <span class="tt">&lt;a href=&quot;#Ankername&quot; title=&quot;&quot; onclick=&quot;show_elements('foo','bar');hide_elements('baz','yzzy')&quot;&gt;Show foo, bar&lt;/a&gt;</span> an.
-</p>
-<h2><a name="Beispiele_Elemente_anzeigen_verbergen">Beispiele Elemente Anzeigen, Verbergen</a></h2>
-<p class="bold">
-Im folgenden ein paar Beispiele mit Quelltext wie Sie die Beiden obigen Funktionen einsetzen k&ouml;nnen.
-</p>
-<p>
-Siehe auch <a href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/.html" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite">&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/&gt;</a>.
-</p>
-<h2>Element verbergen</h2>
-<div><a name="text_html"></a></div>
-	<div id="text_html">
-	<p class="bold big">
-		Beispiel Link: <a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#text_html" title="Verbergen" onclick="hide_elements('text_html')_">Text verbergen</a>
-	</p>
-	<p><strong>HTML</strong></p>
-	<blockquote cite="http://de.wikipedia.org/wiki/Hypertext_Markup_Language">
-	<p>
-		Die Hypertext Markup Language (<acronym title="Hyper Text Markup Language">HTML</acronym>, dt. Hypertext-Auszeichnungssprache),
-		oft auch kurz als Hypertext bezeichnet,
-		ist eine textbasierte Auszeichnungssprache zur Strukturierung von Inhalten wie Texten,
-		Bildern und Hyperlinks in Dokumenten.
-		<acronym title="Hyper Text Markup Language">HTML</acronym>-Dokumente sind die Grundlage des World Wide Web und werden von einem Webbrowser dargestellt.
-		Neben den vom Browser angezeigten Inhalten einer Webseite
-		enth&auml;lt <acronym title="Hyper Text Markup Language">HTML</acronym> zus&auml;tzliche Angaben in Form von Metainformationen,
-		die z. B. &uuml;ber die im Text verwendete Sprache oder den Autor Auskunft geben oder den Inhalt des Textes zusammenfassen.
-		Die Auszeichnungssprache wird vom World Wide Web Consortium (<acronym title="World Wide Web Consortium">W3C</acronym>) weiterentwickelt.
-		Aktuell tr&auml;gt <acronym title="Hyper Text Markup Language">HTML</acronym> die Versionsnummer 4.01. <acronym title="Hyper Text Markup Language">HTML</acronym> 5 befindet sich in der Entwicklung.
-		Parallel existiert die Extensible Hypertext Markup Language (<acronym title="Extensible Hyper Text Markup Language">XHTML</acronym>), die zeitweilig als Ersatz f&uuml;r <acronym title="Hyper Text Markup Language">HTML</acronym> 4.01 gedacht war.
-	</p>
-	</blockquote>
-	</div>
-<pre>
+        <p>
+          Sie sprechen die beiden Funktionen in Ihrem Template mit
+          <span class="tt"
+            >&lt;a href=&quot;#Ankername&quot; title=&quot;&quot;
+            onclick=&quot;show_elements('foo','bar');hide_elements('baz','yzzy')&quot;&gt;Show
+            foo, bar&lt;/a&gt;</span
+          >
+          an.
+        </p>
+        <h2>
+          <a name="Beispiele_Elemente_anzeigen_verbergen"
+            >Beispiele Elemente Anzeigen, Verbergen</a
+          >
+        </h2>
+        <p class="bold">
+          Im folgenden ein paar Beispiele mit Quelltext wie Sie die Beiden
+          obigen Funktionen einsetzen k&ouml;nnen.
+        </p>
+        <p>
+          Siehe auch
+          <a
+            href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/.html"
+            title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite"
+            >&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/&gt;</a
+          >.
+        </p>
+        <h2>Element verbergen</h2>
+        <div><a name="text_html"></a></div>
+        <div id="text_html">
+          <p class="bold big">
+            Beispiel Link:
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#text_html"
+              title="Verbergen"
+              onclick="hide_elements('text_html')_"
+              >Text verbergen</a
+            >
+          </p>
+          <p><strong>HTML</strong></p>
+          <blockquote
+            cite="http://de.wikipedia.org/wiki/Hypertext_Markup_Language"
+          >
+            <p>
+              Die Hypertext Markup Language (<acronym
+                title="Hyper Text Markup Language"
+                >HTML</acronym
+              >, dt. Hypertext-Auszeichnungssprache), oft auch kurz als
+              Hypertext bezeichnet, ist eine textbasierte Auszeichnungssprache
+              zur Strukturierung von Inhalten wie Texten, Bildern und Hyperlinks
+              in Dokumenten.
+              <acronym title="Hyper Text Markup Language">HTML</acronym
+              >-Dokumente sind die Grundlage des World Wide Web und werden von
+              einem Webbrowser dargestellt. Neben den vom Browser angezeigten
+              Inhalten einer Webseite enth&auml;lt
+              <acronym title="Hyper Text Markup Language">HTML</acronym>
+              zus&auml;tzliche Angaben in Form von Metainformationen, die z. B.
+              &uuml;ber die im Text verwendete Sprache oder den Autor Auskunft
+              geben oder den Inhalt des Textes zusammenfassen. Die
+              Auszeichnungssprache wird vom World Wide Web Consortium (<acronym
+                title="World Wide Web Consortium"
+                >W3C</acronym
+              >) weiterentwickelt. Aktuell tr&auml;gt
+              <acronym title="Hyper Text Markup Language">HTML</acronym> die
+              Versionsnummer 4.01.
+              <acronym title="Hyper Text Markup Language">HTML</acronym> 5
+              befindet sich in der Entwicklung. Parallel existiert die
+              Extensible Hypertext Markup Language (<acronym
+                title="Extensible Hyper Text Markup Language"
+                >XHTML</acronym
+              >), die zeitweilig als Ersatz f&uuml;r
+              <acronym title="Hyper Text Markup Language">HTML</acronym> 4.01
+              gedacht war.
+            </p>
+          </blockquote>
+        </div>
+        <pre>
 <span class="right">Einen Text verbergen</span>
 <code>
 	&lt;div id=&quot;text_html&quot;&gt;
@@ -227,27 +446,71 @@ Siehe auch <a href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Java
 	&lt;/div&gt;
 </code>
 </pre>
-<p>
-Das <span class="tt">&lt;div&gt;</span> mit der <span class="tt">ID text_html</span> wird bei einem <kbd>klick</kbd> auf <span class="italic">Text verbergen</span> ausgeblendet.
-</p>
-<h2>Element anzeigen</h2>
-	<p id="linkShow_xhtml" class="bold big">
-		Beispiel Link: <a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#text_xhtml" title="Anzeigen" onclick="show_elements('text_xhtml')_hide_elements('linkShow_xhtml')">Text anzeigen</a>
-	</p>
-	<div id="text_xhtml" class="noscript">
-	<a name="text_xhtml"></a>
-	<p><strong><acronym title="Extensible Hyper Text Markup Language">XHTML</acronym></strong></p>
-	<blockquote cite="http://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language">
-	<p>
-		Der <acronym title="World Wide Web Consortium">W3C</acronym>-Standard Extensible HyperText Markup Language (erweiterbares <acronym title="Hyper Text Markup Language">HTML</acronym>; Abk&uuml;rzung: <acronym title="Extensible Hyper Text Markup Language">XHTML</acronym>)
-		ist eine textbasierte Auszeichnungssprache zur Darstellung von Inhalten wie Texten, Bildern und Hyperlinks in Dokumenten.
-		Es ist eine Neuformulierung von <acronym title="Hyper Text Markup Language">HTML</acronym> 4 in <acronym title="Extensible Markup Language">XML</acronym> 1.0: Im Gegensatz zu seinem Vorg&auml;nger <acronym title="Hyper Text Markup Language">HTML</acronym>, welcher mittels <acronym title="Standard Generalized Markup Language">SGML</acronym> definiert wurde,
-		verwendet <acronym title="Extensible Hyper Text Markup Language">XHTML</acronym> die strengere und einfacher zu parsende <acronym title="Standard Generalized Markup Language">SGML</acronym>-Teilmenge <acronym title="Extensible Markup Language">XML</acronym> als Sprachgrundlage.
-		<acronym title="Extensible Hyper Text Markup Language">XHTML</acronym>-Dokumente gen&uuml;gen also den Syntaxregeln von <acronym title="Extensible Markup Language">XML</acronym>.
-	</p>
-	</blockquote>
-	</div>
-<pre>
+        <p>
+          Das <span class="tt">&lt;div&gt;</span> mit der
+          <span class="tt">ID text_html</span> wird bei einem
+          <kbd>klick</kbd> auf
+          <span class="italic">Text verbergen</span> ausgeblendet.
+        </p>
+        <h2>Element anzeigen</h2>
+        <p id="linkShow_xhtml" class="bold big">
+          Beispiel Link:
+          <a
+            href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#text_xhtml"
+            title="Anzeigen"
+            onclick="show_elements('text_xhtml')_hide_elements('linkShow_xhtml')"
+            >Text anzeigen</a
+          >
+        </p>
+        <div id="text_xhtml" class="noscript">
+          <a name="text_xhtml"></a>
+          <p>
+            <strong
+              ><acronym title="Extensible Hyper Text Markup Language"
+                >XHTML</acronym
+              ></strong
+            >
+          </p>
+          <blockquote
+            cite="http://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language"
+          >
+            <p>
+              Der
+              <acronym title="World Wide Web Consortium">W3C</acronym>-Standard
+              Extensible HyperText Markup Language (erweiterbares
+              <acronym title="Hyper Text Markup Language">HTML</acronym>;
+              Abk&uuml;rzung:
+              <acronym title="Extensible Hyper Text Markup Language"
+                >XHTML</acronym
+              >) ist eine textbasierte Auszeichnungssprache zur Darstellung von
+              Inhalten wie Texten, Bildern und Hyperlinks in Dokumenten. Es ist
+              eine Neuformulierung von
+              <acronym title="Hyper Text Markup Language">HTML</acronym> 4 in
+              <acronym title="Extensible Markup Language">XML</acronym> 1.0: Im
+              Gegensatz zu seinem Vorg&auml;nger
+              <acronym title="Hyper Text Markup Language">HTML</acronym>,
+              welcher mittels
+              <acronym title="Standard Generalized Markup Language"
+                >SGML</acronym
+              >
+              definiert wurde, verwendet
+              <acronym title="Extensible Hyper Text Markup Language"
+                >XHTML</acronym
+              >
+              die strengere und einfacher zu parsende
+              <acronym title="Standard Generalized Markup Language"
+                >SGML</acronym
+              >-Teilmenge
+              <acronym title="Extensible Markup Language">XML</acronym> als
+              Sprachgrundlage.
+              <acronym title="Extensible Hyper Text Markup Language"
+                >XHTML</acronym
+              >-Dokumente gen&uuml;gen also den Syntaxregeln von
+              <acronym title="Extensible Markup Language">XML</acronym>.
+            </p>
+          </blockquote>
+        </div>
+        <pre>
 <span class="right">Einen Text anzeigen</span>
 <code>
 &lt;p id=&quot;linkShow_xhtml&quot;&gt;
@@ -260,47 +523,90 @@ Das <span class="tt">&lt;div&gt;</span> mit der <span class="tt">ID text_html</s
 	&lt;/div&gt;
 </code>
 </pre>
-<p>
-Das <span class="tt">&lt;div&gt;</span> mit der <span class="tt">ID text_xhtml</span> erscheint bei einem <kbd>klick</kbd> auf <span class="italic">Text anzeigen</span>.
-W&auml;hrendem <span class="tt">&lt;p&gt;</span> mit der <span class="tt">ID linkShow_xhtml</span> ausgeblendet wird.
-</p>
-<h2>Element anzeigen/verbergen</h2>
-	<p id="linkShow_css" class="bold big">
-		<a name="linkShow_css"></a>
-		Beispiel Link: <a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#text_css" title="Anzeigen" onclick="show_elements('text_css')_hide_elements('linkShow_css')">Text anzeigen</a>
-	</p>
-	<div id="text_css" class="noscript">
-		<a name="text_css"></a>
-		<p><strong><acronym title="Cascading Style Sheets">CSS</acronym></strong></p>
-		<blockquote cite="http://de.wikipedia.org/wiki/Cascading_Style_Sheets">
-		<p>
-			Cascading Style Sheets (Abk.: <acronym title="Cascading Style Sheets">CSS</acronym>) ist eine deklarative Stylesheet-Sprache f&uuml;r strukturierte Dokumente.
-			Sie wird vor allem zusammen mit <acronym title="Hyper Text Markup Language">HTML</acronym> und <acronym title="Extensible Markup Language">XML</acronym> (zum Beispiel bei SVG) eingesetzt.
-			<acronym title="Cascading Style Sheets">CSS</acronym> legt dabei fest, wie ein besonders ausgezeichneter Inhalt oder Bereich dargestellt werden soll.
-			Dazu ist es wichtig, das <acronym title="Hyper Text Markup Language">HTML</acronym> oder <acronym title="Extensible Markup Language">XML</acronym> so zu gestalten, dass die Abschnitte, deren Aussehen gleich sein soll,
-			auch als derselben Klasse angeh&ouml;rend erkannt werden k&ouml;nnen. Man zeichnet im <acronym title="Hyper Text Markup Language">HTML</acronym>-Dokument
-			also nur die Bedeutung einzelner Abschnitte aus,
-			w&auml;hrend das Aussehen dieser ausgezeichneten Abschnitte im <acronym title="Cascading Style Sheets">CSS</acronym> festgelegt wird.
-			Mit anderen Worten, man trennt den eigentlichen Inhalt von der optischen Gestaltung.
-		</p>
-		<p>
-			Mit <acronym title="Cascading Style Sheets">CSS</acronym> ist es m&ouml;glich,
-			f&uuml;r verschiedene Ausgabemedien (Bildschirm, Papier, Projektion, Sprache) eine unterschiedliche Darstellung anzugeben.
-			Das ist n&uuml;tzlich, um zum Beispiel Hyperlinks beim Drucken extra aufzuf&uuml;hren oder f&uuml;r Ger&auml;te mit geringerer Aufl&ouml;sung
-			(zum Beispiel <acronym title="Personal Digital Assistant">PDA</acronym> oder Mobiltelefon) die Anzeige zu optimieren
-			(geringere Seitenbreite und -h&ouml;he).
-		</p>
-		<p>
-			Neben diversen Angaben zu Farben und Schriften bietet <acronym title="Cascading Style Sheets">CSS</acronym> die M&ouml;glichkeit,
-			Elemente frei zu positionieren oder Hintergrundbilder festzulegen.
-		</p>
-		<p>
-			<acronym title="Cascading Style Sheets">CSS</acronym> gilt heutzutage als die Standard-Stylesheetsprache f&uuml;r Webseiten.
-		</p>
-		</blockquote>
-		<p class="bold big">Beispiel Link: <a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#linkShow_css" title="Verbergen" onclick="show_elements('linkShow_css')_hide_elements('text_css')">Text verbergen</a></p>
-	</div>
-<pre>
+        <p>
+          Das <span class="tt">&lt;div&gt;</span> mit der
+          <span class="tt">ID text_xhtml</span> erscheint bei einem
+          <kbd>klick</kbd> auf <span class="italic">Text anzeigen</span>.
+          W&auml;hrendem <span class="tt">&lt;p&gt;</span> mit der
+          <span class="tt">ID linkShow_xhtml</span> ausgeblendet wird.
+        </p>
+        <h2>Element anzeigen/verbergen</h2>
+        <p id="linkShow_css" class="bold big">
+          <a name="linkShow_css"></a>
+          Beispiel Link:
+          <a
+            href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#text_css"
+            title="Anzeigen"
+            onclick="show_elements('text_css')_hide_elements('linkShow_css')"
+            >Text anzeigen</a
+          >
+        </p>
+        <div id="text_css" class="noscript">
+          <a name="text_css"></a>
+          <p>
+            <strong
+              ><acronym title="Cascading Style Sheets">CSS</acronym></strong
+            >
+          </p>
+          <blockquote
+            cite="http://de.wikipedia.org/wiki/Cascading_Style_Sheets"
+          >
+            <p>
+              Cascading Style Sheets (Abk.:
+              <acronym title="Cascading Style Sheets">CSS</acronym>) ist eine
+              deklarative Stylesheet-Sprache f&uuml;r strukturierte Dokumente.
+              Sie wird vor allem zusammen mit
+              <acronym title="Hyper Text Markup Language">HTML</acronym> und
+              <acronym title="Extensible Markup Language">XML</acronym> (zum
+              Beispiel bei SVG) eingesetzt.
+              <acronym title="Cascading Style Sheets">CSS</acronym> legt dabei
+              fest, wie ein besonders ausgezeichneter Inhalt oder Bereich
+              dargestellt werden soll. Dazu ist es wichtig, das
+              <acronym title="Hyper Text Markup Language">HTML</acronym> oder
+              <acronym title="Extensible Markup Language">XML</acronym> so zu
+              gestalten, dass die Abschnitte, deren Aussehen gleich sein soll,
+              auch als derselben Klasse angeh&ouml;rend erkannt werden
+              k&ouml;nnen. Man zeichnet im
+              <acronym title="Hyper Text Markup Language">HTML</acronym
+              >-Dokument also nur die Bedeutung einzelner Abschnitte aus,
+              w&auml;hrend das Aussehen dieser ausgezeichneten Abschnitte im
+              <acronym title="Cascading Style Sheets">CSS</acronym> festgelegt
+              wird. Mit anderen Worten, man trennt den eigentlichen Inhalt von
+              der optischen Gestaltung.
+            </p>
+            <p>
+              Mit <acronym title="Cascading Style Sheets">CSS</acronym> ist es
+              m&ouml;glich, f&uuml;r verschiedene Ausgabemedien (Bildschirm,
+              Papier, Projektion, Sprache) eine unterschiedliche Darstellung
+              anzugeben. Das ist n&uuml;tzlich, um zum Beispiel Hyperlinks beim
+              Drucken extra aufzuf&uuml;hren oder f&uuml;r Ger&auml;te mit
+              geringerer Aufl&ouml;sung (zum Beispiel
+              <acronym title="Personal Digital Assistant">PDA</acronym> oder
+              Mobiltelefon) die Anzeige zu optimieren (geringere Seitenbreite
+              und -h&ouml;he).
+            </p>
+            <p>
+              Neben diversen Angaben zu Farben und Schriften bietet
+              <acronym title="Cascading Style Sheets">CSS</acronym> die
+              M&ouml;glichkeit, Elemente frei zu positionieren oder
+              Hintergrundbilder festzulegen.
+            </p>
+            <p>
+              <acronym title="Cascading Style Sheets">CSS</acronym> gilt
+              heutzutage als die Standard-Stylesheetsprache f&uuml;r Webseiten.
+            </p>
+          </blockquote>
+          <p class="bold big">
+            Beispiel Link:
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#linkShow_css"
+              title="Verbergen"
+              onclick="show_elements('linkShow_css')_hide_elements('text_css')"
+              >Text verbergen</a
+            >
+          </p>
+        </div>
+        <pre>
 <span class="right">Einen Text anzeigen/verbergen</span>
 <code>
 	&lt;p&gt;&lt;strong&gt;&lt;acronym title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/acronym&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -315,69 +621,127 @@ W&auml;hrendem <span class="tt">&lt;p&gt;</span> mit der <span class="tt">ID lin
 	&lt;/div&gt;
 </code>
 </pre>
-<p>
-Das vorher ausgeblendete <span class="tt">&lt;div&gt;</span> mit der <span class="tt">ID text_css</span> erscheint bei einem <kbd>klick</kbd> auf <span class="italic">Text anzeigen</span>.
-W&auml;hrend <span class="tt">&lt;p&gt;</span> mit der <span class="tt">ID linkShow_css</span> ausgeblendet wird. Der <span class="italic">Text verbergen</span> Link macht es r&uuml;ckg&auml;ngig.
-</p>
-<h2>Element anzeigen</h2>
-	<p class="bold big">
-	<select name="select_list">
-		<option value="Javascript" onclick="show_elements('select_javascript');hide_elements('select_activex','select_dom')">Javascript</option>
-		<option value="DOM" onclick="show_elements('select_dom');hide_elements('select_activex','select_javascript')">DOM</option>
-		<option value="AktivX" onclick="show_elements('select_activex');hide_elements('select_dom','select_javascript')">ActiveX</option>
-	</select>
-	</p>
-	<div id="select_javascript" class="noscript">
-		<p><strong>Javascript</strong></p>
-		<blockquote cite="http://de.wikipedia.org/wiki/JavaScript">
-		<p>
-			JavaScript ist eine Skriptsprache, die haupts&auml;chlich f&uuml;r das <acronym title="Document Object Model">DOM</acronym>-Scripting in Web-Browsern eingesetzt wird.
-			Obschon nur ein Wort, ist umgangssprachlich unter JavaScript aber immer die Gesamtheit aus den Eigenschaften
-			des Browsers (beziehungsweise Clients oder Scripting-Hosts) sowie des Document Object Models (<acronym title="Document Object Model">DOM</acronym>) und des Sprachkerns zu verstehen.
-		</p>
-		<p>
-			Der als <acronym title="European Computer Manufacturers Association">ECMA</acronym>Script (<acronym title="European Computer Manufacturers Association">ECMA</acronym> 262) standardisierte Sprachkern von JavaScript beschreibt eine moderne,
-			schlanke, dynamisch typisierte, objektorientierte aber klassenlose Skriptsprache,
-			die dennoch allen objektorientierten Programmierparadigmen unter anderem auch - aber eben nicht ausschlie&szlig;lich -
-			auf der Basis von Prototypen gerecht wird. Obwohl im Grunde eine funktionale Skriptsprache,
-			l&auml;sst sich in JavaScript sowohl prozedural als auch rein funktional bzw. objektorientiert programmieren.
-		</p>
-		</blockquote>
-	</div>
-	<div id="select_dom" class="noscript">
-		<p><strong><acronym title="Document Object Model">DOM</acronym></strong></p>
-		<blockquote cite="http://de.wikipedia.org/wiki/Document_Object_Model">
-		<p>
-			Das Document Object Model (<acronym title="Document Object Model">DOM</acronym>) ist eine Programmierschnittstelle (API) f&uuml;r den Zugriff auf <acronym title="Hyper Text Markup Language">HTML</acronym>- oder <acronym title="Extensible Markup Language">XML</acronym>-Dokumente.
-			Sie wird vom World Wide Web Consortium definiert.
-		</p>
-		<p>
-			Im Sinne der objektorientierten Programmierung besteht das <acronym title="Document Object Model">DOM</acronym> aus einem Satz von Klassen zusammen mit deren Methoden
-			und Attributen. Es erlaubt Computerprogrammen, dynamisch den Inhalt, die Struktur und das Layout eines Dokuments zu ver&auml;ndern.
-		</p>
-		</blockquote>
-	</div>
-	<div id="select_activex" class="noscript">
-		<p><strong>ActiveX</strong></p>
-		<blockquote cite="http://de.wikipedia.org/wiki/ActiveX">
-		<p>
-			ActiveX bezeichnet ein Softwarekomponenten-Modell von Microsoft f&uuml;r aktive Inhalte.
-			ActiveX-Komponenten erweitern die Component-Object-Model-Standards (<acronym title="Component Object Model">COM</acronym>) von Microsoft.
-		</p>
-		<p>
-			Es sind Softwarekomponenten f&uuml;r andere Anwendungen, Makroprogrammierungen und Entwicklungsprogramme;
-			sie k&ouml;nnen gleicherma&szlig;en in verschiedenen Programmiersprachen und Umgebungen verwendet werden.
-			Einige Programme nutzen zum Beispiel den Internet Explorer zur Anzeige von Informationen.
-			Die ActiveX-Komponente ActiveX Data Objects (<acronym title="ActiveX Data Objects">ADO</acronym>) dient zum Beispiel f&uuml;r
-			den Zugriff auf Datenbanken.
-		</p>
-		<p>
-			ActiveX gibt es nur f&uuml;r die Betriebssystemfamilie Windows.
-			Bis zur Einstellung des Internet Explorers f&uuml;r den Mac waren speziell f&uuml;r Mac OS kompilierte ActiveX-Steuerelemente auch auf dem Apple Macintosh ausf&uuml;hrbar.
-		</p>
-		</blockquote>
-	</div>
-<pre>
+        <p>
+          Das vorher ausgeblendete <span class="tt">&lt;div&gt;</span> mit der
+          <span class="tt">ID text_css</span> erscheint bei einem
+          <kbd>klick</kbd> auf <span class="italic">Text anzeigen</span>.
+          W&auml;hrend <span class="tt">&lt;p&gt;</span> mit der
+          <span class="tt">ID linkShow_css</span> ausgeblendet wird. Der
+          <span class="italic">Text verbergen</span> Link macht es
+          r&uuml;ckg&auml;ngig.
+        </p>
+        <h2>Element anzeigen</h2>
+        <p class="bold big">
+          <select name="select_list">
+            <option
+              value="Javascript"
+              onclick="show_elements('select_javascript');hide_elements('select_activex','select_dom')"
+            >
+              Javascript
+            </option>
+            <option
+              value="DOM"
+              onclick="show_elements('select_dom');hide_elements('select_activex','select_javascript')"
+            >
+              DOM
+            </option>
+            <option
+              value="AktivX"
+              onclick="show_elements('select_activex');hide_elements('select_dom','select_javascript')"
+            >
+              ActiveX
+            </option>
+          </select>
+        </p>
+        <div id="select_javascript" class="noscript">
+          <p><strong>Javascript</strong></p>
+          <blockquote cite="http://de.wikipedia.org/wiki/JavaScript">
+            <p>
+              JavaScript ist eine Skriptsprache, die haupts&auml;chlich f&uuml;r
+              das <acronym title="Document Object Model">DOM</acronym>-Scripting
+              in Web-Browsern eingesetzt wird. Obschon nur ein Wort, ist
+              umgangssprachlich unter JavaScript aber immer die Gesamtheit aus
+              den Eigenschaften des Browsers (beziehungsweise Clients oder
+              Scripting-Hosts) sowie des Document Object Models (<acronym
+                title="Document Object Model"
+                >DOM</acronym
+              >) und des Sprachkerns zu verstehen.
+            </p>
+            <p>
+              Der als
+              <acronym title="European Computer Manufacturers Association"
+                >ECMA</acronym
+              >Script (<acronym
+                title="European Computer Manufacturers Association"
+                >ECMA</acronym
+              >
+              262) standardisierte Sprachkern von JavaScript beschreibt eine
+              moderne, schlanke, dynamisch typisierte, objektorientierte aber
+              klassenlose Skriptsprache, die dennoch allen objektorientierten
+              Programmierparadigmen unter anderem auch - aber eben nicht
+              ausschlie&szlig;lich - auf der Basis von Prototypen gerecht wird.
+              Obwohl im Grunde eine funktionale Skriptsprache, l&auml;sst sich
+              in JavaScript sowohl prozedural als auch rein funktional bzw.
+              objektorientiert programmieren.
+            </p>
+          </blockquote>
+        </div>
+        <div id="select_dom" class="noscript">
+          <p>
+            <strong
+              ><acronym title="Document Object Model">DOM</acronym></strong
+            >
+          </p>
+          <blockquote cite="http://de.wikipedia.org/wiki/Document_Object_Model">
+            <p>
+              Das Document Object Model (<acronym title="Document Object Model"
+                >DOM</acronym
+              >) ist eine Programmierschnittstelle (API) f&uuml;r den Zugriff
+              auf <acronym title="Hyper Text Markup Language">HTML</acronym>-
+              oder
+              <acronym title="Extensible Markup Language">XML</acronym
+              >-Dokumente. Sie wird vom World Wide Web Consortium definiert.
+            </p>
+            <p>
+              Im Sinne der objektorientierten Programmierung besteht das
+              <acronym title="Document Object Model">DOM</acronym> aus einem
+              Satz von Klassen zusammen mit deren Methoden und Attributen. Es
+              erlaubt Computerprogrammen, dynamisch den Inhalt, die Struktur und
+              das Layout eines Dokuments zu ver&auml;ndern.
+            </p>
+          </blockquote>
+        </div>
+        <div id="select_activex" class="noscript">
+          <p><strong>ActiveX</strong></p>
+          <blockquote cite="http://de.wikipedia.org/wiki/ActiveX">
+            <p>
+              ActiveX bezeichnet ein Softwarekomponenten-Modell von Microsoft
+              f&uuml;r aktive Inhalte. ActiveX-Komponenten erweitern die
+              Component-Object-Model-Standards (<acronym
+                title="Component Object Model"
+                >COM</acronym
+              >) von Microsoft.
+            </p>
+            <p>
+              Es sind Softwarekomponenten f&uuml;r andere Anwendungen,
+              Makroprogrammierungen und Entwicklungsprogramme; sie k&ouml;nnen
+              gleicherma&szlig;en in verschiedenen Programmiersprachen und
+              Umgebungen verwendet werden. Einige Programme nutzen zum Beispiel
+              den Internet Explorer zur Anzeige von Informationen. Die
+              ActiveX-Komponente ActiveX Data Objects (<acronym
+                title="ActiveX Data Objects"
+                >ADO</acronym
+              >) dient zum Beispiel f&uuml;r den Zugriff auf Datenbanken.
+            </p>
+            <p>
+              ActiveX gibt es nur f&uuml;r die Betriebssystemfamilie Windows.
+              Bis zur Einstellung des Internet Explorers f&uuml;r den Mac waren
+              speziell f&uuml;r Mac OS kompilierte ActiveX-Steuerelemente auch
+              auf dem Apple Macintosh ausf&uuml;hrbar.
+            </p>
+          </blockquote>
+        </div>
+        <pre>
 <span class="right">Informationen zu einem ausgew&auml;hlten Elemente anzeigen</span>
 <code>
 	&lt;div&gt;
@@ -408,62 +772,110 @@ W&auml;hrend <span class="tt">&lt;p&gt;</span> mit der <span class="tt">ID linkS
 	&lt;/div&gt;
 </code>
 </pre>
-<p>
-<span class="tt">Select</span> Liste die bei einem <kbd>klick</kbd> auf das entsprechende Element die passende <span class="tt">ID</span> anzeigt und vorher ausgew&auml;hlte Elemente ausblendet.
-</p>
-<h2>Elemente anzeigen</h2>
-	<p class="bold big">
-		<input type="checkbox" name="text" value="PHP" onclick="show_elements('text_php')">PHP<br>
-		<input type="checkbox" name="text" value="CGI" onclick="show_elements('text_cgi')">CGI<br>
-		<input type="checkbox" name="text" value="Perl" onclick="show_elements('text_perl')">Perl
-	</p>
-	<div id="text_php" class="noscript">
-	<p><strong><acronym title="Hypertext Preprocessor">PHP</acronym></strong></p>
-	<blockquote cite="http://de.wikipedia.org/wiki/PHP">
-	<p>
-		<acronym title="Hypertext Preprocessor">PHP</acronym> (rekursives Backronym f&uuml;r &quot;<acronym title="Hypertext Preprocessor">PHP</acronym>: Hypertext Preprocessor&quot; urspr&uuml;nglich &quot;Personal Home Page Tools&quot;)
-		ist eine Skriptsprache mit einer an C angelehnten Syntax, die haupts&auml;chlich zur Erstellung von dynamischen Webseiten oder
-		Webanwendungen verwendet wird. <acronym title="Hypertext Preprocessor">PHP</acronym> ist Open-Source-Software.
-	</p>
-	<p>
-		<acronym title="Hypertext Preprocessor">PHP</acronym> zeichnet sich besonders durch die leichte Erlernbarkeit, die breite Datenbankunterst&uuml;tzung und Internet-Protokolleinbindung
-		sowie die Verf&uuml;gbarkeit zahlreicher, zus&uuml;tzlicher Funktionsbibliotheken aus. Es existieren beispielsweise Programmbibliotheken,
-		um Bilder und Grafiken zur Einbindung in Webseiten dynamisch zu generieren.
-	</p>
-	</blockquote>
-	</div>
-	<div id="text_cgi" class="noscript">
-	<p><strong>CGI</strong></p>
-	<blockquote cite="http://de.wikipedia.org/wiki/Common_Gateway_Interface">
-	<p>
-		Das Common Gateway Interface (<acronym title="Common Gateway Interface">CGI</acronym>) - in etwa Allgemeine Vermittlungsrechner-Schnittstelle -
-		ist ein Standard f&uuml;r den Datenaustausch zwischen einem Webserver und dritter Software,
-		die Anfragen bearbeitet. <acronym title="Common Gateway Interface">CGI</acronym> ist eine schon l&auml;nger bestehende Variante,
-		Webseiten dynamisch bzw. interaktiv zu machen,
-		deren erste &Uuml;berlegungen auf das Jahr 1993 zur&uuml;ckgehen.
-	</p>
-	</blockquote>
-	</div>
-	<div id="text_perl" class="noscript">
-	<p><strong>Perl</strong></p>
-	<blockquote cite="http://de.wikipedia.org/wiki/Perl_(Programmiersprache)">
-	<p>
-		Perl ist eine freie, plattformunabh&auml;ngige und interpretierte Programmiersprache (Skriptsprache),
-		die mehrere Programmierparadigmen unterst&uuml;tzt.
-	</p>
-	<p>
-		Der Linguist Larry Wall entwarf sie 1987 als Synthese aus C, awk, den UNIX-Befehlen und anderen Einfl&uuml;ssen.
-		Urspr&uuml;nglich als Werkzeug zur Verarbeitung und Manipulation von Textdateien insbesondere
-		bei System- und Netzwerkadministration vorgesehen (z. B. Auswertung von Logdateien),
-		hat Perl auch bei der Entwicklung von Webanwendungen und in der Bioinformatik weite Verbreitung gefunden.
-		Traditionell stark ist Perl auch in der Finanzwelt, bei der Verarbeitung von Datenstr&ouml;men verschiedenartiger Nachrichtenquellen.
-		Hauptziele sind eine schnelle Probleml&ouml;sung und gr&ouml;&szlig;tm&ouml;gliche Freiheit f&uuml;r Programmierer.
-		Die Bearbeitung von Texten mit Hilfe regul&auml;rer Ausdr&uuml;cke sowie viele frei verf&uuml;gbare Module,
-		die an einem zentralen Ort (CPAN) gesammelt werden, sind St&auml;rken der Sprache.
-	</p>
-	</blockquote>
-	</div>
-<pre>
+        <p>
+          <span class="tt">Select</span> Liste die bei einem
+          <kbd>klick</kbd> auf das entsprechende Element die passende
+          <span class="tt">ID</span> anzeigt und vorher ausgew&auml;hlte
+          Elemente ausblendet.
+        </p>
+        <h2>Elemente anzeigen</h2>
+        <p class="bold big">
+          <input
+            type="checkbox"
+            name="text"
+            value="PHP"
+            onclick="show_elements('text_php')"
+          />PHP<br />
+          <input
+            type="checkbox"
+            name="text"
+            value="CGI"
+            onclick="show_elements('text_cgi')"
+          />CGI<br />
+          <input
+            type="checkbox"
+            name="text"
+            value="Perl"
+            onclick="show_elements('text_perl')"
+          />Perl
+        </p>
+        <div id="text_php" class="noscript">
+          <p>
+            <strong
+              ><acronym title="Hypertext Preprocessor">PHP</acronym></strong
+            >
+          </p>
+          <blockquote cite="http://de.wikipedia.org/wiki/PHP">
+            <p>
+              <acronym title="Hypertext Preprocessor">PHP</acronym> (rekursives
+              Backronym f&uuml;r &quot;<acronym title="Hypertext Preprocessor"
+                >PHP</acronym
+              >: Hypertext Preprocessor&quot; urspr&uuml;nglich &quot;Personal
+              Home Page Tools&quot;) ist eine Skriptsprache mit einer an C
+              angelehnten Syntax, die haupts&auml;chlich zur Erstellung von
+              dynamischen Webseiten oder Webanwendungen verwendet wird.
+              <acronym title="Hypertext Preprocessor">PHP</acronym> ist
+              Open-Source-Software.
+            </p>
+            <p>
+              <acronym title="Hypertext Preprocessor">PHP</acronym> zeichnet
+              sich besonders durch die leichte Erlernbarkeit, die breite
+              Datenbankunterst&uuml;tzung und Internet-Protokolleinbindung sowie
+              die Verf&uuml;gbarkeit zahlreicher, zus&uuml;tzlicher
+              Funktionsbibliotheken aus. Es existieren beispielsweise
+              Programmbibliotheken, um Bilder und Grafiken zur Einbindung in
+              Webseiten dynamisch zu generieren.
+            </p>
+          </blockquote>
+        </div>
+        <div id="text_cgi" class="noscript">
+          <p><strong>CGI</strong></p>
+          <blockquote
+            cite="http://de.wikipedia.org/wiki/Common_Gateway_Interface"
+          >
+            <p>
+              Das Common Gateway Interface (<acronym
+                title="Common Gateway Interface"
+                >CGI</acronym
+              >) - in etwa Allgemeine Vermittlungsrechner-Schnittstelle - ist
+              ein Standard f&uuml;r den Datenaustausch zwischen einem Webserver
+              und dritter Software, die Anfragen bearbeitet.
+              <acronym title="Common Gateway Interface">CGI</acronym> ist eine
+              schon l&auml;nger bestehende Variante, Webseiten dynamisch bzw.
+              interaktiv zu machen, deren erste &Uuml;berlegungen auf das Jahr
+              1993 zur&uuml;ckgehen.
+            </p>
+          </blockquote>
+        </div>
+        <div id="text_perl" class="noscript">
+          <p><strong>Perl</strong></p>
+          <blockquote
+            cite="http://de.wikipedia.org/wiki/Perl_(Programmiersprache)"
+          >
+            <p>
+              Perl ist eine freie, plattformunabh&auml;ngige und interpretierte
+              Programmiersprache (Skriptsprache), die mehrere
+              Programmierparadigmen unterst&uuml;tzt.
+            </p>
+            <p>
+              Der Linguist Larry Wall entwarf sie 1987 als Synthese aus C, awk,
+              den UNIX-Befehlen und anderen Einfl&uuml;ssen. Urspr&uuml;nglich
+              als Werkzeug zur Verarbeitung und Manipulation von Textdateien
+              insbesondere bei System- und Netzwerkadministration vorgesehen (z.
+              B. Auswertung von Logdateien), hat Perl auch bei der Entwicklung
+              von Webanwendungen und in der Bioinformatik weite Verbreitung
+              gefunden. Traditionell stark ist Perl auch in der Finanzwelt, bei
+              der Verarbeitung von Datenstr&ouml;men verschiedenartiger
+              Nachrichtenquellen. Hauptziele sind eine schnelle
+              Probleml&ouml;sung und gr&ouml;&szlig;tm&ouml;gliche Freiheit
+              f&uuml;r Programmierer. Die Bearbeitung von Texten mit Hilfe
+              regul&auml;rer Ausdr&uuml;cke sowie viele frei verf&uuml;gbare
+              Module, die an einem zentralen Ort (CPAN) gesammelt werden, sind
+              St&auml;rken der Sprache.
+            </p>
+          </blockquote>
+        </div>
+        <pre>
 <span class="right">Informationen zu selektierten Elementen anzeigen</span>
 <code>
 	&lt;p&gt;
@@ -491,20 +903,38 @@ W&auml;hrend <span class="tt">&lt;p&gt;</span> mit der <span class="tt">ID linkS
 	&lt;/div&gt;
 </code>
 </pre>
-<p>
-<span class="tt">Checkbox</span> die bei gesetztem Hacken das entsprechende <span class="tt">&lt;div&gt;</span> mit passender <span class="tt">ID</span> einblenden.
-</p>
-<p>
-Alternative Eventhandler zu <span class="tt">onclick</span> w&auml;ren z. B. <span class="tt">onselect</span>, <span class="tt">onfocus</span>, <span class="tt">onmouseover</span> etc.<br>
-Siehe dazu auch selfhtml.org - Javascript Eventhandler - <a class="extern" href="http://de.selfhtml.org/javascript/sprache/eventhandler.htm" title="//gedit.NET - selfhtml.org - Javascript Eventhandler">&lt;http://de.selfhtml.org/javascript/sprache/eventhandler.htm&gt;</a>.
-</p>
+        <p>
+          <span class="tt">Checkbox</span> die bei gesetztem Hacken das
+          entsprechende <span class="tt">&lt;div&gt;</span> mit passender
+          <span class="tt">ID</span> einblenden.
+        </p>
+        <p>
+          Alternative Eventhandler zu <span class="tt">onclick</span> w&auml;ren
+          z. B. <span class="tt">onselect</span>,
+          <span class="tt">onfocus</span>,
+          <span class="tt">onmouseover</span> etc.<br />
+          Siehe dazu auch selfhtml.org - Javascript Eventhandler -
+          <a
+            class="extern"
+            href="http://de.selfhtml.org/javascript/sprache/eventhandler.htm"
+            title="//gedit.NET - selfhtml.org - Javascript Eventhandler"
+            >&lt;http://de.selfhtml.org/javascript/sprache/eventhandler.htm&gt;</a
+          >.
+        </p>
 
-<h2><a name="Alternative_zu_noscript_Elementen">Alternative zu noscript Elementen</a></h2>
-<p class="bold">
-Um Benutzer mit ausgeschalteten Javascript nicht auszuschlie&szlig;en, setzt Javascript beim Laden der Seite verborgene Elemente auf <span class="tt">display: none;</span>.
-Ist Javascript deaktiviert, werden diese Elemente angezeigt und sind f&uuml;r diese Benutzergruppe ebenfalls einsehbar.
-</p>
-<pre>
+        <h2>
+          <a name="Alternative_zu_noscript_Elementen"
+            >Alternative zu noscript Elementen</a
+          >
+        </h2>
+        <p class="bold">
+          Um Benutzer mit ausgeschalteten Javascript nicht auszuschlie&szlig;en,
+          setzt Javascript beim Laden der Seite verborgene Elemente auf
+          <span class="tt">display: none;</span>. Ist Javascript deaktiviert,
+          werden diese Elemente angezeigt und sind f&uuml;r diese Benutzergruppe
+          ebenfalls einsehbar.
+        </p>
+        <pre>
 <span class="right">function hide_class()</span>
 <code>
 // Classes ausblenden
@@ -527,118 +957,305 @@ window.onload = function()
  }
 </code>
 </pre>
-<p>
-Wie Sie sehen k&ouml;nnen f&uuml;gt <span class="tt">hide_class()</span> allen Elementen den <span class="tt">ClassName .jshide</span> hinzu.
-Elemente die verborgen werden sollen besitzen bereits die <span class="tt">class .noscript</span>.
-&Uuml;ber den <acronym title="Cascading Style Sheets">CSS</acronym> <span class="tt">Selector .jshide .noscript</span> werden diese Elemente nun angesprochen und auf <span class="tt">display: none;</span> gesetzt.
-</p>
+        <p>
+          Wie Sie sehen k&ouml;nnen f&uuml;gt
+          <span class="tt">hide_class()</span> allen Elementen den
+          <span class="tt">ClassName .jshide</span> hinzu. Elemente die
+          verborgen werden sollen besitzen bereits die
+          <span class="tt">class .noscript</span>. &Uuml;ber den
+          <acronym title="Cascading Style Sheets">CSS</acronym>
+          <span class="tt">Selector .jshide .noscript</span> werden diese
+          Elemente nun angesprochen und auf
+          <span class="tt">display: none;</span> gesetzt.
+        </p>
 
-<h2><a name="Links_und_Quellen">Links und Quellen</a></h2>
-<ul>
-	<li>Beispielseite
-	<ul>
-		<li><a href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/.html" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite">&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/&gt;</a></li>
-		<li><a href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/index.html" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite index.html">&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/index.html&gt;</a></li>
-		<li><a href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/js/main.js" title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite main.js">&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/js/main.js&gt;</a></li>
-	</ul>
-	</li>
-	<li><acronym title="Hyper Text Markup Language">HTML</acronym>
-	<ul>
-		<li><acronym title="World Wide Web Consortium">W3C</acronym> - <acronym title="Hyper Text Markup Language">HTML</acronym> Scripts - <a class="extern" href="http://www.w3.org/TR/REC-html40/interact/scripts.html" title="//gedit.NET - W3C - HTML Scripts">&lt;http://www.w3.org/TR/REC-html40/interact/scripts.html&gt;</a></li>
-		<li><acronym title="World Wide Web Consortium">W3C</acronym> - <acronym title="Hyper Text Markup Language">HTML</acronym> noscript Element - <a class="extern" href="http://www.w3.org/TR/REC-html40/interact/scripts.html" title="//gedit.NET - W3C - HTML noscript Element">&lt;http://www.w3.org/TR/REC-html40/interact/scripts.html&gt;</a></li>
-	</ul>
-	</li>
-	<li><acronym title="Cascading Style Sheets">CSS</acronym>
-	<ul>
-		<li><acronym title="World Wide Web Consortium">W3C</acronym> - <acronym title="Cascading Style Sheets">CSS</acronym> 2.0 Selector - <a class="extern" href="http://www.w3.org/TR/CSS2/selector.html" title="//gedit.NET - W3C - CSS 2.0 Selector">&lt;http://www.w3.org/TR/CSS2/selector.html&gt;</a></li>
-		<li>selfhtml.org - <acronym title="Cascading Style Sheets">CSS</acronym> display - <a class="extern" href="http://de.selfhtml.org/css/eigenschaften/positionierung.htm#display" title="//gedit.NET - selfhtml.org - CSS display">&lt;http://de.selfhtml.org/css/eigenschaften/positionierung.htm#display&gt;</a></li>
-	</ul>
-	</li>
-	<li>Javascript
-	<ul>
-		<li>selfhtml.org - Javascript einbinden - <a class="extern" href="http://de.selfhtml.org/javascript/intro.htm" title="//gedit.NET - selfhtml.org - Javascript einbinden">&lt;http://de.selfhtml.org/javascript/intro.htm&gt;</a></li>
-		<li>selfhtml.org - Javascript Eventhandler - <a class="extern" href="http://de.selfhtml.org/javascript/sprache/eventhandler.htm" title="//gedit.NET - selfhtml.org - Javascript Eventhandler">&lt;http://de.selfhtml.org/javascript/sprache/eventhandler.htm&gt;</a></li>
-	</ul>
-	</li>
-</ul>				
-<!-- start content left comment -->
-<h2><a name="Kommentare">Kommentare</a></h2>
-<blockquote>
-<!-- start content left comment js-N00b -->
-<p>Genau nach so was habe ich gesucht. Prima Beispiele.<br>
-Allerdings bleiben bei mir mit .jshide .noscript angesprochene  Elemente permanent verborgen, auch bei Klick auf den entsprechenden Link zum Anzeigen des verborgenen Elements.<br>
-</p>
-<p class="quote">
-<span class="green">js-N00b</span>, Dienstag, 13. Dezember 2011, 10:45 </p>
-<div class="clear"></div>
-<!-- end content left comment js-N00b -->
-<!-- start content left comment Simon -->
-<p>@js-Noob wenn Du folgendes Javascript in dein HTML-Dokument einbaust:<br>
-function hide_class()<br>
-{<br>
-document.documentElement.className += ' jshide';<br>
-}<br>
-// Beim Seitenaufbau laden<br>
-window.onload = function()<br>
-{<br>
-hide_class();<br>
-// andere window.onload Events<br>
-}<br>
-Wird automatisch jedem HTML-Element die Class jshide hinzugefügt.<br>
-Die Element die Javascript verstecken soll, müssen nun die Class noscript bekommen.<br>
-Via CSS setzt Du dann:<br>
-.noscript.jshide {<br>
-display: none<br>
-}<br>
-Im kommentierten Javascript ist mir leider der Fehler unterlaufen das ich .noscript .jshide geschrieben habe. Also mit ein Leerzeichen zwischen den beiden Klassen. Was vermutlich zu dem Fehler geführt hat.<br>
-</p>
-<p class="quote">
-<a href="http://gattner.name/simon" title="//gedit.NET - Homepage Simon - http://gattner.name/simon">Simon</a>, Dienstag, 13. Dezember 2011, 19:44 </p>
-<div class="clear"></div>
-<!-- end content left comment Simon -->
-</blockquote>
-<!-- end content left comment -->
-<!-- start content left comment nav -->
-<p class="color bold middle left">Insgesammt 12 Kommentare</p>
-<p class="color bold middle right">Seite 2 von 2</p>
-<ul class="pnnav clear">
-<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html#Kommentare" title="//gedit.NET - Vorherige Seite">Vorherige Seite</a></li>
-<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html#Kommentare" title="//gedit.NET - Kommentare - #1">1</a></li>
-<li class="current">2</li>
-<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html#Kommentare" title="//gedit.NET - Erste Seite">Erste Seite</a></li>
-</ul>
-<div class="clear"></div>
-<!-- end content left comment nav -->
-<!-- start content left comment write -->
-<div id="comments">
-<h2><a name="Kommentar_schreiben">Kommentar schreiben</a></h2>
-<form method="post" action="Artikel%3BElemente_anzeigen_und_verbergen_mit_Javascript#Kommentare">
-<ul>
-<li class="bold"><label for="comment_text">Kommentar:</label></li>
-<li><textarea id="comment_text" name="comment_text" cols="63" rows="10"></textarea></li>
-<li class="bold"><label for="name">Name:</label></li>
-<li><input type="text" id="name" name="name" value="" size="30" maxlength="30"></li>
-<li class="bold"><label for="email_hp">Email oder Homepage:</label></li>
-<li><input type="text" id="email_hp" name="email_hp" value="" size="30" maxlength="100"></li>
-<li class="italic">(optional, Email Adresse wird nicht angezeigt)</li>
-<li><input name="comment_submit" type="submit" value="Abschicken"><input name="comment_preview" type="submit" value="Vorschau"></li>
-</ul>
-</form>
-</div>
-<!-- end content left comment write -->
-		<!-- start content left bookmarks and print -->
-		<div class="clear"></div>
-		<ul class="clbpnav">
-			<li><a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#top" onclick="location.hash='top'_" title="zum Seitenanfang von gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript">
-					<img src="/img/gedit.net/layout/goto-top.gif" alt="zum Seitenanfang von gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript">
-			</a></li>
-			<li> <a rel="nofollow" href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html" title="Druckvorschau gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript">
-					<img src="/img/gedit.net/layout/Druckvorschau.gif" alt="Druckvorschau gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript">
-			</a></li>
-			<li> <a rel="nofollow" href="http://www.mister-wong.de/" onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)+'&amp_bm_tags=')_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Mr. Wong">
-					<img src="/img/gedit.net/layout/bookmarks/wong.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Mr. Wong">
-			</a></li>
-			<!--<li><a rel="nofollow" href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Webnews">
+        <h2><a name="Links_und_Quellen">Links und Quellen</a></h2>
+        <ul>
+          <li>
+            Beispielseite
+            <ul>
+              <li>
+                <a
+                  href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/.html"
+                  title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite"
+                  >&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/&gt;</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/index.html"
+                  title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite index.html"
+                  >&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/index.html&gt;</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/js/main.js"
+                  title="//gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript - Beispielseite main.js"
+                  >&lt;/archiv/dev/artikel/Elemente_anzeigen_und_verbergen_mit_Javascript/js/main.js&gt;</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <acronym title="Hyper Text Markup Language">HTML</acronym>
+            <ul>
+              <li>
+                <acronym title="World Wide Web Consortium">W3C</acronym> -
+                <acronym title="Hyper Text Markup Language">HTML</acronym>
+                Scripts -
+                <a
+                  class="extern"
+                  href="http://www.w3.org/TR/REC-html40/interact/scripts.html"
+                  title="//gedit.NET - W3C - HTML Scripts"
+                  >&lt;http://www.w3.org/TR/REC-html40/interact/scripts.html&gt;</a
+                >
+              </li>
+              <li>
+                <acronym title="World Wide Web Consortium">W3C</acronym> -
+                <acronym title="Hyper Text Markup Language">HTML</acronym>
+                noscript Element -
+                <a
+                  class="extern"
+                  href="http://www.w3.org/TR/REC-html40/interact/scripts.html"
+                  title="//gedit.NET - W3C - HTML noscript Element"
+                  >&lt;http://www.w3.org/TR/REC-html40/interact/scripts.html&gt;</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <acronym title="Cascading Style Sheets">CSS</acronym>
+            <ul>
+              <li>
+                <acronym title="World Wide Web Consortium">W3C</acronym> -
+                <acronym title="Cascading Style Sheets">CSS</acronym> 2.0
+                Selector -
+                <a
+                  class="extern"
+                  href="http://www.w3.org/TR/CSS2/selector.html"
+                  title="//gedit.NET - W3C - CSS 2.0 Selector"
+                  >&lt;http://www.w3.org/TR/CSS2/selector.html&gt;</a
+                >
+              </li>
+              <li>
+                selfhtml.org -
+                <acronym title="Cascading Style Sheets">CSS</acronym> display -
+                <a
+                  class="extern"
+                  href="http://de.selfhtml.org/css/eigenschaften/positionierung.htm#display"
+                  title="//gedit.NET - selfhtml.org - CSS display"
+                  >&lt;http://de.selfhtml.org/css/eigenschaften/positionierung.htm#display&gt;</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Javascript
+            <ul>
+              <li>
+                selfhtml.org - Javascript einbinden -
+                <a
+                  class="extern"
+                  href="http://de.selfhtml.org/javascript/intro.htm"
+                  title="//gedit.NET - selfhtml.org - Javascript einbinden"
+                  >&lt;http://de.selfhtml.org/javascript/intro.htm&gt;</a
+                >
+              </li>
+              <li>
+                selfhtml.org - Javascript Eventhandler -
+                <a
+                  class="extern"
+                  href="http://de.selfhtml.org/javascript/sprache/eventhandler.htm"
+                  title="//gedit.NET - selfhtml.org - Javascript Eventhandler"
+                  >&lt;http://de.selfhtml.org/javascript/sprache/eventhandler.htm&gt;</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- start content left comment -->
+        <h2><a name="Kommentare">Kommentare</a></h2>
+        <blockquote>
+          <!-- start content left comment js-N00b -->
+          <p>
+            Genau nach so was habe ich gesucht. Prima Beispiele.<br />
+            Allerdings bleiben bei mir mit .jshide .noscript angesprochene
+            Elemente permanent verborgen, auch bei Klick auf den entsprechenden
+            Link zum Anzeigen des verborgenen Elements.<br />
+          </p>
+          <p class="quote">
+            <span class="green">js-N00b</span>, Dienstag, 13. Dezember 2011,
+            10:45
+          </p>
+          <div class="clear"></div>
+          <!-- end content left comment js-N00b -->
+          <!-- start content left comment Simon -->
+          <p>
+            @js-Noob wenn Du folgendes Javascript in dein HTML-Dokument
+            einbaust:<br />
+            function hide_class()<br />
+            {<br />
+            document.documentElement.className += ' jshide';<br />
+            }<br />
+            // Beim Seitenaufbau laden<br />
+            window.onload = function()<br />
+            {<br />
+            hide_class();<br />
+            // andere window.onload Events<br />
+            }<br />
+            Wird automatisch jedem HTML-Element die Class jshide hinzugefügt.<br />
+            Die Element die Javascript verstecken soll, müssen nun die Class
+            noscript bekommen.<br />
+            Via CSS setzt Du dann:<br />
+            .noscript.jshide {<br />
+            display: none<br />
+            }<br />
+            Im kommentierten Javascript ist mir leider der Fehler unterlaufen
+            das ich .noscript .jshide geschrieben habe. Also mit ein Leerzeichen
+            zwischen den beiden Klassen. Was vermutlich zu dem Fehler geführt
+            hat.<br />
+          </p>
+          <p class="quote">
+            <a
+              href="http://gattner.name/simon"
+              title="//gedit.NET - Homepage Simon - http://gattner.name/simon"
+              >Simon</a
+            >, Dienstag, 13. Dezember 2011, 19:44
+          </p>
+          <div class="clear"></div>
+          <!-- end content left comment Simon -->
+        </blockquote>
+        <!-- end content left comment -->
+        <!-- start content left comment nav -->
+        <p class="color bold middle left">Insgesammt 12 Kommentare</p>
+        <p class="color bold middle right">Seite 2 von 2</p>
+        <ul class="pnnav clear">
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html#Kommentare"
+              title="//gedit.NET - Vorherige Seite"
+              >Vorherige Seite</a
+            >
+          </li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html#Kommentare"
+              title="//gedit.NET - Kommentare - #1"
+              >1</a
+            >
+          </li>
+          <li class="current">2</li>
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript.html#Kommentare"
+              title="//gedit.NET - Erste Seite"
+              >Erste Seite</a
+            >
+          </li>
+        </ul>
+        <div class="clear"></div>
+        <!-- end content left comment nav -->
+        <!-- start content left comment write -->
+        <div id="comments">
+          <h2><a name="Kommentar_schreiben">Kommentar schreiben</a></h2>
+          <form
+            method="post"
+            action="Artikel%3BElemente_anzeigen_und_verbergen_mit_Javascript#Kommentare"
+          >
+            <ul>
+              <li class="bold"><label for="comment_text">Kommentar:</label></li>
+              <li>
+                <textarea
+                  id="comment_text"
+                  name="comment_text"
+                  cols="63"
+                  rows="10"
+                ></textarea>
+              </li>
+              <li class="bold"><label for="name">Name:</label></li>
+              <li>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value=""
+                  size="30"
+                  maxlength="30"
+                />
+              </li>
+              <li class="bold">
+                <label for="email_hp">Email oder Homepage:</label>
+              </li>
+              <li>
+                <input
+                  type="text"
+                  id="email_hp"
+                  name="email_hp"
+                  value=""
+                  size="30"
+                  maxlength="100"
+                />
+              </li>
+              <li class="italic">
+                (optional, Email Adresse wird nicht angezeigt)
+              </li>
+              <li>
+                <input
+                  name="comment_submit"
+                  type="submit"
+                  value="Abschicken"
+                /><input
+                  name="comment_preview"
+                  type="submit"
+                  value="Vorschau"
+                />
+              </li>
+            </ul>
+          </form>
+        </div>
+        <!-- end content left comment write -->
+        <!-- start content left bookmarks and print -->
+        <div class="clear"></div>
+        <ul class="clbpnav">
+          <li>
+            <a
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html#top"
+              onclick="location.hash='top'_"
+              title="zum Seitenanfang von gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript"
+            >
+              <img
+                src="/img/gedit.net/layout/goto-top.gif"
+                alt="zum Seitenanfang von gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2_Druckvorschau.html"
+              title="Druckvorschau gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript"
+            >
+              <img
+                src="/img/gedit.net/layout/Druckvorschau.gif"
+                alt="Druckvorschau gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.mister-wong.de/"
+              onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)+'&amp_bm_tags=')_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Mr. Wong"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/wong.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Mr. Wong"
+              />
+            </a>
+          </li>
+          <!--<li><a rel="nofollow" href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Webnews">
 					<img src="/img/gedit.net/layout/bookmarks/webnews.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Webnews">
 			</a></li>
 			<li><a rel="nofollow" href="http://www.icio.de/" onclick="window.open('http://www.icio.de/add.php?url='+encodeURIComponent(location.href))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Icio">
@@ -656,34 +1273,114 @@ Im kommentierten Javascript ist mir leider der Fehler unterlaufen das ich .noscr
 			<li><a rel="nofollow" href="http://www.simpy.com/" onclick="window.open('http://www.simpy.com/simpy/LinkAdd.do?title='+encodeURIComponent(document.title)+'&amp;tags=&amp;note=&amp_href='+encodeURIComponent(location.href))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Simpy">
 					<img src="/img/gedit.net/layout/bookmarks/simpy.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Simpy">
 			</a></li>-->
-			<li><a rel="nofollow" href="http://del.icio.us/" onclick="window.open('http://del.icio.us/post?v=2&amp;url='+encodeURIComponent(location.href)+'&amp;notes=&amp;tags=&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Del.ico.us">
-					<img src="/img/gedit.net/layout/bookmarks/del.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Del.ico.us">
-			</a></li>
-			<li><a rel="nofollow" href="http://reddit.com/" onclick="window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Reddit">
-					<img src="/img/gedit.net/layout/bookmarks/reddit.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Reddit">
-			</a></li>
-			<li><a rel="nofollow" href="http://digg.com/" onclick="window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;bodytext=&amp;tags=&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Digg">
-					<img src="/img/gedit.net/layout/bookmarks/digg.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Digg">
-			</a></li>
-			<li><a rel="nofollow" href="http://www.stumbleupon.com/" onclick="window.open('http://www.stumbleupon.com/submit?url='+encodeURIComponent(location.href)+'&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit StumbleUpon">
-					<img src="/img/gedit.net/layout/bookmarks/stumbleupon.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit StumbleUpon">
-			</a></li>
-			<li><a rel="nofollow" href="http://slashdot.org/" onclick="window.open('http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Slashdot">
-					<img src="/img/gedit.net/layout/bookmarks/slashdot.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Slashdot">
-			</a></li>
-			<li><a rel="nofollow" href="http://www.furl.net/" onclick="window.open('http://www.furl.net/storeIt.jsp?u='+encodeURIComponent(location.href)+'&amp;keywords=&amp_t='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Furl">
-					<img src="/img/gedit.net/layout/bookmarks/furl.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Furl">
-			</a></li>
-			<li><a rel="nofollow" href="http://www.yahoo.com/" onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+encodeURIComponent(document.title)+'&amp;d=&amp;tag=&amp_u='+encodeURIComponent(location.href))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Yahoo">
-					<img src="/img/gedit.net/layout/bookmarks/yahoo.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Yahoo">
-			</a></li>
-			<!--<li><a rel="nofollow" href="http://www.spurl.net/" onclick="window.open('http://www.spurl.net/spurl.php?v=3&amp;tags=&amp;title='+encodeURIComponent(document.title)+'&amp_url='+encodeURIComponent(document.location.href))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Spurl">
+          <li>
+            <a
+              rel="nofollow"
+              href="http://del.icio.us/"
+              onclick="window.open('http://del.icio.us/post?v=2&amp;url='+encodeURIComponent(location.href)+'&amp;notes=&amp;tags=&amp_title='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Del.ico.us"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/del.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Del.ico.us"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://reddit.com/"
+              onclick="window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp_title='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Reddit"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/reddit.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Reddit"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://digg.com/"
+              onclick="window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;bodytext=&amp;tags=&amp_title='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Digg"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/digg.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Digg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.stumbleupon.com/"
+              onclick="window.open('http://www.stumbleupon.com/submit?url='+encodeURIComponent(location.href)+'&amp_title='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit StumbleUpon"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/stumbleupon.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit StumbleUpon"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://slashdot.org/"
+              onclick="window.open('http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp_title='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Slashdot"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/slashdot.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Slashdot"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.furl.net/"
+              onclick="window.open('http://www.furl.net/storeIt.jsp?u='+encodeURIComponent(location.href)+'&amp;keywords=&amp_t='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Furl"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/furl.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Furl"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.yahoo.com/"
+              onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+encodeURIComponent(document.title)+'&amp;d=&amp;tag=&amp_u='+encodeURIComponent(location.href))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Yahoo"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/yahoo.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Yahoo"
+              />
+            </a>
+          </li>
+          <!--<li><a rel="nofollow" href="http://www.spurl.net/" onclick="window.open('http://www.spurl.net/spurl.php?v=3&amp;tags=&amp;title='+encodeURIComponent(document.title)+'&amp_url='+encodeURIComponent(document.location.href))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Spurl">
 					<img src="/img/gedit.net/layout/bookmarks/spurl.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Spurl">
 			</a></li>-->
-			<li><a rel="nofollow" href="http://www.google.com/" onclick="window.open('http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;bkmk='+encodeURIComponent(location.href)+'&amp;annotation=&amp;labels=&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Google">
-					<img src="/img/gedit.net/layout/bookmarks/google.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Google">
-			</a></li>
-			<!--<li><a rel="nofollow" href="http://www.blinklist.com/" onclick="window.open('http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Description=&amp;Tag=&amp;Url='+encodeURIComponent(location.href)+'&amp_Title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Blinklist">
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.google.com/"
+              onclick="window.open('http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;bkmk='+encodeURIComponent(location.href)+'&amp;annotation=&amp;labels=&amp_title='+encodeURIComponent(document.title))_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Google"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/google.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Google"
+              />
+            </a>
+          </li>
+          <!--<li><a rel="nofollow" href="http://www.blinklist.com/" onclick="window.open('http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Description=&amp;Tag=&amp;Url='+encodeURIComponent(location.href)+'&amp_Title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Blinklist">
 					<img src="/img/gedit.net/layout/bookmarks/blinklist.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Blinklist">
 			</a></li>
 			<li><a rel="nofollow" href="http://blogmarks.net/" onclick="window.open('http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url='+encodeURIComponent(location.href)+'&amp;content=&amp;public-tags=&amp_title='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Blogmarks">
@@ -692,10 +1389,20 @@ Im kommentierten Javascript ist mir leider der Fehler unterlaufen das ich .noscr
 			<li><a rel="nofollow" href="http://www.diigo.com/" onclick="window.open('http://www.diigo.com/post?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)+'&amp;tag=&amp_comments=')_ return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Diigo">
 					<img src="/img/gedit.net/layout/bookmarks/diigo.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Diigo">
 			</a></li>-->
-			<li><a rel="nofollow" href="http://www.technorati.com/" onclick="window.open('http://technorati.com/faves?add='+encodeURIComponent(location.href)+'&amp_tag=')_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Technorati">
-					<img src="/img/gedit.net/layout/bookmarks/technorati.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Technorati">
-			</a></li>
-			<!--<li><a rel="nofollow" href="http://www.newsvine.com/" onclick="window.open('http://www.newsvine.com/_wine/save?popoff=1&amp;u='+encodeURIComponent(location.href)+'&amp;tags=&amp_blurb='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Newsvine">
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.technorati.com/"
+              onclick="window.open('http://technorati.com/faves?add='+encodeURIComponent(location.href)+'&amp_tag=')_return false_"
+              title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Technorati"
+            >
+              <img
+                src="/img/gedit.net/layout/bookmarks/technorati.gif"
+                alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Technorati"
+              />
+            </a>
+          </li>
+          <!--<li><a rel="nofollow" href="http://www.newsvine.com/" onclick="window.open('http://www.newsvine.com/_wine/save?popoff=1&amp;u='+encodeURIComponent(location.href)+'&amp;tags=&amp_blurb='+encodeURIComponent(document.title))_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Newsvine">
 					<img src="/img/gedit.net/layout/bookmarks/newsvine.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Newsvine">
 			</a></li>
 			<li><a rel="nofollow" href="http://www.blinkbits.com/" onclick="window.open('http://www.blinkbits.com/bookmarklets/save.php?v=1&amp;title='+encodeURIComponent(document.title)+'&amp;source_url='+encodeURIComponent(location.href)+'&amp;source_image_url=&amp;rss_feed_url=&amp;rss_feed_url=&amp;rss2member=&amp_body=')_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Blinkbits">
@@ -707,65 +1414,208 @@ Im kommentierten Javascript ist mir leider der Fehler unterlaufen das ich .noscr
 			<li><a rel="nofollow" href="http://smarking.com/" onclick="window.open('http://smarking.com/editbookmark/?url='+ location.href +'&amp;description=&amp_tags=')_return false_" title="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Smarking">
 					<img src="/img/gedit.net/layout/bookmarks/smarking.gif" alt="Bookmark gedit.NET - Artikel - Elemente anzeigen und verbergen mit Javascript mit Smarking">
 			</a></li>-->
-			<li><a rel="nofollow" href="http://www.vorratsdatenspeicherung.de/" title="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
-					<img src="/img/gedit.net/layout/akvorrat.gif" alt="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de">
-			</a></li>
-			<li><a rel="nofollow" href="http://my.opera.com/community/download.pl?ref=gedit&amp_p=opera_desktop" title="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online.">
-					<img src="/img/gedit.net/layout/opera.gif" alt="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online">
-			</a></li>
-		</ul>
-		<div class="clear"></div>
-<!-- end content left bookmarks and print -->
-	</div>
-<!-- end content left --><!-- content right is gone -->
-<!-- start footer -->
-	<div id="footer">
-		<p>
-			$req
-			17,5 KB - 0 Sec. -			<a href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2.html" title="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript - Seite 2">gedit.net/Artikel;Elemente_anzeigen_und_verbergen_mit_Javascript,2</a> -
-			Artikel - Elemente anzeigen und verbergen mit Javascript - Seite 2 - Druckvorschau			- 26.12.2023, 01:21:37 CET
-			get $
-			<br>
-			<a class="hidden" href="/_nofollow.html" title="Please do not follow this Link">No follow</a>
-				This is <strong>not</strong> the website of
-			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">gedit</a>
-				the official text editor of the
-			<a class="extern" href="http://www.gnome.org">GNOME</a>
-				desktop environment.
-			<br>
-				Visit
-			<a class="extern" href="http://www.gedit.org" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gedit.org/&gt;</a>
-				or
-			<a class="extern" href="http://www.gnome.org/projects/gedit/" title="gedit is the official text editor of the GNOME desktop environment.">&lt;http://www.gnome.org/projects/gedit/&gt;</a>
-				if you search the gnome-editor.
-			<br>
-				This work is licensed under a
-			<a rel="license" href="CC.html" title="Creative Commons Atritbution-NonCommercial 3.0 License">Creative Commons Attribution-NonCommercial 3.0 License</a>.
-			<a class="extern" href="http://validator.w3.org/check?uri=http%3A%2F%2Fgedit.net%2FArtikel_Elemente_anzeigen_und_verbergen_mit_Javascript" title="Valid HTML 4.1 Strict">Valid HTML 4.1 Strict</a>
-				//
-			<a class="extern" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgedit.net%2FArtikel_Elemente_anzeigen_und_verbergen_mit_Javascript&amp_profile=css3" title="Valid CSS 3.0">Valid CSS 3.0</a>
-				//
-			<a class="extern" href="http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fgedit.net%2FRSS" title="Valid RSS Feed">Valid RSS</a>
-				//
-			<a class="extern" href="http://www.access-board.gov/508.htm" title="Section 508 Homepage:  Electronic and Information Technology">Valid Section 508</a>
-				//
-			<a class="extern" href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Level Double-A Conformance to Web Content Accessibility Guidelines 1.0">Valid Level Double-A Conformance to Web Content Accessibility Guidelines 1.0</a>.
-			<br>
-			$id
-						Elemente anzeigen und verbergen mit Javascript -			Gedit (<a href="index.html" title="gedit HTML&amp;CSS Tutorials"><strong><abbr title="Hypertext Markup Language">HTML</abbr>&amp_<abbr title="Cascading Style Sheet">CSS</abbr> Tutorials</strong></a>, <a href="index.html" title="gedit Webgestaltung"><strong>Webgestaltung</strong></a>, <a href="index.html" title="gedit Webentwicklung"><strong>Webentwicklung</strong></a>, <a href="index.html" title="gedit Webdesign"><strong>Webdesign</strong></a>, <a href="index.html" title="gedit Webdevelopment"><strong>Webdevelopment</strong></a>, <a href="index.html" title="gedit Webstandards"><strong>Webstandards</strong></a>, <a href="index.html" title="gedit Benutzerfreundlichkeit (Usability)"><strong>Benutzerfreundlichkeit (Usability)</strong></a>, <a href="index.html" title="gedit Barrierefreiheit (Accessebility)"><strong>Barrierefreiheit (Accessebility)</strong></a>, <a href="index.html" title="gedit Webfrontendentwicklung"><strong>Webfrontendentwicklung</strong></a>, <a href="index.html" title="gedit Webbackendentwicklung"><strong>Webbackendentwicklung</strong></a>, <a href="index.html" title="gedit Visuelle Medien"><strong>Visuelle Medien</strong></a>, <a href="index.html" title="gedit Interfacedesign"><strong>Interfacedesign</strong></a>, <a href="index.html" title="gedit Visuelle Kommunikation"><strong>Visuelle Kommunikation</strong></a>_ <a href="index.html" title="gedit Grafikdesign"><strong>Grafikdesign</strong></a>_ <a href="index.html" title="gedit Screendesign"><strong>Screendesign</strong></a>_ <a href="index.html" title="gedit Typografie"><strong>Typografie</strong></a>) <a href="VERSION_v0.5" title="Version - v0.5">v0.5</a> &copy_ 2005&ndash_2023 <a href="http://gattner.name/simon" title="Simon Gattner">Simon Gattner</a> - 13.12.2011, 19:39 CET exp $
-		</p>
-	</div>
-<!-- end footer -->
-</div>
-<!-- end content -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://p.netzkonstrukt.de/" : "http://p.netzkonstrukt.de/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-piwik_action_name = document.title;
-piwik_idsite = 2;
-piwik_url = pkBaseURL + "piwik.php";
-piwik_log(piwik_action_name, piwik_idsite, piwik_url);
-</script>
-<script src="js/archiv.js"></script></body>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://www.vorratsdatenspeicherung.de/"
+              title="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de"
+            >
+              <img
+                src="/img/gedit.net/layout/akvorrat.gif"
+                alt="Stoppt die Vorratsdatenspeicherung - www.vorratsdatenspeicherung.de"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="http://my.opera.com/community/download.pl?ref=gedit&amp_p=opera_desktop"
+              title="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online."
+            >
+              <img
+                src="/img/gedit.net/layout/opera.gif"
+                alt="Opera Web Browser - Get a faster and more powerful Web browser and make the most of your time online"
+              />
+            </a>
+          </li>
+        </ul>
+        <div class="clear"></div>
+        <!-- end content left bookmarks and print -->
+      </div>
+      <!-- end content left --><!-- content right is gone -->
+      <!-- start footer -->
+      <div id="footer">
+        <p>
+          $req 17,5 KB - 0 Sec. -
+          <a
+            href="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript_2.html"
+            title="Artikel_Elemente_anzeigen_und_verbergen_mit_Javascript - Seite 2"
+            >gedit.net/Artikel;Elemente_anzeigen_und_verbergen_mit_Javascript,2</a
+          >
+          - Artikel - Elemente anzeigen und verbergen mit Javascript - Seite 2 -
+          Druckvorschau - 26.12.2023, 01:21:37 CET get $
+          <br />
+          <a
+            class="hidden"
+            href="/_nofollow.html"
+            title="Please do not follow this Link"
+            >No follow</a
+          >
+          This is <strong>not</strong> the website of
+          <a
+            class="extern"
+            href="http://www.gedit.org"
+            title="gedit is the official text editor of the GNOME desktop environment."
+            >gedit</a
+          >
+          the official text editor of the
+          <a class="extern" href="http://www.gnome.org">GNOME</a>
+          desktop environment.
+          <br />
+          Visit
+          <a
+            class="extern"
+            href="http://www.gedit.org"
+            title="gedit is the official text editor of the GNOME desktop environment."
+            >&lt;http://www.gedit.org/&gt;</a
+          >
+          or
+          <a
+            class="extern"
+            href="http://www.gnome.org/projects/gedit/"
+            title="gedit is the official text editor of the GNOME desktop environment."
+            >&lt;http://www.gnome.org/projects/gedit/&gt;</a
+          >
+          if you search the gnome-editor.
+          <br />
+          This work is licensed under a
+          <a
+            rel="license"
+            href="CC.html"
+            title="Creative Commons Atritbution-NonCommercial 3.0 License"
+            >Creative Commons Attribution-NonCommercial 3.0 License</a
+          >.
+          <a
+            class="extern"
+            href="http://validator.w3.org/check?uri=http%3A%2F%2Fgedit.net%2FArtikel_Elemente_anzeigen_und_verbergen_mit_Javascript"
+            title="Valid HTML 4.1 Strict"
+            >Valid HTML 4.1 Strict</a
+          >
+          //
+          <a
+            class="extern"
+            href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgedit.net%2FArtikel_Elemente_anzeigen_und_verbergen_mit_Javascript&amp_profile=css3"
+            title="Valid CSS 3.0"
+            >Valid CSS 3.0</a
+          >
+          //
+          <a
+            class="extern"
+            href="http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fgedit.net%2FRSS"
+            title="Valid RSS Feed"
+            >Valid RSS</a
+          >
+          //
+          <a
+            class="extern"
+            href="http://www.access-board.gov/508.htm"
+            title="Section 508 Homepage:  Electronic and Information Technology"
+            >Valid Section 508</a
+          >
+          //
+          <a
+            class="extern"
+            href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+            title="Level Double-A Conformance to Web Content Accessibility Guidelines 1.0"
+            >Valid Level Double-A Conformance to Web Content Accessibility
+            Guidelines 1.0</a
+          >.
+          <br />
+          $id Elemente anzeigen und verbergen mit Javascript - Gedit (<a
+            href="index.html"
+            title="gedit HTML&amp;CSS Tutorials"
+            ><strong
+              ><abbr title="Hypertext Markup Language">HTML</abbr>&amp_<abbr
+                title="Cascading Style Sheet"
+                >CSS</abbr
+              >
+              Tutorials</strong
+            ></a
+          >,
+          <a href="index.html" title="gedit Webgestaltung"
+            ><strong>Webgestaltung</strong></a
+          >,
+          <a href="index.html" title="gedit Webentwicklung"
+            ><strong>Webentwicklung</strong></a
+          >,
+          <a href="index.html" title="gedit Webdesign"
+            ><strong>Webdesign</strong></a
+          >,
+          <a href="index.html" title="gedit Webdevelopment"
+            ><strong>Webdevelopment</strong></a
+          >,
+          <a href="index.html" title="gedit Webstandards"
+            ><strong>Webstandards</strong></a
+          >,
+          <a href="index.html" title="gedit Benutzerfreundlichkeit (Usability)"
+            ><strong>Benutzerfreundlichkeit (Usability)</strong></a
+          >,
+          <a href="index.html" title="gedit Barrierefreiheit (Accessebility)"
+            ><strong>Barrierefreiheit (Accessebility)</strong></a
+          >,
+          <a href="index.html" title="gedit Webfrontendentwicklung"
+            ><strong>Webfrontendentwicklung</strong></a
+          >,
+          <a href="index.html" title="gedit Webbackendentwicklung"
+            ><strong>Webbackendentwicklung</strong></a
+          >,
+          <a href="index.html" title="gedit Visuelle Medien"
+            ><strong>Visuelle Medien</strong></a
+          >,
+          <a href="index.html" title="gedit Interfacedesign"
+            ><strong>Interfacedesign</strong></a
+          >,
+          <a href="index.html" title="gedit Visuelle Kommunikation"
+            ><strong>Visuelle Kommunikation</strong></a
+          >_
+          <a href="index.html" title="gedit Grafikdesign"
+            ><strong>Grafikdesign</strong></a
+          >_
+          <a href="index.html" title="gedit Screendesign"
+            ><strong>Screendesign</strong></a
+          >_
+          <a href="index.html" title="gedit Typografie"
+            ><strong>Typografie</strong></a
+          >) <a href="VERSION_v0.5" title="Version - v0.5">v0.5</a> &copy_
+          2005&ndash_2023
+          <a href="http://gattner.name/simon" title="Simon Gattner"
+            >Simon Gattner</a
+          >
+          - 13.12.2011, 19:39 CET exp $
+        </p>
+      </div>
+      <!-- end footer -->
+    </div>
+    <!-- end content -->
+    <script type="text/javascript">
+      var pkBaseURL =
+        'https:' == document.location.protocol
+          ? 'https://p.netzkonstrukt.de/'
+          : 'http://p.netzkonstrukt.de/';
+      document.write(
+        unescape(
+          "%3Cscript src='" +
+            pkBaseURL +
+            "piwik.js' type='text/javascript'%3E%3C/script%3E",
+        ),
+      );
+    </script>
+    <script type="text/javascript">
+      piwik_action_name = document.title;
+      piwik_idsite = 2;
+      piwik_url = pkBaseURL + 'piwik.php';
+      piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+    </script>
+    <script src="js/archiv.js"></script>
+  </body>
 </html>
