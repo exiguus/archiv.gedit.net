@@ -129,6 +129,10 @@ create:
 	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="javascript:([^"]*).html"/href="\1"/g' {} \;
 # fix links that start with .html
 	find ./output/gedit.net/* -type f -exec sed -i -E 's/href="\.html([^"]*)"/href="\1"/g' {} \;
+# remove ip addresses from who am i service Services_WhoAmI.html
+	find ./output/gedit.net/* -type f -name 'Services_WhoAmI.html' -exec sed -i -E 's/([0-9]{1,3}\.){3}[0-9]{1,3}/0.0.0.0/g' {} \;
+# remove hostname from who am i service Services_WhoAmI.html
+	find ./output/gedit.net/* -type f -name 'Services_WhoAmI.html' -exec sed -i -E 's/<p class=\"right whoami\">[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+\.[a-zA-Z-]{2,3}<\/p>/<p class=\"right whoami\">unknown<\/p>/g' {} \;
 # additions
 # cp addition/js into output/gedit.net/js
 	cp -R ./addition/js ./output/gedit.net
