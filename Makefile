@@ -183,8 +183,8 @@ test:
 	else \
 	    echo "Test failed: Output does not match expected content."; \
 			exit 1; \
-	fi
-	pretter --ignore-path .prettierignore --config .prettierrc
+	fi; \
+	prettier --check . --ignore-path .prettierignore --config .prettierrc
 
 # Path: Makefile
 # run all
