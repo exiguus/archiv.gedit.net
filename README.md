@@ -15,6 +15,7 @@ make fetch
 
 ```bash
 make create
+make format
 make build -B
 make run
 ```
@@ -28,8 +29,8 @@ git checkout gh-pages
 make all
 # test static site
 make test
-rm -rf ./docs/** && cp -r ./build/gedit.net/** docs/git
-add docs/
+rm -rf ./docs/** && cp -r ./build/gedit.net/** docs/
+git add docs/
 git commit -m "feat(docs): update docs"
 git push origin gh-pages
 ```
